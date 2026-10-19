@@ -518,10 +518,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "官方 Access Control 權限表為不可。",
+        "一般 User；可建立及刪除任意群組",
         "Admin。解析：Group Admin 不能管理群組結構。",
-        "Admin 與 Group Admin（依官方權限頁）。",
-        "User、Admin、Group Admin、Portfolio Manager。"
+        "Group Admin；可管理所有群組結構",
+        "Portfolio Manager；可管理所有租戶群組"
       ],
       "correct": 1,
       "references": [
@@ -533,7 +533,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-83bcfe7194a43a26",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 22,
@@ -543,10 +543,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "Admin。解析：Group Admin 不能管理群組結構。",
-        "User、Admin、Group Admin、Portfolio Manager。",
+        "可以；Group Admin 不受群組邊界限制",
+        "可以；Group Admin 與全域 Admin 完全相同",
         "不能。官方僅允許編輯所屬群組內的使用者。",
-        "Admin 與 Group Admin（依官方權限頁）。"
+        "可以；Group Admin 可以修改全租戶所有帳號"
       ],
       "correct": 2,
       "references": [
@@ -558,7 +558,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-4661b535156cfb6e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 23,
@@ -568,9 +568,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "進入頁面後點選 Start Assessment。",
-        "還需考慮被利用證據、暴露性、業務重要性與補償控制。",
+        "可以；可建立任何角色使用者",
+        "可以；僅能建立其他 Portfolio Manager",
+        "可以；可建立同公司所有 User",
         "官方 Access Control 權限表為不可。"
       ],
       "correct": 3,
@@ -583,7 +583,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-8a7522542d7fde6d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 24,
@@ -594,9 +594,9 @@
       "section": "原題",
       "options": [
         "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。",
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
-        "New Findings That Impact Rating。",
-        "Admin；但四種教材角色均可管理自己的 User API Token。"
+        "不能；User 完全不能檢視 Findings",
+        "可以；User 能管理所有租戶的群組",
+        "可以；User 可不受群組限制刪除任何 Finding"
       ],
       "correct": 0,
       "references": [
@@ -608,7 +608,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-a718781572fb301a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 25,
@@ -618,10 +618,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "Admin 與 Group Admin（依官方權限頁）。",
+        "一般 User；公司 Token 與個人 Token 權限相同",
         "Admin；但四種教材角色均可管理自己的 User API Token。",
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "Admin。解析：Group Admin 不能管理群組結構。"
+        "Group Admin；且 User 無法管理自己的 Token",
+        "Portfolio Manager；所有公司 Token 都由其管理"
       ],
       "correct": 1,
       "references": [
@@ -633,7 +633,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-26abb76f6bbd2a20",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 26,
@@ -643,10 +643,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "Admin；但四種教材角色均可管理自己的 User API Token。",
+        "只有 Portfolio Manager；其他角色均不可",
+        "所有角色皆可；匯出不受角色權限影響",
         "Admin 與 Group Admin（依官方權限頁）。",
-        "Admin。解析：Group Admin 不能管理群組結構。"
+        "只有一般 User；Admin 不能匯出"
       ],
       "correct": 2,
       "references": [
@@ -658,7 +658,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-0ecaf961a904294c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 27,
@@ -668,9 +668,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "Admin 與 Group Admin（依官方權限頁）。",
-        "Admin；但四種教材角色均可管理自己的 User API Token。",
-        "User、Admin、Group Admin、Portfolio Manager。",
+        "一般 User",
+        "Portfolio Manager",
+        "唯讀訪客",
         "Admin。"
       ],
       "correct": 3,
@@ -683,7 +683,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-060cca15648792a5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 28,
@@ -694,9 +694,9 @@
       "section": "原題",
       "options": [
         "TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。",
-        "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。",
-        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
-        "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。"
+        "TMH 向供應商蒐集問卷；VRM 只對外共享自身文件",
+        "TMH 與 VRM 都只提供外部漏洞掃描",
+        "TMH 只管理 API Token；VRM 只管理登入通知"
       ],
       "correct": 0,
       "references": [
@@ -708,7 +708,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-9c23d6ddf65372a1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 29,
@@ -718,10 +718,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "教材表格將該面向列於 CM／TRM。",
+        "CM 可取代全部威脅情資；Beacon 可取代評級",
         "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。",
-        "不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。",
-        "EASM 以自身外部資產為主，CM 以第三方監控為主。"
+        "CM 負責即時入侵證據；Beacon 只提供年度評級",
+        "CM 與 Beacon 都只產生供應商問卷"
       ],
       "correct": 1,
       "references": [
@@ -733,7 +733,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-3d321e65a7be52a2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 30,
@@ -743,10 +743,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。",
+        "TPRM 只代表威脅情資，不包含供應商治理",
+        "Beacon 能直接替代所有 VRM 問卷與合約審查",
         "Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。",
-        "不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。"
+        "Beacon 已涵蓋供應商分級、問卷、稽核及退場全流程"
       ],
       "correct": 2,
       "references": [
@@ -758,7 +758,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-19db49ba5cbd0457",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 31,
@@ -768,9 +768,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "New Findings That Impact Rating。",
-        "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。",
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
+        "First Seen 是修補日；Last Seen 是資產首次上線日",
+        "First Seen 是 CVE 發布日；Last Seen 是官方修補日",
+        "First Seen 是第一次通報日；Last Seen 是合約結束日",
         "首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。"
       ],
       "correct": 3,
@@ -783,7 +783,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-613fad4fb84ed87d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 32,
@@ -794,9 +794,9 @@
       "section": "原題",
       "options": [
         "否，是教材所述預計影響風險向量的剩餘期間。",
-        "不同公司過去一年的評級趨勢、分數與風險向量資訊。",
-        "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
-        "Exposed Credentials。"
+        "是；到期後平台會自動修補漏洞",
+        "是；倒數結束表示資產已永久下線",
+        "是；代表 SLA 結束前必須加分"
       ],
       "correct": 0,
       "references": [
@@ -808,7 +808,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-d5f091f034db5a8b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 33,
@@ -818,10 +818,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
+        "`Incubation Period = No`",
         "`Impacts Risk Vector Grade = Yes`。",
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。",
-        "TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。"
+        "`Impacts Bitsight Rating = Yes`",
+        "`Finding Severity = Critical`"
       ],
       "correct": 1,
       "references": [
@@ -833,7 +833,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-f9f3d60269a7ae4c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 34,
@@ -843,10 +843,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "教材指需要系統管理員權限。",
-        "教材指出過去一年。",
+        "因為所有孵化期發現都是誤報",
+        "因為孵化期資產都不屬於公司",
         "教材指出其尚在孵化／觀察期間。",
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。"
+        "因為孵化期代表漏洞已修補"
       ],
       "correct": 2,
       "references": [
@@ -858,7 +858,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-a67bb0093dd7fe1b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 35,
@@ -868,9 +868,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "教材所示 Bitsight 資安評級範圍；不等於百分比。",
-        "New Findings That Impact Rating。",
-        "My Company 與 Primary Rating Entities。",
+        "Risk Vector Grade",
+        "Exposed Credentials",
+        "Rescanned Findings",
         "Bitsight Rating。"
       ],
       "correct": 3,
@@ -883,7 +883,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-30bb9ff450ff9a62",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 36,
@@ -894,9 +894,9 @@
       "section": "原題",
       "options": [
         "Exposed Credentials。",
-        "不能。官方僅允許編輯所屬群組內的使用者。",
-        "授權寄件來源、簽章驗證、驗證政策與回報。",
-        "否，是教材所述預計影響風險向量的剩餘期間。"
+        "Bitsight Rating",
+        "Risk Vector Grade",
+        "Portfolio Subscription"
       ],
       "correct": 0,
       "references": [
@@ -908,7 +908,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-7b2b788d705b5559",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 37,
@@ -918,10 +918,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "Pre-compromise、Active intrusion、Post-compromise。",
+        "User Preferences、Badge 與 API Tokens",
         "Open Ports、Patching Cadence 與 Compromised Systems。",
-        "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
-        "不同公司過去一年的評級趨勢、分數與風險向量資訊。"
+        "SPF、DMARC 與 DKIM",
+        "DNSSEC、SSL Certificates 與 TLS"
       ],
       "correct": 1,
       "references": [
@@ -933,7 +933,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-bcd4195f8004dab5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 38,
@@ -943,10 +943,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "Open Ports、Patching Cadence 與 Compromised Systems。",
-        "影響程度與供應商可信程度，結合用於風險評估。",
+        "只看網站憑證有效天數",
+        "只看供應商問卷完成比例",
         "修補速度、效率、漏洞嚴重度與未修補持續時間。",
-        "`Impacts Risk Vector Grade = Yes`。"
+        "只看漏洞數量而不看時間"
       ],
       "correct": 2,
       "references": [
@@ -958,7 +958,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-699c1724ac879d25",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 39,
@@ -968,9 +968,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "My Company 與 Primary Rating Entities。",
-        "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。",
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
+        "Subscription Contact Type",
+        "Email Notification Preferences",
+        "User API Token History",
         "New Findings That Impact Rating。"
       ],
       "correct": 3,
@@ -983,7 +983,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-fedcdbe22b570a97",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 40,
@@ -994,9 +994,9 @@
       "section": "原題",
       "options": [
         "進入頁面後點選 Start Assessment。",
-        "官方 Access Control 權限表為不可。",
-        "還需考慮被利用證據、暴露性、業務重要性與補償控制。",
-        "不同公司過去一年的評級趨勢、分數與風險向量資訊。"
+        "在 Settings 點選 Create User",
+        "在 Findings 點選 Export CSV",
+        "在 Portfolio 點選 Compare Companies"
       ],
       "correct": 0,
       "references": [
@@ -1008,7 +1008,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-ba397f05b9c79a35",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 41,
@@ -1018,10 +1018,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "My Company 與 Primary Rating Entities。",
+        "只支援 PNG 與 JPEG",
         "CSV、Full Data PDF、Filtered Data PDF。",
-        "Admin；但四種教材角色均可管理自己的 User API Token。",
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。"
+        "只支援 Excel 與 Word",
+        "只支援 HTML 與 XML"
       ],
       "correct": 1,
       "references": [
@@ -1033,7 +1033,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-83842ec670e0b9c4",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 42,
@@ -1043,10 +1043,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "教材指出過去一年。",
-        "教材指出 User 僅能選 Collaboration。",
+        "只有 Portfolio Manager 可設定",
+        "任何未登入訪客都可設定",
         "教材指需要系統管理員權限。",
-        "教材指出其尚在孵化／觀察期間。"
+        "所有一般 User 均可設定"
       ],
       "correct": 2,
       "references": [
@@ -1058,7 +1058,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-749c85ccd840fed1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 43,
@@ -1068,9 +1068,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "Bitsight Rating。",
-        "New Findings That Impact Rating。",
-        "教材所示 Bitsight 資安評級範圍；不等於百分比。",
+        "任何供應商與外部競品公司",
+        "所有子公司與任意第三方 IP",
+        "任何擁有網域的未認證實體",
         "My Company 與 Primary Rating Entities。"
       ],
       "correct": 3,
@@ -1083,7 +1083,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-eb217eac719339a0",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 44,
@@ -1094,9 +1094,9 @@
       "section": "原題",
       "options": [
         "Settings > Account > User Preferences > Update Email Preferences。",
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "Admin；但四種教材角色均可管理自己的 User API Token。",
-        "教材指出 User 僅能選 Collaboration。"
+        "Settings > Access Control > Groups",
+        "Findings > Vulnerability Detection",
+        "Portfolio Risk > Compare Companies"
       ],
       "correct": 0,
       "references": [
@@ -1108,7 +1108,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-8a6b66b0c1e8965e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 45,
@@ -1118,10 +1118,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。",
+        "只顯示供應商的合約金額",
         "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
-        "不同公司過去一年的評級趨勢、分數與風險向量資訊。",
-        "否，是教材所述預計影響風險向量的剩餘期間。"
+        "只顯示使用者帳號清單",
+        "只顯示 DNSSEC 簽章與 TLS 金鑰"
       ],
       "correct": 1,
       "references": [
@@ -1133,7 +1133,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-82ac4b7c57086cc8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 46,
@@ -1143,10 +1143,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "教材指出其尚在孵化／觀察期間。",
-        "教材指出 User 僅能選 Collaboration。",
+        "最近 30 天",
+        "最近 10 年",
         "教材指出過去一年。",
-        "教材指需要系統管理員權限。"
+        "最近 7 天"
       ],
       "correct": 2,
       "references": [
@@ -1158,7 +1158,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-8eb40c8757dc7e6a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 47,
@@ -1168,9 +1168,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "否，是教材所述預計影響風險向量的剩餘期間。",
-        "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。",
-        "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
+        "只比較使用者登入次數",
+        "只比較供應商合約簽署時間",
+        "只比較公司 Logo 與網域名稱",
         "不同公司過去一年的評級趨勢、分數與風險向量資訊。"
       ],
       "correct": 3,
@@ -1183,7 +1183,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-b55aadd7f8460504",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 48,
@@ -1194,9 +1194,9 @@
       "section": "原題",
       "options": [
         "Pre-compromise、Active intrusion、Post-compromise。",
-        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
-        "Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。",
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。"
+        "Before Detection、During Review、After Review",
+        "Initial Access、Persistence、Exfiltration",
+        "Identify、Protect、Recover"
       ],
       "correct": 0,
       "references": [
@@ -1208,7 +1208,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-003d042443fb5877",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 49,
@@ -1218,10 +1218,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "以外部可觀測資料提供資安風險能見度、評級與改善追蹤。",
+        "警報一定包含已確認攻擊者身分",
         "警報應附有可調查的支持證據，而非只有單一未解釋分數。",
-        "不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。",
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。"
+        "只根據單一未說明的分數判斷",
+        "警報保證零誤報且無須調查"
       ],
       "correct": 1,
       "references": [
@@ -1233,7 +1233,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-fed4338a8e84f5d2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 50,
@@ -1243,10 +1243,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。",
-        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
+        "User Preferences 帳號設定",
+        "Framework Intelligence 評估匯出",
         "教材表格將該面向列於 CM／TRM。",
-        "EASM 以自身外部資產為主，CM 以第三方監控為主。"
+        "TMH 文件共享"
       ],
       "correct": 2,
       "references": [
@@ -1258,7 +1258,7 @@
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-1f21c7c5fde06b11",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 51,
@@ -1268,9 +1268,9 @@
       "category": "產品定位",
       "section": "擴充",
       "options": [
-        "依需求評估 EASM 與 CM",
-        "向本企業索取資安證明的客戶",
-        "問卷、稽核與佐證文件",
+        "所有第三方供應商內部端點",
+        "只有員工帳號與通知偏好",
+        "所有外部競爭對手的私有資產",
         "自身企業的外部資產與曝險"
       ],
       "correct": 3,
@@ -1283,7 +1283,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-91eccd293888d0b9",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 52,
@@ -1294,9 +1294,9 @@
       "section": "擴充",
       "options": [
         "第三方供應商及供應鏈",
-        "供應商所依賴的其他供應商造成的風險",
-        "依需求評估 EASM 與 CM",
-        "問卷、稽核與佐證文件"
+        "只有自身企業的網站憑證",
+        "只有員工筆電與內網印表機",
+        "只有網站的 HTTP 回應標頭"
       ],
       "correct": 0,
       "references": [
@@ -1308,7 +1308,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-78061d6ca35dc0ff",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 53,
@@ -1318,10 +1318,10 @@
       "category": "產品定位",
       "section": "擴充",
       "options": [
-        "向本企業索取資安證明的客戶",
+        "只有公司商標註冊清單",
         "問卷、稽核與佐證文件",
-        "第三方供應商及供應鏈",
-        "自身企業的外部資產與曝險"
+        "只有外部開放埠掃描結果",
+        "只有使用者登入次數"
       ],
       "correct": 1,
       "references": [
@@ -1333,7 +1333,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-54bd3902e957c334",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 54,
@@ -1343,10 +1343,10 @@
       "category": "產品定位",
       "section": "擴充",
       "options": [
-        "TPRM 是第三方風險管理範疇",
-        "依需求評估 EASM 與 CM",
+        "只管理自家內網主機的 IT 人員",
+        "只分析惡意程式的 SOC 人員",
         "向本企業索取資安證明的客戶",
-        "自身企業的外部資產與曝險"
+        "只向外部供應商索取問卷的採購人員"
       ],
       "correct": 2,
       "references": [
@@ -1358,7 +1358,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f753fe67216511d1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 55,
@@ -1368,9 +1368,9 @@
       "category": "產品定位",
       "section": "擴充",
       "options": [
-        "依需求評估 EASM 與 CM",
-        "問卷、稽核與佐證文件",
-        "第三方供應商及供應鏈",
+        "可以，功能完全相同",
+        "可以，兩者授權相同",
+        "可以，兩者資料相同",
         "不能"
       ],
       "correct": 3,
@@ -1383,7 +1383,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0074e450e510f42b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 56,
@@ -1394,9 +1394,9 @@
       "section": "擴充",
       "options": [
         "否",
-        "依需求評估 EASM 與 CM",
-        "問卷、稽核與佐證文件",
-        "第三方供應商及供應鏈"
+        "是，EASM 只提供 CVE 清單",
+        "是，EASM 不涉及資產歸屬探索",
+        "是，EASM 不需要觀測外部攻擊面"
       ],
       "correct": 0,
       "references": [
@@ -1408,7 +1408,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b04752d80818b21b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 57,
@@ -1418,10 +1418,10 @@
       "category": "產品定位",
       "section": "擴充",
       "options": [
-        "依需求評估 EASM 與 CM",
+        "與供應鏈無關的網站憑證風險",
         "供應商所依賴的其他供應商造成的風險",
-        "第三方供應商及供應鏈",
-        "TPRM 是第三方風險管理範疇"
+        "本企業直接聘用的第一層供應商風險",
+        "企業內部員工帳號管理風險"
       ],
       "correct": 1,
       "references": [
@@ -1433,7 +1433,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-da42e49b36e13e91",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 58,
@@ -1443,10 +1443,10 @@
       "category": "產品定位",
       "section": "擴充",
       "options": [
-        "TPRM 是第三方風險管理範疇",
-        "依需求評估 EASM 與 CM",
+        "所有沒有 SSL 憑證的網站",
+        "所有供應商已正式納管的資產",
         "未被正式管理流程完整掌握的 IT 資產或服務",
-        "供應商所依賴的其他供應商造成的風險"
+        "所有使用公有雲的合法服務"
       ],
       "correct": 2,
       "references": [
@@ -1458,7 +1458,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9611e30b57d0402d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 59,
@@ -1468,9 +1468,9 @@
       "category": "產品定位",
       "section": "擴充",
       "options": [
-        "依需求評估 EASM 與 CM",
-        "供應商所依賴的其他供應商造成的風險",
-        "向本企業索取資安證明的客戶",
+        "因為 TPRM 只代表暗網情資",
+        "因為 TPRM 只代表漏洞嚴重度分數",
+        "因為 TPRM 是一個固定的 API Token 類型",
         "TPRM 是第三方風險管理範疇"
       ],
       "correct": 3,
@@ -1483,7 +1483,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-56b842a9e5da3e8c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 60,
@@ -1494,9 +1494,9 @@
       "section": "擴充",
       "options": [
         "依需求評估 EASM 與 CM",
-        "TPRM 是第三方風險管理範疇",
-        "供應商所依賴的其他供應商造成的風險",
-        "向本企業索取資安證明的客戶"
+        "只部署 TMH 即能掃描全部外部資產",
+        "只部署 Beacon 即能管理所有供應商問卷",
+        "只部署 VRM 即能發現所有影子 IT"
       ],
       "correct": 0,
       "references": [
@@ -1508,7 +1508,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c3d8c9981dba399f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 61,
@@ -1518,10 +1518,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings",
+        "只用來設定通知收件人",
         "檢視各類風險向量的具體發現",
-        "Rescanned Findings",
-        "Incubation Period Findings"
+        "只用來新增使用者帳號",
+        "只用來變更訂閱方案"
       ],
       "correct": 1,
       "references": [
@@ -1533,7 +1533,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8589af703d256cf6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 62,
@@ -1543,8 +1543,8 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "CSV 與 Full/Filtered PDF",
         "Incubation Period Findings",
+        "Rescanned Findings",
         "Impacts Bitsight Rating",
         "Impacts RV Grade Only"
       ],
@@ -1558,7 +1558,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b73be714b3d9a1bb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 63,
@@ -1569,8 +1569,8 @@
       "section": "擴充",
       "options": [
         "Impacts Bitsight Rating",
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings",
-        "CSV 與 Full/Filtered PDF",
+        "New Findings",
+        "Exposed Credentials",
         "Impacts RV Grade Only"
       ],
       "correct": 3,
@@ -1583,7 +1583,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-59f793ae40af9d77",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 64,
@@ -1594,9 +1594,9 @@
       "section": "擴充",
       "options": [
         "Incubation Period Findings",
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings",
         "Rescanned Findings",
-        "Findings > Vulnerability Detection > 選 CVE > View in Findings"
+        "Impacts Bitsight Rating",
+        "Finding Severity"
       ],
       "correct": 0,
       "references": [
@@ -1608,7 +1608,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-14d1180277bdf30d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 65,
@@ -1618,10 +1618,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Findings > Vulnerability Detection > 選 CVE > View in Findings",
+        "New Findings",
         "Rescanned Findings",
         "Incubation Period Findings",
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings"
+        "Impacts RV Grade Only"
       ],
       "correct": 1,
       "references": [
@@ -1633,7 +1633,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8a427dd1ef677d21",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 66,
@@ -1643,10 +1643,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Incubation Period Findings",
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings",
+        "可以，這是預設條件",
+        "可以，會自動重新掃描",
         "不能",
-        "Rescanned Findings"
+        "可以，全部 Filter Sets 均支援"
       ],
       "correct": 2,
       "references": [
@@ -1658,7 +1658,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-12cf3fadfa5ffa78",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 67,
@@ -1668,9 +1668,9 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Rescanned Findings",
-        "Incubation Period Findings",
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings",
+        "三種",
+        "五種",
+        "十種",
         "七種"
       ],
       "correct": 3,
@@ -1683,7 +1683,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b4841fa2880437cc",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 68,
@@ -1694,9 +1694,9 @@
       "section": "擴充",
       "options": [
         "可涵蓋有風險但 Grade 為 N/A 的 Findings",
-        "Incubation Period Findings",
-        "Impacts RV Grade Only",
-        "Rescanned Findings"
+        "因為這三類代表所有已修補漏洞",
+        "因為這三類只會出現在高分公司",
+        "因為這三類都必定影響整體 Rating"
       ],
       "correct": 0,
       "references": [
@@ -1708,7 +1708,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5e89d330e1a6df63",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 69,
@@ -1718,10 +1718,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Findings > Vulnerability Detection > 選 CVE > View in Findings",
+        "Portfolio > Compare Companies",
         "Filter Set Actions > Save as 並填 Name/Description",
-        "Organization > Company Details > Recent Security Changes",
-        "Settings > Account > User Preferences"
+        "Settings > Account > User Preferences",
+        "Findings > Export > Download"
       ],
       "correct": 1,
       "references": [
@@ -1733,7 +1733,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f2a33c9add52ca04",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 70,
@@ -1743,10 +1743,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Incubation Period Findings",
-        "Rescanned Findings",
+        "Portfolio Risk > Compare Companies",
+        "My Account > Subscription History",
         "Findings > Vulnerability Detection > 選 CVE > View in Findings",
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings"
+        "Settings > Access Control > Users"
       ],
       "correct": 2,
       "references": [
@@ -1758,7 +1758,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-cdf0fef879e321d6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 71,
@@ -1769,8 +1769,8 @@
       "section": "擴充",
       "options": [
         "Asset Importance",
-        "Rescanned Findings",
-        "檢視各類風險向量的具體發現",
+        "Bitsight Rating",
+        "Subscription Usage",
         "Finding Severity"
       ],
       "correct": 3,
@@ -1783,7 +1783,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-45ed6d14c5ed0acb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 72,
@@ -1795,8 +1795,8 @@
       "options": [
         "Asset Importance",
         "Finding Severity",
-        "Rescanned Findings",
-        "檢視各類風險向量的具體發現"
+        "Risk Vector Grade",
+        "Subscription Usage"
       ],
       "correct": 0,
       "references": [
@@ -1808,7 +1808,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-117c27dfa346e8c7",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 73,
@@ -1818,10 +1818,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "檢視各類風險向量的具體發現",
+        "代表該格必定能提高最多 Rating",
         "教材列為最優先修補",
-        "Asset Importance",
-        "教材指出最近 60 天"
+        "代表資產沒有任何漏洞",
+        "代表已經完成所有修補"
       ],
       "correct": 1,
       "references": [
@@ -1833,7 +1833,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a0ef3c0ea99a9073",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 74,
@@ -1843,10 +1843,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Rescanned Findings",
-        "Incubation Period Findings",
+        "最近 30 天",
+        "最近 365 天",
         "教材指出最近 60 天",
-        "Asset Importance"
+        "最近 7 天"
       ],
       "correct": 2,
       "references": [
@@ -1858,7 +1858,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f75562408c65fb27",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 75,
@@ -1868,9 +1868,9 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Findings > Vulnerability Detection > 選 CVE > View in Findings",
-        "Filter Set Actions > Save as 並填 Name/Description",
         "Settings > Account > User Preferences",
+        "My Account > Subscription History",
+        "Settings > Access Control > Groups",
         "Organization > Company Details > Recent Security Changes"
       ],
       "correct": 3,
@@ -1883,7 +1883,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5a20f17ece92d470",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 76,
@@ -1894,9 +1894,9 @@
       "section": "擴充",
       "options": [
         "點選 Start Assessment",
-        "Rescanned Findings",
-        "Impacts RV Grade Only",
-        "Asset Importance"
+        "在 Settings 點選 Create User",
+        "在 Findings 點選 Export CSV",
+        "在 Portfolio 點選 Compare Companies"
       ],
       "correct": 0,
       "references": [
@@ -1908,7 +1908,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-6a3caf419950cd47",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 77,
@@ -1918,10 +1918,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "Incubation Period Findings",
+        "只有 PNG 與 JPEG",
         "CSV 與 Full/Filtered PDF",
-        "Impacts Bitsight Rating",
-        "Impacts RV Grade Only"
+        "只有 Excel 與 Word",
+        "只有 HTML 與 XML"
       ],
       "correct": 1,
       "references": [
@@ -1933,7 +1933,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-96128e198d80edb0",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 78,
@@ -1943,10 +1943,10 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "教材列為最優先修補",
-        "教材指出最近 60 天",
+        "是，代表所有向量合格",
+        "是，保證不發生資安事件",
         "不是",
-        "Impacts Bitsight Rating"
+        "是，等同正式資安認證"
       ],
       "correct": 2,
       "references": [
@@ -1958,7 +1958,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-de42f9d914447460",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 79,
@@ -1968,9 +1968,9 @@
       "category": "平台操作",
       "section": "擴充",
       "options": [
-        "可涵蓋有風險但 Grade 為 N/A 的 Findings",
-        "Filter Set Actions > Save as 並填 Name/Description",
-        "Incubation Period Findings",
+        "Settings > Access Control > Groups",
+        "Findings > Vulnerability Detection",
+        "Portfolio Risk > Compare Companies",
         "Settings > Account > User Preferences"
       ],
       "correct": 3,
@@ -1983,7 +1983,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2d2090787abf3214",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 80,
@@ -1994,9 +1994,9 @@
       "section": "擴充",
       "options": [
         "不一定",
-        "教材列為最優先修補",
-        "教材指出最近 60 天",
-        "檢視各類風險向量的具體發現"
+        "是，表示模組故障",
+        "是，表示帳號遭停用",
+        "是，表示平台無法更新"
       ],
       "correct": 0,
       "references": [
@@ -2008,7 +2008,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-52d3adbe1da18a0d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 81,
@@ -2168,9 +2168,9 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "可以編輯所有群組使用者",
-        "只要有公司存取權就能編輯",
-        "只要能檢視群組就能編輯",
+        "可以，編輯所有群組",
+        "可以，編輯其他群組的 User",
+        "可以，編輯全租戶帳號",
         "不能"
       ],
       "correct": 3,
@@ -2418,10 +2418,10 @@
       "category": "評分機制",
       "section": "擴充",
       "options": [
-        "是，只要向量 Grade 改變，總分必同步等幅改變",
+        "是，兩者同步等幅變化",
         "否",
-        "是，兩者永遠相同",
-        "是，向量 Grade 直接換算為整體 Rating"
+        "是，兩者數值相同",
+        "是，向量 Grade 即總分"
       ],
       "correct": 1,
       "references": [
@@ -2594,9 +2594,9 @@
       "section": "擴充",
       "options": [
         "不能",
-        "可以，Last Seen 更新就是修補完成證明",
-        "可以，只要觀測時間變動就代表漏洞消失",
-        "可以，Last Seen 等於客戶的修補確認日期"
+        "可以，時間更新代表修好",
+        "可以，代表漏洞消失",
+        "可以，代表修補已確認"
       ],
       "correct": 0,
       "references": [
@@ -2794,9 +2794,9 @@
       "section": "擴充",
       "options": [
         "不一定",
-        "必然相同，因為 Rating 只看 Finding 數量",
-        "必然相同，因為所有 Finding 權重一致",
-        "必然相同，因為不同公司的資產規模不影響任何計算"
+        "必然相同，數量決定分數",
+        "必然相同，權重都一致",
+        "必然相同，資產不影響分數"
       ],
       "correct": 0,
       "references": [
@@ -3843,10 +3843,10 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "是，Badge 等同正式 ISO 27001 認證",
-        "是，Badge 表示未來一年不會發生事件",
+        "是，等同正式資安認證",
+        "是，保證未來沒有事故",
         "不是",
-        "是，Badge 代表所有風險向量皆為 A"
+        "是，代表所有向量安全"
       ],
       "correct": 2,
       "references": [
@@ -3894,9 +3894,9 @@
       "section": "擴充",
       "options": [
         "不一定",
-        "不應只看分數",
-        "不能直接視為合規證明",
-        "比對範圍、時間及佐證"
+        "是，列出 CVE 即代表攻擊已發生",
+        "是，任何 CVE 都有已知攻擊證據",
+        "是，CVE 只收錄已成功利用的漏洞"
       ],
       "correct": 0,
       "references": [
@@ -3908,7 +3908,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4b0d85aab05b3811",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 157,
@@ -3918,10 +3918,10 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "第三方資料可見性有限",
+        "只看前一日的 Rating 變化即可",
         "不應只看分數",
-        "不能直接視為合規證明",
-        "比對範圍、時間及佐證"
+        "應立即終止所有低分供應商合約",
+        "只依最新分數決定是否解約"
       ],
       "correct": 1,
       "references": [
@@ -3933,7 +3933,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-61a8164cf20f9a2f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 158,
@@ -3943,10 +3943,10 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "確認 Finding 狀態、Last Seen、Rescan 與評級週期",
-        "Vendor Risk > Overview > Risk Vectors",
+        "只看原始 CVE 編號是否消失",
+        "只看 Rating 當天有無增加",
         "比對技術修補證據、Rescan、Last Seen 與評級更新",
-        "Portfolio Risk > Compare Companies"
+        "只看客戶口頭宣稱已修復"
       ],
       "correct": 2,
       "references": [
@@ -3958,7 +3958,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ac9ba947a8c41ce9",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 159,
@@ -3968,9 +3968,9 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "評級變化、風險向量、改善狀態與高風險供應商",
-        "CM Portfolio Dashboard",
-        "需合併 Severity、資產重要性及曝露性",
+        "只提供產品宣傳封面即可",
+        "只提供沒有版本日期的截圖即可",
+        "只用業務口頭說明替代授權證據",
         "官方功能文件、平台路徑、合約授權及必要截圖"
       ],
       "correct": 3,
@@ -3983,7 +3983,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-368c48f82ba47761",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 160,
@@ -3994,9 +3994,9 @@
       "section": "擴充",
       "options": [
         "在教材對應，但授權與命名需核對",
-        "先釐清 CM 可見性與合約範圍",
-        "核對證據、範圍、通報與憑證處置",
-        "不承諾分數或期限，先盤點影響與修補"
+        "完全同義，所有功能與授權均相同",
+        "SPM 一定包含所有 EASM 掃描功能",
+        "EASM 一定包含所有 SPM 產品授權"
       ],
       "correct": 0,
       "references": [
@@ -4008,7 +4008,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ecfd1d2bc20839d8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 161,
@@ -4018,10 +4018,10 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "不承諾分數或期限，先盤點影響與修補",
+        "兩者都是用來管理公司 API Token",
         "CM 長期態勢；Beacon 威脅情資",
-        "CM Portfolio Dashboard",
-        "先釐清 CM 可見性與合約範圍"
+        "CM 專做威脅情資，Beacon 專做供應商問卷",
+        "兩者均只提供資產弱點掃描"
       ],
       "correct": 1,
       "references": [
@@ -4033,7 +4033,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8e7bef3ceed7e746",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 162,
@@ -4043,10 +4043,10 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "CM Portfolio Dashboard",
-        "比對技術修補證據、Rescan、Last Seen 與評級更新",
+        "Findings > Vulnerability Detection",
+        "Settings > Access Control > Users",
         "Portfolio Risk > Compare Companies",
-        "Vendor Risk > Overview > Risk Vectors"
+        "Settings > Account > User Preferences"
       ],
       "correct": 2,
       "references": [
@@ -4058,7 +4058,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b62a1af47f4c7ce2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 163,
@@ -4068,9 +4068,9 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "Portfolio Risk > Compare Companies",
-        "評級變化、風險向量、改善狀態與高風險供應商",
-        "比對技術修補證據、Rescan、Last Seen 與評級更新",
+        "Settings > Account > User Preferences",
+        "My Account > Subscription History",
+        "Settings > API Access > Tokens",
         "Vendor Risk > Overview > Risk Vectors"
       ],
       "correct": 3,
@@ -4083,7 +4083,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-79cbabf381ff047a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 164,
@@ -4094,9 +4094,9 @@
       "section": "擴充",
       "options": [
         "CM Portfolio Dashboard",
-        "CM 長期態勢；Beacon 威脅情資",
-        "先釐清 CM 可見性與合約範圍",
-        "Portfolio Risk > Compare Companies"
+        "User Settings > Email Notifications",
+        "My Account > Billing Details",
+        "Settings > Access Control > Groups"
       ],
       "correct": 0,
       "references": [
@@ -4108,7 +4108,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3d66e274076352a5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 165,
@@ -4118,10 +4118,10 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "需合併 Severity、資產重要性及曝露性",
+        "只追蹤供應商的網站訪問量",
         "評級變化、風險向量、改善狀態與高風險供應商",
-        "官方功能文件、平台路徑、合約授權及必要截圖",
-        "CM Portfolio Dashboard"
+        "只追蹤當季新增使用者數",
+        "只追蹤匯出報表的頁數"
       ],
       "correct": 1,
       "references": [
@@ -4133,7 +4133,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d6d76097dfd4a421",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 166,
@@ -4143,10 +4143,10 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "CM 長期態勢；Beacon 威脅情資",
-        "CM Portfolio Dashboard",
+        "所有第三方資產都能直接下載",
+        "不需供應商授權即可掃描其內網",
         "先釐清 CM 可見性與合約範圍",
-        "核對證據、範圍、通報與憑證處置"
+        "CM 必定揭露所有供應商內部 IP"
       ],
       "correct": 2,
       "references": [
@@ -4158,7 +4158,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8971c2c2367573ab",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 167,
@@ -4168,9 +4168,9 @@
       "category": "客戶情境",
       "section": "擴充",
       "options": [
-        "不能直接視為合規證明",
-        "第三方資料可見性有限",
-        "仍應依重要性與法規評估",
+        "只採信問卷並忽略外部證據",
+        "只採信評級並否定所有問卷",
+        "將兩者直接平均當作合規分數",
         "比對範圍、時間及佐證"
       ],
       "correct": 3,
@@ -4183,7 +4183,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-dce4f4f7a7ce5a74",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 168,
@@ -4194,9 +4194,9 @@
       "section": "進階",
       "options": [
         "模組命名與實際功能授權不是同一件事",
-        "CM 持續監控與 VRM 問卷工作流",
-        "確認資料來源、更新頻率、告警延遲",
-        "需求、對應功能、介面、證據、授權、限制"
+        "模組名稱相近即代表授權完全一致",
+        "行銷簡報提及功能就表示租戶已購買",
+        "不同方案的 API 與掃描範圍必定相同"
       ],
       "correct": 0,
       "references": [
@@ -4208,7 +4208,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e051c6db1252d094",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 169,
@@ -4218,10 +4218,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "CM 持續監控與 VRM 問卷工作流",
+        "只要確認平台網站能開啟",
         "購買方案是否含 API／Integrations 及權限",
-        "子公司管理與 MySubsidiary 授權數量",
-        "需求、對應功能、介面、證據、授權、限制"
+        "只要知道客戶要使用的程式語言",
+        "只要確認客戶電腦的作業系統"
       ],
       "correct": 1,
       "references": [
@@ -4233,7 +4233,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3c104ce0e3337b6e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 170,
@@ -4243,10 +4243,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "需求、對應功能、介面、證據、授權、限制",
-        "CM 持續監控與 VRM 問卷工作流",
+        "只看總公司的網站首頁",
+        "只看五家公司的 Logo 是否一致",
         "子公司管理與 MySubsidiary 授權數量",
-        "購買方案是否含 API／Integrations 及權限"
+        "只看五家子公司的員工數"
       ],
       "correct": 2,
       "references": [
@@ -4258,7 +4258,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-99e4b6c9ccb06bd0",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 171,
@@ -4268,9 +4268,9 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "CM 持續監控與 VRM 問卷工作流",
-        "需求、對應功能、介面、證據、授權、限制",
-        "監控訂閱容量的使用情況",
+        "可以，CM 授權等同 EASM 全功能",
+        "可以，所有第三方 IP 均完整可見",
+        "可以，CM 不受資產歸屬限制",
         "不能"
       ],
       "correct": 3,
@@ -4283,7 +4283,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-db552e3098192f4b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 172,
@@ -4294,9 +4294,9 @@
       "section": "進階",
       "options": [
         "不表示",
-        "CM 持續監控與 VRM 問卷工作流",
-        "不能直接一對一映射",
-        "監控訂閱容量的使用情況"
+        "表示，問卷包含全部情資",
+        "表示，VRM 自動啟用 Beacon",
+        "表示，問卷會產生入侵告警"
       ],
       "correct": 0,
       "references": [
@@ -4308,7 +4308,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3665a4a4029032cf",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 173,
@@ -4318,10 +4318,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "確認資料來源、更新頻率、告警延遲",
+        "TMH 主要用來計算供應商修補時效",
         "TMH 偏向自身證據對外共享",
-        "核對平台畫面、官方文件及授權",
-        "合約功能清單與實際驗收測試"
+        "TMH 主要用來替供應商建立風險問卷",
+        "TMH 主要用來掃描第三方內網"
       ],
       "correct": 1,
       "references": [
@@ -4333,7 +4333,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9367feacd4d02f5c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 174,
@@ -4343,10 +4343,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "合約功能清單與實際驗收測試",
-        "TMH 偏向自身證據對外共享",
+        "可以，Basic 必定等於 Base 且無例外",
+        "可以，Advanced 必定包含所有 Enhanced 權限",
         "不能直接一對一映射",
-        "監控訂閱容量的使用情況"
+        "可以，名稱相近代表功能逐項一致"
       ],
       "correct": 2,
       "references": [
@@ -4358,7 +4358,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-7ea13020b1a314cb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 175,
@@ -4368,9 +4368,9 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "CM 持續監控與 VRM 問卷工作流",
-        "模組命名與實際功能授權不是同一件事",
-        "確認資料來源、更新頻率、告警延遲",
+        "只列功能名稱與產品 Logo",
+        "只列報價與業務聯絡人",
+        "只列平台首頁截圖與宣傳標語",
         "需求、對應功能、介面、證據、授權、限制"
       ],
       "correct": 3,
@@ -4383,7 +4383,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-631067204e8c660a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 176,
@@ -4394,9 +4394,9 @@
       "section": "進階",
       "options": [
         "核對平台畫面、官方文件及授權",
-        "TMH 偏向自身證據對外共享",
-        "合約功能清單與實際驗收測試",
-        "確認資料來源、更新頻率、告警延遲"
+        "只看產品名稱有 Cloud 就認定支援",
+        "只看公司是否使用公有雲",
+        "只看簡報有雲朵圖示"
       ],
       "correct": 0,
       "references": [
@@ -4408,7 +4408,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-240399d57fd8df36",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 177,
@@ -4418,10 +4418,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "TMH 偏向自身證據對外共享",
+        "可以，不需測試細項即可保證掃描深度",
         "不能",
-        "監控訂閱容量的使用情況",
-        "合約功能清單與實際驗收測試"
+        "可以，類別名稱就代表已支援所有漏洞",
+        "可以，任何網站掃描都會檢測 SQLi/XSS"
       ],
       "correct": 1,
       "references": [
@@ -4433,7 +4433,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-19336a73c5fef9c8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 178,
@@ -4443,10 +4443,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "監控訂閱容量的使用情況",
-        "合約功能清單與實際驗收測試",
+        "相同，兩者都只查 DNS TXT 記錄",
+        "相同，兩者都只驗證郵件 DMARC",
         "不同",
-        "不能直接一對一映射"
+        "相同，兩者都只檢查 DNSSEC 簽章"
       ],
       "correct": 2,
       "references": [
@@ -4458,7 +4458,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-bf1b184ad5a0a3a1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 179,
@@ -4468,9 +4468,9 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "購買方案是否含 API／Integrations 及權限",
-        "子公司管理與 MySubsidiary 授權數量",
-        "需求、對應功能、介面、證據、授權、限制",
+        "只確認網站憑證有無綠色鎖頭",
+        "只看是否使用 HTTPS 網址",
+        "只確認平台支援下載 PDF",
         "確認 SSL Certificates、SSL Configurations 的細項與掃描能力"
       ],
       "correct": 3,
@@ -4483,7 +4483,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d0d99d8246fbff1f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 180,
@@ -4494,9 +4494,9 @@
       "section": "進階",
       "options": [
         "CM 持續監控與 VRM 問卷工作流",
-        "模組命名與實際功能授權不是同一件事",
-        "需求、對應功能、介面、證據、授權、限制",
-        "確認資料來源、更新頻率、告警延遲"
+        "EASM 資產探索與 TMH 文件共享",
+        "Beacon 威脅情資與 TLS 憑證設定",
+        "SPM 網站掃描與帳號通知偏好"
       ],
       "correct": 0,
       "references": [
@@ -4508,7 +4508,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-912efedeb0a9df3e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 181,
@@ -4518,10 +4518,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "合約功能清單與實際驗收測試",
+        "網站 SSL 憑證的使用率",
         "監控訂閱容量的使用情況",
-        "CM 持續監控與 VRM 問卷工作流",
-        "不能直接一對一映射"
+        "使用者登入次數占總員工數比例",
+        "供應商問卷完成率"
       ],
       "correct": 1,
       "references": [
@@ -4533,7 +4533,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-dbdb2b5bc70a9b23",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 182,
@@ -4543,10 +4543,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "監控訂閱容量的使用情況",
-        "合約功能清單與實際驗收測試",
+        "可以，API 使用量不受授權影響",
+        "可以，任何租戶都有無限並行請求",
         "不能",
-        "購買方案是否含 API／Integrations 及權限"
+        "可以，未寫限制就代表永久無上限"
       ],
       "correct": 2,
       "references": [
@@ -4558,7 +4558,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-aaa605ab996f1067",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 183,
@@ -4568,9 +4568,9 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "模組命名與實際功能授權不是同一件事",
-        "CM 持續監控與 VRM 問卷工作流",
-        "TMH 偏向自身證據對外共享",
+        "只要宣稱平台 24 小時可登入即可",
+        "只要有 Email 通知就等於零延遲",
+        "只要畫面有時間戳就代表秒級更新",
         "確認資料來源、更新頻率、告警延遲"
       ],
       "correct": 3,
@@ -4583,7 +4583,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-648fbaaac86db9db",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 184,
@@ -4594,9 +4594,9 @@
       "section": "進階",
       "options": [
         "不能取代",
-        "TMH 偏向自身證據對外共享",
-        "不能直接一對一映射",
-        "監控訂閱容量的使用情況"
+        "可以，TMH 文件共享等同正式稽核",
+        "可以，TMH 自動核發合規證書",
+        "可以，TMH 能取代所有控制測試"
       ],
       "correct": 0,
       "references": [
@@ -4608,7 +4608,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3ed435b1b630e148",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 185,
@@ -4618,10 +4618,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "合約功能清單與實際驗收測試",
+        "一定，警示時間就是攻擊發生時間",
         "不一定",
-        "不能直接一對一映射",
-        "監控訂閱容量的使用情況"
+        "一定，任何情資告警都是確定入侵",
+        "一定，Beacon 不會出現誤報"
       ],
       "correct": 1,
       "references": [
@@ -4633,7 +4633,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d7edd271909fa936",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 186,
@@ -4643,10 +4643,10 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "合約功能清單與實際驗收測試",
-        "TMH 偏向自身證據對外共享",
+        "可以，角色名稱相同即擁有相同操作權",
+        "可以，不同租戶不受方案與政策影響",
         "不能",
-        "監控訂閱容量的使用情況"
+        "可以，所有模組權限必定相同"
       ],
       "correct": 2,
       "references": [
@@ -4658,7 +4658,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5168b2a45761ff41",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 187,
@@ -4668,9 +4668,9 @@
       "category": "進階｜產品與授權辨識",
       "section": "進階",
       "options": [
-        "TMH 偏向自身證據對外共享",
-        "核對平台畫面、官方文件及授權",
-        "監控訂閱容量的使用情況",
+        "只依最早期的行銷簡報驗收",
+        "只依口頭承諾而不測試",
+        "只依其他客戶的租戶畫面驗收",
         "合約功能清單與實際驗收測試"
       ],
       "correct": 3,
@@ -4683,7 +4683,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0f6a79a26ca3858d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 188,
@@ -4694,9 +4694,9 @@
       "section": "進階",
       "options": [
         "不能",
-        "依資產及服務逐筆驗證",
-        "應先查證資產歸屬與觀測證據",
-        "先分群、驗證、排序、指定負責人"
+        "可以，First Seen 就是漏洞起始",
+        "可以，代表昨天遭入侵",
+        "可以，代表資產昨天上線"
       ],
       "correct": 0,
       "references": [
@@ -4708,7 +4708,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-bcbe888717d6c469",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 189,
@@ -4718,10 +4718,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "先分群、驗證、排序、指定負責人",
+        "可以，觀測不會有延遲",
         "不能",
-        "依資產及服務逐筆驗證",
-        "應先查證資產歸屬與觀測證據"
+        "可以，Last Seen 保證即時",
+        "可以，昨天等於今天"
       ],
       "correct": 1,
       "references": [
@@ -4733,7 +4733,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-1c5e04cd08a6edfa",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 190,
@@ -4743,10 +4743,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "可依教材匯出 Excel，注意權限與敏感資訊",
-        "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄",
+        "每個 Finding 固定扣相同分數",
+        "向量 Grade 與整體 Rating 完全同義",
         "向量計分與整體 Rating 計分條件不同",
-        "CSV 便於整理，PDF 便於閱讀與交付"
+        "只要有 Grade 就必定影響總分"
       ],
       "correct": 2,
       "references": [
@@ -4758,7 +4758,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4aed0960b8777bd3",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 191,
@@ -4768,9 +4768,9 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "Recent Security Changes 與 Risk Vector 相關頁面",
-        "Patching Cadence 可能顯示 Grade N/A",
-        "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄",
+        "只查看使用者的 Email 通知設定",
+        "只查看訂閱帳單頁面",
+        "只查看 Portfolio 群組名稱",
         "進入 Findings 詳細資訊或 Vulnerability Detection"
       ],
       "correct": 3,
@@ -4783,7 +4783,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-1e465e8f30a25035",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 192,
@@ -4794,9 +4794,9 @@
       "section": "進階",
       "options": [
         "Patching Cadence 可能顯示 Grade N/A",
-        "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄",
-        "可依教材匯出 Excel，注意權限與敏感資訊",
-        "向量計分與整體 Rating 計分條件不同"
+        "因為 BAD 一律不是風險",
+        "因為所有 N/A 都必定扣總分",
+        "因為所有 WARN 都比 BAD 嚴重"
       ],
       "correct": 0,
       "references": [
@@ -4808,7 +4808,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2f9e62a7762a8b51",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 193,
@@ -4818,10 +4818,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "帳號管理、SOC 與資安治理單位協作",
+        "只要重新登入就會套用全部條件",
         "從 FILTER SETS 選取該組合",
-        "先辨識是自有 EASM 或第三方 CM",
-        "CSV 便於整理，PDF 便於閱讀與交付"
+        "重新建立相同名稱的 Filter Set",
+        "只要儲存就會自動套用到所有頁面"
       ],
       "correct": 1,
       "references": [
@@ -4833,7 +4833,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-cf587d31e9b0b3c5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 194,
@@ -4843,10 +4843,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "應先查證資產歸屬與觀測證據",
-        "先分群、驗證、排序、指定負責人",
+        "是，Rescan 後漏洞消失",
+        "是，Rescan 等於完成驗證",
         "不是",
-        "依資產及服務逐筆驗證"
+        "是，Rescan 會自動修補"
       ],
       "correct": 2,
       "references": [
@@ -4858,7 +4858,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-22cda520f83ece7f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 195,
@@ -4868,9 +4868,9 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "進入 Findings 詳細資訊或 Vulnerability Detection",
-        "Patching Cadence 可能顯示 Grade N/A",
-        "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄",
+        "Settings > Account > User Preferences",
+        "My Account > Subscription History",
+        "Settings > Access Control > Groups",
         "Recent Security Changes 與 Risk Vector 相關頁面"
       ],
       "correct": 3,
@@ -4883,7 +4883,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-462f08913741f221",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 196,
@@ -4894,9 +4894,9 @@
       "section": "進階",
       "options": [
         "不一定",
-        "Recent Security Changes 與 Risk Vector 相關頁面",
-        "依資產及服務逐筆驗證",
-        "應先查證資產歸屬與觀測證據"
+        "必然是，Preview 就是正式計分結果",
+        "必然是，Preview 會鎖定所有資料來源",
+        "必然是，正式分數不會受其他向量影響"
       ],
       "correct": 0,
       "references": [
@@ -4908,7 +4908,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2375b065da8a7c6f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 197,
@@ -4918,10 +4918,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "先分群、驗證、排序、指定負責人",
+        "一定，任何紅色都比已遭利用漏洞優先",
         "不是",
-        "依資產及服務逐筆驗證",
-        "應先查證資產歸屬與觀測證據"
+        "一定，紅色格子代表固定扣分最多",
+        "一定，矩陣顏色可直接換算加分"
       ],
       "correct": 1,
       "references": [
@@ -4933,7 +4933,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-674870f8121f4f96",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 198,
@@ -4943,10 +4943,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "應先查證資產歸屬與觀測證據",
-        "先分群、驗證、排序、指定負責人",
+        "可以，綠色代表所有資產都已修補",
+        "可以，綠色代表永遠不需要重新評估",
         "不行",
-        "依資產及服務逐筆驗證"
+        "可以，綠色代表未來不可能出現風險"
       ],
       "correct": 2,
       "references": [
@@ -4958,7 +4958,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a6eceab3df6008dc",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 199,
@@ -4968,9 +4968,9 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "應先查證資產歸屬與觀測證據",
-        "先分群、驗證、排序、指定負責人",
-        "實體資格、管理員權限及呈現規範",
+        "只修補第一筆 Finding 即可結案",
+        "只看 CVE 編號不需核對資產",
+        "將多筆 Finding 當成一台相同主機",
         "依資產及服務逐筆驗證"
       ],
       "correct": 3,
@@ -4983,7 +4983,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b9cb9255a22e8aeb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 200,
@@ -4994,9 +4994,9 @@
       "section": "進階",
       "options": [
         "應先查證資產歸屬與觀測證據",
-        "先分群、驗證、排序、指定負責人",
-        "實體資格、管理員權限及呈現規範",
-        "依資產及服務逐筆驗證"
+        "因為任何 Finding 都不能申請歸屬更正",
+        "因為刪除 Finding 會立即停用所有 IP",
+        "因為所有爭議資產都必定屬於客戶"
       ],
       "correct": 0,
       "references": [
@@ -5008,7 +5008,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a618da50fb8b5e46",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 201,
@@ -5018,10 +5018,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "向量計分與整體 Rating 計分條件不同",
+        "只根據掃描結果為 BAD 判定",
         "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄",
-        "先辨識是自有 EASM 或第三方 CM",
-        "可依教材匯出 Excel，注意權限與敏感資訊"
+        "只根據 IP 的第一段數字判定",
+        "只根據是否有 HTTPS 憑證判定"
       ],
       "correct": 1,
       "references": [
@@ -5033,7 +5033,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-441f147e826340bc",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 202,
@@ -5043,10 +5043,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄",
-        "向量計分與整體 Rating 計分條件不同",
+        "只截圖部分欄位並宣稱完整",
+        "把所有供應商資料放到公開網站",
         "可依教材匯出 Excel，注意權限與敏感資訊",
-        "進入 Findings 詳細資訊或 Vulnerability Detection"
+        "不需確認資料敏感度就直接公開"
       ],
       "correct": 2,
       "references": [
@@ -5058,7 +5058,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4fcac1e53d22cbc1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 203,
@@ -5068,9 +5068,9 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "先辨識是自有 EASM 或第三方 CM",
-        "從 FILTER SETS 選取該組合",
-        "CSV 便於整理，PDF 便於閱讀與交付",
+        "只交給行銷部門製作貼文",
+        "只交給網頁設計師更換圖示",
+        "只交給採購確認報價",
         "帳號管理、SOC 與資安治理單位協作"
       ],
       "correct": 3,
@@ -5083,7 +5083,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-cfcc5372eda8d355",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 204,
@@ -5094,9 +5094,9 @@
       "section": "進階",
       "options": [
         "CSV 便於整理，PDF 便於閱讀與交付",
-        "先辨識是自有 EASM 或第三方 CM",
-        "向量計分與整體 Rating 計分條件不同",
-        "從 FILTER SETS 選取該組合"
+        "CSV 只適合閱讀，PDF 只適合計算",
+        "CSV 一律比 PDF 更能證明合規",
+        "PDF 能直接替代所有原始觀測證據"
       ],
       "correct": 0,
       "references": [
@@ -5108,7 +5108,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-354df56c28dda9b2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 205,
@@ -5118,10 +5118,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "帳號管理、SOC 與資安治理單位協作",
+        "只確認是否能下載圖片檔",
         "實體資格、管理員權限及呈現規範",
-        "先分群、驗證、排序、指定負責人",
-        "應先查證資產歸屬與觀測證據"
+        "只確認徽章顏色是否符合品牌",
+        "只確認官網訪客人數"
       ],
       "correct": 1,
       "references": [
@@ -5133,7 +5133,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9e3447d5637b06c8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 206,
@@ -5143,10 +5143,10 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "應先查證資產歸屬與觀測證據",
-        "帳號管理、SOC 與資安治理單位協作",
+        "只挑最容易加分的項目",
+        "不查資產歸屬就要求全部修補",
         "先分群、驗證、排序、指定負責人",
-        "實體資格、管理員權限及呈現規範"
+        "不分類，依清單順序全部交辦"
       ],
       "correct": 2,
       "references": [
@@ -5158,7 +5158,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d9eff3a57b8eaae9",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 207,
@@ -5168,9 +5168,9 @@
       "category": "進階｜SPM 操作判讀",
       "section": "進階",
       "options": [
-        "從 FILTER SETS 選取該組合",
-        "CSV 便於整理，PDF 便於閱讀與交付",
-        "帳號管理、SOC 與資安治理單位協作",
+        "只要 IP 遮罩就判定資料錯誤",
+        "直接把第三方 Finding 當作自有資產",
+        "直接宣稱平台不具備任何資產資料",
         "先辨識是自有 EASM 或第三方 CM"
       ],
       "correct": 3,
@@ -5183,7 +5183,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-69a203e60b41ab8c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 208,
@@ -5194,9 +5194,9 @@
       "section": "進階",
       "options": [
         "不是",
-        "不宜直接中止",
-        "不能如此推論",
-        "不能直接推論"
+        "是，中位數改善代表每一家都改善",
+        "是，中位數能證明所有 Finding 已修補",
+        "是，中位數上升代表沒有供應商下降"
       ],
       "correct": 0,
       "references": [
@@ -5208,7 +5208,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-dd59c19e3109aa47",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 209,
@@ -5218,10 +5218,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "教材示例是一年，其他期間需核對平台",
+        "只看其問卷是否曾經完成",
         "結合 Rating Changes、Risk Vectors 與重要性",
-        "依 CM 可見性提供外部證據與協作請求",
-        "展示評級趨勢、風險向量、整改狀態及例外"
+        "只看最新高分而忽略下降趨勢",
+        "只看供應商名稱決定風險"
       ],
       "correct": 1,
       "references": [
@@ -5233,7 +5233,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d46cdcb347a55c5f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 210,
@@ -5243,10 +5243,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不能如此推論",
-        "不能直接推論",
+        "一定，Rating 可取代業務重要性評估",
+        "一定，不接觸敏感資料就不需任何風險分析",
         "不一定",
-        "不宜直接中止"
+        "一定，低分供應商永遠先處理"
       ],
       "correct": 2,
       "references": [
@@ -5258,7 +5258,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f92d35f75d57ca07",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 211,
@@ -5268,9 +5268,9 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不宜直接中止",
-        "不能如此推論",
-        "不能直接推論",
+        "可以，兩條趨勢同向就是因果",
+        "可以，Rating 上升必然由單一修補造成",
+        "可以，圖表相似就證明攻擊者相同",
         "不行"
       ],
       "correct": 3,
@@ -5283,7 +5283,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-916e9ce3aa26ceaf",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 212,
@@ -5294,9 +5294,9 @@
       "section": "進階",
       "options": [
         "前者看變化，後者看具體發現",
-        "結合 Rating Changes、Risk Vectors 與重要性",
-        "不同供應商的業務影響不同",
-        "核對公司實體與資產歸屬"
+        "兩者都只顯示授權使用量",
+        "Trend 是單筆漏洞，Findings 是合約趨勢",
+        "Trend 只顯示使用者角色，Findings 只顯示通知"
       ],
       "correct": 0,
       "references": [
@@ -5308,7 +5308,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0e15b701fcb2bef4",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 213,
@@ -5318,10 +5318,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不能直接推論",
+        "是，任何風險預測都等於事件證據",
         "不是",
-        "不宜直接中止",
-        "不能如此推論"
+        "是，模型數值就是已發生事故數",
+        "是，指標上升即代表已確認入侵"
       ],
       "correct": 1,
       "references": [
@@ -5333,7 +5333,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0d3b5691e7256960",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 214,
@@ -5343,10 +5343,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不能直接推論",
-        "核對公司實體與資產歸屬",
+        "應立即中止，不需與供應商溝通",
+        "應立即中止，任何 BAD 都代表違約",
         "不宜直接中止",
-        "不能如此推論"
+        "應立即中止，不需核對業務影響"
       ],
       "correct": 2,
       "references": [
@@ -5358,7 +5358,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-90d3c2d208a80232",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 215,
@@ -5368,9 +5368,9 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "依 CM 可見性提供外部證據與協作請求",
-        "比較問卷時間、範圍、資產與證據",
-        "前者看變化，後者看具體發現",
+        "只因平台未更新就認定供應商說謊",
+        "直接忽略平台並永久結案",
+        "只要供應商口頭說已修補就關閉追蹤",
         "請其提供修補證據並等待重新觀測"
       ],
       "correct": 3,
@@ -5383,7 +5383,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ad9b60b914e17d64",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 216,
@@ -5394,9 +5394,9 @@
       "section": "進階",
       "options": [
         "依 CM 可見性提供外部證據與協作請求",
-        "展示評級趨勢、風險向量、整改狀態及例外",
-        "教材示例是一年，其他期間需核對平台",
-        "比較問卷時間、範圍、資產與證據"
+        "要求供應商公開所有內網位址",
+        "把遮罩 IP 當成沒有風險",
+        "不提供觀測時間或風險描述就要求修補"
       ],
       "correct": 0,
       "references": [
@@ -5408,7 +5408,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ce389a29748fd72f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 217,
@@ -5418,10 +5418,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不能直接推論",
+        "是，中位數能代表每一家原有供應商",
         "不一定",
-        "不宜直接中止",
-        "不能如此推論"
+        "是，監控組合中位數下降必然是舊供應商變差",
+        "是，新增供應商不影響統計分布"
       ],
       "correct": 1,
       "references": [
@@ -5433,7 +5433,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-21e40e487c40757c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 218,
@@ -5443,10 +5443,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "前者看變化，後者看具體發現",
-        "核對公司實體與資產歸屬",
+        "因為分級可取代全部風險調查",
+        "因為分級只用來決定平台顏色",
         "不同供應商的業務影響不同",
-        "依 CM 可見性提供外部證據與協作請求"
+        "因為所有供應商具有完全相同影響"
       ],
       "correct": 2,
       "references": [
@@ -5458,7 +5458,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-abe698d4cd0858c2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 219,
@@ -5468,9 +5468,9 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "檢視監控清單與授權容量",
-        "不同供應商的業務影響不同",
-        "前者看變化，後者看具體發現",
+        "只依舊公司名稱持續監控即可",
+        "不必確認子公司與資產轉移",
+        "直接合併所有相似名稱的公司",
         "核對公司實體與資產歸屬"
       ],
       "correct": 3,
@@ -5483,7 +5483,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e71031d077a45058",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 220,
@@ -5494,9 +5494,9 @@
       "section": "進階",
       "options": [
         "不是",
-        "不宜直接中止",
-        "不能如此推論",
-        "不能直接推論"
+        "是，平台矩陣直接決定合約違約金",
+        "是，矩陣顏色等同法律責任",
+        "是，矩陣不需結合企業風險政策"
       ],
       "correct": 0,
       "references": [
@@ -5508,7 +5508,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e4ca0f9570db5d27",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 221,
@@ -5518,10 +5518,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "前者看變化，後者看具體發現",
+        "只調整網站顏色降低使用率",
         "檢視監控清單與授權容量",
-        "核對公司實體與資產歸屬",
-        "不同供應商的業務影響不同"
+        "等超額後再檢查",
+        "直接刪除所有高風險供應商"
       ],
       "correct": 1,
       "references": [
@@ -5533,7 +5533,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b08695622d58aeb6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 222,
@@ -5543,10 +5543,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "展示評級趨勢、風險向量、整改狀態及例外",
-        "比較問卷時間、範圍、資產與證據",
+        "可以，所有方案都有永久歷史資料",
+        "可以，平台顯示任何日期都能回溯全部細節",
         "教材示例是一年，其他期間需核對平台",
-        "依 CM 可見性提供外部證據與協作請求"
+        "可以，看到一年趨勢就保證十年可用"
       ],
       "correct": 2,
       "references": [
@@ -5558,7 +5558,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-24377ad42f2c01eb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 223,
@@ -5568,9 +5568,9 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不宜直接中止",
-        "不能如此推論",
-        "不能直接推論",
+        "代表，評級高即通過所有法規",
+        "代表，Rating 是正式稽核證書",
+        "代表，供應商分數高就不需法遵查核",
         "不代表"
       ],
       "correct": 3,
@@ -5583,7 +5583,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-340c8f816623507f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 224,
@@ -5594,9 +5594,9 @@
       "section": "進階",
       "options": [
         "比較問卷時間、範圍、資產與證據",
-        "請其提供修補證據並等待重新觀測",
-        "前者看變化，後者看具體發現",
-        "教材示例是一年，其他期間需核對平台"
+        "直接採用問卷滿分作結論",
+        "直接採用外部低分作結論",
+        "把兩個分數平均即可證明控制有效"
       ],
       "correct": 0,
       "references": [
@@ -5608,7 +5608,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-820cc58c47198259",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 225,
@@ -5618,10 +5618,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "比較問卷時間、範圍、資產與證據",
+        "只展示已關閉的通知數量",
         "展示評級趨勢、風險向量、整改狀態及例外",
-        "依 CM 可見性提供外部證據與協作請求",
-        "教材示例是一年，其他期間需核對平台"
+        "只展示最新 Rating 而不提供期間",
+        "只展示最好的單一供應商"
       ],
       "correct": 1,
       "references": [
@@ -5633,7 +5633,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-764e677d039670c6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 226,
@@ -5643,10 +5643,10 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不宜直接中止",
-        "不能如此推論",
+        "可以，CM 發現 Finding 就自動套用修補",
+        "可以，CM 授權等同供應商維運權限",
         "不能直接推論",
-        "依 CM 可見性提供外部證據與協作請求"
+        "可以，CM 可直接登入第三方主機修補"
       ],
       "correct": 2,
       "references": [
@@ -5658,7 +5658,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-da941ab771bfc900",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 227,
@@ -5668,9 +5668,9 @@
       "category": "進階｜CM 與供應商監控",
       "section": "進階",
       "options": [
-        "不宜直接中止",
-        "不能直接推論",
-        "核對公司實體與資產歸屬",
+        "是，沒有事故代表所有 Finding 都無效",
+        "是，評級只能在事故後才有意義",
+        "是，低分公司沒有事故就證明模型錯誤",
         "不能如此推論"
       ],
       "correct": 3,
@@ -5683,7 +5683,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5bfaafe37e836838",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 228,
@@ -5694,9 +5694,9 @@
       "section": "進階",
       "options": [
         "前者管理全域群組與部分配置；後者限群組範圍",
-        "請具適當權限的管理員協助",
-        "Admin",
-        "確認產品版本、角色、群組、授權與政策"
+        "兩者均可無限制管理所有租戶",
+        "Group Admin 一定能修改全部全域設定",
+        "一般 User 比 Admin 具有更高管理權"
       ],
       "correct": 0,
       "references": [
@@ -5708,7 +5708,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2f0aef6ab4311a98",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 229,
@@ -5718,10 +5718,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "請具適當權限的管理員協助",
+        "因為 All Companies 會停用所有群組",
         "可能使可見公司範圍過大",
-        "可見公司範圍可能不符預期",
-        "作用範圍與管理責任不同"
+        "因為 All Companies 一定讓帳號失效",
+        "因為 All Companies 只允許看自己的資料"
       ],
       "correct": 1,
       "references": [
@@ -5733,7 +5733,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a79178486517a310",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 230,
@@ -5743,10 +5743,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "不能直接推論",
-        "規劃群組與公司分配",
+        "表示，不能聯絡支援",
+        "表示，不能使用訂閱功能",
         "不表示",
-        "Admin"
+        "表示，不能提出任何需求"
       ],
       "correct": 2,
       "references": [
@@ -5758,7 +5758,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-47edd6554df864ac",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 231,
@@ -5768,9 +5768,9 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "Admin",
-        "規劃群組與公司分配",
-        "作用範圍與管理責任不同",
+        "可以，Group Admin 必定能看所有群組",
+        "可以，只要同租戶就不受群組限制",
+        "可以，群組角色與公司可見性無關",
         "不能直接推論"
       ],
       "correct": 3,
@@ -5783,7 +5783,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-325387cd0ba3dc36",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 232,
@@ -5794,9 +5794,9 @@
       "section": "進階",
       "options": [
         "作用範圍與管理責任不同",
-        "可能使可見公司範圍過大",
-        "可見公司範圍可能不符預期",
-        "請具適當權限的管理員協助"
+        "兩者權限與用途永遠相同",
+        "公司 Token 只會影響使用者外觀",
+        "User Token 不需要任何安全管理"
       ],
       "correct": 0,
       "references": [
@@ -5808,7 +5808,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a1f7ffb7a9376b5b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 233,
@@ -5818,10 +5818,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "規劃群組與公司分配",
+        "應該，Token 公開後會自動失效",
         "不應",
-        "Admin",
-        "不能直接推論"
+        "應該，方便大家共用存取",
+        "應該，截圖中的 Token 不算敏感"
       ],
       "correct": 1,
       "references": [
@@ -5833,7 +5833,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f4292a26e5d2c8f6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 234,
@@ -5843,10 +5843,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "教材提及系統自選三位管理員",
-        "避免模糊名稱與不明責任範圍",
+        "永久保存所有原始 PII",
+        "把完整 PII 寄給所有供應商",
         "限制存取、保存期限與分享範圍",
-        "啟動帳號停用與權限回收流程"
+        "公開在所有專案群組供下載"
       ],
       "correct": 2,
       "references": [
@@ -5858,7 +5858,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3ce5eb981286ea40",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 235,
@@ -5868,9 +5868,9 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "作用範圍與管理責任不同",
-        "可能使可見公司範圍過大",
-        "不能直接推論",
+        "讓兩人共用一個 Admin 帳號",
+        "直接開放 All Companies 給所有人",
+        "只用通知設定區分可見範圍",
         "規劃群組與公司分配"
       ],
       "correct": 3,
@@ -5883,7 +5883,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8c1989cb9e1f5ce6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 236,
@@ -5894,9 +5894,9 @@
       "section": "進階",
       "options": [
         "可見公司範圍可能不符預期",
-        "可能使可見公司範圍過大",
-        "請具適當權限的管理員協助",
-        "作用範圍與管理責任不同"
+        "完全沒有影響，群組名稱決定一切",
+        "所有人都會自動取得全域權限",
+        "系統會直接刪除未勾選的公司"
       ],
       "correct": 0,
       "references": [
@@ -5908,7 +5908,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d0258abb07359a4e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 237,
@@ -5918,10 +5918,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "作用範圍與管理責任不同",
+        "可以，只要提供 Email 就不需授權",
         "不能",
-        "Admin",
-        "規劃群組與公司分配"
+        "可以，User 角色一定能建立所有帳號",
+        "可以，所有帳號角色權限完全相同"
       ],
       "correct": 1,
       "references": [
@@ -5933,7 +5933,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-17b7f062590fc027",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 238,
@@ -5943,10 +5943,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "作用範圍與管理責任不同",
-        "可能使可見公司範圍過大",
+        "直接公開管理員 API Token",
+        "直接將所有人升級成 Admin",
         "請具適當權限的管理員協助",
-        "可見公司範圍可能不符預期"
+        "直接讓 Portfolio Manager 共用 Admin 密碼"
       ],
       "correct": 2,
       "references": [
@@ -5958,7 +5958,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b34dccb4fb5e8d9a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 239,
@@ -5968,9 +5968,9 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "不能直接推論",
-        "規劃群組與公司分配",
-        "作用範圍與管理責任不同",
+        "一般 User",
+        "Portfolio Manager",
+        "唯讀訪客",
         "Admin"
       ],
       "correct": 3,
@@ -5983,7 +5983,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ca7c2298f5dd480c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 240,
@@ -5994,9 +5994,9 @@
       "section": "進階",
       "options": [
         "啟動帳號停用與權限回收流程",
-        "教材提及系統自選三位管理員",
-        "避免模糊名稱與不明責任範圍",
-        "可見公司範圍可能不符預期"
+        "只刪除使用者在報表上的名字",
+        "只更改其通知 Email",
+        "保留所有 Token 並永久開放登入"
       ],
       "correct": 0,
       "references": [
@@ -6008,7 +6008,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e2b8245481590741",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 241,
@@ -6018,10 +6018,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "規劃群組與公司分配",
+        "應該，共用帳號能強化稽核追蹤",
         "不應",
-        "Admin",
-        "不能直接推論"
+        "應該，共用帳號最省授權",
+        "應該，群組限制可用共用帳號繞過"
       ],
       "correct": 1,
       "references": [
@@ -6033,7 +6033,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-51100874820b47ef",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 242,
@@ -6043,10 +6043,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "不能直接推論",
-        "規劃群組與公司分配",
+        "一定是 BUG，權限不會影響選單",
+        "一定是 BUG，授權不會影響功能",
         "不一定",
-        "Admin"
+        "一定是 BUG，所有租戶畫面應完全相同"
       ],
       "correct": 2,
       "references": [
@@ -6058,7 +6058,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-bb8f42e8a2eaefb5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 243,
@@ -6068,9 +6068,9 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "Admin",
-        "不能直接推論",
-        "規劃群組與公司分配",
+        "可以，EU 選項保證所有備份也在 EU",
+        "可以，所有整合服務均不跨區",
+        "可以，租戶設定可取代合約資料駐留條款",
         "不能保證"
       ],
       "correct": 3,
@@ -6083,7 +6083,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a96782353c312eba",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 244,
@@ -6094,9 +6094,9 @@
       "section": "進階",
       "options": [
         "教材提及系統自選三位管理員",
-        "啟動帳號停用與權限回收流程",
-        "避免模糊名稱與不明責任範圍",
-        "可見公司範圍可能不符預期"
+        "系統會立即停用所有訂閱",
+        "系統會自動將所有人設為 Admin",
+        "系統會刪除所有 Email 通知紀錄"
       ],
       "correct": 0,
       "references": [
@@ -6108,7 +6108,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-6bf8931041beee9f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 245,
@@ -6118,10 +6118,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "可見公司範圍可能不符預期",
+        "避免任何可追溯的群組命名規則",
         "避免模糊名稱與不明責任範圍",
-        "啟動帳號停用與權限回收流程",
-        "教材提及系統自選三位管理員"
+        "避免能辨識部門與責任的名稱",
+        "避免群組名稱與管理目的一致"
       ],
       "correct": 1,
       "references": [
@@ -6133,7 +6133,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-dc61b185ce1ea415",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 246,
@@ -6143,10 +6143,10 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "限制存取、保存期限與分享範圍",
-        "啟動帳號停用與權限回收流程",
+        "直接認定平台所有租戶權限相同",
+        "只看角色名稱不查實際授權",
         "確認產品版本、角色、群組、授權與政策",
-        "前者管理全域群組與部分配置；後者限群組範圍"
+        "直接認定官方矩陣永遠錯誤"
       ],
       "correct": 2,
       "references": [
@@ -6158,7 +6158,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3843500d21f85ddd",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 247,
@@ -6168,9 +6168,9 @@
       "category": "進階｜權限與治理",
       "section": "進階",
       "options": [
-        "Admin",
-        "不能直接推論",
-        "規劃群組與公司分配",
+        "建議，所有人設 Admin 最符合最小權限",
+        "建議，Admin 不會接觸敏感資料",
+        "建議，權限越高越容易追蹤責任",
         "不建議"
       ],
       "correct": 3,
@@ -6183,7 +6183,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0a96da4170fc7f2e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 248,
@@ -6194,9 +6194,9 @@
       "section": "進階",
       "options": [
         "不是",
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度"
+        "是，SPF 會自動產生 DMARC",
+        "是，SPF pass 等於 p=reject",
+        "是，SPF 可取代 DMARC"
       ],
       "correct": 0,
       "references": [
@@ -6212,7 +6212,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-1f54c706b69a0c76",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 249,
@@ -6222,10 +6222,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "能，簽章通過就能確認寄件人沒有被盜用",
         "不能",
-        "要評估並處置",
-        "需依暴露與資產重要性排序"
+        "能，DKIM pass 表示內容絕無惡意",
+        "能，所有 DKIM 簽章都由官方銀行核發"
       ],
       "correct": 1,
       "references": [
@@ -6237,7 +6237,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f6fdab066392d9f5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 250,
@@ -6247,10 +6247,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "前者看修補節奏，後者看漏洞嚴重度",
-        "需依暴露與資產重要性排序",
+        "兩者都要求收件者一律放行",
+        "p=none 會自動替郵件加密，p=reject 不會",
         "前者偏監控；後者可要求拒收未通過驗證的郵件",
-        "確認業務依賴與可升級性，再停用弱協定"
+        "p=none 要求拒收，p=reject 只收報告"
       ],
       "correct": 2,
       "references": [
@@ -6262,7 +6262,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-688c87bb4b0fee6d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 251,
@@ -6272,9 +6272,9 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "會，會加密所有查詢",
+        "會，會隱藏查詢網域",
+        "會，可取代 DoH",
         "不會"
       ],
       "correct": 3,
@@ -6287,7 +6287,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-40eb368d710ba67f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 252,
@@ -6298,9 +6298,9 @@
       "section": "進階",
       "options": [
         "確認業務依賴與可升級性，再停用弱協定",
-        "前者看修補節奏，後者看漏洞嚴重度",
-        "前者偏監控；後者可要求拒收未通過驗證的郵件",
-        "需依暴露與資產重要性排序"
+        "不需評估直接關閉所有 443 服務",
+        "只更換憑證品牌即可解決 TLS 版本",
+        "只要有 HTTPS 就無須處理 TLS 1.0"
       ],
       "correct": 0,
       "references": [
@@ -6312,7 +6312,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ee03d96e209595a6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 253,
@@ -6322,10 +6322,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "是，金鑰過短必定代表憑證已撤銷",
         "不是",
-        "要評估並處置",
-        "需依暴露與資產重要性排序"
+        "是，兩者都只表示到期日不正確",
+        "是，憑證過期就必然金鑰過短"
       ],
       "correct": 1,
       "references": [
@@ -6337,7 +6337,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-76972fb962d83301",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 254,
@@ -6347,10 +6347,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "是，443 不會有惡意服務",
+        "是，443 代表沒有漏洞",
         "不是",
-        "要評估並處置"
+        "是，443 保證最新 TLS"
       ],
       "correct": 2,
       "references": [
@@ -6362,7 +6362,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0d155aa13f8e7f29",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 255,
@@ -6372,9 +6372,9 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "是，埠號可證明服務",
+        "是，23 埠只允許 Telnet",
+        "是，不需辨識服務內容",
         "不一定"
       ],
       "correct": 3,
@@ -6387,7 +6387,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f8e27da85950f75f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 256,
@@ -6398,9 +6398,9 @@
       "section": "進階",
       "options": [
         "不能",
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度"
+        "可以，標頭能阻擋所有攻擊",
+        "可以，CSP 完全取代 WAF",
+        "可以，Header 自動修補 SQLi"
       ],
       "correct": 0,
       "references": [
@@ -6412,7 +6412,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-aebce3b71ea2da06",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 257,
@@ -6422,10 +6422,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "要評估並處置",
+        "不用，內網資產不需漏洞管理",
         "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
-        "確認業務依賴與可升級性，再停用弱協定"
+        "不用，未對外就不可能遭利用",
+        "不用，CVSS 高只對公開網站有效"
       ],
       "correct": 1,
       "references": [
@@ -6441,7 +6441,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3817067b14bc8346",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 258,
@@ -6451,10 +6451,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "等於，EPSS 是入侵事件數量",
+        "等於，EPSS 與 KEV 收錄完全相同",
         "不是",
-        "要評估並處置"
+        "等於，EPSS 高表示已確認被攻擊"
       ],
       "correct": 2,
       "references": [
@@ -6466,7 +6466,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e163bd7ab5175f88",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 259,
@@ -6476,9 +6476,9 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "意味著，KEV 收錄代表所有組織遭入侵",
+        "意味著，KEV 會列出所有受害企業",
+        "意味著，KEV 收錄即可證明本企業遭利用",
         "不是"
       ],
       "correct": 3,
@@ -6491,7 +6491,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-86cdfa7934ff2097",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 260,
@@ -6502,9 +6502,9 @@
       "section": "進階",
       "options": [
         "不一定",
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度"
+        "一定，IOC 命中即代表感染成功",
+        "一定，任何可疑 IP 都是惡意程式",
+        "一定，IOC 不可能造成誤報"
       ],
       "correct": 0,
       "references": [
@@ -6516,7 +6516,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4a807363367faed2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 261,
@@ -6526,10 +6526,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "可以，所有近似網域均為惡意",
         "不一定",
-        "要評估並處置",
-        "需依暴露與資產重要性排序"
+        "可以，相似拼字就足以證明侵權",
+        "可以，不需證據就能要求註冊商刪除"
       ],
       "correct": 1,
       "references": [
@@ -6541,7 +6541,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-fca82b087c5e0aa4",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 262,
@@ -6551,10 +6551,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "是，所有 P2P 均非法",
+        "是，觀測即代表資料公開",
         "不是",
-        "要評估並處置"
+        "是，BitTorrent 就是外洩"
       ],
       "correct": 2,
       "references": [
@@ -6566,7 +6566,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0f6ca5767694aa33",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 263,
@@ -6576,9 +6576,9 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
-        "確認業務依賴與可升級性，再停用弱協定",
+        "不用，資訊性向量代表零風險",
+        "不用，未計分就不需處理",
+        "不用，外洩憑證不會影響帳號安全",
         "要評估並處置"
       ],
       "correct": 3,
@@ -6591,7 +6591,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-392450af793db792",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 264,
@@ -6602,9 +6602,9 @@
       "section": "進階",
       "options": [
         "不能",
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度"
+        "可以，單一 Grade 可直接換算總分",
+        "可以，每個 Grade 固定加減 50 分",
+        "可以，所有向量均以相同權重計入"
       ],
       "correct": 0,
       "references": [
@@ -6616,7 +6616,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-03f80f19271abfd8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 265,
@@ -6626,10 +6626,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "前者偏監控；後者可要求拒收未通過驗證的郵件",
+        "兩者都只代表漏洞首次公布日期",
         "前者看修補節奏，後者看漏洞嚴重度",
-        "確認業務依賴與可升級性，再停用弱協定",
-        "需依暴露與資產重要性排序"
+        "兩者都只衡量 CVSS Base Score",
+        "兩者都只計算漏洞數量"
       ],
       "correct": 1,
       "references": [
@@ -6645,7 +6645,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e6d8be9e89abf4b2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 266,
@@ -6655,10 +6655,10 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "是，兩者只看版本名稱",
+        "是，所有發現都互相重疊",
         "不是",
-        "要評估並處置"
+        "是，兩者評分完全相同"
       ],
       "correct": 2,
       "references": [
@@ -6670,7 +6670,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-16ace7fec7dc91d1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 267,
@@ -6680,9 +6680,9 @@
       "category": "進階｜風險向量與技術",
       "section": "進階",
       "options": [
-        "要評估並處置",
-        "需依暴露與資產重要性排序",
-        "前者看修補節奏，後者看漏洞嚴重度",
+        "是，掃描代表成功登入",
+        "是，掃描代表資料外洩",
+        "是，掃描就等於主機失陷",
         "不一定"
       ],
       "correct": 3,
@@ -6695,7 +6695,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ccae638ddd131373",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 268,
@@ -6706,9 +6706,9 @@
       "section": "進階",
       "options": [
         "不能",
-        "能識別持續惡化或改善",
-        "可能忽略高危但不計分風險",
-        "向量不計分或其他因素抵銷"
+        "可以，所有 Finding 都固定扣一分",
+        "可以，單筆扣分直接乘上 Finding 數量",
+        "可以，向量與正規化不影響扣分"
       ],
       "correct": 0,
       "references": [
@@ -6720,7 +6720,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b6dcd1b799b8a903",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 269,
@@ -6730,10 +6730,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "可能忽略高危但不計分風險",
+        "可以，不需查其他風險向量即可確認原因",
         "不能直接判定",
-        "不能一概而論",
-        "能識別持續惡化或改善"
+        "可以，任何下降都只來自最新 Finding",
+        "可以，20 分固定對應一個嚴重漏洞"
       ],
       "correct": 1,
       "references": [
@@ -6745,7 +6745,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4018bafad682307a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 270,
@@ -6755,10 +6755,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "寫明觀測日期、範圍與更新限制",
-        "向量評級與總分納入規則不同",
+        "只看客戶說法不查掃描資料",
+        "將 Last Seen 當成修補完成時間",
         "檢查修補證據、重新觀測與掃描狀態",
-        "公司實體、時間、篩選條件及資料更新"
+        "直接把 Finding 標示為已修補"
       ],
       "correct": 2,
       "references": [
@@ -6770,7 +6770,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4db652a406ff5fc0",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 271,
@@ -6780,9 +6780,9 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "不能一概而論",
-        "不能直接判定",
-        "能識別持續惡化或改善",
+        "是，越久必定越嚴重",
+        "是，越久必定遭利用",
+        "是，可直接換算 CVSS",
         "不一定"
       ],
       "correct": 3,
@@ -6795,7 +6795,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-190f58ef9a9bae2a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 272,
@@ -6806,9 +6806,9 @@
       "section": "進階",
       "options": [
         "業務風險與實際威脅仍須考慮",
-        "向量評級與總分納入規則不同",
-        "可能忽略高危但不計分風險",
-        "向量不計分或其他因素抵銷"
+        "因為 Diligence 權重其實固定為零",
+        "因為其他類別不會產生真實威脅",
+        "因為只要 Diligence 提升就能排除所有風險"
       ],
       "correct": 0,
       "references": [
@@ -6820,7 +6820,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-7ee0aa3d70835761",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 273,
@@ -6830,10 +6830,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "向量不計分或其他因素抵銷",
+        "可以，權重就是 CVSS",
         "不能",
-        "能識別持續惡化或改善",
-        "可能忽略高危但不計分風險"
+        "可以，權重直接換算 IP",
+        "可以，每筆扣分都相同"
       ],
       "correct": 1,
       "references": [
@@ -6845,7 +6845,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b6331dcfd2796176",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 274,
@@ -6855,10 +6855,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "不能直接判定",
-        "能識別持續惡化或改善",
+        "是，代表成熟度差 30%",
+        "是，Rating 是風險百分比",
         "不是",
-        "不能一概而論"
+        "是，代表事故機率差 30%"
       ],
       "correct": 2,
       "references": [
@@ -6870,7 +6870,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d615ed6411ad8ee5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 275,
@@ -6880,9 +6880,9 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "可能忽略高危但不計分風險",
-        "向量不計分或其他因素抵銷",
-        "新觀測到的曝險或歸屬變更",
+        "因為只看趨勢就能免除漏洞調查",
+        "因為分數趨勢能證明每項修補的因果",
+        "因為趨勢可取代供應商重要性評估",
         "能識別持續惡化或改善"
       ],
       "correct": 3,
@@ -6895,7 +6895,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b7c579f2de839988",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 276,
@@ -6906,9 +6906,9 @@
       "section": "進階",
       "options": [
         "向量評級與總分納入規則不同",
-        "業務風險與實際威脅仍須考慮",
-        "可能忽略高危但不計分風險",
-        "向量不計分或其他因素抵銷"
+        "有 Grade 就必定計入總分",
+        "Grade 與 Rating 是完全相同的數值",
+        "所有非計分向量都不會有 Grade"
       ],
       "correct": 0,
       "references": [
@@ -6920,7 +6920,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8becb2c929ba42e8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 277,
@@ -6930,10 +6930,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "能識別持續惡化或改善",
+        "應排除，會自動修補",
         "不應",
-        "不能一概而論",
-        "不能直接判定"
+        "應排除，代表沒有風險",
+        "應排除，都是誤報"
       ],
       "correct": 1,
       "references": [
@@ -6945,7 +6945,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-67b17520ca1a787c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 278,
@@ -6955,10 +6955,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "能識別持續惡化或改善",
-        "可能忽略高危但不計分風險",
+        "一定，資產重要性不能影響排序",
+        "一定，只需依 Severity 字母排序",
         "不能一概而論",
-        "不能直接判定"
+        "一定，Severe 永遠比所有 Moderate 先修"
       ],
       "correct": 2,
       "references": [
@@ -6970,7 +6970,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b3df7d1fdc900528",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 279,
@@ -6980,9 +6980,9 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "向量不計分或其他因素抵銷",
-        "新觀測到的曝險或歸屬變更",
-        "向量評級與總分納入規則不同",
+        "沒有盲點，總分完全代表實際安全",
+        "沒有盲點，所有高危風險都計入 Rating",
+        "沒有盲點，未計分向量都不重要",
         "可能忽略高危但不計分風險"
       ],
       "correct": 3,
@@ -6995,7 +6995,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c0cba2941ba96673",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 280,
@@ -7006,9 +7006,9 @@
       "section": "進階",
       "options": [
         "新觀測到的曝險或歸屬變更",
-        "可能忽略高危但不計分風險",
-        "向量不計分或其他因素抵銷",
-        "向量評級與總分納入規則不同"
+        "一定代表平台計分錯誤",
+        "一定代表既有資產突然遭入侵",
+        "一定代表所有修補都已失效"
       ],
       "correct": 0,
       "references": [
@@ -7020,7 +7020,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8613a845cccf1170",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 281,
@@ -7030,10 +7030,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "能識別持續惡化或改善",
+        "是，新 Finding 都是新漏洞",
         "不一定",
-        "不能一概而論",
-        "不能直接判定"
+        "是，Finding 增加就是惡化",
+        "是，資料來源不影響數量"
       ],
       "correct": 1,
       "references": [
@@ -7045,7 +7045,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b0107c5da48eba76",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 282,
@@ -7055,10 +7055,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "新觀測到的曝險或歸屬變更",
-        "向量評級與總分納入規則不同",
+        "不可能，所有向量都必定計分",
+        "不可能，其他風險不會抵銷改善",
         "向量不計分或其他因素抵銷",
-        "可能忽略高危但不計分風險"
+        "不可能，Grade 變好總分必定同幅上升"
       ],
       "correct": 2,
       "references": [
@@ -7070,7 +7070,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-39f4bd746efadbb6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 283,
@@ -7080,9 +7080,9 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "不能一概而論",
-        "不能直接判定",
-        "能識別持續惡化或改善",
+        "可以，Preview 就是正式分數保證",
+        "可以，預覽會排除其他風險變化",
+        "可以，預覽值不受觀測時間影響",
         "不宜保證"
       ],
       "correct": 3,
@@ -7095,7 +7095,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4e1b5afe14ca80cf",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 284,
@@ -7106,9 +7106,9 @@
       "section": "進階",
       "options": [
         "寫明觀測日期、範圍與更新限制",
-        "向量評級與總分納入規則不同",
-        "業務風險與實際威脅仍須考慮",
-        "可能忽略高危但不計分風險"
+        "只寫預計加分，不需寫資料時點",
+        "直接把預覽值寫成正式 Rating",
+        "只列修補數量不提觀測限制"
       ],
       "correct": 0,
       "references": [
@@ -7120,7 +7120,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e655f8667487cbaf",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 285,
@@ -7130,10 +7130,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "能識別持續惡化或改善",
+        "等於，歸零代表資產已離線",
         "不等於",
-        "不能一概而論",
-        "不能直接判定"
+        "等於，剩餘時間歸零就自動修補",
+        "等於，系統會在歸零時刪除漏洞"
       ],
       "correct": 1,
       "references": [
@@ -7145,7 +7145,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b59d2c91d2fe5b49",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 286,
@@ -7155,10 +7155,10 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "寫明觀測日期、範圍與更新限制",
-        "向量評級與總分納入規則不同",
+        "只看使用者瀏覽器版本",
+        "只看截圖中的頁面配色",
         "公司實體、時間、篩選條件及資料更新",
-        "檢查修補證據、重新觀測與掃描狀態"
+        "只看截圖檔案大小"
       ],
       "correct": 2,
       "references": [
@@ -7170,7 +7170,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-37c7e28526a7c6ae",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 287,
@@ -7180,9 +7180,9 @@
       "category": "進階｜評分與數據分析",
       "section": "進階",
       "options": [
-        "不能一概而論",
-        "不能直接判定",
-        "能識別持續惡化或改善",
+        "必然矛盾，高分可保證零事故",
+        "必然矛盾，Rating 就是保險理賠保證",
+        "必然矛盾，高分代表所有漏洞已消失",
         "不矛盾"
       ],
       "correct": 3,
@@ -7195,7 +7195,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-395f8ae39f2b1f52",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 288,
@@ -7206,9 +7206,9 @@
       "section": "進階",
       "options": [
         "50",
-        "Trust 較低者",
-        "Impact 較高者",
-        "資料類型與資料量"
+        "0",
+        "100",
+        "25"
       ],
       "correct": 0,
       "references": [
@@ -7220,7 +7220,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-14d20cbc5223a9bb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 289,
@@ -7230,10 +7230,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "資料類型與資料量",
+        "25",
         "0",
-        "Trust 較低者",
-        "Impact 較高者"
+        "50",
+        "100"
       ],
       "correct": 1,
       "references": [
@@ -7245,7 +7245,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-7160d75a748ef4f3",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 290,
@@ -7255,10 +7255,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Impact 較高者",
-        "資料類型與資料量",
+        "50",
+        "75",
         "100",
-        "Trust 較低者"
+        "0"
       ],
       "correct": 2,
       "references": [
@@ -7270,7 +7270,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-6c33b24ef8d5f2af",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 291,
@@ -7280,9 +7280,9 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Trust 較低者",
-        "Impact 較高者",
-        "資料類型與資料量",
+        "35",
+        "55",
+        "85",
         "65"
       ],
       "correct": 3,
@@ -7295,7 +7295,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-486220a4d99215c8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 292,
@@ -7306,9 +7306,9 @@
       "section": "進階",
       "options": [
         "35",
-        "Trust 較低者",
-        "Impact 較高者",
-        "資料類型與資料量"
+        "25",
+        "55",
+        "65"
       ],
       "correct": 0,
       "references": [
@@ -7320,7 +7320,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-aba64f0625ec7a46",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 293,
@@ -7330,10 +7330,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "資料類型與資料量",
+        "85",
         "65",
-        "Trust 較低者",
-        "Impact 較高者"
+        "35",
+        "50"
       ],
       "correct": 1,
       "references": [
@@ -7345,7 +7345,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b4ff5c165bb8d414",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 294,
@@ -7355,10 +7355,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Impact 較高者",
-        "資料類型與資料量",
+        "45",
+        "65",
         "35",
-        "Trust 較低者"
+        "15"
       ],
       "correct": 2,
       "references": [
@@ -7370,7 +7370,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-554be326638ae1e9",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 295,
@@ -7380,9 +7380,9 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Trust 較低者",
-        "Impact 較高者",
-        "資料類型與資料量",
+        "25",
+        "55",
+        "75",
         "35"
       ],
       "correct": 3,
@@ -7395,7 +7395,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-482e474d027fbfa8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 296,
@@ -7406,9 +7406,9 @@
       "section": "進階",
       "options": [
         "60",
-        "Trust 較低者",
-        "Impact 較高者",
-        "資料類型與資料量"
+        "40",
+        "70",
+        "80"
       ],
       "correct": 0,
       "references": [
@@ -7420,7 +7420,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e36a66f6f92cd29c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 297,
@@ -7430,10 +7430,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "資料類型與資料量",
+        "90",
         "75",
-        "Trust 較低者",
-        "Impact 較高者"
+        "25",
+        "50"
       ],
       "correct": 1,
       "references": [
@@ -7445,7 +7445,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-cf427f73b671d6f2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 298,
@@ -7455,10 +7455,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "服務關鍵性與可替代性",
-        "依企業政策與實際工作流",
+        "Trust 較高者",
+        "兩者必然相同",
         "Impact 較高者",
-        "Trust 較低者"
+        "Impact 較低者"
       ],
       "correct": 2,
       "references": [
@@ -7470,7 +7470,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-1b3b5bebf09e8e66",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 299,
@@ -7480,9 +7480,9 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Impact 較高者",
-        "服務關鍵性與可替代性",
-        "資料類型與資料量",
+        "Trust 較高者",
+        "Impact 較低者",
+        "兩者必然相同",
         "Trust 較低者"
       ],
       "correct": 3,
@@ -7495,7 +7495,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ed92a45f149fd9bc",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 300,
@@ -7506,9 +7506,9 @@
       "section": "進階",
       "options": [
         "仍需要",
-        "Trust 較低者",
-        "Impact 較高者",
-        "資料類型與資料量"
+        "不需要，Trust 可取代 Impact",
+        "不需要，高 Trust 代表低衝擊",
+        "不需要，所有 Impact 都相同"
       ],
       "correct": 0,
       "references": [
@@ -7520,7 +7520,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-76d4249704469407",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 301,
@@ -7530,10 +7530,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "服務關鍵性與可替代性",
+        "供應商平台登入帳號數量",
         "資料類型與資料量",
-        "Impact 較高者",
-        "Trust 較低者"
+        "供應商 Logo 顏色與字型",
+        "供應商網站首頁圖片數量"
       ],
       "correct": 1,
       "references": [
@@ -7545,7 +7545,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2279d3a44665b91c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 302,
@@ -7555,10 +7555,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Trust 較低者",
-        "依企業政策與實際工作流",
+        "供應商簡報的投影片數量",
+        "供應商帳號通知的頻率",
         "服務關鍵性與可替代性",
-        "Impact 較高者"
+        "服務商標顏色與版面設計"
       ],
       "correct": 2,
       "references": [
@@ -7570,7 +7570,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-7560ed51328089a6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 303,
@@ -7580,9 +7580,9 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Trust 較低者",
-        "依企業政策與實際工作流",
-        "審查有效性、範圍與缺失",
+        "只看供應商自行宣稱零風險",
+        "只看網站是否使用 HTTPS",
+        "只看供應商報價高低",
         "評級、稽核報告、問卷與保險"
       ],
       "correct": 3,
@@ -7595,7 +7595,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-598a213bf31bf551",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 304,
@@ -7606,9 +7606,9 @@
       "section": "進階",
       "options": [
         "不能",
-        "資料類型與資料量",
-        "Trust 較低者",
-        "Impact 較高者"
+        "可以，60 是法定高風險",
+        "可以，所有法規門檻相同",
+        "可以，分數取代風險政策"
       ],
       "correct": 0,
       "references": [
@@ -7620,7 +7620,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8fc091335b04f4de",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 305,
@@ -7630,10 +7630,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "Impact 較高者",
+        "應直接滿分，Trust 不需要任何佐證",
         "不應",
-        "Trust 較低者",
-        "資料類型與資料量"
+        "應直接滿分，問卷本身就是證據",
+        "應直接滿分，外部評級可忽略"
       ],
       "correct": 1,
       "references": [
@@ -7645,7 +7645,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-78bb7c57abbcf485",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 306,
@@ -7655,10 +7655,10 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "依企業政策與實際工作流",
-        "Impact 較高者",
+        "只看封面有無會計師簽名",
+        "只確認報告頁數即可結案",
         "審查有效性、範圍與缺失",
-        "評級、稽核報告、問卷與保險"
+        "直接視為全部控制已有效"
       ],
       "correct": 2,
       "references": [
@@ -7670,7 +7670,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0fe01911465fc4a7",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 307,
@@ -7680,9 +7680,9 @@
       "category": "進階｜VRM 與評估模型",
       "section": "進階",
       "options": [
-        "審查有效性、範圍與缺失",
-        "Impact 較高者",
-        "服務關鍵性與可替代性",
+        "固定每分鐘更新一次",
+        "固定每十年更新一次",
+        "不論供應商風險都只在合約終止時更新",
         "依企業政策與實際工作流"
       ],
       "correct": 3,
@@ -7695,7 +7695,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3bafce362396ef41",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 308,
@@ -7706,9 +7706,9 @@
       "section": "進階",
       "options": [
         "驗證帳號、時間與證據",
-        "待確認並說明不確定性",
-        "描述攻擊者技術與戰術",
-        "比對共同服務與時間關係"
+        "直接公開帳密給所有同事",
+        "只看供應商評級是否下降",
+        "不驗證來源就宣稱已遭入侵"
       ],
       "correct": 0,
       "references": [
@@ -7720,7 +7720,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a8c801157b853281",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 309,
@@ -7730,10 +7730,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "依證據、契約、法規及企業應變門檻",
+        "忽略證據並立即刪除監控項目",
         "交由威脅情資、SOC 與 TPRM 協同評估",
-        "IOC、時間、來源、受影響資產及處置紀錄",
-        "確認有效性、重設、撤銷及啟用 MFA"
+        "直接認定所有供應商都已遭入侵",
+        "只轉給行銷部門製作公告"
       ],
       "correct": 1,
       "references": [
@@ -7745,7 +7745,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3ffaf7241cfe68dd",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 310,
@@ -7755,10 +7755,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "待確認並說明不確定性",
-        "描述攻擊者技術與戰術",
+        "應直接以歷史 IOC 命中作為結案證據",
+        "應忽略 IOC 的觀測時間與脈絡",
         "不應",
-        "IOC、時間、來源、受影響資產及處置紀錄"
+        "應立即宣布供應商已遭入侵"
       ],
       "correct": 2,
       "references": [
@@ -7770,7 +7770,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-92ebe86373653b7d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 311,
@@ -7780,9 +7780,9 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "提供可分享的證據與時間範圍",
-        "比對共同服務與時間關係",
-        "遵循最小揭露與保護政策",
+        "以 CM 分數直接取代事件調查",
+        "只依情資顏色判定修補完成",
+        "將所有 Beacon 警示都當成已確認事故",
         "用情資提高曝險調查優先序"
       ],
       "correct": 3,
@@ -7795,7 +7795,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3fb28444e7dfeeca",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 312,
@@ -7806,9 +7806,9 @@
       "section": "進階",
       "options": [
         "IOC、時間、來源、受影響資產及處置紀錄",
-        "交由威脅情資、SOC 與 TPRM 協同評估",
-        "確認有效性、重設、撤銷及啟用 MFA",
-        "依證據、契約、法規及企業應變門檻"
+        "只保存警示畫面的主題顏色",
+        "只保存供應商的行銷文案",
+        "只保存報表下載次數"
       ],
       "correct": 0,
       "references": [
@@ -7820,7 +7820,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c5531991bbc24c33",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 313,
@@ -7830,10 +7830,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "記錄證據、責任人、期限、驗證方式",
+        "只等待 Rating 更新而不處理帳戶",
         "確認有效性、重設、撤銷及啟用 MFA",
-        "IOC、時間、來源、受影響資產及處置紀錄",
-        "依證據、契約、法規及企業應變門檻"
+        "只將憑證加入年度報告",
+        "公開帳密要求使用者確認"
       ],
       "correct": 1,
       "references": [
@@ -7845,7 +7845,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-aba27ea43e9702a8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 314,
@@ -7855,10 +7855,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "描述攻擊者技術與戰術",
-        "驗證帳號、時間與證據",
+        "是，無須人工判讀",
+        "是，能確認攻擊者身分",
         "不是",
-        "待確認並說明不確定性"
+        "是，保證沒有誤報"
       ],
       "correct": 2,
       "references": [
@@ -7870,7 +7870,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-53ad2c86246631be",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 315,
@@ -7880,9 +7880,9 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "待確認並說明不確定性",
-        "驗證帳號、時間與證據",
-        "比對共同服務與時間關係",
+        "用於直接修補所有 CVE",
+        "用於計算供應商合約金額",
+        "用於替代事件證據的驗證",
         "描述攻擊者技術與戰術"
       ],
       "correct": 3,
@@ -7895,7 +7895,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-30be253e040b6729",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 316,
@@ -7906,9 +7906,9 @@
       "section": "進階",
       "options": [
         "提供可分享的證據與時間範圍",
-        "用情資提高曝險調查優先序",
-        "先驗證可能已遭利用與失陷的證據",
-        "核對供應商來源、授權及合規聲明"
+        "只回覆平台不可能有誤",
+        "不提供時間或證據直接要求認錯",
+        "只要求供應商接受分數結論"
       ],
       "correct": 0,
       "references": [
@@ -7920,7 +7920,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-77872568dd4024ad",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 317,
@@ -7930,10 +7930,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "描述攻擊者技術與戰術",
+        "可以，警示等於完整應變",
         "不能",
-        "交由威脅情資、SOC 與 TPRM 協同評估",
-        "待確認並說明不確定性"
+        "可以，會自動隔離端點",
+        "可以，可取代所有 SOC 人員"
       ],
       "correct": 1,
       "references": [
@@ -7945,7 +7945,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2d2b621004debc22",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 318,
@@ -7955,10 +7955,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "依證據、契約、法規及企業應變門檻",
-        "記錄證據、責任人、期限、驗證方式",
+        "只要有截圖就不需查授權",
+        "完全忽略個資與資料來源限制",
         "核對供應商來源、授權及合規聲明",
-        "先驗證可能已遭利用與失陷的證據"
+        "只要平台有暗網資料就一定合法"
       ],
       "correct": 2,
       "references": [
@@ -7970,7 +7970,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5448f3d0e5f43cb6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 319,
@@ -7980,9 +7980,9 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "IOC、時間、來源、受影響資產及處置紀錄",
-        "遵循最小揭露與保護政策",
-        "待確認並說明不確定性",
+        "直接宣布所有供應商已被同一攻擊者入侵",
+        "直接合併所有公司資產歸屬",
+        "忽略時間差與共享基礎設施",
         "比對共同服務與時間關係"
       ],
       "correct": 3,
@@ -7995,7 +7995,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f7347f99f0fdecf2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 320,
@@ -8006,9 +8006,9 @@
       "section": "進階",
       "options": [
         "待確認並說明不確定性",
-        "驗證帳號、時間與證據",
-        "描述攻擊者技術與戰術",
-        "比對共同服務與時間關係"
+        "標註已確認重大入侵",
+        "標註零風險並直接結案",
+        "不揭露不確定性直接通報違約"
       ],
       "correct": 0,
       "references": [
@@ -8020,7 +8020,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5e6b26702fd78287",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 321,
@@ -8030,10 +8030,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "驗證帳號、時間與證據",
+        "不可能，情資警示必定同步改變 Rating",
         "可能",
-        "待確認並說明不確定性",
-        "描述攻擊者技術與戰術"
+        "不可能，任何事件都會即時扣分",
+        "不可能，Rating 能涵蓋所有入侵"
       ],
       "correct": 1,
       "references": [
@@ -8045,7 +8045,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e2624d87e00747ad",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 322,
@@ -8055,10 +8055,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "待確認並說明不確定性",
-        "描述攻擊者技術與戰術",
+        "不需遮罩即可公開在簡報",
+        "將敏感資料上傳公開程式碼庫",
         "遵循最小揭露與保護政策",
-        "比對共同服務與時間關係"
+        "直接分享完整個資給所有供應商"
       ],
       "correct": 2,
       "references": [
@@ -8070,7 +8070,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9b31917b41ab7ba6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 323,
@@ -8080,9 +8080,9 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "待確認並說明不確定性",
-        "描述攻擊者技術與戰術",
-        "驗證帳號、時間與證據",
+        "是，弱點就是遭利用",
+        "是，曝險等於資料外洩",
+        "是，代表入侵已完成",
         "不是"
       ],
       "correct": 3,
@@ -8095,7 +8095,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-85e4bb74b03b99e7",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 324,
@@ -8106,9 +8106,9 @@
       "section": "進階",
       "options": [
         "不一定",
-        "待確認並說明不確定性",
-        "描述攻擊者技術與戰術",
-        "驗證帳號、時間與證據"
+        "是，警示日就是事件日",
+        "是，情資都當天產生",
+        "是，發現日等於攻擊日"
       ],
       "correct": 0,
       "references": [
@@ -8120,7 +8120,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d92f2ec994465dfd",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 325,
@@ -8130,10 +8130,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "核對供應商來源、授權及合規聲明",
+        "只看 Rating 不保留事件證據",
         "記錄證據、責任人、期限、驗證方式",
-        "依證據、契約、法規及企業應變門檻",
-        "先驗證可能已遭利用與失陷的證據"
+        "只轉寄警示而不指定負責人",
+        "只記錄供應商名稱不追蹤改善"
       ],
       "correct": 1,
       "references": [
@@ -8145,7 +8145,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-23ced512d2de3f5e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 326,
@@ -8155,10 +8155,10 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "依證據、契約、法規及企業應變門檻",
-        "記錄證據、責任人、期限、驗證方式",
+        "只看最早出現的 IOC",
+        "只看警示數量最多的類別",
         "先驗證可能已遭利用與失陷的證據",
-        "核對供應商來源、授權及合規聲明"
+        "只依 CVSS 最大值判定已遭入侵"
       ],
       "correct": 2,
       "references": [
@@ -8170,7 +8170,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-6e5fb9a468bb02bd",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 327,
@@ -8180,9 +8180,9 @@
       "category": "進階｜Beacon 與事件應變",
       "section": "進階",
       "options": [
-        "記錄證據、責任人、期限、驗證方式",
-        "先驗證可能已遭利用與失陷的證據",
-        "核對供應商來源、授權及合規聲明",
+        "只要 Rating 低於 900 就一律通報",
+        "只要出現任何 Finding 就向主管機關通報",
+        "只有媒體報導後才需要啟動通報",
         "依證據、契約、法規及企業應變門檻"
       ],
       "correct": 3,
@@ -8195,7 +8195,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-010457c932ef55c2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 328,
@@ -8206,9 +8206,9 @@
       "section": "進階",
       "options": [
         "問題、模組定位、示範、價值與限制",
-        "說明 CM 可見性與遮罩限制",
-        "說明探索能力與歸屬限制",
-        "依資料敏感度、合約與公司政策決定"
+        "只展示產品 Logo 與價格",
+        "只列 25 個向量英文名稱",
+        "只介紹平台登入步驟"
       ],
       "correct": 0,
       "references": [
@@ -8220,7 +8220,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c639413b70d98c07",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 329,
@@ -8230,10 +8230,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "確認 Finding 狀態、Last Seen、Rescan 與評級週期",
+        "將 Rating 當成資安成熟度百分比",
         "從 Risk Vector 與 Findings 連到改善行動",
-        "先說 Asset Risk Matrix 與 Findings Severity，再補業務風險",
-        "Rating、Trend、Risk Vectors、重要性、事件及證據"
+        "只展示分數不提風險",
+        "直接承諾所有 Finding 都能加分"
       ],
       "correct": 1,
       "references": [
@@ -8245,7 +8245,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-6707d92fd08780ac",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 330,
@@ -8255,10 +8255,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "比較資產範圍、觀測時間、掃描方式與歸屬",
-        "證據、權利基礎、服務流程及處置權限",
+        "年度問卷可取代所有持續監控",
+        "供應商不變就不需重新觀測",
         "風險會變動，年度問卷無法取代持續觀測",
-        "區分 CM 監控與 VRM 問卷能力"
+        "去年沒事故就代表未來沒有風險"
       ],
       "correct": 2,
       "references": [
@@ -8270,7 +8270,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4e1bbd70cfb1d6e3",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 331,
@@ -8280,9 +8280,9 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "說明 CM 可見性與遮罩限制",
-        "問題、模組定位、示範、價值與限制",
-        "先核對產品與授權的掃描範圍",
+        "承諾可找到全部內外網資產",
+        "宣稱影子 IT 都能自動歸屬",
+        "只要有網域就能發現所有雲端帳號",
         "說明探索能力與歸屬限制"
       ],
       "correct": 3,
@@ -8295,7 +8295,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-e9b55ba4d66cac97",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 332,
@@ -8306,9 +8306,9 @@
       "section": "進階",
       "options": [
         "確認範圍、授權、格式與資料時點",
-        "逐項列功能、證據、授權、限制及驗收",
-        "只能作為外部可觀測風險指標之一",
-        "忽略服務重要性、法遵與補償控制"
+        "直接匯出所有公司資料",
+        "先承諾報告一定完整且即時",
+        "先複製其他客戶的報告"
       ],
       "correct": 0,
       "references": [
@@ -8320,7 +8320,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-159ccf8683f00367",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 333,
@@ -8330,10 +8330,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "Rating、Trend、Risk Vectors、重要性、事件及證據",
+        "只看 Findings 數量最多的類別",
         "依 Severity、Asset Importance、曝露性與計分影響交叉排序",
-        "先說 Asset Risk Matrix 與 Findings Severity，再補業務風險",
-        "確認 Finding 狀態、Last Seen、Rescan 與評級週期"
+        "只看哪個 Finding 最容易修",
+        "只依 BAD 標記先後排序"
       ],
       "correct": 1,
       "references": [
@@ -8345,7 +8345,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-4ee1471ec931eaf4",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 334,
@@ -8355,10 +8355,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "依 Severity、Asset Importance、曝露性與計分影響交叉排序",
-        "從 Risk Vector 與 Findings 連到改善行動",
+        "宣稱平台一定有 BUG",
+        "只看 Rating 而不查觀測時間",
         "確認 Finding 狀態、Last Seen、Rescan 與評級週期",
-        "Rating、Trend、Risk Vectors、重要性、事件及證據"
+        "直接要求客戶再修一次相同漏洞"
       ],
       "correct": 2,
       "references": [
@@ -8370,7 +8370,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-7e18dd17901f866a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 335,
@@ -8380,9 +8380,9 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "先調整過濾條件、門檻及接收人",
-        "說明 CM 可見性與遮罩限制",
-        "只能作為外部可觀測風險指標之一",
+        "可以，EASM 一定包含所有內網掃描",
+        "可以，所有授權都可掃任意私有 IP",
+        "可以，不需部署就能探索所有內網資產",
         "先核對產品與授權的掃描範圍"
       ],
       "correct": 3,
@@ -8395,7 +8395,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-be92d6bae60a61c6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 336,
@@ -8406,9 +8406,9 @@
       "section": "進階",
       "options": [
         "區分 CM 監控與 VRM 問卷能力",
-        "說明 CM 可見性與遮罩限制",
-        "風險會變動，年度問卷無法取代持續觀測",
-        "比較資產範圍、觀測時間、掃描方式與歸屬"
+        "CM 就是 VRM 問卷的另一個名稱",
+        "CM 一定包含所有問卷模板與流程",
+        "VRM 只能提供外部評級而無問卷"
       ],
       "correct": 0,
       "references": [
@@ -8420,7 +8420,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ae0c8a0b4e49a181",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 337,
@@ -8430,10 +8430,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "區分 CM 監控與 VRM 問卷能力",
+        "不確認授權就掃描供應商內網",
         "說明 CM 可見性與遮罩限制",
-        "問題、模組定位、示範、價值與限制",
-        "說明探索能力與歸屬限制"
+        "承諾所有第三方 IP 完整揭露",
+        "直接要求供應商提供管理員密碼"
       ],
       "correct": 1,
       "references": [
@@ -8445,7 +8445,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-262fef8fbe0bfcbd",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 338,
@@ -8455,10 +8455,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "確認範圍、授權、格式與資料時點",
-        "Rating、Trend、Risk Vectors、重要性、事件及證據",
+        "只用業務口頭說明填全部符合",
+        "只附一張平台首頁截圖",
         "逐項列功能、證據、授權、限制及驗收",
-        "證據、權利基礎、服務流程及處置權限"
+        "只看產品簡報有沒有關鍵字"
       ],
       "correct": 2,
       "references": [
@@ -8470,7 +8470,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2a9b79895843b055",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 339,
@@ -8480,9 +8480,9 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "列出已修補、已觀測、已反映評級的三種狀態",
-        "區分 CM 監控與 VRM 問卷能力",
-        "風險會變動，年度問卷無法取代持續觀測",
+        "只認定內部掃描一定錯誤",
+        "只認定外部評級一定錯誤",
+        "把兩種掃描結果直接平均",
         "比較資產範圍、觀測時間、掃描方式與歸屬"
       ],
       "correct": 3,
@@ -8495,7 +8495,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-684e3da7d3599edb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 340,
@@ -8506,9 +8506,9 @@
       "section": "進階",
       "options": [
         "只能作為外部可觀測風險指標之一",
-        "忽略服務重要性、法遵與補償控制",
-        "確認範圍、授權、格式與資料時點",
-        "依資料敏感度、合約與公司政策決定"
+        "可以，Rating 就是整體資安成熟度百分比",
+        "可以，高分就等於所有控制都有效",
+        "可以，Rating 可取代正式成熟度評估"
       ],
       "correct": 0,
       "references": [
@@ -8520,7 +8520,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8cf26f91ff0c8726",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 341,
@@ -8530,10 +8530,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "依資料敏感度、合約與公司政策決定",
+        "沒有風險，高分能保證零事故",
         "忽略服務重要性、法遵與補償控制",
-        "只能作為外部可觀測風險指標之一",
-        "確認範圍、授權、格式與資料時點"
+        "沒有風險，分數足以代表所有合規與業務衝擊",
+        "沒有風險，所有供應商的重要性相同"
       ],
       "correct": 1,
       "references": [
@@ -8545,7 +8545,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-63f082b47ad3c5de",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 342,
@@ -8555,10 +8555,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "先核對產品與授權的掃描範圍",
-        "只能作為外部可觀測風險指標之一",
+        "不經評估刪除所有高風險供應商",
+        "將所有通知轉寄到無人收件信箱",
         "先調整過濾條件、門檻及接收人",
-        "說明 CM 可見性與遮罩限制"
+        "直接永久關閉所有監控"
       ],
       "correct": 2,
       "references": [
@@ -8570,7 +8570,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-df52699a0c01e6a9",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 343,
@@ -8580,9 +8580,9 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "從 Risk Vector 與 Findings 連到改善行動",
-        "先說 Asset Risk Matrix 與 Findings Severity，再補業務風險",
-        "證據、權利基礎、服務流程及處置權限",
+        "只列供應商名稱與網站顏色",
+        "只列帳號使用者數量",
+        "只列合約簽署日期",
         "Rating、Trend、Risk Vectors、重要性、事件及證據"
       ],
       "correct": 3,
@@ -8595,7 +8595,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-57811426f92b5263",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 344,
@@ -8606,9 +8606,9 @@
       "section": "進階",
       "options": [
         "證據、權利基礎、服務流程及處置權限",
-        "逐項列功能、證據、授權、限制及驗收",
-        "Rating、Trend、Risk Vectors、重要性、事件及證據",
-        "依資料敏感度、合約與公司政策決定"
+        "不查證直接要求註冊商刪除",
+        "只要網域相似就保證下架",
+        "不需確認權利基礎與內容"
       ],
       "correct": 0,
       "references": [
@@ -8620,7 +8620,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0e5a4d721623f4e8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 345,
@@ -8630,10 +8630,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "風險會變動，年度問卷無法取代持續觀測",
+        "把平台觀測改善等同已反映總分",
         "列出已修補、已觀測、已反映評級的三種狀態",
-        "比較資產範圍、觀測時間、掃描方式與歸屬",
-        "區分 CM 監控與 VRM 問卷能力"
+        "只展示總分增加",
+        "把修補完成等同已被平台觀測"
       ],
       "correct": 1,
       "references": [
@@ -8645,7 +8645,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3c6dff08f7f6e456",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 346,
@@ -8655,10 +8655,10 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "只能作為外部可觀測風險指標之一",
-        "忽略服務重要性、法遵與補償控制",
+        "只要是截圖就不受合約限制",
+        "所有供應商資料都可轉寄給外部",
         "依資料敏感度、合約與公司政策決定",
-        "問題、模組定位、示範、價值與限制"
+        "所有資料都可以公開"
       ],
       "correct": 2,
       "references": [
@@ -8670,7 +8670,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-6c369bb207eeb0e0",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 347,
@@ -8680,9 +8680,9 @@
       "category": "進階｜客戶情境與 PM 口試",
       "section": "進階",
       "options": [
-        "依 Severity、Asset Importance、曝露性與計分影響交叉排序",
-        "從 Risk Vector 與 Findings 連到改善行動",
-        "Rating、Trend、Risk Vectors、重要性、事件及證據",
+        "只看 Rating 最低的公司",
+        "只依所有 BAD 的數量排序",
+        "只看是否能立即提升總分",
         "先說 Asset Risk Matrix 與 Findings Severity，再補業務風險"
       ],
       "correct": 3,
@@ -8695,7 +8695,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-79464bad962aae16",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 348,
@@ -8706,9 +8706,9 @@
       "section": "進階",
       "options": [
         "Last Seen 與 Finding 狀態",
-        "用風險向量與具體 Finding 示範",
-        "固定加分、百分百資產發現、所有授權功能及零誤報",
-        "若需威脅情資，可評估補充 Beacon"
+        "只看公司 Logo 與網站名稱",
+        "只看訂閱聯絡人的 Email",
+        "只看群組建立日期"
       ],
       "correct": 0,
       "references": [
@@ -8720,7 +8720,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2f4b0d0065124805",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 349,
@@ -8730,10 +8730,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "官方權限表加實際租戶測試",
+        "只看分數是否當天增加",
         "請客戶提供配置或掃描證據",
-        "Last Seen 與 Finding 狀態",
-        "依契約與風險治理流程升級"
+        "只看客戶口頭承諾",
+        "直接把 Finding 標為已修復"
       ],
       "correct": 1,
       "references": [
@@ -8745,7 +8745,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-da75629bf64f73b4",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 350,
@@ -8755,10 +8755,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "說明修補價值在降低真實風險",
-        "依契約與風險治理流程升級",
+        "直接保證下次必定加分",
+        "只看一個 Finding 的 Grade",
         "確認是否計分及其他向量變化",
-        "功能包裝與授權範圍可能不同"
+        "直接認定修補無效"
       ],
       "correct": 2,
       "references": [
@@ -8770,7 +8770,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a92db61cb7e0edad",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 351,
@@ -8780,9 +8780,9 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "功能包裝與授權範圍可能不同",
-        "確認是否計分及其他向量變化",
-        "依契約與風險治理流程升級",
+        "要求客戶停止修補",
+        "宣稱未計分代表零風險",
+        "只保留會加分的改善項目",
         "說明修補價值在降低真實風險"
       ],
       "correct": 3,
@@ -8795,7 +8795,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-0253c28082ddf0d6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 352,
@@ -8806,9 +8806,9 @@
       "section": "進階",
       "options": [
         "不承諾，提出可驗證改善清單與時程",
-        "分配責任、驗證修補、追蹤觀測與評級",
-        "提供可分享的外部證據並建立協作流程",
-        "比資產重要性、曝露性與可利用性"
+        "先保證一週內加 50 分",
+        "直接把預覽值當成正式分數",
+        "要求忽略所有非計分風險"
       ],
       "correct": 0,
       "references": [
@@ -8820,7 +8820,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c969931978424975",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 353,
@@ -8830,10 +8830,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "用風險向量與具體 Finding 示範",
+        "一定，WARN 不可能存在高風險",
         "不一定，需看 Severity 與 Asset Importance",
-        "固定加分、百分百資產發現、所有授權功能及零誤報",
-        "Last Seen 與 Finding 狀態"
+        "一定，BAD 永遠比 WARN 優先",
+        "一定，Grade 能取代資產重要性"
       ],
       "correct": 1,
       "references": [
@@ -8845,7 +8845,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8af5beb60a997ece",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 354,
@@ -8855,10 +8855,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "不承諾，提出可驗證改善清單與時程",
-        "分配責任、驗證修補、追蹤觀測與評級",
+        "只看資產名稱長度",
+        "只看哪個部門最先回信",
         "比資產重要性、曝露性與可利用性",
-        "不一定，需看 Severity 與 Asset Importance"
+        "只比較 Finding 字母排序"
       ],
       "correct": 2,
       "references": [
@@ -8870,7 +8870,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b03a12d5b2600ae1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 355,
@@ -8880,9 +8880,9 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "不能，先核對證據",
-        "主要偏向共享自身證據",
-        "需要視需求，兩者互補",
+        "直接刪除 Finding 不查證",
+        "要求客戶修補所有第三方資產",
+        "把所有共享雲端 IP 都當成自有",
         "先啟動資產歸屬核對"
       ],
       "correct": 3,
@@ -8895,7 +8895,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-01f5e8bbded913cb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 356,
@@ -8906,9 +8906,9 @@
       "section": "進階",
       "options": [
         "提供可分享的外部證據並建立協作流程",
-        "分配責任、驗證修補、追蹤觀測與評級",
-        "不承諾，提出可驗證改善清單與時程",
-        "比資產重要性、曝露性與可利用性"
+        "要求供應商公開全部內網位址",
+        "宣稱遮罩代表沒有風險",
+        "不提供可用證據就要求修補"
       ],
       "correct": 0,
       "references": [
@@ -8920,7 +8920,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a6b73943d9632712",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 357,
@@ -8930,10 +8930,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "請客戶提供配置或掃描證據",
+        "刪除供應商以免影響分數",
         "依契約與風險治理流程升級",
-        "官方權限表加實際租戶測試",
-        "標示版本、查證日期與來源"
+        "直接終止所有合作且不核對契約",
+        "只要拒絕一次就宣稱違法"
       ],
       "correct": 1,
       "references": [
@@ -8945,7 +8945,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-93f63676a10bec41",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 358,
@@ -8955,10 +8955,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "先啟動資產歸屬核對",
-        "不能，先核對證據",
+        "不需要，供應商自填資料保證即時",
+        "不需要，問卷滿分等於零風險",
         "需要視需求，兩者互補",
-        "主要偏向共享自身證據"
+        "不需要，問卷能取代所有外部觀測"
       ],
       "correct": 2,
       "references": [
@@ -8970,7 +8970,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c2aa336ee00bc026",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 359,
@@ -8980,9 +8980,9 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "用風險向量與具體 Finding 示範",
-        "分配責任、驗證修補、追蹤觀測與評級",
-        "提供可分享的外部證據並建立協作流程",
+        "不需要，CM 已包含所有即時入侵情資",
+        "不需要，CM 評級能證明已遭入侵",
+        "不需要，Beacon 只提供問卷功能",
         "若需威脅情資，可評估補充 Beacon"
       ],
       "correct": 3,
@@ -8995,7 +8995,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a7f91f9982f0eb4b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 360,
@@ -9006,9 +9006,9 @@
       "section": "進階",
       "options": [
         "不能，先核對證據",
-        "若需威脅情資，可評估補充 Beacon",
-        "先啟動資產歸屬核對",
-        "主要偏向共享自身證據"
+        "可以，任何 Beacon 告警都已證實入侵",
+        "可以，Evidence-backed 表示零誤報",
+        "可以，IOC 命中就能確認攻擊者身分"
       ],
       "correct": 0,
       "references": [
@@ -9020,7 +9020,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-dccff519691dfcf6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 361,
@@ -9030,10 +9030,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "不能，先核對證據",
+        "可以，TMH 可自動通過供應商稽核",
         "主要偏向共享自身證據",
-        "需要視需求，兩者互補",
-        "先啟動資產歸屬核對"
+        "可以，TMH 自動替所有供應商填問卷",
+        "可以，TMH 能取代所有 VRM 評估"
       ],
       "correct": 1,
       "references": [
@@ -9045,7 +9045,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-2f39b7a1cfee7bca",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 362,
@@ -9055,10 +9055,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "說明修補價值在降低真實風險",
-        "依契約與風險治理流程升級",
+        "因為方案名稱可直接代表法規要求",
+        "因為所有授權差異都只在介面顏色",
         "功能包裝與授權範圍可能不同",
-        "確認是否計分及其他向量變化"
+        "因為 Basic 與 Enhanced 功能必定相同"
       ],
       "correct": 2,
       "references": [
@@ -9070,7 +9070,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-50bb3b96efb55421",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 363,
@@ -9080,9 +9080,9 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "依契約與風險治理流程升級",
-        "官方權限表加實際租戶測試",
-        "請客戶提供配置或掃描證據",
+        "直接採用最早版本不需查證",
+        "直接把官網文案視為合約承諾",
+        "直接認定教材永遠正確",
         "標示版本、查證日期與來源"
       ],
       "correct": 3,
@@ -9095,7 +9095,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-df543c6edbe85d48",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 364,
@@ -9106,9 +9106,9 @@
       "section": "進階",
       "options": [
         "官方權限表加實際租戶測試",
-        "依契約與風險治理流程升級",
-        "標示版本、查證日期與來源",
-        "請客戶提供配置或掃描證據"
+        "只看角色名稱就推論全部權限",
+        "只看其他客戶截圖",
+        "只讓所有人使用 Admin 帳號測試"
       ],
       "correct": 0,
       "references": [
@@ -9120,7 +9120,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-fa6676d83f58f08a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 365,
@@ -9130,10 +9130,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "分配責任、驗證修補、追蹤觀測與評級",
+        "只用 Finding 數量推算分數",
         "用風險向量與具體 Finding 示範",
-        "Last Seen 與 Finding 狀態",
-        "若需威脅情資，可評估補充 Beacon"
+        "只背 250–900 數字範圍",
+        "只展示最高分供應商"
       ],
       "correct": 1,
       "references": [
@@ -9145,7 +9145,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-fa80bc4351a44e98",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 366,
@@ -9155,10 +9155,10 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "不承諾，提出可驗證改善清單與時程",
-        "比資產重要性、曝露性與可利用性",
+        "只追蹤 Rating 而不查修補",
+        "只把所有 Finding 標示已解決",
         "分配責任、驗證修補、追蹤觀測與評級",
-        "提供可分享的外部證據並建立協作流程"
+        "只把報告寄給客戶"
       ],
       "correct": 2,
       "references": [
@@ -9170,7 +9170,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-dedbeccd72859e97",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 367,
@@ -9180,9 +9180,9 @@
       "category": "進階｜主管連續追問",
       "section": "進階",
       "options": [
-        "Last Seen 與 Finding 狀態",
-        "用風險向量與具體 Finding 示範",
-        "若需威脅情資，可評估補充 Beacon",
+        "所有功能都可無條件承諾",
+        "固定加分與零誤報均可保證",
+        "只要簡報有寫就能保證授權",
         "固定加分、百分百資產發現、所有授權功能及零誤報"
       ],
       "correct": 3,
@@ -9195,7 +9195,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c8db56efbf35d45e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 368,
@@ -9206,9 +9206,9 @@
       "section": "進階",
       "options": [
         "核對 DNS 紀錄與寄件服務清單",
-        "確認 HTTP 回應與安全標頭",
-        "確認 selector 與金鑰配置",
-        "確認檔案分享的合法性與資料類型"
+        "只檢查憑證到期日",
+        "只檢查 DNSSEC 簽章",
+        "只檢查 HTTP CSP 標頭"
       ],
       "correct": 0,
       "references": [
@@ -9220,7 +9220,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c77b4e361ec7e6fb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 369,
@@ -9230,10 +9230,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "核對 DNS 紀錄與寄件服務清單",
+        "只檢查 TLS 1.2 是否啟用",
         "確認 selector 與金鑰配置",
-        "確認 HTTP 回應與安全標頭",
-        "確認 App 安全測試與版本"
+        "只檢查 SPF 的 ip4 清單",
+        "只檢查 DMARC 的 p 值"
       ],
       "correct": 1,
       "references": [
@@ -9245,7 +9245,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-cc56b5166a8a8884",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 370,
@@ -9255,10 +9255,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認有效期與信任鏈",
-        "確認版本與修補狀態",
+        "只檢查網頁的 HSTS",
+        "只檢查 DNS 的 A 紀錄",
         "確認政策與對齊結果",
-        "確認協定與密碼套件"
+        "只檢查 DKIM 金鑰長度"
       ],
       "correct": 2,
       "references": [
@@ -9270,7 +9270,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b551f513c13a4c01",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 371,
@@ -9280,9 +9280,9 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認協定與密碼套件",
-        "確認可能利用跡象與資產",
-        "確認政策與對齊結果",
+        "只檢查郵件 SPF 記錄",
+        "只檢查網站憑證到期日",
+        "只檢查 SMTP STARTTLS",
         "確認網域簽章與驗證鏈"
       ],
       "correct": 3,
@@ -9295,7 +9295,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-161e4c47318eb2e8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 372,
@@ -9306,9 +9306,9 @@
       "section": "進階",
       "options": [
         "確認有效期與信任鏈",
-        "確認協定與密碼套件",
-        "確認政策與對齊結果",
-        "確認版本與修補狀態"
+        "只檢查 HTTP CSP",
+        "只檢查 SPF 授權來源",
+        "只檢查伺服器 SSH 版本"
       ],
       "correct": 0,
       "references": [
@@ -9320,7 +9320,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b12b80e7664345d2",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 373,
@@ -9330,10 +9330,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認版本與修補狀態",
+        "只檢查網站 HTML 標題",
         "確認協定與密碼套件",
-        "確認政策與對齊結果",
-        "確認有效期與信任鏈"
+        "只檢查憑證主體公司名稱",
+        "只檢查 DMARC 政策"
       ],
       "correct": 1,
       "references": [
@@ -9345,7 +9345,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-af1e6419d0d97a36",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 374,
@@ -9355,10 +9355,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認具體檢測項與漏洞證據",
-        "確認帳號有效性並重設憑證",
+        "只檢查網域是否有 DMARC",
+        "只檢查網站是否使用 HSTS",
         "確認實際服務與業務必要性",
-        "確認主機是否散播惡意內容"
+        "只檢查憑證是否由知名 CA 簽發"
       ],
       "correct": 2,
       "references": [
@@ -9370,7 +9370,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-046901cdc2328235",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 375,
@@ -9380,9 +9380,9 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認 App 安全測試與版本",
-        "確認 selector 與金鑰配置",
-        "確認檔案分享的合法性與資料類型",
+        "只檢查 SPF TXT 記錄",
+        "只檢查供應商問卷",
+        "只檢查 DNSSEC 信任鏈",
         "確認 HTTP 回應與安全標頭"
       ],
       "correct": 3,
@@ -9395,7 +9395,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-01cc4c1f4f3fe0b6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 376,
@@ -9406,9 +9406,9 @@
       "section": "進階",
       "options": [
         "確認漏洞修補速度與持續時間",
-        "確認端點軟體版本與更新策略",
-        "確認 App 安全測試與版本",
-        "確認主機是否散播惡意內容"
+        "只確認 CVE 名稱是否含年份",
+        "只確認憑證剩餘天數",
+        "只確認郵件 DMARC 政策"
       ],
       "correct": 0,
       "references": [
@@ -9420,7 +9420,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c9e82a754a6fe8a3",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 377,
@@ -9430,10 +9430,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認裝置與應用更新狀態",
+        "只檢查供應商問卷完成率",
         "確認服務配置與暴露範圍",
-        "確認可能利用跡象與資產",
-        "確認濫發來源與帳號安全"
+        "只檢查網站品牌 Logo",
+        "只檢查使用者 Email 通知"
       ],
       "correct": 1,
       "references": [
@@ -9445,7 +9445,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-519546bdb547fe1d",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 378,
@@ -9455,10 +9455,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認政策與對齊結果",
-        "確認有效期與信任鏈",
+        "只確認網站字體版本",
+        "只確認 DMARC 報告收件人",
         "確認版本與修補狀態",
-        "確認協定與密碼套件"
+        "只確認公司註冊地址"
       ],
       "correct": 2,
       "references": [
@@ -9470,7 +9470,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5dadb8657510a003",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 379,
@@ -9480,9 +9480,9 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認漏洞修補速度與持續時間",
-        "確認 App 安全測試與版本",
-        "確認主機是否散播惡意內容",
+        "只確認 DNS TXT 記錄",
+        "只確認公司 TLS 憑證品牌",
+        "只確認供應商授權數量",
         "確認端點軟體版本與更新策略"
       ],
       "correct": 3,
@@ -9495,7 +9495,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-95d66c23ed82d9eb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 380,
@@ -9506,9 +9506,9 @@
       "section": "進階",
       "options": [
         "確認裝置與應用更新狀態",
-        "確認可能利用跡象與資產",
-        "確認服務配置與暴露範圍",
-        "確認濫發來源與帳號安全"
+        "只確認網站 CSP 設定",
+        "只確認郵件 DKIM selector",
+        "只確認供應商 Risk Score"
       ],
       "correct": 0,
       "references": [
@@ -9520,7 +9520,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-8092c7872afed467",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 381,
@@ -9530,10 +9530,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認檔案分享的合法性與資料類型",
+        "只確認網站的 SPF 記錄",
         "確認 App 安全測試與版本",
-        "確認 HTTP 回應與安全標頭",
-        "確認 selector 與金鑰配置"
+        "只確認 DNSSEC 金鑰",
+        "只確認桌面瀏覽器版本"
       ],
       "correct": 1,
       "references": [
@@ -9545,7 +9545,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-38d940b416351522",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 382,
@@ -9555,10 +9555,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認實際服務與業務必要性",
-        "確認帳號有效性並重設憑證",
+        "只確認網站憑證是否顯示鎖頭",
+        "只確認公司是否已填問卷",
         "確認具體檢測項與漏洞證據",
-        "確認主機是否散播惡意內容"
+        "只確認網站首頁是否可開啟"
       ],
       "correct": 2,
       "references": [
@@ -9570,7 +9570,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9d700fa70fd8ceb9",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 383,
@@ -9580,9 +9580,9 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認 HTTP 回應與安全標頭",
-        "確認檔案分享的合法性與資料類型",
-        "核對 DNS 紀錄與寄件服務清單",
+        "只確認網域與品牌字串相似",
+        "只確認網域註冊時間就宣稱惡意",
+        "只確認網域是否使用 HTTPS",
         "確認近似網域的實際使用與惡意性"
       ],
       "correct": 3,
@@ -9595,7 +9595,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-18c919b27c89180b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 384,
@@ -9606,9 +9606,9 @@
       "section": "進階",
       "options": [
         "確認帳號有效性並重設憑證",
-        "確認主機是否散播惡意內容",
-        "確認具體檢測項與漏洞證據",
-        "確認實際服務與業務必要性"
+        "只確認該信箱的 MX 記錄",
+        "只確認網站 HSTS 標頭",
+        "只確認網域註冊商名稱"
       ],
       "correct": 0,
       "references": [
@@ -9620,7 +9620,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-5d62aee76d082af1",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 385,
@@ -9630,10 +9630,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認實際服務與業務必要性",
+        "只確認供應商問卷分數",
         "確認感染跡象與受影響主機",
-        "確認主機是否散播惡意內容",
-        "確認具體檢測項與漏洞證據"
+        "只確認網站是否有 SPF",
+        "只確認 TLS 憑證有效期"
       ],
       "correct": 1,
       "references": [
@@ -9645,7 +9645,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-20aa7a9e6e4f508b",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 386,
@@ -9655,10 +9655,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認服務配置與暴露範圍",
-        "確認裝置與應用更新狀態",
+        "只確認網站 CSP 標頭",
+        "只確認 TLS 憑證品牌",
         "確認濫發來源與帳號安全",
-        "確認可能利用跡象與資產"
+        "只確認 DNSSEC 簽章"
       ],
       "correct": 2,
       "references": [
@@ -9670,7 +9670,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-68fec886b1c1ccbb",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 387,
@@ -9680,9 +9680,9 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認具體檢測項與漏洞證據",
-        "確認實際服務與業務必要性",
-        "確認帳號有效性並重設憑證",
+        "只確認郵件 DKIM 紀錄",
+        "只確認網域註冊年限",
+        "只確認網站首頁文字",
         "確認主機是否散播惡意內容"
       ],
       "correct": 3,
@@ -9695,7 +9695,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d23215be882d8581",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 388,
@@ -9706,9 +9706,9 @@
       "section": "進階",
       "options": [
         "調查異常對外通訊與流量",
-        "確認可能利用跡象與資產",
-        "確認服務配置與暴露範圍",
-        "確認濫發來源與帳號安全"
+        "只確認網站 TLS 憑證有效期",
+        "只確認使用者的通知偏好",
+        "只確認供應商問卷完成日期"
       ],
       "correct": 0,
       "references": [
@@ -9720,7 +9720,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-333c9f0559185ff8",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 389,
@@ -9730,10 +9730,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認裝置與應用更新狀態",
+        "只確認供應商名稱是否相似",
         "確認可能利用跡象與資產",
-        "確認服務配置與暴露範圍",
-        "確認濫發來源與帳號安全"
+        "只確認 CVE 分數高低",
+        "只確認網站是否有 HTTPS"
       ],
       "correct": 1,
       "references": [
@@ -9745,7 +9745,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c8254c7c9be6a09e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 390,
@@ -9755,10 +9755,10 @@
       "category": "綜合｜向量處置口試",
       "section": "進階",
       "options": [
-        "確認近似網域的實際使用與惡意性",
-        "核對 DNS 紀錄與寄件服務清單",
+        "只確認外部 IP 數量",
+        "只確認網站有無 DMARC",
         "確認檔案分享的合法性與資料類型",
-        "確認 HTTP 回應與安全標頭"
+        "只確認檔案分享軟體是否已安裝"
       ],
       "correct": 2,
       "references": [
@@ -9770,7 +9770,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-32bc73de38847af6",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 391,
@@ -9780,9 +9780,9 @@
       "category": "綜合｜主管壓力測試",
       "section": "進階",
       "options": [
-        "同步提供真實風險與計分影響兩份排序",
-        "統一期間並比較分數、趨勢與重要性",
-        "先驗證情資並交由 SOC 調查",
+        "直接承諾平台當天會變成 GOOD",
+        "只要求客戶再次修補而不查證",
+        "直接把 BAD 當成系統故障",
         "先核對修補證據、Last Seen 與評級週期"
       ],
       "correct": 3,
@@ -9795,7 +9795,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9f069429c403875e",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 392,
@@ -9806,9 +9806,9 @@
       "section": "進階",
       "options": [
         "說明 CM 遮罩限制並啟動協作",
-        "先驗證情資並交由 SOC 調查",
-        "釐清威脅情資與問卷／監控工作流",
-        "統一期間並比較分數、趨勢與重要性"
+        "承諾可揭露所有第三方內部 IP",
+        "要求供應商提供所有密碼",
+        "將遮罩 IP 當成不存在風險"
       ],
       "correct": 0,
       "references": [
@@ -9820,7 +9820,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-a1a27537953c0ef9",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 393,
@@ -9830,10 +9830,10 @@
       "category": "綜合｜主管壓力測試",
       "section": "進階",
       "options": [
-        "說明 CM 遮罩限制並啟動協作",
+        "用平台 Grade 直接替代所有法規查核",
         "明確區分輔助評估與正式合規",
-        "要求具體功能文件與平台證據",
-        "先驗證情資並交由 SOC 調查"
+        "承諾 Framework Intelligence 就是正式稽核",
+        "只要有 PDF 就等同合規證明"
       ],
       "correct": 1,
       "references": [
@@ -9845,7 +9845,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-c6d04a1fa186c820",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 394,
@@ -9855,10 +9855,10 @@
       "category": "綜合｜主管壓力測試",
       "section": "進階",
       "options": [
-        "同步提供真實風險與計分影響兩份排序",
-        "說明 CM 遮罩限制並啟動協作",
+        "只比較兩家公司的網站名稱",
+        "只比較兩家供應商問卷完成日期",
         "統一期間並比較分數、趨勢與重要性",
-        "先驗證情資並交由 SOC 調查"
+        "只比較兩家公司最新分數"
       ],
       "correct": 2,
       "references": [
@@ -9870,7 +9870,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d8aeedeb70075f95",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 395,
@@ -9880,9 +9880,9 @@
       "category": "綜合｜主管壓力測試",
       "section": "進階",
       "options": [
-        "說明資料來源與歸屬限制",
-        "明確區分輔助評估與正式合規",
-        "要求具體功能文件與平台證據",
+        "同意全部設 Admin 以節省時間",
+        "只要使用者信任就無須權限限制",
+        "共用一個 Admin 帳號更安全",
         "說明最小權限與群組設計"
       ],
       "correct": 3,
@@ -9895,7 +9895,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3accdaff1e16a4ba",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 396,
@@ -9906,9 +9906,9 @@
       "section": "進階",
       "options": [
         "釐清威脅情資與問卷／監控工作流",
-        "先驗證情資並交由 SOC 調查",
-        "說明 CM 遮罩限制並啟動協作",
-        "統一期間並比較分數、趨勢與重要性"
+        "Beacon 已包含所有 TPRM 問卷與稽核",
+        "Beacon 只負責供應商合約簽署",
+        "CM 與 Beacon 都能取代正式供應商評估"
       ],
       "correct": 0,
       "references": [
@@ -9920,7 +9920,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f835d9cf0d42920f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 397,
@@ -9930,10 +9930,10 @@
       "category": "綜合｜主管壓力測試",
       "section": "進階",
       "options": [
-        "要求具體功能文件與平台證據",
+        "只要知道主網域就能找到全部雲端帳號",
         "說明資料來源與歸屬限制",
-        "說明最小權限與群組設計",
-        "明確區分輔助評估與正式合規"
+        "承諾 100% 找到所有內外部資產",
+        "宣稱 EASM 不需歸屬驗證"
       ],
       "correct": 1,
       "references": [
@@ -9945,7 +9945,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-b52361c3fa231674",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 398,
@@ -9955,10 +9955,10 @@
       "category": "綜合｜主管壓力測試",
       "section": "進階",
       "options": [
-        "先驗證情資並交由 SOC 調查",
-        "說明 CM 遮罩限制並啟動協作",
+        "只附網站首頁截圖",
+        "只用業務口頭承諾功能符合",
         "要求具體功能文件與平台證據",
-        "明確區分輔助評估與正式合規"
+        "只提供 Web Application Security 名稱"
       ],
       "correct": 2,
       "references": [
@@ -9970,7 +9970,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-44bddd5ed5b67319",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 399,
@@ -9980,9 +9980,9 @@
       "category": "綜合｜主管壓力測試",
       "section": "進階",
       "options": [
-        "說明 CM 遮罩限制並啟動協作",
-        "釐清威脅情資與問卷／監控工作流",
-        "統一期間並比較分數、趨勢與重要性",
+        "直接宣布供應商已遭入侵",
+        "直接刪除供應商監控資料",
+        "只看 IOC 是否出現在舊報告",
         "先驗證情資並交由 SOC 調查"
       ],
       "correct": 3,
@@ -9995,7 +9995,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-bcfec0ff3b5a6c59",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     },
     {
       "id": 400,
@@ -10006,9 +10006,9 @@
       "section": "進階",
       "options": [
         "同步提供真實風險與計分影響兩份排序",
-        "統一期間並比較分數、趨勢與重要性",
-        "先驗證情資並交由 SOC 調查",
-        "說明 CM 遮罩限制並啟動協作"
+        "只處理會加分的 Finding",
+        "承諾所有修補都會即時反映分數",
+        "把 Rating 當成唯一業務風險指標"
       ],
       "correct": 0,
       "references": [
@@ -10020,7 +10020,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-1b606faeb61a56e5",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目內容個別編寫；原題答案與產品事實仍待來源逐題核對"
     }
   ]
 }

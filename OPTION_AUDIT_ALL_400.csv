@@ -19,73 +19,73 @@
 18,基礎題,資產歸屬錯誤怎麼處理？,蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。,已個別編寫選項（答案未核實）,,將所有相關 IP 設為白名單即可完成所有權更正 | 僅修改報表名稱，不需提供歸屬證據 | 蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。 | 直接刪除該 Finding，不需確認資產歸屬
 19,基礎題,問卷與外部評級矛盾怎麼辦？,比對時間、評估範圍與證據，要求供應商補充說明。,已個別編寫選項（答案未核實）,,一律以外部評級為準，忽略問卷 | 一律以供應商問卷為準，忽略外部發現 | 將兩者平均成單一分數，無須確認時間差 | 比對時間、評估範圍與證據，要求供應商補充說明。
 20,基礎題,主管問「哪個產品適合銀行供應商管理」？,依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。,已個別編寫選項（答案未核實）,,依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。 | 僅選 TMH，因為它涵蓋全部第三方持續監控 | 僅選 EASM，因為它專門管理所有供應商問卷 | 不論客戶需求為何都必須購買所有產品
-21,基礎題,誰可以建立與刪除 Access Control Groups？,Admin。解析：Group Admin 不能管理群組結構。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,官方 Access Control 權限表為不可。 | Admin。解析：Group Admin 不能管理群組結構。 | Admin 與 Group Admin（依官方權限頁）。 | User、Admin、Group Admin、Portfolio Manager。
-22,基礎題,Group Admin 能修改所有帳號嗎？,不能。官方僅允許編輯所屬群組內的使用者。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,Admin。解析：Group Admin 不能管理群組結構。 | User、Admin、Group Admin、Portfolio Manager。 | 不能。官方僅允許編輯所屬群組內的使用者。 | Admin 與 Group Admin（依官方權限頁）。
-23,基礎題,Portfolio Manager 能建立新使用者嗎？,官方 Access Control 權限表為不可。,待逐題審核,干擾選項尚未逐題編寫,User、Admin、Group Admin、Portfolio Manager。 | 進入頁面後點選 Start Assessment。 | 還需考慮被利用證據、暴露性、業務重要性與補償控制。 | 官方 Access Control 權限表為不可。
-24,基礎題,User 可以操作 Issue Tracking 嗎？,可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。 | 否，教材指出兩者 Findings／Infrastructure 能見度不同。 | New Findings That Impact Rating。 | Admin；但四種教材角色均可管理自己的 User API Token。
-25,基礎題,誰能產生公司 API Token？,Admin；但四種教材角色均可管理自己的 User API Token。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,Admin 與 Group Admin（依官方權限頁）。 | Admin；但四種教材角色均可管理自己的 User API Token。 | User、Admin、Group Admin、Portfolio Manager。 | Admin。解析：Group Admin 不能管理群組結構。
-26,基礎題,誰能匯出 Exposed Credentials 的 PII？,Admin 與 Group Admin（依官方權限頁）。,待逐題審核,干擾選項尚未逐題編寫,User、Admin、Group Admin、Portfolio Manager。 | Admin；但四種教材角色均可管理自己的 User API Token。 | Admin 與 Group Admin（依官方權限頁）。 | Admin。解析：Group Admin 不能管理群組結構。
-27,基礎題,誰能設定 Resolved 時自動重新掃描？,Admin。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,Admin 與 Group Admin（依官方權限頁）。 | Admin；但四種教材角色均可管理自己的 User API Token。 | User、Admin、Group Admin、Portfolio Manager。 | Admin。
-28,基礎題,TMH 與 VRM 的資料流方向差異？,TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。,待逐題審核,干擾選項尚未逐題編寫,TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。 | VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。 | 依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。 | 核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。
-29,基礎題,Beacon 的警示與 CM 的分數如何搭配？,CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。,待逐題審核,干擾選項尚未逐題編寫,教材表格將該面向列於 CM／TRM。 | CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。 | 不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。 | EASM 以自身外部資產為主，CM 以第三方監控為主。
-30,基礎題,客戶要求把 Beacon 當成完整 TPRM，該如何說明？,Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。,待逐題審核,干擾選項尚未逐題編寫,依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。 | CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。 | Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。 | 不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。
-31,基礎題,Findings Table 中 First Seen 與 Last Seen 的差別？,首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,New Findings That Impact Rating。 | 可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。 | 否，教材指出兩者 Findings／Infrastructure 能見度不同。 | 首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。
-32,基礎題,Remaining Lifetime 是否代表漏洞會在幾天後自動修好？,否，是教材所述預計影響風險向量的剩餘期間。,待逐題審核,干擾選項尚未逐題編寫,否，是教材所述預計影響風險向量的剩餘期間。 | 不同公司過去一年的評級趨勢、分數與風險向量資訊。 | 評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。 | Exposed Credentials。
-33,基礎題,Impacts RV Grade Only 的判斷條件？,`Impacts Risk Vector Grade = Yes`。,待逐題審核,干擾選項尚未逐題編寫,評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。 | `Impacts Risk Vector Grade = Yes`。 | CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。 | TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。
-34,基礎題,Incubation Period Findings 為何可能不影響目前評級？,教材指出其尚在孵化／觀察期間。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,教材指需要系統管理員權限。 | 教材指出過去一年。 | 教材指出其尚在孵化／觀察期間。 | 否，教材指出兩者 Findings／Infrastructure 能見度不同。
-35,基礎題,六大告警中，哪一類可監控整體分數變動？,Bitsight Rating。,待逐題審核,干擾選項尚未逐題編寫,教材所示 Bitsight 資安評級範圍；不等於百分比。 | New Findings That Impact Rating。 | My Company 與 Primary Rating Entities。 | Bitsight Rating。
-36,基礎題,哪一類告警與憑證外洩相關？,Exposed Credentials。,待逐題審核,干擾選項尚未逐題編寫,Exposed Credentials。 | 不能。官方僅允許編輯所屬群組內的使用者。 | 授權寄件來源、簽章驗證、驗證政策與回報。 | 否，是教材所述預計影響風險向量的剩餘期間。
-37,基礎題,Vulnerabilities & Infections 涉及哪些教材風險向量？,Open Ports、Patching Cadence 與 Compromised Systems。,待逐題審核,干擾選項尚未逐題編寫,Pre-compromise、Active intrusion、Post-compromise。 | Open Ports、Patching Cadence 與 Compromised Systems。 | 評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。 | 不同公司過去一年的評級趨勢、分數與風險向量資訊。
-38,基礎題,Risk Vector Preview 的 Patching Cadence 衡量什麼？,修補速度、效率、漏洞嚴重度與未修補持續時間。,待逐題審核,干擾選項尚未逐題編寫,Open Ports、Patching Cadence 與 Compromised Systems。 | 影響程度與供應商可信程度，結合用於風險評估。 | 修補速度、效率、漏洞嚴重度與未修補持續時間。 | `Impacts Risk Vector Grade = Yes`。
-39,基礎題,Recent Security Changes 中哪個欄位可追蹤影響評分的新發現？,New Findings That Impact Rating。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,My Company 與 Primary Rating Entities。 | 可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。 | 否，教材指出兩者 Findings／Infrastructure 能見度不同。 | New Findings That Impact Rating。
-40,基礎題,Framework Intelligence 如何開始評估？,進入頁面後點選 Start Assessment。,待逐題審核,干擾選項尚未逐題編寫,進入頁面後點選 Start Assessment。 | 官方 Access Control 權限表為不可。 | 還需考慮被利用證據、暴露性、業務重要性與補償控制。 | 不同公司過去一年的評級趨勢、分數與風險向量資訊。
-41,基礎題,Framework Intelligence 有哪些教材列出的匯出格式？,CSV、Full Data PDF、Filtered Data PDF。,待逐題審核,干擾選項尚未逐題編寫,My Company 與 Primary Rating Entities。 | CSV、Full Data PDF、Filtered Data PDF。 | Admin；但四種教材角色均可管理自己的 User API Token。 | CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。
-42,基礎題,誰可設定 Bitsight Badge？,教材指需要系統管理員權限。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,教材指出過去一年。 | 教材指出 User 僅能選 Collaboration。 | 教材指需要系統管理員權限。 | 教材指出其尚在孵化／觀察期間。
-43,基礎題,哪兩種實體可取得 Bitsight Badge？,My Company 與 Primary Rating Entities。,待逐題審核,干擾選項尚未逐題編寫,Bitsight Rating。 | New Findings That Impact Rating。 | 教材所示 Bitsight 資安評級範圍；不等於百分比。 | My Company 與 Primary Rating Entities。
-44,基礎題,一般使用者要修改 Email 通知偏好，去哪裡？,Settings > Account > User Preferences > Update Email Preferences。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,Settings > Account > User Preferences > Update Email Preferences。 | User、Admin、Group Admin、Portfolio Manager。 | Admin；但四種教材角色均可管理自己的 User API Token。 | 教材指出 User 僅能選 Collaboration。
-45,基礎題,CM 的 Portfolio Dashboard 可看什麼？,評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。,待逐題審核,干擾選項尚未逐題編寫,CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。 | 評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。 | 不同公司過去一年的評級趨勢、分數與風險向量資訊。 | 否，是教材所述預計影響風險向量的剩餘期間。
-46,基礎題,CM 風險向量頁的 Trend 期間為何？,教材指出過去一年。,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,教材指出其尚在孵化／觀察期間。 | 教材指出 User 僅能選 Collaboration。 | 教材指出過去一年。 | 教材指需要系統管理員權限。
-47,基礎題,Compare Companies 可以比較什麼？,不同公司過去一年的評級趨勢、分數與風險向量資訊。,待逐題審核,干擾選項尚未逐題編寫,否，是教材所述預計影響風險向量的剩餘期間。 | 先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。 | 評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。 | 不同公司過去一年的評級趨勢、分數與風險向量資訊。
-48,基礎題,Beacon 三階段英文？,Pre-compromise、Active intrusion、Post-compromise。,待逐題審核,干擾選項尚未逐題編寫,Pre-compromise、Active intrusion、Post-compromise。 | 依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。 | Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。 | CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。
-49,基礎題,Beacon 的 Evidence-backed 是什麼概念？,警報應附有可調查的支持證據，而非只有單一未解釋分數。,待逐題審核,干擾選項尚未逐題編寫,以外部可觀測資料提供資安風險能見度、評級與改善追蹤。 | 警報應附有可調查的支持證據，而非只有單一未解釋分數。 | 不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。 | CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。
-50,基礎題,EASM 的七大面向教材中，數位供應鏈評估主要由哪個模組執行？,教材表格將該面向列於 CM／TRM。,待逐題審核,干擾選項尚未逐題編寫,CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。 | 依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。 | 教材表格將該面向列於 CM／TRM。 | EASM 以自身外部資產為主，CM 以第三方監控為主。
-51,產品定位,EASM/SPM 的主要監控對象？,自身企業的外部資產與曝險,待逐題審核,干擾選項尚未逐題編寫,依需求評估 EASM 與 CM | 向本企業索取資安證明的客戶 | 問卷、稽核與佐證文件 | 自身企業的外部資產與曝險
-52,產品定位,CM/TRM 的主要監控對象？,第三方供應商及供應鏈,待逐題審核,干擾選項尚未逐題編寫,第三方供應商及供應鏈 | 供應商所依賴的其他供應商造成的風險 | 依需求評估 EASM 與 CM | 問卷、稽核與佐證文件
-53,產品定位,VRM 的核心資料類型？,問卷、稽核與佐證文件,待逐題審核,干擾選項尚未逐題編寫,向本企業索取資安證明的客戶 | 問卷、稽核與佐證文件 | 第三方供應商及供應鏈 | 自身企業的外部資產與曝險
-54,產品定位,TMH 主要服務誰的審查需求？,向本企業索取資安證明的客戶,待逐題審核,干擾選項尚未逐題編寫,TPRM 是第三方風險管理範疇 | 依需求評估 EASM 與 CM | 向本企業索取資安證明的客戶 | 自身企業的外部資產與曝險
-55,產品定位,Beacon 與 CM 能否互相取代？,不能,待逐題審核,干擾選項尚未逐題編寫,依需求評估 EASM 與 CM | 問卷、稽核與佐證文件 | 第三方供應商及供應鏈 | 不能
-56,產品定位,EASM 是否等同弱點掃描？,否,待逐題審核,干擾選項尚未逐題編寫,否 | 依需求評估 EASM 與 CM | 問卷、稽核與佐證文件 | 第三方供應商及供應鏈
-57,產品定位,何謂第四方風險？,供應商所依賴的其他供應商造成的風險,待逐題審核,干擾選項尚未逐題編寫,依需求評估 EASM 與 CM | 供應商所依賴的其他供應商造成的風險 | 第三方供應商及供應鏈 | TPRM 是第三方風險管理範疇
-58,產品定位,何謂 Shadow IT？,未被正式管理流程完整掌握的 IT 資產或服務,待逐題審核,干擾選項尚未逐題編寫,TPRM 是第三方風險管理範疇 | 依需求評估 EASM 與 CM | 未被正式管理流程完整掌握的 IT 資產或服務 | 供應商所依賴的其他供應商造成的風險
-59,產品定位,為何不能把 TPRM 寫成 Beacon？,TPRM 是第三方風險管理範疇,待逐題審核,干擾選項尚未逐題編寫,依需求評估 EASM 與 CM | 供應商所依賴的其他供應商造成的風險 | 向本企業索取資安證明的客戶 | TPRM 是第三方風險管理範疇
-60,產品定位,企業想同時管理自家與供應商曝險，如何配置？,依需求評估 EASM 與 CM,待逐題審核,干擾選項尚未逐題編寫,依需求評估 EASM 與 CM | TPRM 是第三方風險管理範疇 | 供應商所依賴的其他供應商造成的風險 | 向本企業索取資安證明的客戶
-61,平台操作,Findings Table 的主要用途？,檢視各類風險向量的具體發現,待逐題審核,干擾選項尚未逐題編寫,可涵蓋有風險但 Grade 為 N/A 的 Findings | 檢視各類風險向量的具體發現 | Rescanned Findings | Incubation Period Findings
-62,平台操作,哪個篩選器聚焦影響整體評分？,Impacts Bitsight Rating,待逐題審核,干擾選項尚未逐題編寫,CSV 與 Full/Filtered PDF | Incubation Period Findings | Impacts Bitsight Rating | Impacts RV Grade Only
-63,平台操作,哪個篩選器聚焦影響向量評級？,Impacts RV Grade Only,待逐題審核,干擾選項尚未逐題編寫,Impacts Bitsight Rating | 可涵蓋有風險但 Grade 為 N/A 的 Findings | CSV 與 Full/Filtered PDF | Impacts RV Grade Only
-64,平台操作,哪個篩選器選取孵化期發現？,Incubation Period Findings,待逐題審核,干擾選項尚未逐題編寫,Incubation Period Findings | 可涵蓋有風險但 Grade 為 N/A 的 Findings | Rescanned Findings | Findings > Vulnerability Detection > 選 CVE > View in Findings
-65,平台操作,哪個篩選器找曾要求重新掃描的紀錄？,Rescanned Findings,待逐題審核,干擾選項尚未逐題編寫,Findings > Vulnerability Detection > 選 CVE > View in Findings | Rescanned Findings | Incubation Period Findings | 可涵蓋有風險但 Grade 為 N/A 的 Findings
-66,平台操作,New Findings 告警能使用 Rescanned Findings 嗎？,不能,待逐題審核,答案長度差異顯著；是非題混入不同語法的選項；干擾選項尚未逐題編寫,Incubation Period Findings | 可涵蓋有風險但 Grade 為 N/A 的 Findings | 不能 | Rescanned Findings
-67,平台操作,Findings Table 預設幾種 Filter Sets？,七種,待逐題審核,答案長度差異顯著；干擾選項尚未逐題編寫,Rescanned Findings | Incubation Period Findings | 可涵蓋有風險但 Grade 為 N/A 的 Findings | 七種
-68,平台操作,查待修補問題為何選 Severe/Material/Moderate？,可涵蓋有風險但 Grade 為 N/A 的 Findings,待逐題審核,干擾選項尚未逐題編寫,可涵蓋有風險但 Grade 為 N/A 的 Findings | Incubation Period Findings | Impacts RV Grade Only | Rescanned Findings
-69,平台操作,如何儲存自訂 Filter Set？,Filter Set Actions > Save as 並填 Name/Description,待逐題審核,干擾選項尚未逐題編寫,Findings > Vulnerability Detection > 選 CVE > View in Findings | Filter Set Actions > Save as 並填 Name/Description | Organization > Company Details > Recent Security Changes | Settings > Account > User Preferences
-70,平台操作,如何找某 CVE 對應的 Findings？,Findings > Vulnerability Detection > 選 CVE > View in Findings,待逐題審核,干擾選項尚未逐題編寫,Incubation Period Findings | Rescanned Findings | Findings > Vulnerability Detection > 選 CVE > View in Findings | 可涵蓋有風險但 Grade 為 N/A 的 Findings
-71,平台操作,Issue Tracking 的 Asset Risk Matrix 橫軸？,Finding Severity,待逐題審核,干擾選項尚未逐題編寫,Asset Importance | Rescanned Findings | 檢視各類風險向量的具體發現 | Finding Severity
-72,平台操作,Asset Risk Matrix 縱軸？,Asset Importance,待逐題審核,干擾選項尚未逐題編寫,Asset Importance | Finding Severity | Rescanned Findings | 檢視各類風險向量的具體發現
-73,平台操作,Asset Risk Matrix 紅色代表？,教材列為最優先修補,待逐題審核,疑似跨題型選項／教材語句；干擾選項尚未逐題編寫,檢視各類風險向量的具體發現 | 教材列為最優先修補 | Asset Importance | 教材指出最近 60 天
-74,平台操作,Asset Risk Matrix 主要涵蓋多久的 Findings？,教材指出最近 60 天,待逐題審核,干擾選項尚未逐題編寫,Rescanned Findings | Incubation Period Findings | 教材指出最近 60 天 | Asset Importance
-75,平台操作,在哪裡檢視近期影響分數的新發現？,Organization > Company Details > Recent Security Changes,待逐題審核,干擾選項尚未逐題編寫,Findings > Vulnerability Detection > 選 CVE > View in Findings | Filter Set Actions > Save as 並填 Name/Description | Settings > Account > User Preferences | Organization > Company Details > Recent Security Changes
-76,平台操作,Framework Intelligence 如何產出新評估？,點選 Start Assessment,待逐題審核,干擾選項尚未逐題編寫,點選 Start Assessment | Rescanned Findings | Impacts RV Grade Only | Asset Importance
-77,平台操作,Framework Intelligence 提供哪些教材格式？,CSV 與 Full/Filtered PDF,待逐題審核,干擾選項尚未逐題編寫,Incubation Period Findings | CSV 與 Full/Filtered PDF | Impacts Bitsight Rating | Impacts RV Grade Only
-78,平台操作,Bitsight Badge 是資安認證嗎？,不是,待逐題審核,疑似跨題型選項／教材語句；答案長度差異顯著；是非題混入不同語法的選項；干擾選項尚未逐題編寫,教材列為最優先修補 | 教材指出最近 60 天 | 不是 | Impacts Bitsight Rating
-79,平台操作,哪裡設定個人 Email 通知？,Settings > Account > User Preferences,待逐題審核,干擾選項尚未逐題編寫,可涵蓋有風險但 Grade 為 N/A 的 Findings | Filter Set Actions > Save as 並填 Name/Description | Incubation Period Findings | Settings > Account > User Preferences
-80,平台操作,Switch To 只出現一種模組一定是故障嗎？,不一定,待逐題審核,疑似跨題型選項／教材語句；是非題混入不同語法的選項；干擾選項尚未逐題編寫,不一定 | 教材列為最優先修補 | 教材指出最近 60 天 | 檢視各類風險向量的具體發現
+21,基礎題,誰可以建立與刪除 Access Control Groups？,Admin。解析：Group Admin 不能管理群組結構。,已個別編寫選項（答案未核實）,,一般 User；可建立及刪除任意群組 | Admin。解析：Group Admin 不能管理群組結構。 | Group Admin；可管理所有群組結構 | Portfolio Manager；可管理所有租戶群組
+22,基礎題,Group Admin 能修改所有帳號嗎？,不能。官方僅允許編輯所屬群組內的使用者。,已個別編寫選項（答案未核實）,,可以；Group Admin 不受群組邊界限制 | 可以；Group Admin 與全域 Admin 完全相同 | 不能。官方僅允許編輯所屬群組內的使用者。 | 可以；Group Admin 可以修改全租戶所有帳號
+23,基礎題,Portfolio Manager 能建立新使用者嗎？,官方 Access Control 權限表為不可。,已個別編寫選項（答案未核實）,,可以；可建立任何角色使用者 | 可以；僅能建立其他 Portfolio Manager | 可以；可建立同公司所有 User | 官方 Access Control 權限表為不可。
+24,基礎題,User 可以操作 Issue Tracking 嗎？,可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。,已個別編寫選項（答案未核實）,,可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。 | 不能；User 完全不能檢視 Findings | 可以；User 能管理所有租戶的群組 | 可以；User 可不受群組限制刪除任何 Finding
+25,基礎題,誰能產生公司 API Token？,Admin；但四種教材角色均可管理自己的 User API Token。,已個別編寫選項（答案未核實）,,一般 User；公司 Token 與個人 Token 權限相同 | Admin；但四種教材角色均可管理自己的 User API Token。 | Group Admin；且 User 無法管理自己的 Token | Portfolio Manager；所有公司 Token 都由其管理
+26,基礎題,誰能匯出 Exposed Credentials 的 PII？,Admin 與 Group Admin（依官方權限頁）。,已個別編寫選項（答案未核實）,,只有 Portfolio Manager；其他角色均不可 | 所有角色皆可；匯出不受角色權限影響 | Admin 與 Group Admin（依官方權限頁）。 | 只有一般 User；Admin 不能匯出
+27,基礎題,誰能設定 Resolved 時自動重新掃描？,Admin。,已個別編寫選項（答案未核實）,,一般 User | Portfolio Manager | 唯讀訪客 | Admin。
+28,基礎題,TMH 與 VRM 的資料流方向差異？,TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。,已個別編寫選項（答案未核實）,,TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。 | TMH 向供應商蒐集問卷；VRM 只對外共享自身文件 | TMH 與 VRM 都只提供外部漏洞掃描 | TMH 只管理 API Token；VRM 只管理登入通知
+29,基礎題,Beacon 的警示與 CM 的分數如何搭配？,CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。,已個別編寫選項（答案未核實）,,CM 可取代全部威脅情資；Beacon 可取代評級 | CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。 | CM 負責即時入侵證據；Beacon 只提供年度評級 | CM 與 Beacon 都只產生供應商問卷
+30,基礎題,客戶要求把 Beacon 當成完整 TPRM，該如何說明？,Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。,已個別編寫選項（答案未核實）,,TPRM 只代表威脅情資，不包含供應商治理 | Beacon 能直接替代所有 VRM 問卷與合約審查 | Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。 | Beacon 已涵蓋供應商分級、問卷、稽核及退場全流程
+31,基礎題,Findings Table 中 First Seen 與 Last Seen 的差別？,首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。,已個別編寫選項（答案未核實）,,First Seen 是修補日；Last Seen 是資產首次上線日 | First Seen 是 CVE 發布日；Last Seen 是官方修補日 | First Seen 是第一次通報日；Last Seen 是合約結束日 | 首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。
+32,基礎題,Remaining Lifetime 是否代表漏洞會在幾天後自動修好？,否，是教材所述預計影響風險向量的剩餘期間。,已個別編寫選項（答案未核實）,,否，是教材所述預計影響風險向量的剩餘期間。 | 是；到期後平台會自動修補漏洞 | 是；倒數結束表示資產已永久下線 | 是；代表 SLA 結束前必須加分
+33,基礎題,Impacts RV Grade Only 的判斷條件？,`Impacts Risk Vector Grade = Yes`。,已個別編寫選項（答案未核實）,,`Incubation Period = No` | `Impacts Risk Vector Grade = Yes`。 | `Impacts Bitsight Rating = Yes` | `Finding Severity = Critical`
+34,基礎題,Incubation Period Findings 為何可能不影響目前評級？,教材指出其尚在孵化／觀察期間。,已個別編寫選項（答案未核實）,,因為所有孵化期發現都是誤報 | 因為孵化期資產都不屬於公司 | 教材指出其尚在孵化／觀察期間。 | 因為孵化期代表漏洞已修補
+35,基礎題,六大告警中，哪一類可監控整體分數變動？,Bitsight Rating。,已個別編寫選項（答案未核實）,,Risk Vector Grade | Exposed Credentials | Rescanned Findings | Bitsight Rating。
+36,基礎題,哪一類告警與憑證外洩相關？,Exposed Credentials。,已個別編寫選項（答案未核實）,,Exposed Credentials。 | Bitsight Rating | Risk Vector Grade | Portfolio Subscription
+37,基礎題,Vulnerabilities & Infections 涉及哪些教材風險向量？,Open Ports、Patching Cadence 與 Compromised Systems。,已個別編寫選項（答案未核實）,,User Preferences、Badge 與 API Tokens | Open Ports、Patching Cadence 與 Compromised Systems。 | SPF、DMARC 與 DKIM | DNSSEC、SSL Certificates 與 TLS
+38,基礎題,Risk Vector Preview 的 Patching Cadence 衡量什麼？,修補速度、效率、漏洞嚴重度與未修補持續時間。,已個別編寫選項（答案未核實）,,只看網站憑證有效天數 | 只看供應商問卷完成比例 | 修補速度、效率、漏洞嚴重度與未修補持續時間。 | 只看漏洞數量而不看時間
+39,基礎題,Recent Security Changes 中哪個欄位可追蹤影響評分的新發現？,New Findings That Impact Rating。,已個別編寫選項（答案未核實）,,Subscription Contact Type | Email Notification Preferences | User API Token History | New Findings That Impact Rating。
+40,基礎題,Framework Intelligence 如何開始評估？,進入頁面後點選 Start Assessment。,已個別編寫選項（答案未核實）,,進入頁面後點選 Start Assessment。 | 在 Settings 點選 Create User | 在 Findings 點選 Export CSV | 在 Portfolio 點選 Compare Companies
+41,基礎題,Framework Intelligence 有哪些教材列出的匯出格式？,CSV、Full Data PDF、Filtered Data PDF。,已個別編寫選項（答案未核實）,,只支援 PNG 與 JPEG | CSV、Full Data PDF、Filtered Data PDF。 | 只支援 Excel 與 Word | 只支援 HTML 與 XML
+42,基礎題,誰可設定 Bitsight Badge？,教材指需要系統管理員權限。,已個別編寫選項（答案未核實）,,只有 Portfolio Manager 可設定 | 任何未登入訪客都可設定 | 教材指需要系統管理員權限。 | 所有一般 User 均可設定
+43,基礎題,哪兩種實體可取得 Bitsight Badge？,My Company 與 Primary Rating Entities。,已個別編寫選項（答案未核實）,,任何供應商與外部競品公司 | 所有子公司與任意第三方 IP | 任何擁有網域的未認證實體 | My Company 與 Primary Rating Entities。
+44,基礎題,一般使用者要修改 Email 通知偏好，去哪裡？,Settings > Account > User Preferences > Update Email Preferences。,已個別編寫選項（答案未核實）,,Settings > Account > User Preferences > Update Email Preferences。 | Settings > Access Control > Groups | Findings > Vulnerability Detection | Portfolio Risk > Compare Companies
+45,基礎題,CM 的 Portfolio Dashboard 可看什麼？,評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。,已個別編寫選項（答案未核實）,,只顯示供應商的合約金額 | 評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。 | 只顯示使用者帳號清單 | 只顯示 DNSSEC 簽章與 TLS 金鑰
+46,基礎題,CM 風險向量頁的 Trend 期間為何？,教材指出過去一年。,已個別編寫選項（答案未核實）,,最近 30 天 | 最近 10 年 | 教材指出過去一年。 | 最近 7 天
+47,基礎題,Compare Companies 可以比較什麼？,不同公司過去一年的評級趨勢、分數與風險向量資訊。,已個別編寫選項（答案未核實）,,只比較使用者登入次數 | 只比較供應商合約簽署時間 | 只比較公司 Logo 與網域名稱 | 不同公司過去一年的評級趨勢、分數與風險向量資訊。
+48,基礎題,Beacon 三階段英文？,Pre-compromise、Active intrusion、Post-compromise。,已個別編寫選項（答案未核實）,,Pre-compromise、Active intrusion、Post-compromise。 | Before Detection、During Review、After Review | Initial Access、Persistence、Exfiltration | Identify、Protect、Recover
+49,基礎題,Beacon 的 Evidence-backed 是什麼概念？,警報應附有可調查的支持證據，而非只有單一未解釋分數。,已個別編寫選項（答案未核實）,,警報一定包含已確認攻擊者身分 | 警報應附有可調查的支持證據，而非只有單一未解釋分數。 | 只根據單一未說明的分數判斷 | 警報保證零誤報且無須調查
+50,基礎題,EASM 的七大面向教材中，數位供應鏈評估主要由哪個模組執行？,教材表格將該面向列於 CM／TRM。,已個別編寫選項（答案未核實）,,User Preferences 帳號設定 | Framework Intelligence 評估匯出 | 教材表格將該面向列於 CM／TRM。 | TMH 文件共享
+51,產品定位,EASM/SPM 的主要監控對象？,自身企業的外部資產與曝險,已個別編寫選項（答案未核實）,,所有第三方供應商內部端點 | 只有員工帳號與通知偏好 | 所有外部競爭對手的私有資產 | 自身企業的外部資產與曝險
+52,產品定位,CM/TRM 的主要監控對象？,第三方供應商及供應鏈,已個別編寫選項（答案未核實）,,第三方供應商及供應鏈 | 只有自身企業的網站憑證 | 只有員工筆電與內網印表機 | 只有網站的 HTTP 回應標頭
+53,產品定位,VRM 的核心資料類型？,問卷、稽核與佐證文件,已個別編寫選項（答案未核實）,,只有公司商標註冊清單 | 問卷、稽核與佐證文件 | 只有外部開放埠掃描結果 | 只有使用者登入次數
+54,產品定位,TMH 主要服務誰的審查需求？,向本企業索取資安證明的客戶,已個別編寫選項（答案未核實）,,只管理自家內網主機的 IT 人員 | 只分析惡意程式的 SOC 人員 | 向本企業索取資安證明的客戶 | 只向外部供應商索取問卷的採購人員
+55,產品定位,Beacon 與 CM 能否互相取代？,不能,已個別編寫選項（答案未核實）,,可以，功能完全相同 | 可以，兩者授權相同 | 可以，兩者資料相同 | 不能
+56,產品定位,EASM 是否等同弱點掃描？,否,已個別編寫選項（答案未核實）,,否 | 是，EASM 只提供 CVE 清單 | 是，EASM 不涉及資產歸屬探索 | 是，EASM 不需要觀測外部攻擊面
+57,產品定位,何謂第四方風險？,供應商所依賴的其他供應商造成的風險,已個別編寫選項（答案未核實）,,與供應鏈無關的網站憑證風險 | 供應商所依賴的其他供應商造成的風險 | 本企業直接聘用的第一層供應商風險 | 企業內部員工帳號管理風險
+58,產品定位,何謂 Shadow IT？,未被正式管理流程完整掌握的 IT 資產或服務,已個別編寫選項（答案未核實）,,所有沒有 SSL 憑證的網站 | 所有供應商已正式納管的資產 | 未被正式管理流程完整掌握的 IT 資產或服務 | 所有使用公有雲的合法服務
+59,產品定位,為何不能把 TPRM 寫成 Beacon？,TPRM 是第三方風險管理範疇,已個別編寫選項（答案未核實）,,因為 TPRM 只代表暗網情資 | 因為 TPRM 只代表漏洞嚴重度分數 | 因為 TPRM 是一個固定的 API Token 類型 | TPRM 是第三方風險管理範疇
+60,產品定位,企業想同時管理自家與供應商曝險，如何配置？,依需求評估 EASM 與 CM,已個別編寫選項（答案未核實）,,依需求評估 EASM 與 CM | 只部署 TMH 即能掃描全部外部資產 | 只部署 Beacon 即能管理所有供應商問卷 | 只部署 VRM 即能發現所有影子 IT
+61,平台操作,Findings Table 的主要用途？,檢視各類風險向量的具體發現,已個別編寫選項（答案未核實）,,只用來設定通知收件人 | 檢視各類風險向量的具體發現 | 只用來新增使用者帳號 | 只用來變更訂閱方案
+62,平台操作,哪個篩選器聚焦影響整體評分？,Impacts Bitsight Rating,已個別編寫選項（答案未核實）,,Incubation Period Findings | Rescanned Findings | Impacts Bitsight Rating | Impacts RV Grade Only
+63,平台操作,哪個篩選器聚焦影響向量評級？,Impacts RV Grade Only,已個別編寫選項（答案未核實）,,Impacts Bitsight Rating | New Findings | Exposed Credentials | Impacts RV Grade Only
+64,平台操作,哪個篩選器選取孵化期發現？,Incubation Period Findings,已個別編寫選項（答案未核實）,,Incubation Period Findings | Rescanned Findings | Impacts Bitsight Rating | Finding Severity
+65,平台操作,哪個篩選器找曾要求重新掃描的紀錄？,Rescanned Findings,已個別編寫選項（答案未核實）,,New Findings | Rescanned Findings | Incubation Period Findings | Impacts RV Grade Only
+66,平台操作,New Findings 告警能使用 Rescanned Findings 嗎？,不能,已個別編寫選項（答案未核實）,,可以，這是預設條件 | 可以，會自動重新掃描 | 不能 | 可以，全部 Filter Sets 均支援
+67,平台操作,Findings Table 預設幾種 Filter Sets？,七種,已個別編寫選項（答案未核實）,,三種 | 五種 | 十種 | 七種
+68,平台操作,查待修補問題為何選 Severe/Material/Moderate？,可涵蓋有風險但 Grade 為 N/A 的 Findings,已個別編寫選項（答案未核實）,,可涵蓋有風險但 Grade 為 N/A 的 Findings | 因為這三類代表所有已修補漏洞 | 因為這三類只會出現在高分公司 | 因為這三類都必定影響整體 Rating
+69,平台操作,如何儲存自訂 Filter Set？,Filter Set Actions > Save as 並填 Name/Description,已個別編寫選項（答案未核實）,,Portfolio > Compare Companies | Filter Set Actions > Save as 並填 Name/Description | Settings > Account > User Preferences | Findings > Export > Download
+70,平台操作,如何找某 CVE 對應的 Findings？,Findings > Vulnerability Detection > 選 CVE > View in Findings,已個別編寫選項（答案未核實）,,Portfolio Risk > Compare Companies | My Account > Subscription History | Findings > Vulnerability Detection > 選 CVE > View in Findings | Settings > Access Control > Users
+71,平台操作,Issue Tracking 的 Asset Risk Matrix 橫軸？,Finding Severity,已個別編寫選項（答案未核實）,,Asset Importance | Bitsight Rating | Subscription Usage | Finding Severity
+72,平台操作,Asset Risk Matrix 縱軸？,Asset Importance,已個別編寫選項（答案未核實）,,Asset Importance | Finding Severity | Risk Vector Grade | Subscription Usage
+73,平台操作,Asset Risk Matrix 紅色代表？,教材列為最優先修補,已個別編寫選項（答案未核實）,,代表該格必定能提高最多 Rating | 教材列為最優先修補 | 代表資產沒有任何漏洞 | 代表已經完成所有修補
+74,平台操作,Asset Risk Matrix 主要涵蓋多久的 Findings？,教材指出最近 60 天,已個別編寫選項（答案未核實）,,最近 30 天 | 最近 365 天 | 教材指出最近 60 天 | 最近 7 天
+75,平台操作,在哪裡檢視近期影響分數的新發現？,Organization > Company Details > Recent Security Changes,已個別編寫選項（答案未核實）,,Settings > Account > User Preferences | My Account > Subscription History | Settings > Access Control > Groups | Organization > Company Details > Recent Security Changes
+76,平台操作,Framework Intelligence 如何產出新評估？,點選 Start Assessment,已個別編寫選項（答案未核實）,,點選 Start Assessment | 在 Settings 點選 Create User | 在 Findings 點選 Export CSV | 在 Portfolio 點選 Compare Companies
+77,平台操作,Framework Intelligence 提供哪些教材格式？,CSV 與 Full/Filtered PDF,已個別編寫選項（答案未核實）,,只有 PNG 與 JPEG | CSV 與 Full/Filtered PDF | 只有 Excel 與 Word | 只有 HTML 與 XML
+78,平台操作,Bitsight Badge 是資安認證嗎？,不是,已個別編寫選項（答案未核實）,,是，代表所有向量合格 | 是，保證不發生資安事件 | 不是 | 是，等同正式資安認證
+79,平台操作,哪裡設定個人 Email 通知？,Settings > Account > User Preferences,已個別編寫選項（答案未核實）,,Settings > Access Control > Groups | Findings > Vulnerability Detection | Portfolio Risk > Compare Companies | Settings > Account > User Preferences
+80,平台操作,Switch To 只出現一種模組一定是故障嗎？,不一定,已個別編寫選項（答案未核實）,,不一定 | 是，表示模組故障 | 是，表示帳號遭停用 | 是，表示平台無法更新
 81,權限管理,管理員新增使用者的介面？,Settings > Access Control > Users,已個別編寫選項（答案未核實）,,Settings > API Access > Tokens | Settings > Access Control > Users | Settings > Account > User Preferences | Settings > Access Control > Groups
 82,權限管理,預設群組名稱？,All Companies,已個別編寫選項（答案未核實）,,Default Portfolio | Unassigned Vendors | All Companies | All Users
 83,權限管理,一個帳號可加入多個群組嗎？,教材指出只能一個,已個別編寫選項（答案未核實）,,可以加入任意數量群組 | 最多可加入兩個群組 | 每個訂閱方案各可加入一個群組 | 教材指出只能一個
 84,權限管理,哪些角色能選 Subscription Contact Type？,教材列 Admin、Group Admin、Portfolio Manager 可選,已個別編寫選項（答案未核實）,,教材列 Admin、Group Admin、Portfolio Manager 可選 | 只有 Admin 可選 | Admin 與一般 User 可選 | 所有帳號角色均可選
 85,權限管理,誰能建立或刪除群組？,Admin,已個別編寫選項（答案未核實）,,所有角色皆可 | Admin | 只有一般 User | Portfolio Manager 與一般 User
 86,權限管理,誰能配置群組訂閱？,Admin,已個別編寫選項（答案未核實）,,Portfolio Manager | User | Admin | Group Admin
-87,權限管理,Group Admin 可編輯其他群組使用者嗎？,不能,已個別編寫選項（答案未核實）,是非題混入不同語法的選項,可以編輯所有群組使用者 | 只要有公司存取權就能編輯 | 只要能檢視群組就能編輯 | 不能
+87,權限管理,Group Admin 可編輯其他群組使用者嗎？,不能,已個別編寫選項（答案未核實）,,可以，編輯所有群組 | 可以，編輯其他群組的 User | 可以，編輯全租戶帳號 | 不能
 88,權限管理,誰能管理公司 API Token？,Admin,已個別編寫選項（答案未核實）,,Admin | 一般 User | Portfolio Manager | 唯讀訪客
 89,權限管理,一般 User 能管理自己的 User API Token 嗎？,官方矩陣列可以,已個別編寫選項（答案未核實）,,User API Token 一律由系統自動建立且無法管理 | 官方矩陣列可以 | 只有 Admin 能管理任何 User API Token | 只有 Group Admin 能管理 User API Token
 90,權限管理,誰可自訂 Asset Risk Matrix？,Admin,已個別編寫選項（答案未核實）,,只能由平台客服自訂 | 沒有任何角色可以自訂 | Admin | 所有一般 User 都可自訂
@@ -95,14 +95,14 @@
 94,權限管理,Portfolio Manager 可建立使用者嗎？,不可,已個別編寫選項（答案未核實）,,可以建立同群組的 User | 可以建立任何供應商使用者 | 不可 | 可以建立所有角色使用者
 95,權限管理,群組可以控制什麼範圍？,可見公司及相關操作範圍,已個別編寫選項（答案未核實）,,只能控制畫面語言 | 只能控制報表匯出格式 | 只能控制登入密碼複雜度 | 可見公司及相關操作範圍
 96,評分機制,Bitsight Rating 教材範圍？,250–900,已個別編寫選項（答案未核實）,,250–900 | 0–100 | 300–850 | 1–1000
-97,評分機制,風險向量 Grade 是否等於整體 Rating？,否,已個別編寫選項（答案未核實）,答案長度差異顯著,是，只要向量 Grade 改變，總分必同步等幅改變 | 否 | 是，兩者永遠相同 | 是，向量 Grade 直接換算為整體 Rating
+97,評分機制,風險向量 Grade 是否等於整體 Rating？,否,已個別編寫選項（答案未核實）,,是，兩者同步等幅變化 | 否 | 是，兩者數值相同 | 是，向量 Grade 即總分
 98,評分機制,DMARC 有 Grade 就一定影響總分嗎？,否,已個別編寫選項（答案未核實）,,是，只要出現 Finding 就必定扣分 | 是，所有向量均使用相同總分權重 | 否 | 是，只要有 A–F Grade 就必定計入
 99,評分機制,DNSSEC 是否必然影響總分？,否,已個別編寫選項（答案未核實）,,是，所有 DNS 類風險向量必定扣總分 | 是，只要 DNSSEC 未部署就必定扣總分 | 是，所有 N/A Grade 都必定扣總分 | 否
 100,評分機制,Exposed Credentials 是否計入總分？,官方資料標示不計入,已個別編寫選項（答案未核實）,,官方資料標示不計入 | 官方資料標示必定計入 | 只要有憑證洩漏就固定扣 100 分 | 只在供應商問卷中計分，不會出現於平台
 101,評分機制,Risk Vector Preview 是未來分數保證嗎？,不是,已個別編寫選項（答案未核實）,,是，預覽會保證修補後即時加分 | 不是 | 是，預覽值就是下一次正式 Rating | 是，預覽能排除其他風險向量的變化
 102,評分機制,Patching Cadence 主要衡量什麼？,修補速度與效率,已個別編寫選項（答案未核實）,,供應商完成問卷的時間 | 網域 DNS 解析所需的時間 | 修補速度與效率 | 網站 TLS 憑證的剩餘效期
 103,評分機制,Remaining Lifetime 是漏洞修好倒數嗎？,不是,已個別編寫選項（答案未核實）,,是，表示修復工作剩餘工時 | 是，代表 SLA 結束倒數 | 是，表示漏洞將在期限結束自動消失 | 不是
-104,評分機制,Last Seen 更新後能立即認定修復成功嗎？,不能,已個別編寫選項（答案未核實）,答案長度差異顯著,不能 | 可以，Last Seen 更新就是修補完成證明 | 可以，只要觀測時間變動就代表漏洞消失 | 可以，Last Seen 等於客戶的修補確認日期
+104,評分機制,Last Seen 更新後能立即認定修復成功嗎？,不能,已個別編寫選項（答案未核實）,,不能 | 可以，時間更新代表修好 | 可以，代表漏洞消失 | 可以，代表修補已確認
 105,評分機制,為何不能以 Findings 數量直接計算 Rating？,計分涉及類別、風險向量及正規化,已個別編寫選項（答案未核實）,,Rating 只取最嚴重的一筆 Finding | 計分涉及類別、風險向量及正規化 | 只要將所有 Findings 數量相加即可 | 所有 Finding 都固定扣同樣分數
 106,評分機制,2026-05 教材的三大類權重？,27%、70.5%、2.5%,已個別編寫選項（答案未核實）,,33%、33%、34% | 50%、30%、20% | 27%、70.5%、2.5% | 25%、50%、25%
 107,評分機制,為何同份簡報會看到 23/24/25 個向量？,混用不同年代素材,已個別編寫選項（答案未核實）,,因為不同使用者角色會自動改變向量總數 | 因為每個公司固定只能看見一半向量 | 因為三種數字代表相同版本的三個地區 | 混用不同年代素材
@@ -110,7 +110,7 @@
 109,評分機制,Grace Period 與 Incubation Period 能直接當同義詞嗎？,不能,已個別編寫選項（答案未核實）,,可以，兩者都表示漏洞已被修復 | 不能 | 可以，兩者的觸發來源與規則完全相同 | 可以，兩者都只由使用者手動啟用
 110,評分機制,某 Finding 顯示 Grade N/A 是否無需修補？,不是,已個別編寫選項（答案未核實）,,是，N/A 代表所有相關資產都安全 | 是，N/A 代表平台已代為完成修補 | 不是 | 是，N/A 一律代表沒有資安風險
 111,評分機制,修補後為何分數可能沒有立刻上升？,重新觀測、計分週期與其他風險影響,已個別編寫選項（答案未核實）,,修補一定會讓分數立即固定上升 100 分 | 因為平台完全不使用重新觀測資料 | 因為 Rating 與外部風險發現完全無關 | 重新觀測、計分週期與其他風險影響
-112,評分機制,同樣 Findings 數量的兩家公司分數必然相同嗎？,不一定,已個別編寫選項（答案未核實）,答案長度差異顯著,不一定 | 必然相同，因為 Rating 只看 Finding 數量 | 必然相同，因為所有 Finding 權重一致 | 必然相同，因為不同公司的資產規模不影響任何計算
+112,評分機制,同樣 Findings 數量的兩家公司分數必然相同嗎？,不一定,已個別編寫選項（答案未核實）,,不一定 | 必然相同，數量決定分數 | 必然相同，權重都一致 | 必然相同，資產不影響分數
 113,評分機制,何謂 Risk Vector？,風險評估維度或分類,已個別編寫選項（答案未核實）,,平台使用者的帳號角色 | 風險評估維度或分類 | 單筆已觀測到的資產 IP | 一份供應商問卷回覆
 114,評分機制,何謂 Finding？,平台觀測到的具體資安發現,已個別編寫選項（答案未核實）,,一項固定的供應商分級 | 一個平台使用者群組 | 平台觀測到的具體資安發現 | 一個產品授權方案
 115,評分機制,怎麼區分降低風險與提高分數？,前者是安全結果，後者是平台評級結果,已個別編寫選項（答案未核實）,,兩者完全相同，修補後必定立即加分 | 只要總分提高就能證明所有風險已消失 | 只有評級變化需要追蹤，實際風險不重要 | 前者是安全結果，後者是平台評級結果
@@ -152,250 +152,250 @@
 151,客戶情境,供應商評級高就不用做問卷嗎？,仍應依重要性與法規評估,已個別編寫選項（答案未核實）,,可以，評級高等同所有合規要求通過 | 可以，外部評級直接取代稽核報告 | 可以，供應商分數高就無須驗證關鍵控制 | 仍應依重要性與法規評估
 152,客戶情境,CM 的 IP 被遮罩如何解釋？,第三方資料可見性有限,已個別編寫選項（答案未核實）,,第三方資料可見性有限 | IP 遮罩代表供應商完全沒有對外服務 | IP 遮罩證明供應商沒有任何漏洞 | IP 遮罩代表所有 Finding 都是誤報
 153,客戶情境,客戶要求以 AI 報告證明合規？,不能直接視為合規證明,已個別編寫選項（答案未核實）,,可以，平台沒有警示即可保證法規合規 | 不能直接視為合規證明 | 可以，AI 摘要等同正式第三方稽核意見 | 可以，報告提及法規名稱就代表符合
-154,客戶情境,客戶問 Badge 是否代表安全保證？,不是,已個別編寫選項（答案未核實）,答案長度差異顯著,是，Badge 等同正式 ISO 27001 認證 | 是，Badge 表示未來一年不會發生事件 | 不是 | 是，Badge 代表所有風險向量皆為 A
+154,客戶情境,客戶問 Badge 是否代表安全保證？,不是,已個別編寫選項（答案未核實）,,是，等同正式資安認證 | 是，保證未來沒有事故 | 不是 | 是，代表所有向量安全
 155,客戶情境,發現供應商 Stealer Logs 怎麼處理？,核對證據、範圍、通報與憑證處置,已個別編寫選項（答案未核實）,,直接公開所有帳密讓供應商確認 | 只要刪除情資紀錄就能結案 | 忽略帳密有效性並只追蹤評級 | 核對證據、範圍、通報與憑證處置
-156,客戶情境,CVE 出現在 Findings 就一定被利用嗎？,不一定,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,不一定 | 不應只看分數 | 不能直接視為合規證明 | 比對範圍、時間及佐證
-157,客戶情境,供應商評級下降是否立刻解約？,不應只看分數,待逐題審核,干擾選項尚未逐題編寫,第三方資料可見性有限 | 不應只看分數 | 不能直接視為合規證明 | 比對範圍、時間及佐證
-158,客戶情境,客戶問如何證明修補有效？,比對技術修補證據、Rescan、Last Seen 與評級更新,待逐題審核,干擾選項尚未逐題編寫,確認 Finding 狀態、Last Seen、Rescan 與評級週期 | Vendor Risk > Overview > Risk Vectors | 比對技術修補證據、Rescan、Last Seen 與評級更新 | Portfolio Risk > Compare Companies
-159,客戶情境,客戶要招標功能佐證應提供什麼？,官方功能文件、平台路徑、合約授權及必要截圖,待逐題審核,干擾選項尚未逐題編寫,評級變化、風險向量、改善狀態與高風險供應商 | CM Portfolio Dashboard | 需合併 Severity、資產重要性及曝露性 | 官方功能文件、平台路徑、合約授權及必要截圖
-160,客戶情境,客戶問 SPM 與 EASM 是否完全同義？,在教材對應，但授權與命名需核對,待逐題審核,干擾選項尚未逐題編寫,在教材對應，但授權與命名需核對 | 先釐清 CM 可見性與合約範圍 | 核對證據、範圍、通報與憑證處置 | 不承諾分數或期限，先盤點影響與修補
-161,客戶情境,客戶問 CM 與 Beacon 差異？,CM 長期態勢；Beacon 威脅情資,待逐題審核,干擾選項尚未逐題編寫,不承諾分數或期限，先盤點影響與修補 | CM 長期態勢；Beacon 威脅情資 | CM Portfolio Dashboard | 先釐清 CM 可見性與合約範圍
-162,客戶情境,客戶問哪裡看供應商比較？,Portfolio Risk > Compare Companies,待逐題審核,干擾選項尚未逐題編寫,CM Portfolio Dashboard | 比對技術修補證據、Rescan、Last Seen 與評級更新 | Portfolio Risk > Compare Companies | Vendor Risk > Overview > Risk Vectors
-163,客戶情境,客戶問哪裡看供應商風險向量趨勢？,Vendor Risk > Overview > Risk Vectors,待逐題審核,干擾選項尚未逐題編寫,Portfolio Risk > Compare Companies | 評級變化、風險向量、改善狀態與高風險供應商 | 比對技術修補證據、Rescan、Last Seen 與評級更新 | Vendor Risk > Overview > Risk Vectors
-164,客戶情境,客戶問哪裡看整體供應商組合？,CM Portfolio Dashboard,待逐題審核,干擾選項尚未逐題編寫,CM Portfolio Dashboard | CM 長期態勢；Beacon 威脅情資 | 先釐清 CM 可見性與合約範圍 | Portfolio Risk > Compare Companies
-165,客戶情境,客戶要每季報告該追蹤什麼？,評級變化、風險向量、改善狀態與高風險供應商,待逐題審核,干擾選項尚未逐題編寫,需合併 Severity、資產重要性及曝露性 | 評級變化、風險向量、改善狀態與高風險供應商 | 官方功能文件、平台路徑、合約授權及必要截圖 | CM Portfolio Dashboard
-166,客戶情境,客戶要求所有供應商完整資產清單？,先釐清 CM 可見性與合約範圍,待逐題審核,干擾選項尚未逐題編寫,CM 長期態勢；Beacon 威脅情資 | CM Portfolio Dashboard | 先釐清 CM 可見性與合約範圍 | 核對證據、範圍、通報與憑證處置
-167,客戶情境,供應商問卷結果與外部觀測矛盾？,比對範圍、時間及佐證,待逐題審核,干擾選項尚未逐題編寫,不能直接視為合規證明 | 第三方資料可見性有限 | 仍應依重要性與法規評估 | 比對範圍、時間及佐證
-168,進階｜產品與授權辨識,客戶將 EASM/SPM 視為所有授權版本功能完全相同，哪裡需要澄清？,模組命名與實際功能授權不是同一件事,待逐題審核,干擾選項尚未逐題編寫,模組命名與實際功能授權不是同一件事 | CM 持續監控與 VRM 問卷工作流 | 確認資料來源、更新頻率、告警延遲 | 需求、對應功能、介面、證據、授權、限制
-169,進階｜產品與授權辨識,客戶要求 API 整合，PM 首先確認什麼？,購買方案是否含 API／Integrations 及權限,待逐題審核,干擾選項尚未逐題編寫,CM 持續監控與 VRM 問卷工作流 | 購買方案是否含 API／Integrations 及權限 | 子公司管理與 MySubsidiary 授權數量 | 需求、對應功能、介面、證據、授權、限制
-170,進階｜產品與授權辨識,客戶要求同時看五家子公司，應先查什麼？,子公司管理與 MySubsidiary 授權數量,待逐題審核,干擾選項尚未逐題編寫,需求、對應功能、介面、證據、授權、限制 | CM 持續監控與 VRM 問卷工作流 | 子公司管理與 MySubsidiary 授權數量 | 購買方案是否含 API／Integrations 及權限
-171,進階｜產品與授權辨識,客戶只有 CM 授權，能保證看見 EASM 完整資產細節嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,CM 持續監控與 VRM 問卷工作流 | 需求、對應功能、介面、證據、授權、限制 | 監控訂閱容量的使用情況 | 不能
-172,進階｜產品與授權辨識,VRM 已有問卷，是否表示 Beacon 情資自動包含？,不表示,待逐題審核,干擾選項尚未逐題編寫,不表示 | CM 持續監控與 VRM 問卷工作流 | 不能直接一對一映射 | 監控訂閱容量的使用情況
-173,進階｜產品與授權辨識,客戶說 TMH 是供應商問卷工具，如何修正？,TMH 偏向自身證據對外共享,待逐題審核,干擾選項尚未逐題編寫,確認資料來源、更新頻率、告警延遲 | TMH 偏向自身證據對外共享 | 核對平台畫面、官方文件及授權 | 合約功能清單與實際驗收測試
-174,進階｜產品與授權辨識,Basic、Standard、Advanced 能直接映射 EASM Base／Enhanced 嗎？,不能直接一對一映射,待逐題審核,干擾選項尚未逐題編寫,合約功能清單與實際驗收測試 | TMH 偏向自身證據對外共享 | 不能直接一對一映射 | 監控訂閱容量的使用情況
-175,進階｜產品與授權辨識,客戶要做招標規格符合性矩陣，應用哪些欄位？,需求、對應功能、介面、證據、授權、限制,待逐題審核,干擾選項尚未逐題編寫,CM 持續監控與 VRM 問卷工作流 | 模組命名與實際功能授權不是同一件事 | 確認資料來源、更新頻率、告警延遲 | 需求、對應功能、介面、證據、授權、限制
-176,進階｜產品與授權辨識,客戶要雲端資產探索，怎麼確認支援範圍？,核對平台畫面、官方文件及授權,待逐題審核,干擾選項尚未逐題編寫,核對平台畫面、官方文件及授權 | TMH 偏向自身證據對外共享 | 合約功能清單與實際驗收測試 | 確認資料來源、更新頻率、告警延遲
-177,進階｜產品與授權辨識,客戶要 SQLi/XSS 檢測，能用 Web Application Security 名稱直接承諾嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,TMH 偏向自身證據對外共享 | 不能 | 監控訂閱容量的使用情況 | 合約功能清單與實際驗收測試
-178,進階｜產品與授權辨識,客戶要 DNSSEC 與 DNS 異常查詢偵測，兩者是否相同？,不同,待逐題審核,干擾選項尚未逐題編寫,監控訂閱容量的使用情況 | 合約功能清單與實際驗收測試 | 不同 | 不能直接一對一映射
-179,進階｜產品與授權辨識,客戶要完整 TLS 弱點掃描，如何界定範圍？,確認 SSL Certificates、SSL Configurations 的細項與掃描能力,待逐題審核,干擾選項尚未逐題編寫,購買方案是否含 API／Integrations 及權限 | 子公司管理與 MySubsidiary 授權數量 | 需求、對應功能、介面、證據、授權、限制 | 確認 SSL Certificates、SSL Configurations 的細項與掃描能力
-180,進階｜產品與授權辨識,客戶要求資安評級與供應商問卷同一平台，應比較哪兩類能力？,CM 持續監控與 VRM 問卷工作流,待逐題審核,干擾選項尚未逐題編寫,CM 持續監控與 VRM 問卷工作流 | 模組命名與實際功能授權不是同一件事 | 需求、對應功能、介面、證據、授權、限制 | 確認資料來源、更新頻率、告警延遲
-181,進階｜產品與授權辨識,如何解釋 CM 的訂閱使用率？,監控訂閱容量的使用情況,待逐題審核,干擾選項尚未逐題編寫,合約功能清單與實際驗收測試 | 監控訂閱容量的使用情況 | CM 持續監控與 VRM 問卷工作流 | 不能直接一對一映射
-182,進階｜產品與授權辨識,合約沒有寫 API 速率限制，能保證不限量嗎？,不能,待逐題審核,答案長度差異顯著；是非題混入不同語法的選項；干擾選項尚未逐題編寫,監控訂閱容量的使用情況 | 合約功能清單與實際驗收測試 | 不能 | 購買方案是否含 API／Integrations 及權限
-183,進階｜產品與授權辨識,客戶問有無 24 小時即時監控，如何避免誤導？,確認資料來源、更新頻率、告警延遲,待逐題審核,干擾選項尚未逐題編寫,模組命名與實際功能授權不是同一件事 | CM 持續監控與 VRM 問卷工作流 | TMH 偏向自身證據對外共享 | 確認資料來源、更新頻率、告警延遲
-184,進階｜產品與授權辨識,客戶想要 TMH 取代正式稽核，如何回答？,不能取代,待逐題審核,干擾選項尚未逐題編寫,不能取代 | TMH 偏向自身證據對外共享 | 不能直接一對一映射 | 監控訂閱容量的使用情況
-185,進階｜產品與授權辨識,Beacon 有威脅告警，是否代表已證實供應商遭入侵？,不一定,待逐題審核,干擾選項尚未逐題編寫,合約功能清單與實際驗收測試 | 不一定 | 不能直接一對一映射 | 監控訂閱容量的使用情況
-186,進階｜產品與授權辨識,客戶要求所有模組共用相同角色權限，能直接保證嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,合約功能清單與實際驗收測試 | TMH 偏向自身證據對外共享 | 不能 | 監控訂閱容量的使用情況
-187,進階｜產品與授權辨識,公開行銷資料與租戶畫面不同時，應以什麼完成交付確認？,合約功能清單與實際驗收測試,待逐題審核,干擾選項尚未逐題編寫,TMH 偏向自身證據對外共享 | 核對平台畫面、官方文件及授權 | 監控訂閱容量的使用情況 | 合約功能清單與實際驗收測試
-188,進階｜SPM 操作判讀,Findings 的 First Seen 很新，能推論昨天才有漏洞嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,不能 | 依資產及服務逐筆驗證 | 應先查證資產歸屬與觀測證據 | 先分群、驗證、排序、指定負責人
-189,進階｜SPM 操作判讀,Last Seen 為昨天，是否能斷言今天仍有漏洞？,不能,待逐題審核,干擾選項尚未逐題編寫,先分群、驗證、排序、指定負責人 | 不能 | 依資產及服務逐筆驗證 | 應先查證資產歸屬與觀測證據
-190,進階｜SPM 操作判讀,Finding 影響向量評級，但未影響總分，該如何解釋？,向量計分與整體 Rating 計分條件不同,待逐題審核,干擾選項尚未逐題編寫,可依教材匯出 Excel，注意權限與敏感資訊 | 交叉比對 DNS、CMDB、雲端帳號與歷史紀錄 | 向量計分與整體 Rating 計分條件不同 | CSV 便於整理，PDF 便於閱讀與交付
-191,進階｜SPM 操作判讀,如何查看某 Finding 的 CVE 證據？,進入 Findings 詳細資訊或 Vulnerability Detection,待逐題審核,干擾選項尚未逐題編寫,Recent Security Changes 與 Risk Vector 相關頁面 | Patching Cadence 可能顯示 Grade N/A | 交叉比對 DNS、CMDB、雲端帳號與歷史紀錄 | 進入 Findings 詳細資訊或 Vulnerability Detection
-192,進階｜SPM 操作判讀,為何自訂高風險篩選不只選 BAD？,Patching Cadence 可能顯示 Grade N/A,待逐題審核,干擾選項尚未逐題編寫,Patching Cadence 可能顯示 Grade N/A | 交叉比對 DNS、CMDB、雲端帳號與歷史紀錄 | 可依教材匯出 Excel，注意權限與敏感資訊 | 向量計分與整體 Rating 計分條件不同
-193,進階｜SPM 操作判讀,Filter Set 已保存卻沒套用，下一步？,從 FILTER SETS 選取該組合,待逐題審核,干擾選項尚未逐題編寫,帳號管理、SOC 與資安治理單位協作 | 從 FILTER SETS 選取該組合 | 先辨識是自有 EASM 或第三方 CM | CSV 便於整理，PDF 便於閱讀與交付
-194,進階｜SPM 操作判讀,Rescanned Findings 是否表示漏洞都已修好？,不是,待逐題審核,干擾選項尚未逐題編寫,應先查證資產歸屬與觀測證據 | 先分群、驗證、排序、指定負責人 | 不是 | 依資產及服務逐筆驗證
-195,進階｜SPM 操作判讀,想知道最近哪類風險拖累評級，先去哪裡？,Recent Security Changes 與 Risk Vector 相關頁面,待逐題審核,干擾選項尚未逐題編寫,進入 Findings 詳細資訊或 Vulnerability Detection | Patching Cadence 可能顯示 Grade N/A | 交叉比對 DNS、CMDB、雲端帳號與歷史紀錄 | Recent Security Changes 與 Risk Vector 相關頁面
-196,進階｜SPM 操作判讀,Risk Vector Preview 的預估與實際更新不同，是否必然系統錯誤？,不一定,待逐題審核,答案長度差異顯著；干擾選項尚未逐題編寫,不一定 | Recent Security Changes 與 Risk Vector 相關頁面 | 依資產及服務逐筆驗證 | 應先查證資產歸屬與觀測證據
-197,進階｜SPM 操作判讀,Asset Risk Matrix 紅色是否一定能帶來最多分數？,不是,待逐題審核,干擾選項尚未逐題編寫,先分群、驗證、排序、指定負責人 | 不是 | 依資產及服務逐筆驗證 | 應先查證資產歸屬與觀測證據
-198,進階｜SPM 操作判讀,Asset Risk Matrix 綠色是否可永久忽略？,不行,待逐題審核,干擾選項尚未逐題編寫,應先查證資產歸屬與觀測證據 | 先分群、驗證、排序、指定負責人 | 不行 | 依資產及服務逐筆驗證
-199,進階｜SPM 操作判讀,同一個 CVE 影響多筆 Findings，應如何處理？,依資產及服務逐筆驗證,待逐題審核,干擾選項尚未逐題編寫,應先查證資產歸屬與觀測證據 | 先分群、驗證、排序、指定負責人 | 實體資格、管理員權限及呈現規範 | 依資產及服務逐筆驗證
-200,進階｜SPM 操作判讀,資產歸屬有爭議，為何不應直接刪除 Finding？,應先查證資產歸屬與觀測證據,待逐題審核,干擾選項尚未逐題編寫,應先查證資產歸屬與觀測證據 | 先分群、驗證、排序、指定負責人 | 實體資格、管理員權限及呈現規範 | 依資產及服務逐筆驗證
-201,進階｜SPM 操作判讀,如何確認平台顯示的 IP 是自有資產？,交叉比對 DNS、CMDB、雲端帳號與歷史紀錄,待逐題審核,干擾選項尚未逐題編寫,向量計分與整體 Rating 計分條件不同 | 交叉比對 DNS、CMDB、雲端帳號與歷史紀錄 | 先辨識是自有 EASM 或第三方 CM | 可依教材匯出 Excel，注意權限與敏感資訊
-202,進階｜SPM 操作判讀,想下載 Findings 給維運團隊，應注意什麼？,可依教材匯出 Excel，注意權限與敏感資訊,待逐題審核,干擾選項尚未逐題編寫,交叉比對 DNS、CMDB、雲端帳號與歷史紀錄 | 向量計分與整體 Rating 計分條件不同 | 可依教材匯出 Excel，注意權限與敏感資訊 | 進入 Findings 詳細資訊或 Vulnerability Detection
-203,進階｜SPM 操作判讀,Exposed Credentials 告警應由誰接手？,帳號管理、SOC 與資安治理單位協作,待逐題審核,干擾選項尚未逐題編寫,先辨識是自有 EASM 或第三方 CM | 從 FILTER SETS 選取該組合 | CSV 便於整理，PDF 便於閱讀與交付 | 帳號管理、SOC 與資安治理單位協作
-204,進階｜SPM 操作判讀,Framework Intelligence 的 CSV 與 PDF 用途差別？,CSV 便於整理，PDF 便於閱讀與交付,待逐題審核,干擾選項尚未逐題編寫,CSV 便於整理，PDF 便於閱讀與交付 | 先辨識是自有 EASM 或第三方 CM | 向量計分與整體 Rating 計分條件不同 | 從 FILTER SETS 選取該組合
-205,進階｜SPM 操作判讀,Badge 放上官網前應先核對什麼？,實體資格、管理員權限及呈現規範,待逐題審核,干擾選項尚未逐題編寫,帳號管理、SOC 與資安治理單位協作 | 實體資格、管理員權限及呈現規範 | 先分群、驗證、排序、指定負責人 | 應先查證資產歸屬與觀測證據
-206,進階｜SPM 操作判讀,客戶要一次修完所有 Finding，如何安排？,先分群、驗證、排序、指定負責人,待逐題審核,干擾選項尚未逐題編寫,應先查證資產歸屬與觀測證據 | 帳號管理、SOC 與資安治理單位協作 | 先分群、驗證、排序、指定負責人 | 實體資格、管理員權限及呈現規範
-207,進階｜SPM 操作判讀,客戶問為何有些 Finding 無完整 IP，如何區分？,先辨識是自有 EASM 或第三方 CM,待逐題審核,干擾選項尚未逐題編寫,從 FILTER SETS 選取該組合 | CSV 便於整理，PDF 便於閱讀與交付 | 帳號管理、SOC 與資安治理單位協作 | 先辨識是自有 EASM 或第三方 CM
-208,進階｜CM 與供應商監控,Portfolio Dashboard 評分中位數改善，是否代表所有供應商都改善？,不是,待逐題審核,干擾選項尚未逐題編寫,不是 | 不宜直接中止 | 不能如此推論 | 不能直接推論
-209,進階｜CM 與供應商監控,供應商 A 高分但近期快速下降，如何判斷？,結合 Rating Changes、Risk Vectors 與重要性,待逐題審核,干擾選項尚未逐題編寫,教材示例是一年，其他期間需核對平台 | 結合 Rating Changes、Risk Vectors 與重要性 | 依 CM 可見性提供外部證據與協作請求 | 展示評級趨勢、風險向量、整改狀態及例外
-210,進階｜CM 與供應商監控,供應商 B 低分但不接觸敏感資料，是否一定先處理？,不一定,待逐題審核,干擾選項尚未逐題編寫,不能如此推論 | 不能直接推論 | 不一定 | 不宜直接中止
-211,進階｜CM 與供應商監控,Compare Companies 的趨勢可否直接當因果證明？,不行,待逐題審核,干擾選項尚未逐題編寫,不宜直接中止 | 不能如此推論 | 不能直接推論 | 不行
-212,進階｜CM 與供應商監控,Vendor Risk Overview 的 Trend 與 Findings 有何差異？,前者看變化，後者看具體發現,待逐題審核,干擾選項尚未逐題編寫,前者看變化，後者看具體發現 | 結合 Rating Changes、Risk Vectors 與重要性 | 不同供應商的業務影響不同 | 核對公司實體與資產歸屬
-213,進階｜CM 與供應商監控,Risk of Security Event 是實際事故紀錄嗎？,不是,待逐題審核,干擾選項尚未逐題編寫,不能直接推論 | 不是 | 不宜直接中止 | 不能如此推論
-214,進階｜CM 與供應商監控,供應商有 BAD Finding，採購是否應立即中止？,不宜直接中止,待逐題審核,干擾選項尚未逐題編寫,不能直接推論 | 核對公司實體與資產歸屬 | 不宜直接中止 | 不能如此推論
-215,進階｜CM 與供應商監控,供應商說已修補但 CM 仍顯示，如何處理？,請其提供修補證據並等待重新觀測,待逐題審核,干擾選項尚未逐題編寫,依 CM 可見性提供外部證據與協作請求 | 比較問卷時間、範圍、資產與證據 | 前者看變化，後者看具體發現 | 請其提供修補證據並等待重新觀測
-216,進階｜CM 與供應商監控,供應商拒絕分享內部 IP，如何溝通？,依 CM 可見性提供外部證據與協作請求,待逐題審核,干擾選項尚未逐題編寫,依 CM 可見性提供外部證據與協作請求 | 展示評級趨勢、風險向量、整改狀態及例外 | 教材示例是一年，其他期間需核對平台 | 比較問卷時間、範圍、資產與證據
-217,進階｜CM 與供應商監控,監控組合擴張後，中位數下降代表既有廠商變差嗎？,不一定,待逐題審核,干擾選項尚未逐題編寫,不能直接推論 | 不一定 | 不宜直接中止 | 不能如此推論
-218,進階｜CM 與供應商監控,為何 CM 需要供應商分級？,不同供應商的業務影響不同,待逐題審核,干擾選項尚未逐題編寫,前者看變化，後者看具體發現 | 核對公司實體與資產歸屬 | 不同供應商的業務影響不同 | 依 CM 可見性提供外部證據與協作請求
-219,進階｜CM 與供應商監控,供應商合併或改名後，監控應注意什麼？,核對公司實體與資產歸屬,待逐題審核,干擾選項尚未逐題編寫,檢視監控清單與授權容量 | 不同供應商的業務影響不同 | 前者看變化，後者看具體發現 | 核對公司實體與資產歸屬
-220,進階｜CM 與供應商監控,Portfolio Risk Matrix 是否等於合約風險矩陣？,不是,待逐題審核,干擾選項尚未逐題編寫,不是 | 不宜直接中止 | 不能如此推論 | 不能直接推論
-221,進階｜CM 與供應商監控,訂閱使用率接近上限，PM 應做什麼？,檢視監控清單與授權容量,待逐題審核,干擾選項尚未逐題編寫,前者看變化，後者看具體發現 | 檢視監控清單與授權容量 | 核對公司實體與資產歸屬 | 不同供應商的業務影響不同
-222,進階｜CM 與供應商監控,客戶問一年趨勢能否看十年歷史，怎麼回答？,教材示例是一年，其他期間需核對平台,待逐題審核,干擾選項尚未逐題編寫,展示評級趨勢、風險向量、整改狀態及例外 | 比較問卷時間、範圍、資產與證據 | 教材示例是一年，其他期間需核對平台 | 依 CM 可見性提供外部證據與協作請求
-223,進階｜CM 與供應商監控,第三方評級高就代表符合法規嗎？,不代表,待逐題審核,干擾選項尚未逐題編寫,不宜直接中止 | 不能如此推論 | 不能直接推論 | 不代表
-224,進階｜CM 與供應商監控,供應商問卷滿分但外部評級差，怎麼追查？,比較問卷時間、範圍、資產與證據,待逐題審核,干擾選項尚未逐題編寫,比較問卷時間、範圍、資產與證據 | 請其提供修補證據並等待重新觀測 | 前者看變化，後者看具體發現 | 教材示例是一年，其他期間需核對平台
-225,進階｜CM 與供應商監控,如何向主管呈現供應商改善成效？,展示評級趨勢、風險向量、整改狀態及例外,待逐題審核,干擾選項尚未逐題編寫,比較問卷時間、範圍、資產與證據 | 展示評級趨勢、風險向量、整改狀態及例外 | 依 CM 可見性提供外部證據與協作請求 | 教材示例是一年，其他期間需核對平台
-226,進階｜CM 與供應商監控,CM 是否能替供應商直接修補主機？,不能直接推論,待逐題審核,干擾選項尚未逐題編寫,不宜直接中止 | 不能如此推論 | 不能直接推論 | 依 CM 可見性提供外部證據與協作請求
-227,進階｜CM 與供應商監控,供應商長期低分卻無重大事故，是否表示評級無效？,不能如此推論,待逐題審核,干擾選項尚未逐題編寫,不宜直接中止 | 不能直接推論 | 核對公司實體與資產歸屬 | 不能如此推論
-228,進階｜權限與治理,Admin 與 Group Admin 最重要的管理邊界？,前者管理全域群組與部分配置；後者限群組範圍,待逐題審核,干擾選項尚未逐題編寫,前者管理全域群組與部分配置；後者限群組範圍 | 請具適當權限的管理員協助 | Admin | 確認產品版本、角色、群組、授權與政策
-229,進階｜權限與治理,新增 User 時預設 All Companies，為何需小心？,可能使可見公司範圍過大,待逐題審核,干擾選項尚未逐題編寫,請具適當權限的管理員協助 | 可能使可見公司範圍過大 | 可見公司範圍可能不符預期 | 作用範圍與管理責任不同
-230,進階｜權限與治理,User 只能選 Collaboration，這是否表示不能提出訂閱請求？,不表示,待逐題審核,干擾選項尚未逐題編寫,不能直接推論 | 規劃群組與公司分配 | 不表示 | Admin
-231,進階｜權限與治理,Group Admin 能看見別組所有供應商嗎？,不能直接推論,待逐題審核,干擾選項尚未逐題編寫,Admin | 規劃群組與公司分配 | 作用範圍與管理責任不同 | 不能直接推論
-232,進階｜權限與治理,公司 API Token 與 User API Token 的風險差異？,作用範圍與管理責任不同,待逐題審核,干擾選項尚未逐題編寫,作用範圍與管理責任不同 | 可能使可見公司範圍過大 | 可見公司範圍可能不符預期 | 請具適當權限的管理員協助
-233,進階｜權限與治理,API Token 應否寫進教育訓練截圖？,不應,待逐題審核,干擾選項尚未逐題編寫,規劃群組與公司分配 | 不應 | Admin | 不能直接推論
-234,進階｜權限與治理,Exposed Credentials PII 匯出後如何處理？,限制存取、保存期限與分享範圍,待逐題審核,干擾選項尚未逐題編寫,教材提及系統自選三位管理員 | 避免模糊名稱與不明責任範圍 | 限制存取、保存期限與分享範圍 | 啟動帳號停用與權限回收流程
-235,進階｜權限與治理,兩名使用者需要不同供應商清單，如何設計？,規劃群組與公司分配,待逐題審核,干擾選項尚未逐題編寫,作用範圍與管理責任不同 | 可能使可見公司範圍過大 | 不能直接推論 | 規劃群組與公司分配
-236,進階｜權限與治理,建立群組後忘記勾 Companies 會有什麼問題？,可見公司範圍可能不符預期,待逐題審核,干擾選項尚未逐題編寫,可見公司範圍可能不符預期 | 可能使可見公司範圍過大 | 請具適當權限的管理員協助 | 作用範圍與管理責任不同
-237,進階｜權限與治理,客戶要求 User 建立新帳號，能直接答應嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,作用範圍與管理責任不同 | 不能 | Admin | 規劃群組與公司分配
-238,進階｜權限與治理,Portfolio Manager 想建立使用者，怎麼處理？,請具適當權限的管理員協助,待逐題審核,干擾選項尚未逐題編寫,作用範圍與管理責任不同 | 可能使可見公司範圍過大 | 請具適當權限的管理員協助 | 可見公司範圍可能不符預期
-239,進階｜權限與治理,誰能變更自動 Rescan 設定？,Admin,待逐題審核,干擾選項尚未逐題編寫,不能直接推論 | 規劃群組與公司分配 | 作用範圍與管理責任不同 | Admin
-240,進階｜權限與治理,使用者離職後，PM 要做什麼？,啟動帳號停用與權限回收流程,待逐題審核,干擾選項尚未逐題編寫,啟動帳號停用與權限回收流程 | 教材提及系統自選三位管理員 | 避免模糊名稱與不明責任範圍 | 可見公司範圍可能不符預期
-241,進階｜權限與治理,同仁要查看別組供應商，是否應共用帳號？,不應,待逐題審核,干擾選項尚未逐題編寫,規劃群組與公司分配 | 不應 | Admin | 不能直接推論
-242,進階｜權限與治理,不同租戶看到不同選單，是否一定是 BUG？,不一定,待逐題審核,干擾選項尚未逐題編寫,不能直接推論 | 規劃群組與公司分配 | 不一定 | Admin
-243,進階｜權限與治理,Data Residency 選 EU，是否代表所有平台資料都在 EU？,不能保證,待逐題審核,干擾選項尚未逐題編寫,Admin | 不能直接推論 | 規劃群組與公司分配 | 不能保證
-244,進階｜權限與治理,訂閱聯絡人沒指定會怎樣？,教材提及系統自選三位管理員,待逐題審核,干擾選項尚未逐題編寫,教材提及系統自選三位管理員 | 啟動帳號停用與權限回收流程 | 避免模糊名稱與不明責任範圍 | 可見公司範圍可能不符預期
-245,進階｜權限與治理,群組命名應避免什麼？,避免模糊名稱與不明責任範圍,待逐題審核,干擾選項尚未逐題編寫,可見公司範圍可能不符預期 | 避免模糊名稱與不明責任範圍 | 啟動帳號停用與權限回收流程 | 教材提及系統自選三位管理員
-246,進階｜權限與治理,權限矩陣與實際操作不一致，怎麼查？,確認產品版本、角色、群組、授權與政策,待逐題審核,干擾選項尚未逐題編寫,限制存取、保存期限與分享範圍 | 啟動帳號停用與權限回收流程 | 確認產品版本、角色、群組、授權與政策 | 前者管理全域群組與部分配置；後者限群組範圍
-247,進階｜權限與治理,能否把所有人都設 Admin 以省事？,不建議,待逐題審核,干擾選項尚未逐題編寫,Admin | 不能直接推論 | 規劃群組與公司分配 | 不建議
-248,進階｜風險向量與技術,SPF 設得正確是否等於 DMARC 已啟用？,不是,待逐題審核,干擾選項尚未逐題編寫,不是 | 要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度
-249,進階｜風險向量與技術,DKIM 簽章通過能保證寄件者無惡意嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,前者看修補節奏，後者看漏洞嚴重度 | 不能 | 要評估並處置 | 需依暴露與資產重要性排序
-250,進階｜風險向量與技術,DMARC p=none 與 p=reject 的管理目的有何差異？,前者偏監控；後者可要求拒收未通過驗證的郵件,待逐題審核,干擾選項尚未逐題編寫,前者看修補節奏，後者看漏洞嚴重度 | 需依暴露與資產重要性排序 | 前者偏監控；後者可要求拒收未通過驗證的郵件 | 確認業務依賴與可升級性，再停用弱協定
-251,進階｜風險向量與技術,DNSSEC 是否會隱藏 DNS 查詢內容？,不會,待逐題審核,干擾選項尚未逐題編寫,要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不會
-252,進階｜風險向量與技術,TLS 1.0 服務仍對外開放，應先做什麼？,確認業務依賴與可升級性，再停用弱協定,待逐題審核,干擾選項尚未逐題編寫,確認業務依賴與可升級性，再停用弱協定 | 前者看修補節奏，後者看漏洞嚴重度 | 前者偏監控；後者可要求拒收未通過驗證的郵件 | 需依暴露與資產重要性排序
-253,進階｜風險向量與技術,憑證過期與憑證金鑰過短是同一問題嗎？,不是,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,前者看修補節奏，後者看漏洞嚴重度 | 不是 | 要評估並處置 | 需依暴露與資產重要性排序
-254,進階｜風險向量與技術,開放 443 埠就一定安全嗎？,不是,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不是 | 要評估並處置
-255,進階｜風險向量與技術,開放 23 埠一定是 Telnet 嗎？,不一定,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不一定
-256,進階｜風險向量與技術,Web Application Headers 是否能代替 WAF？,不能,待逐題審核,干擾選項尚未逐題編寫,不能 | 要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度
-257,進階｜風險向量與技術,CVE 有高 CVSS 但服務不對外，仍要處理嗎？,需依暴露與資產重要性排序,待逐題審核,干擾選項尚未逐題編寫,要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 確認業務依賴與可升級性，再停用弱協定
-258,進階｜風險向量與技術,EPSS 高是否等於已被利用？,不是,待逐題審核,干擾選項尚未逐題編寫,需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不是 | 要評估並處置
-259,進階｜風險向量與技術,KEV 收錄是否意味所有企業都已遭攻擊？,不是,待逐題審核,干擾選項尚未逐題編寫,要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不是
-260,進階｜風險向量與技術,觀測到 IOC 是否一定是感染？,不一定,待逐題審核,干擾選項尚未逐題編寫,不一定 | 要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度
-261,進階｜風險向量與技術,Typosquatting 偵測到相似網域就能直接下架嗎？,不一定,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,前者看修補節奏，後者看漏洞嚴重度 | 不一定 | 要評估並處置 | 需依暴露與資產重要性排序
-262,進階｜風險向量與技術,BitTorrent 觀測代表一定外洩個資嗎？,不是,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不是 | 要評估並處置
-263,進階｜風險向量與技術,外洩憑證被列為資訊性向量，還要修嗎？,要評估並處置,待逐題審核,干擾選項尚未逐題編寫,需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 確認業務依賴與可升級性，再停用弱協定 | 要評估並處置
-264,進階｜風險向量與技術,Mobile Application Security 的 Grade 能直接推算總分嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,不能 | 要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度
-265,進階｜風險向量與技術,Patching Cadence 與單一 CVE 的 CVSS 有何不同？,前者看修補節奏，後者看漏洞嚴重度,待逐題審核,干擾選項尚未逐題編寫,前者偏監控；後者可要求拒收未通過驗證的郵件 | 前者看修補節奏，後者看漏洞嚴重度 | 確認業務依賴與可升級性，再停用弱協定 | 需依暴露與資產重要性排序
-266,進階｜風險向量與技術,Server Software 與 Insecure Systems 是否必然相同？,不是,待逐題審核,干擾選項尚未逐題編寫,需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不是 | 要評估並處置
-267,進階｜風險向量與技術,對外 IP 出現掃描活動就代表主機被攻陷嗎？,不一定,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,要評估並處置 | 需依暴露與資產重要性排序 | 前者看修補節奏，後者看漏洞嚴重度 | 不一定
-268,進階｜評分與數據分析,同一向量有 10 個 Finding，能用 10 倍單筆扣分計算嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,不能 | 能識別持續惡化或改善 | 可能忽略高危但不計分風險 | 向量不計分或其他因素抵銷
-269,進階｜評分與數據分析,評級下降 20 分，是否可由單一新 Finding 解釋？,不能直接判定,待逐題審核,干擾選項尚未逐題編寫,可能忽略高危但不計分風險 | 不能直接判定 | 不能一概而論 | 能識別持續惡化或改善
-270,進階｜評分與數據分析,修補後 Last Seen 不變，應怎麼追查？,檢查修補證據、重新觀測與掃描狀態,待逐題審核,干擾選項尚未逐題編寫,寫明觀測日期、範圍與更新限制 | 向量評級與總分納入規則不同 | 檢查修補證據、重新觀測與掃描狀態 | 公司實體、時間、篩選條件及資料更新
-271,進階｜評分與數據分析,First Seen 很久代表風險更高嗎？,不一定,待逐題審核,干擾選項尚未逐題編寫,不能一概而論 | 不能直接判定 | 能識別持續惡化或改善 | 不一定
-272,進階｜評分與數據分析,為何 Diligence 類別權重高仍不能只修 Diligence？,業務風險與實際威脅仍須考慮,待逐題審核,干擾選項尚未逐題編寫,業務風險與實際威脅仍須考慮 | 向量評級與總分納入規則不同 | 可能忽略高危但不計分風險 | 向量不計分或其他因素抵銷
-273,進階｜評分與數據分析,27% + 70.5% + 2.5% 是否可推導單一 IP 扣分？,不能,待逐題審核,干擾選項尚未逐題編寫,向量不計分或其他因素抵銷 | 不能 | 能識別持續惡化或改善 | 可能忽略高危但不計分風險
-274,進階｜評分與數據分析,兩家公司分數差 30，是否表示風險差 30%？,不是,待逐題審核,干擾選項尚未逐題編寫,不能直接判定 | 能識別持續惡化或改善 | 不是 | 不能一概而論
-275,進階｜評分與數據分析,為何比較供應商時要看趨勢？,能識別持續惡化或改善,待逐題審核,干擾選項尚未逐題編寫,可能忽略高危但不計分風險 | 向量不計分或其他因素抵銷 | 新觀測到的曝險或歸屬變更 | 能識別持續惡化或改善
-276,進階｜評分與數據分析,DMARC 有 A–F Grade 卻不影響總分，怎麼說？,向量評級與總分納入規則不同,待逐題審核,干擾選項尚未逐題編寫,向量評級與總分納入規則不同 | 業務風險與實際威脅仍須考慮 | 可能忽略高危但不計分風險 | 向量不計分或其他因素抵銷
-277,進階｜評分與數據分析,Incubation Finding 應排除改善計畫嗎？,不應,待逐題審核,干擾選項尚未逐題編寫,能識別持續惡化或改善 | 不應 | 不能一概而論 | 不能直接判定
-278,進階｜評分與數據分析,Severity Severe 就一定比 Critical Asset 的 Moderate 更先修嗎？,不能一概而論,待逐題審核,干擾選項尚未逐題編寫,能識別持續惡化或改善 | 可能忽略高危但不計分風險 | 不能一概而論 | 不能直接判定
-279,進階｜評分與數據分析,客戶要求只修會加分的項目，有何盲點？,可能忽略高危但不計分風險,待逐題審核,干擾選項尚未逐題編寫,向量不計分或其他因素抵銷 | 新觀測到的曝險或歸屬變更 | 向量評級與總分納入規則不同 | 可能忽略高危但不計分風險
-280,進階｜評分與數據分析,新資產納入後分數下降，可能代表什麼？,新觀測到的曝險或歸屬變更,待逐題審核,干擾選項尚未逐題編寫,新觀測到的曝險或歸屬變更 | 可能忽略高危但不計分風險 | 向量不計分或其他因素抵銷 | 向量評級與總分納入規則不同
-281,進階｜評分與數據分析,資料量增加導致 Finding 變多，是否等於安全惡化？,不一定,待逐題審核,干擾選項尚未逐題編寫,能識別持續惡化或改善 | 不一定 | 不能一概而論 | 不能直接判定
-282,進階｜評分與數據分析,Risk Vector Grade 變好但總分沒動，可能原因？,向量不計分或其他因素抵銷,待逐題審核,干擾選項尚未逐題編寫,新觀測到的曝險或歸屬變更 | 向量評級與總分納入規則不同 | 向量不計分或其他因素抵銷 | 可能忽略高危但不計分風險
-283,進階｜評分與數據分析,Risk Vector Preview 顯示改善，是否可以對外承諾？,不宜保證,待逐題審核,干擾選項尚未逐題編寫,不能一概而論 | 不能直接判定 | 能識別持續惡化或改善 | 不宜保證
-284,進階｜評分與數據分析,報告應如何表達分數提升的不確定性？,寫明觀測日期、範圍與更新限制,待逐題審核,干擾選項尚未逐題編寫,寫明觀測日期、範圍與更新限制 | 向量評級與總分納入規則不同 | 業務風險與實際威脅仍須考慮 | 可能忽略高危但不計分風險
-285,進階｜評分與數據分析,Remaining Lifetime 歸零是否等於漏洞不存在？,不等於,待逐題審核,干擾選項尚未逐題編寫,能識別持續惡化或改善 | 不等於 | 不能一概而論 | 不能直接判定
-286,進階｜評分與數據分析,不同日期截圖分數不同，應先確認什麼？,公司實體、時間、篩選條件及資料更新,待逐題審核,干擾選項尚未逐題編寫,寫明觀測日期、範圍與更新限制 | 向量評級與總分納入規則不同 | 公司實體、時間、篩選條件及資料更新 | 檢查修補證據、重新觀測與掃描狀態
-287,進階｜評分與數據分析,高分公司仍發生事故，是否與評級必然矛盾？,不矛盾,待逐題審核,干擾選項尚未逐題編寫,不能一概而論 | 不能直接判定 | 能識別持續惡化或改善 | 不矛盾
-288,進階｜VRM 與評估模型,Impact 100、Trust 100，教材 Risk Score？,50,待逐題審核,干擾選項尚未逐題編寫,50 | Trust 較低者 | Impact 較高者 | 資料類型與資料量
-289,進階｜VRM 與評估模型,Impact 0、Trust 100，教材 Risk Score？,0,待逐題審核,干擾選項尚未逐題編寫,資料類型與資料量 | 0 | Trust 較低者 | Impact 較高者
-290,進階｜VRM 與評估模型,Impact 100、Trust 0，教材 Risk Score？,100,待逐題審核,干擾選項尚未逐題編寫,Impact 較高者 | 資料類型與資料量 | 100 | Trust 較低者
-291,進階｜VRM 與評估模型,Impact 70、Trust 40，教材 Risk Score？,65,待逐題審核,干擾選項尚未逐題編寫,Trust 較低者 | Impact 較高者 | 資料類型與資料量 | 65
-292,進階｜VRM 與評估模型,Impact 40、Trust 70，教材 Risk Score？,35,待逐題審核,干擾選項尚未逐題編寫,35 | Trust 較低者 | Impact 較高者 | 資料類型與資料量
-293,進階｜VRM 與評估模型,Impact 65、Trust 35，教材 Risk Score？,65,待逐題審核,干擾選項尚未逐題編寫,資料類型與資料量 | 65 | Trust 較低者 | Impact 較高者
-294,進階｜VRM 與評估模型,Impact 20、Trust 50，教材 Risk Score？,35,待逐題審核,干擾選項尚未逐題編寫,Impact 較高者 | 資料類型與資料量 | 35 | Trust 較低者
-295,進階｜VRM 與評估模型,Impact 55、Trust 85，教材 Risk Score？,35,待逐題審核,干擾選項尚未逐題編寫,Trust 較低者 | Impact 較高者 | 資料類型與資料量 | 35
-296,進階｜VRM 與評估模型,Impact 90、Trust 70，教材 Risk Score？,60,待逐題審核,干擾選項尚未逐題編寫,60 | Trust 較低者 | Impact 較高者 | 資料類型與資料量
-297,進階｜VRM 與評估模型,Impact 75、Trust 25，教材 Risk Score？,75,待逐題審核,干擾選項尚未逐題編寫,資料類型與資料量 | 75 | Trust 較低者 | Impact 較高者
-298,進階｜VRM 與評估模型,兩家供應商 Trust 相同但 Impact 不同，哪家 Risk Score 高？,Impact 較高者,待逐題審核,干擾選項尚未逐題編寫,服務關鍵性與可替代性 | 依企業政策與實際工作流 | Impact 較高者 | Trust 較低者
-299,進階｜VRM 與評估模型,兩家供應商 Impact 相同但 Trust 不同，哪家 Risk Score 高？,Trust 較低者,待逐題審核,干擾選項尚未逐題編寫,Impact 較高者 | 服務關鍵性與可替代性 | 資料類型與資料量 | Trust 較低者
-300,進階｜VRM 與評估模型,Trust Score 高就不需要做 Impact 評估嗎？,仍需要,待逐題審核,干擾選項尚未逐題編寫,仍需要 | Trust 較低者 | Impact 較高者 | 資料類型與資料量
-301,進階｜VRM 與評估模型,Impact 評估可考慮哪些資料因素？,資料類型與資料量,待逐題審核,干擾選項尚未逐題編寫,服務關鍵性與可替代性 | 資料類型與資料量 | Impact 較高者 | Trust 較低者
-302,進階｜VRM 與評估模型,Impact 評估可考慮哪些服務因素？,服務關鍵性與可替代性,待逐題審核,干擾選項尚未逐題編寫,Trust 較低者 | 依企業政策與實際工作流 | 服務關鍵性與可替代性 | Impact 較高者
-303,進階｜VRM 與評估模型,Trust 評估可考慮哪些外部證據？,評級、稽核報告、問卷與保險,待逐題審核,干擾選項尚未逐題編寫,Trust 較低者 | 依企業政策與實際工作流 | 審查有效性、範圍與缺失 | 評級、稽核報告、問卷與保險
-304,進階｜VRM 與評估模型,Risk Score 60 能直接對應法規規定的高風險嗎？,不能,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,不能 | 資料類型與資料量 | Trust 較低者 | Impact 較高者
-305,進階｜VRM 與評估模型,問卷答案沒有證據，Trust 是否應直接給滿分？,不應,待逐題審核,干擾選項尚未逐題編寫,Impact 較高者 | 不應 | Trust 較低者 | 資料類型與資料量
-306,進階｜VRM 與評估模型,供應商提交新稽核報告，VRM 下一步？,審查有效性、範圍與缺失,待逐題審核,干擾選項尚未逐題編寫,依企業政策與實際工作流 | Impact 較高者 | 審查有效性、範圍與缺失 | 評級、稽核報告、問卷與保險
-307,進階｜VRM 與評估模型,VRM 評估結果多久更新一次？,依企業政策與實際工作流,待逐題審核,干擾選項尚未逐題編寫,審查有效性、範圍與缺失 | Impact 較高者 | 服務關鍵性與可替代性 | 依企業政策與實際工作流
-308,進階｜Beacon 與事件應變,發現 Stealer Logs 涉及供應商帳號，第一步？,驗證帳號、時間與證據,待逐題審核,干擾選項尚未逐題編寫,驗證帳號、時間與證據 | 待確認並說明不確定性 | 描述攻擊者技術與戰術 | 比對共同服務與時間關係
-309,進階｜Beacon 與事件應變,發現 IAB 販售供應商存取權，如何升級？,交由威脅情資、SOC 與 TPRM 協同評估,待逐題審核,干擾選項尚未逐題編寫,依證據、契約、法規及企業應變門檻 | 交由威脅情資、SOC 與 TPRM 協同評估 | IOC、時間、來源、受影響資產及處置紀錄 | 確認有效性、重設、撤銷及啟用 MFA
-310,進階｜Beacon 與事件應變,C2 IOC 命中但時間已久，是否立即宣布入侵？,不應,待逐題審核,干擾選項尚未逐題編寫,待確認並說明不確定性 | 描述攻擊者技術與戰術 | 不應 | IOC、時間、來源、受影響資產及處置紀錄
-311,進階｜Beacon 與事件應變,Beacon 入侵前警示與 CM 弱點發現如何搭配？,用情資提高曝險調查優先序,待逐題審核,干擾選項尚未逐題編寫,提供可分享的證據與時間範圍 | 比對共同服務與時間關係 | 遵循最小揭露與保護政策 | 用情資提高曝險調查優先序
-312,進階｜Beacon 與事件應變,Beacon 入侵中警示應保存哪些證據？,IOC、時間、來源、受影響資產及處置紀錄,待逐題審核,干擾選項尚未逐題編寫,IOC、時間、來源、受影響資產及處置紀錄 | 交由威脅情資、SOC 與 TPRM 協同評估 | 確認有效性、重設、撤銷及啟用 MFA | 依證據、契約、法規及企業應變門檻
-313,進階｜Beacon 與事件應變,Beacon 入侵後情資出現憑證，應做什麼？,確認有效性、重設、撤銷及啟用 MFA,待逐題審核,干擾選項尚未逐題編寫,記錄證據、責任人、期限、驗證方式 | 確認有效性、重設、撤銷及啟用 MFA | IOC、時間、來源、受影響資產及處置紀錄 | 依證據、契約、法規及企業應變門檻
-314,進階｜Beacon 與事件應變,Evidence-backed 是否等於零誤報？,不是,待逐題審核,干擾選項尚未逐題編寫,描述攻擊者技術與戰術 | 驗證帳號、時間與證據 | 不是 | 待確認並說明不確定性
-315,進階｜Beacon 與事件應變,MITRE ATT&CK 映射的用途？,描述攻擊者技術與戰術,待逐題審核,干擾選項尚未逐題編寫,待確認並說明不確定性 | 驗證帳號、時間與證據 | 比對共同服務與時間關係 | 描述攻擊者技術與戰術
-316,進階｜Beacon 與事件應變,供應商否認情資，如何溝通？,提供可分享的證據與時間範圍,待逐題審核,干擾選項尚未逐題編寫,提供可分享的證據與時間範圍 | 用情資提高曝險調查優先序 | 先驗證可能已遭利用與失陷的證據 | 核對供應商來源、授權及合規聲明
-317,進階｜Beacon 與事件應變,Beacon 可否取代 SOC？,不能,待逐題審核,干擾選項尚未逐題編寫,描述攻擊者技術與戰術 | 不能 | 交由威脅情資、SOC 與 TPRM 協同評估 | 待確認並說明不確定性
-318,進階｜Beacon 與事件應變,客戶問暗網情報是否合法取得，應如何處理？,核對供應商來源、授權及合規聲明,待逐題審核,干擾選項尚未逐題編寫,依證據、契約、法規及企業應變門檻 | 記錄證據、責任人、期限、驗證方式 | 核對供應商來源、授權及合規聲明 | 先驗證可能已遭利用與失陷的證據
-319,進階｜Beacon 與事件應變,同一 IOC 同時出現在多個供應商，如何處理？,比對共同服務與時間關係,待逐題審核,干擾選項尚未逐題編寫,IOC、時間、來源、受影響資產及處置紀錄 | 遵循最小揭露與保護政策 | 待確認並說明不確定性 | 比對共同服務與時間關係
-320,進階｜Beacon 與事件應變,警示沒有足夠證據，PM 應怎麼標註？,待確認並說明不確定性,待逐題審核,干擾選項尚未逐題編寫,待確認並說明不確定性 | 驗證帳號、時間與證據 | 描述攻擊者技術與戰術 | 比對共同服務與時間關係
-321,進階｜Beacon 與事件應變,供應商確認受害但評級未下降，合理嗎？,可能,待逐題審核,干擾選項尚未逐題編寫,驗證帳號、時間與證據 | 可能 | 待確認並說明不確定性 | 描述攻擊者技術與戰術
-322,進階｜Beacon 與事件應變,情資報告涉及個資，如何分享？,遵循最小揭露與保護政策,待逐題審核,干擾選項尚未逐題編寫,待確認並說明不確定性 | 描述攻擊者技術與戰術 | 遵循最小揭露與保護政策 | 比對共同服務與時間關係
-323,進階｜Beacon 與事件應變,Pre-compromise 有弱點就等於已入侵嗎？,不是,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,待確認並說明不確定性 | 描述攻擊者技術與戰術 | 驗證帳號、時間與證據 | 不是
-324,進階｜Beacon 與事件應變,Post-compromise 訊號一定是當天發生嗎？,不一定,待逐題審核,是非題混入不同語法的選項；干擾選項尚未逐題編寫,不一定 | 待確認並說明不確定性 | 描述攻擊者技術與戰術 | 驗證帳號、時間與證據
-325,進階｜Beacon 與事件應變,如何將 Beacon 警示變成供應商改善計畫？,記錄證據、責任人、期限、驗證方式,待逐題審核,干擾選項尚未逐題編寫,核對供應商來源、授權及合規聲明 | 記錄證據、責任人、期限、驗證方式 | 依證據、契約、法規及企業應變門檻 | 先驗證可能已遭利用與失陷的證據
-326,進階｜Beacon 與事件應變,同時有 CVE、C2 與 Stealer Logs，哪個最值得調查？,先驗證可能已遭利用與失陷的證據,待逐題審核,干擾選項尚未逐題編寫,依證據、契約、法規及企業應變門檻 | 記錄證據、責任人、期限、驗證方式 | 先驗證可能已遭利用與失陷的證據 | 核對供應商來源、授權及合規聲明
-327,進階｜Beacon 與事件應變,何時應啟動事件通報？,依證據、契約、法規及企業應變門檻,待逐題審核,干擾選項尚未逐題編寫,記錄證據、責任人、期限、驗證方式 | 先驗證可能已遭利用與失陷的證據 | 核對供應商來源、授權及合規聲明 | 依證據、契約、法規及企業應變門檻
-328,進階｜客戶情境與 PM 口試,主管問你如何在三分鐘介紹 Bitsight，怎麼安排？,問題、模組定位、示範、價值與限制,待逐題審核,干擾選項尚未逐題編寫,問題、模組定位、示範、價值與限制 | 說明 CM 可見性與遮罩限制 | 說明探索能力與歸屬限制 | 依資料敏感度、合約與公司政策決定
-329,進階｜客戶情境與 PM 口試,客戶只想看分數，如何帶入實際風險？,從 Risk Vector 與 Findings 連到改善行動,待逐題審核,干擾選項尚未逐題編寫,確認 Finding 狀態、Last Seen、Rescan 與評級週期 | 從 Risk Vector 與 Findings 連到改善行動 | 先說 Asset Risk Matrix 與 Findings Severity，再補業務風險 | Rating、Trend、Risk Vectors、重要性、事件及證據
-330,進階｜客戶情境與 PM 口試,客戶說去年沒事所以不必監控，如何回應？,風險會變動，年度問卷無法取代持續觀測,待逐題審核,干擾選項尚未逐題編寫,比較資產範圍、觀測時間、掃描方式與歸屬 | 證據、權利基礎、服務流程及處置權限 | 風險會變動，年度問卷無法取代持續觀測 | 區分 CM 監控與 VRM 問卷能力
-331,進階｜客戶情境與 PM 口試,客戶要求保證沒有影子 IT，如何回應？,說明探索能力與歸屬限制,待逐題審核,干擾選項尚未逐題編寫,說明 CM 可見性與遮罩限制 | 問題、模組定位、示範、價值與限制 | 先核對產品與授權的掃描範圍 | 說明探索能力與歸屬限制
-332,進階｜客戶情境與 PM 口試,客戶要求明天交付完整報告，第一步？,確認範圍、授權、格式與資料時點,待逐題審核,干擾選項尚未逐題編寫,確認範圍、授權、格式與資料時點 | 逐項列功能、證據、授權、限制及驗收 | 只能作為外部可觀測風險指標之一 | 忽略服務重要性、法遵與補償控制
-333,進階｜客戶情境與 PM 口試,客戶要求找出最先修的三項，怎麼做？,依 Severity、Asset Importance、曝露性與計分影響交叉排序,待逐題審核,干擾選項尚未逐題編寫,Rating、Trend、Risk Vectors、重要性、事件及證據 | 依 Severity、Asset Importance、曝露性與計分影響交叉排序 | 先說 Asset Risk Matrix 與 Findings Severity，再補業務風險 | 確認 Finding 狀態、Last Seen、Rescan 與評級週期
-334,進階｜客戶情境與 PM 口試,客戶問「修補了還是 BAD」，如何排查？,確認 Finding 狀態、Last Seen、Rescan 與評級週期,待逐題審核,干擾選項尚未逐題編寫,依 Severity、Asset Importance、曝露性與計分影響交叉排序 | 從 Risk Vector 與 Findings 連到改善行動 | 確認 Finding 狀態、Last Seen、Rescan 與評級週期 | Rating、Trend、Risk Vectors、重要性、事件及證據
-335,進階｜客戶情境與 PM 口試,客戶問 EASM 可否掃內網，怎麼回答？,先核對產品與授權的掃描範圍,待逐題審核,干擾選項尚未逐題編寫,先調整過濾條件、門檻及接收人 | 說明 CM 可見性與遮罩限制 | 只能作為外部可觀測風險指標之一 | 先核對產品與授權的掃描範圍
-336,進階｜客戶情境與 PM 口試,客戶問 CM 是否有供應商問卷，怎麼回答？,區分 CM 監控與 VRM 問卷能力,待逐題審核,干擾選項尚未逐題編寫,區分 CM 監控與 VRM 問卷能力 | 說明 CM 可見性與遮罩限制 | 風險會變動，年度問卷無法取代持續觀測 | 比較資產範圍、觀測時間、掃描方式與歸屬
-337,進階｜客戶情境與 PM 口試,客戶要求提供第三方所有漏洞詳情，如何回答？,說明 CM 可見性與遮罩限制,待逐題審核,干擾選項尚未逐題編寫,區分 CM 監控與 VRM 問卷能力 | 說明 CM 可見性與遮罩限制 | 問題、模組定位、示範、價值與限制 | 說明探索能力與歸屬限制
-338,進階｜客戶情境與 PM 口試,客戶要求 100% 符合招標規格，如何驗證？,逐項列功能、證據、授權、限制及驗收,待逐題審核,干擾選項尚未逐題編寫,確認範圍、授權、格式與資料時點 | Rating、Trend、Risk Vectors、重要性、事件及證據 | 逐項列功能、證據、授權、限制及驗收 | 證據、權利基礎、服務流程及處置權限
-339,進階｜客戶情境與 PM 口試,客戶說評級與內部掃描不一致，如何排查？,比較資產範圍、觀測時間、掃描方式與歸屬,待逐題審核,干擾選項尚未逐題編寫,列出已修補、已觀測、已反映評級的三種狀態 | 區分 CM 監控與 VRM 問卷能力 | 風險會變動，年度問卷無法取代持續觀測 | 比較資產範圍、觀測時間、掃描方式與歸屬
-340,進階｜客戶情境與 PM 口試,客戶問可否把評級當成資安成熟度分數，如何回答？,只能作為外部可觀測風險指標之一,待逐題審核,干擾選項尚未逐題編寫,只能作為外部可觀測風險指標之一 | 忽略服務重要性、法遵與補償控制 | 確認範圍、授權、格式與資料時點 | 依資料敏感度、合約與公司政策決定
-341,進階｜客戶情境與 PM 口試,客戶要把供應商評級當唯一採購門檻，風險何在？,忽略服務重要性、法遵與補償控制,待逐題審核,干擾選項尚未逐題編寫,依資料敏感度、合約與公司政策決定 | 忽略服務重要性、法遵與補償控制 | 只能作為外部可觀測風險指標之一 | 確認範圍、授權、格式與資料時點
-342,進階｜客戶情境與 PM 口試,客戶希望停止所有告警，如何建議？,先調整過濾條件、門檻及接收人,待逐題審核,干擾選項尚未逐題編寫,先核對產品與授權的掃描範圍 | 只能作為外部可觀測風險指標之一 | 先調整過濾條件、門檻及接收人 | 說明 CM 可見性與遮罩限制
-343,進階｜客戶情境與 PM 口試,主管要求比較兩家供應商，應列哪些指標？,Rating、Trend、Risk Vectors、重要性、事件及證據,待逐題審核,干擾選項尚未逐題編寫,從 Risk Vector 與 Findings 連到改善行動 | 先說 Asset Risk Matrix 與 Findings Severity，再補業務風險 | 證據、權利基礎、服務流程及處置權限 | Rating、Trend、Risk Vectors、重要性、事件及證據
-344,進階｜客戶情境與 PM 口試,客戶要求立刻下架偽冒網域，應先查什麼？,證據、權利基礎、服務流程及處置權限,待逐題審核,干擾選項尚未逐題編寫,證據、權利基礎、服務流程及處置權限 | 逐項列功能、證據、授權、限制及驗收 | Rating、Trend、Risk Vectors、重要性、事件及證據 | 依資料敏感度、合約與公司政策決定
-345,進階｜客戶情境與 PM 口試,主管問如何呈現本月改善成果？,列出已修補、已觀測、已反映評級的三種狀態,待逐題審核,干擾選項尚未逐題編寫,風險會變動，年度問卷無法取代持續觀測 | 列出已修補、已觀測、已反映評級的三種狀態 | 比較資產範圍、觀測時間、掃描方式與歸屬 | 區分 CM 監控與 VRM 問卷能力
-346,進階｜客戶情境與 PM 口試,主管問哪些資料可以對外公開？,依資料敏感度、合約與公司政策決定,待逐題審核,干擾選項尚未逐題編寫,只能作為外部可觀測風險指標之一 | 忽略服務重要性、法遵與補償控制 | 依資料敏感度、合約與公司政策決定 | 問題、模組定位、示範、價值與限制
-347,進階｜客戶情境與 PM 口試,主管問哪個功能最能協助修補排序？,先說 Asset Risk Matrix 與 Findings Severity，再補業務風險,待逐題審核,干擾選項尚未逐題編寫,依 Severity、Asset Importance、曝露性與計分影響交叉排序 | 從 Risk Vector 與 Findings 連到改善行動 | Rating、Trend、Risk Vectors、重要性、事件及證據 | 先說 Asset Risk Matrix 與 Findings Severity，再補業務風險
-348,進階｜主管連續追問,主管追問：客戶修補後分數不動，你第一個要看的欄位？,Last Seen 與 Finding 狀態,待逐題審核,干擾選項尚未逐題編寫,Last Seen 與 Finding 狀態 | 用風險向量與具體 Finding 示範 | 固定加分、百分百資產發現、所有授權功能及零誤報 | 若需威脅情資，可評估補充 Beacon
-349,進階｜主管連續追問,主管追問：如果 Last Seen 仍舊，你怎麼證明客戶真的修了？,請客戶提供配置或掃描證據,待逐題審核,干擾選項尚未逐題編寫,官方權限表加實際租戶測試 | 請客戶提供配置或掃描證據 | Last Seen 與 Finding 狀態 | 依契約與風險治理流程升級
-350,進階｜主管連續追問,主管追問：如果平台已觀測改善但分數不動？,確認是否計分及其他向量變化,待逐題審核,干擾選項尚未逐題編寫,說明修補價值在降低真實風險 | 依契約與風險治理流程升級 | 確認是否計分及其他向量變化 | 功能包裝與授權範圍可能不同
-351,進階｜主管連續追問,主管追問：如果該向量根本不計分？,說明修補價值在降低真實風險,待逐題審核,干擾選項尚未逐題編寫,功能包裝與授權範圍可能不同 | 確認是否計分及其他向量變化 | 依契約與風險治理流程升級 | 說明修補價值在降低真實風險
-352,進階｜主管連續追問,主管追問：客戶堅持一週加 50 分？,不承諾，提出可驗證改善清單與時程,待逐題審核,干擾選項尚未逐題編寫,不承諾，提出可驗證改善清單與時程 | 分配責任、驗證修補、追蹤觀測與評級 | 提供可分享的外部證據並建立協作流程 | 比資產重要性、曝露性與可利用性
-353,進階｜主管連續追問,主管追問：客戶說 BAD 一定比 WARN 先修？,不一定，需看 Severity 與 Asset Importance,待逐題審核,干擾選項尚未逐題編寫,用風險向量與具體 Finding 示範 | 不一定，需看 Severity 與 Asset Importance | 固定加分、百分百資產發現、所有授權功能及零誤報 | Last Seen 與 Finding 狀態
-354,進階｜主管連續追問,主管追問：Severity 同樣 Severe，怎麼再排序？,比資產重要性、曝露性與可利用性,待逐題審核,干擾選項尚未逐題編寫,不承諾，提出可驗證改善清單與時程 | 分配責任、驗證修補、追蹤觀測與評級 | 比資產重要性、曝露性與可利用性 | 不一定，需看 Severity 與 Asset Importance
-355,進階｜主管連續追問,主管追問：如果資產不是客戶的？,先啟動資產歸屬核對,待逐題審核,干擾選項尚未逐題編寫,不能，先核對證據 | 主要偏向共享自身證據 | 需要視需求，兩者互補 | 先啟動資產歸屬核對
-356,進階｜主管連續追問,主管追問：CM 看不到完整 IP，怎麼協助供應商？,提供可分享的外部證據並建立協作流程,待逐題審核,干擾選項尚未逐題編寫,提供可分享的外部證據並建立協作流程 | 分配責任、驗證修補、追蹤觀測與評級 | 不承諾，提出可驗證改善清單與時程 | 比資產重要性、曝露性與可利用性
-357,進階｜主管連續追問,主管追問：供應商拒絕配合？,依契約與風險治理流程升級,待逐題審核,干擾選項尚未逐題編寫,請客戶提供配置或掃描證據 | 依契約與風險治理流程升級 | 官方權限表加實際租戶測試 | 標示版本、查證日期與來源
-358,進階｜主管連續追問,主管追問：有問卷還需要 CM 嗎？,需要視需求，兩者互補,待逐題審核,干擾選項尚未逐題編寫,先啟動資產歸屬核對 | 不能，先核對證據 | 需要視需求，兩者互補 | 主要偏向共享自身證據
-359,進階｜主管連續追問,主管追問：有 CM 還需要 Beacon 嗎？,若需威脅情資，可評估補充 Beacon,待逐題審核,干擾選項尚未逐題編寫,用風險向量與具體 Finding 示範 | 分配責任、驗證修補、追蹤觀測與評級 | 提供可分享的外部證據並建立協作流程 | 若需威脅情資，可評估補充 Beacon
-360,進階｜主管連續追問,主管追問：Beacon 告警能直接宣稱入侵？,不能，先核對證據,待逐題審核,干擾選項尚未逐題編寫,不能，先核對證據 | 若需威脅情資，可評估補充 Beacon | 先啟動資產歸屬核對 | 主要偏向共享自身證據
-361,進階｜主管連續追問,主管追問：TMH 能否幫供應商填問卷？,主要偏向共享自身證據,待逐題審核,干擾選項尚未逐題編寫,不能，先核對證據 | 主要偏向共享自身證據 | 需要視需求，兩者互補 | 先啟動資產歸屬核對
-362,進階｜主管連續追問,主管追問：為何要分 Basic 與 Enhanced？,功能包裝與授權範圍可能不同,待逐題審核,干擾選項尚未逐題編寫,說明修補價值在降低真實風險 | 依契約與風險治理流程升級 | 功能包裝與授權範圍可能不同 | 確認是否計分及其他向量變化
-363,進階｜主管連續追問,主管追問：官網與教材衝突怎麼處理？,標示版本、查證日期與來源,待逐題審核,干擾選項尚未逐題編寫,依契約與風險治理流程升級 | 官方權限表加實際租戶測試 | 請客戶提供配置或掃描證據 | 標示版本、查證日期與來源
-364,進階｜主管連續追問,主管追問：你如何驗證角色權限？,官方權限表加實際租戶測試,待逐題審核,干擾選項尚未逐題編寫,官方權限表加實際租戶測試 | 依契約與風險治理流程升級 | 標示版本、查證日期與來源 | 請客戶提供配置或掃描證據
-365,進階｜主管連續追問,主管追問：你如何讓客戶理解評分？,用風險向量與具體 Finding 示範,待逐題審核,干擾選項尚未逐題編寫,分配責任、驗證修補、追蹤觀測與評級 | 用風險向量與具體 Finding 示範 | Last Seen 與 Finding 狀態 | 若需威脅情資，可評估補充 Beacon
-366,進階｜主管連續追問,主管追問：如何把平台發現變成改善成效？,分配責任、驗證修補、追蹤觀測與評級,待逐題審核,干擾選項尚未逐題編寫,不承諾，提出可驗證改善清單與時程 | 比資產重要性、曝露性與可利用性 | 分配責任、驗證修補、追蹤觀測與評級 | 提供可分享的外部證據並建立協作流程
-367,進階｜主管連續追問,主管追問：哪些資訊不能承諾？,固定加分、百分百資產發現、所有授權功能及零誤報,待逐題審核,干擾選項尚未逐題編寫,Last Seen 與 Finding 狀態 | 用風險向量與具體 Finding 示範 | 若需威脅情資，可評估補充 Beacon | 固定加分、百分百資產發現、所有授權功能及零誤報
-368,綜合｜向量處置口試,客戶在 SPF 記錄 風險向量出現新 Finding，你會優先要求哪項驗證？,核對 DNS 紀錄與寄件服務清單,待逐題審核,干擾選項尚未逐題編寫,核對 DNS 紀錄與寄件服務清單 | 確認 HTTP 回應與安全標頭 | 確認 selector 與金鑰配置 | 確認檔案分享的合法性與資料類型
-369,綜合｜向量處置口試,客戶在 DKIM 紀錄 風險向量出現新 Finding，你會優先要求哪項驗證？,確認 selector 與金鑰配置,待逐題審核,干擾選項尚未逐題編寫,核對 DNS 紀錄與寄件服務清單 | 確認 selector 與金鑰配置 | 確認 HTTP 回應與安全標頭 | 確認 App 安全測試與版本
-370,綜合｜向量處置口試,客戶在 DMARC 記錄 風險向量出現新 Finding，你會優先要求哪項驗證？,確認政策與對齊結果,待逐題審核,干擾選項尚未逐題編寫,確認有效期與信任鏈 | 確認版本與修補狀態 | 確認政策與對齊結果 | 確認協定與密碼套件
-371,綜合｜向量處置口試,客戶在 DNSSEC 風險向量出現新 Finding，你會優先要求哪項驗證？,確認網域簽章與驗證鏈,待逐題審核,干擾選項尚未逐題編寫,確認協定與密碼套件 | 確認可能利用跡象與資產 | 確認政策與對齊結果 | 確認網域簽章與驗證鏈
-372,綜合｜向量處置口試,客戶在 SSL Certificates 風險向量出現新 Finding，你會優先要求哪項驗證？,確認有效期與信任鏈,待逐題審核,干擾選項尚未逐題編寫,確認有效期與信任鏈 | 確認協定與密碼套件 | 確認政策與對齊結果 | 確認版本與修補狀態
-373,綜合｜向量處置口試,客戶在 SSL Configurations 風險向量出現新 Finding，你會優先要求哪項驗證？,確認協定與密碼套件,待逐題審核,干擾選項尚未逐題編寫,確認版本與修補狀態 | 確認協定與密碼套件 | 確認政策與對齊結果 | 確認有效期與信任鏈
-374,綜合｜向量處置口試,客戶在 Open Ports 風險向量出現新 Finding，你會優先要求哪項驗證？,確認實際服務與業務必要性,待逐題審核,干擾選項尚未逐題編寫,確認具體檢測項與漏洞證據 | 確認帳號有效性並重設憑證 | 確認實際服務與業務必要性 | 確認主機是否散播惡意內容
-375,綜合｜向量處置口試,客戶在 Web Application Headers 風險向量出現新 Finding，你會優先要求哪項驗證？,確認 HTTP 回應與安全標頭,待逐題審核,干擾選項尚未逐題編寫,確認 App 安全測試與版本 | 確認 selector 與金鑰配置 | 確認檔案分享的合法性與資料類型 | 確認 HTTP 回應與安全標頭
-376,綜合｜向量處置口試,客戶在 Patching Cadence 風險向量出現新 Finding，你會優先要求哪項驗證？,確認漏洞修補速度與持續時間,待逐題審核,干擾選項尚未逐題編寫,確認漏洞修補速度與持續時間 | 確認端點軟體版本與更新策略 | 確認 App 安全測試與版本 | 確認主機是否散播惡意內容
-377,綜合｜向量處置口試,客戶在 Insecure Systems 風險向量出現新 Finding，你會優先要求哪項驗證？,確認服務配置與暴露範圍,待逐題審核,干擾選項尚未逐題編寫,確認裝置與應用更新狀態 | 確認服務配置與暴露範圍 | 確認可能利用跡象與資產 | 確認濫發來源與帳號安全
-378,綜合｜向量處置口試,客戶在 Server Software 風險向量出現新 Finding，你會優先要求哪項驗證？,確認版本與修補狀態,待逐題審核,干擾選項尚未逐題編寫,確認政策與對齊結果 | 確認有效期與信任鏈 | 確認版本與修補狀態 | 確認協定與密碼套件
-379,綜合｜向量處置口試,客戶在 Desktop Software 風險向量出現新 Finding，你會優先要求哪項驗證？,確認端點軟體版本與更新策略,待逐題審核,干擾選項尚未逐題編寫,確認漏洞修補速度與持續時間 | 確認 App 安全測試與版本 | 確認主機是否散播惡意內容 | 確認端點軟體版本與更新策略
-380,綜合｜向量處置口試,客戶在 Mobile Software 風險向量出現新 Finding，你會優先要求哪項驗證？,確認裝置與應用更新狀態,待逐題審核,干擾選項尚未逐題編寫,確認裝置與應用更新狀態 | 確認可能利用跡象與資產 | 確認服務配置與暴露範圍 | 確認濫發來源與帳號安全
-381,綜合｜向量處置口試,客戶在 Mobile Application Security 風險向量出現新 Finding，你會優先要求哪項驗證？,確認 App 安全測試與版本,待逐題審核,干擾選項尚未逐題編寫,確認檔案分享的合法性與資料類型 | 確認 App 安全測試與版本 | 確認 HTTP 回應與安全標頭 | 確認 selector 與金鑰配置
-382,綜合｜向量處置口試,客戶在 Web Application Security 風險向量出現新 Finding，你會優先要求哪項驗證？,確認具體檢測項與漏洞證據,待逐題審核,干擾選項尚未逐題編寫,確認實際服務與業務必要性 | 確認帳號有效性並重設憑證 | 確認具體檢測項與漏洞證據 | 確認主機是否散播惡意內容
-383,綜合｜向量處置口試,客戶在 Typosquatting 風險向量出現新 Finding，你會優先要求哪項驗證？,確認近似網域的實際使用與惡意性,待逐題審核,干擾選項尚未逐題編寫,確認 HTTP 回應與安全標頭 | 確認檔案分享的合法性與資料類型 | 核對 DNS 紀錄與寄件服務清單 | 確認近似網域的實際使用與惡意性
-384,綜合｜向量處置口試,客戶在 Exposed Credentials 風險向量出現新 Finding，你會優先要求哪項驗證？,確認帳號有效性並重設憑證,待逐題審核,干擾選項尚未逐題編寫,確認帳號有效性並重設憑證 | 確認主機是否散播惡意內容 | 確認具體檢測項與漏洞證據 | 確認實際服務與業務必要性
-385,綜合｜向量處置口試,客戶在 Botnet Infections 風險向量出現新 Finding，你會優先要求哪項驗證？,確認感染跡象與受影響主機,待逐題審核,干擾選項尚未逐題編寫,確認實際服務與業務必要性 | 確認感染跡象與受影響主機 | 確認主機是否散播惡意內容 | 確認具體檢測項與漏洞證據
-386,綜合｜向量處置口試,客戶在 Spam Propagation 風險向量出現新 Finding，你會優先要求哪項驗證？,確認濫發來源與帳號安全,待逐題審核,干擾選項尚未逐題編寫,確認服務配置與暴露範圍 | 確認裝置與應用更新狀態 | 確認濫發來源與帳號安全 | 確認可能利用跡象與資產
-387,綜合｜向量處置口試,客戶在 Malware Servers 風險向量出現新 Finding，你會優先要求哪項驗證？,確認主機是否散播惡意內容,待逐題審核,干擾選項尚未逐題編寫,確認具體檢測項與漏洞證據 | 確認實際服務與業務必要性 | 確認帳號有效性並重設憑證 | 確認主機是否散播惡意內容
-388,綜合｜向量處置口試,客戶在 Unsolicited Communications 風險向量出現新 Finding，你會優先要求哪項驗證？,調查異常對外通訊與流量,待逐題審核,干擾選項尚未逐題編寫,調查異常對外通訊與流量 | 確認可能利用跡象與資產 | 確認服務配置與暴露範圍 | 確認濫發來源與帳號安全
-389,綜合｜向量處置口試,客戶在 Potentially Exploited 風險向量出現新 Finding，你會優先要求哪項驗證？,確認可能利用跡象與資產,待逐題審核,干擾選項尚未逐題編寫,確認裝置與應用更新狀態 | 確認可能利用跡象與資產 | 確認服務配置與暴露範圍 | 確認濫發來源與帳號安全
-390,綜合｜向量處置口試,客戶在 File Sharing／BitTorrent 風險向量出現新 Finding，你會優先要求哪項驗證？,確認檔案分享的合法性與資料類型,待逐題審核,干擾選項尚未逐題編寫,確認近似網域的實際使用與惡意性 | 核對 DNS 紀錄與寄件服務清單 | 確認檔案分享的合法性與資料類型 | 確認 HTTP 回應與安全標頭
-391,綜合｜主管壓力測試,主管給你 30 秒處理「修補完成但平台仍顯示 BAD」，第一句核心回答是什麼？,先核對修補證據、Last Seen 與評級週期,待逐題審核,干擾選項尚未逐題編寫,同步提供真實風險與計分影響兩份排序 | 統一期間並比較分數、趨勢與重要性 | 先驗證情資並交由 SOC 調查 | 先核對修補證據、Last Seen 與評級週期
-392,綜合｜主管壓力測試,主管給你 30 秒處理「供應商拒絕提供完整 IP」，第一句核心回答是什麼？,說明 CM 遮罩限制並啟動協作,待逐題審核,干擾選項尚未逐題編寫,說明 CM 遮罩限制並啟動協作 | 先驗證情資並交由 SOC 調查 | 釐清威脅情資與問卷／監控工作流 | 統一期間並比較分數、趨勢與重要性
-393,綜合｜主管壓力測試,主管給你 30 秒處理「客戶要求使用 Framework Intelligence 取代稽核」，第一句核心回答是什麼？,明確區分輔助評估與正式合規,待逐題審核,干擾選項尚未逐題編寫,說明 CM 遮罩限制並啟動協作 | 明確區分輔助評估與正式合規 | 要求具體功能文件與平台證據 | 先驗證情資並交由 SOC 調查
-394,綜合｜主管壓力測試,主管給你 30 秒處理「客戶要比較兩家供應商」，第一句核心回答是什麼？,統一期間並比較分數、趨勢與重要性,待逐題審核,干擾選項尚未逐題編寫,同步提供真實風險與計分影響兩份排序 | 說明 CM 遮罩限制並啟動協作 | 統一期間並比較分數、趨勢與重要性 | 先驗證情資並交由 SOC 調查
-395,綜合｜主管壓力測試,主管給你 30 秒處理「管理員想把所有使用者設為 Admin」，第一句核心回答是什麼？,說明最小權限與群組設計,待逐題審核,干擾選項尚未逐題編寫,說明資料來源與歸屬限制 | 明確區分輔助評估與正式合規 | 要求具體功能文件與平台證據 | 說明最小權限與群組設計
-396,綜合｜主管壓力測試,主管給你 30 秒處理「客戶把 Beacon 當作 TPRM 全套」，第一句核心回答是什麼？,釐清威脅情資與問卷／監控工作流,待逐題審核,干擾選項尚未逐題編寫,釐清威脅情資與問卷／監控工作流 | 先驗證情資並交由 SOC 調查 | 說明 CM 遮罩限制並啟動協作 | 統一期間並比較分數、趨勢與重要性
-397,綜合｜主管壓力測試,主管給你 30 秒處理「客戶希望 EASM 保證找出所有資產」，第一句核心回答是什麼？,說明資料來源與歸屬限制,待逐題審核,干擾選項尚未逐題編寫,要求具體功能文件與平台證據 | 說明資料來源與歸屬限制 | 說明最小權限與群組設計 | 明確區分輔助評估與正式合規
-398,綜合｜主管壓力測試,主管給你 30 秒處理「招標要求 SQLi/XSS 佐證」，第一句核心回答是什麼？,要求具體功能文件與平台證據,待逐題審核,干擾選項尚未逐題編寫,先驗證情資並交由 SOC 調查 | 說明 CM 遮罩限制並啟動協作 | 要求具體功能文件與平台證據 | 明確區分輔助評估與正式合規
-399,綜合｜主管壓力測試,主管給你 30 秒處理「供應商出現 C2 IOC」，第一句核心回答是什麼？,先驗證情資並交由 SOC 調查,待逐題審核,干擾選項尚未逐題編寫,說明 CM 遮罩限制並啟動協作 | 釐清威脅情資與問卷／監控工作流 | 統一期間並比較分數、趨勢與重要性 | 先驗證情資並交由 SOC 調查
-400,綜合｜主管壓力測試,主管給你 30 秒處理「客戶只要求提高總分」，第一句核心回答是什麼？,同步提供真實風險與計分影響兩份排序,待逐題審核,干擾選項尚未逐題編寫,同步提供真實風險與計分影響兩份排序 | 統一期間並比較分數、趨勢與重要性 | 先驗證情資並交由 SOC 調查 | 說明 CM 遮罩限制並啟動協作
+156,客戶情境,CVE 出現在 Findings 就一定被利用嗎？,不一定,已個別編寫選項（答案未核實）,,不一定 | 是，列出 CVE 即代表攻擊已發生 | 是，任何 CVE 都有已知攻擊證據 | 是，CVE 只收錄已成功利用的漏洞
+157,客戶情境,供應商評級下降是否立刻解約？,不應只看分數,已個別編寫選項（答案未核實）,,只看前一日的 Rating 變化即可 | 不應只看分數 | 應立即終止所有低分供應商合約 | 只依最新分數決定是否解約
+158,客戶情境,客戶問如何證明修補有效？,比對技術修補證據、Rescan、Last Seen 與評級更新,已個別編寫選項（答案未核實）,,只看原始 CVE 編號是否消失 | 只看 Rating 當天有無增加 | 比對技術修補證據、Rescan、Last Seen 與評級更新 | 只看客戶口頭宣稱已修復
+159,客戶情境,客戶要招標功能佐證應提供什麼？,官方功能文件、平台路徑、合約授權及必要截圖,已個別編寫選項（答案未核實）,,只提供產品宣傳封面即可 | 只提供沒有版本日期的截圖即可 | 只用業務口頭說明替代授權證據 | 官方功能文件、平台路徑、合約授權及必要截圖
+160,客戶情境,客戶問 SPM 與 EASM 是否完全同義？,在教材對應，但授權與命名需核對,已個別編寫選項（答案未核實）,,在教材對應，但授權與命名需核對 | 完全同義，所有功能與授權均相同 | SPM 一定包含所有 EASM 掃描功能 | EASM 一定包含所有 SPM 產品授權
+161,客戶情境,客戶問 CM 與 Beacon 差異？,CM 長期態勢；Beacon 威脅情資,已個別編寫選項（答案未核實）,,兩者都是用來管理公司 API Token | CM 長期態勢；Beacon 威脅情資 | CM 專做威脅情資，Beacon 專做供應商問卷 | 兩者均只提供資產弱點掃描
+162,客戶情境,客戶問哪裡看供應商比較？,Portfolio Risk > Compare Companies,已個別編寫選項（答案未核實）,,Findings > Vulnerability Detection | Settings > Access Control > Users | Portfolio Risk > Compare Companies | Settings > Account > User Preferences
+163,客戶情境,客戶問哪裡看供應商風險向量趨勢？,Vendor Risk > Overview > Risk Vectors,已個別編寫選項（答案未核實）,,Settings > Account > User Preferences | My Account > Subscription History | Settings > API Access > Tokens | Vendor Risk > Overview > Risk Vectors
+164,客戶情境,客戶問哪裡看整體供應商組合？,CM Portfolio Dashboard,已個別編寫選項（答案未核實）,,CM Portfolio Dashboard | User Settings > Email Notifications | My Account > Billing Details | Settings > Access Control > Groups
+165,客戶情境,客戶要每季報告該追蹤什麼？,評級變化、風險向量、改善狀態與高風險供應商,已個別編寫選項（答案未核實）,,只追蹤供應商的網站訪問量 | 評級變化、風險向量、改善狀態與高風險供應商 | 只追蹤當季新增使用者數 | 只追蹤匯出報表的頁數
+166,客戶情境,客戶要求所有供應商完整資產清單？,先釐清 CM 可見性與合約範圍,已個別編寫選項（答案未核實）,,所有第三方資產都能直接下載 | 不需供應商授權即可掃描其內網 | 先釐清 CM 可見性與合約範圍 | CM 必定揭露所有供應商內部 IP
+167,客戶情境,供應商問卷結果與外部觀測矛盾？,比對範圍、時間及佐證,已個別編寫選項（答案未核實）,,只採信問卷並忽略外部證據 | 只採信評級並否定所有問卷 | 將兩者直接平均當作合規分數 | 比對範圍、時間及佐證
+168,進階｜產品與授權辨識,客戶將 EASM/SPM 視為所有授權版本功能完全相同，哪裡需要澄清？,模組命名與實際功能授權不是同一件事,已個別編寫選項（答案未核實）,,模組命名與實際功能授權不是同一件事 | 模組名稱相近即代表授權完全一致 | 行銷簡報提及功能就表示租戶已購買 | 不同方案的 API 與掃描範圍必定相同
+169,進階｜產品與授權辨識,客戶要求 API 整合，PM 首先確認什麼？,購買方案是否含 API／Integrations 及權限,已個別編寫選項（答案未核實）,,只要確認平台網站能開啟 | 購買方案是否含 API／Integrations 及權限 | 只要知道客戶要使用的程式語言 | 只要確認客戶電腦的作業系統
+170,進階｜產品與授權辨識,客戶要求同時看五家子公司，應先查什麼？,子公司管理與 MySubsidiary 授權數量,已個別編寫選項（答案未核實）,,只看總公司的網站首頁 | 只看五家公司的 Logo 是否一致 | 子公司管理與 MySubsidiary 授權數量 | 只看五家子公司的員工數
+171,進階｜產品與授權辨識,客戶只有 CM 授權，能保證看見 EASM 完整資產細節嗎？,不能,已個別編寫選項（答案未核實）,,可以，CM 授權等同 EASM 全功能 | 可以，所有第三方 IP 均完整可見 | 可以，CM 不受資產歸屬限制 | 不能
+172,進階｜產品與授權辨識,VRM 已有問卷，是否表示 Beacon 情資自動包含？,不表示,已個別編寫選項（答案未核實）,,不表示 | 表示，問卷包含全部情資 | 表示，VRM 自動啟用 Beacon | 表示，問卷會產生入侵告警
+173,進階｜產品與授權辨識,客戶說 TMH 是供應商問卷工具，如何修正？,TMH 偏向自身證據對外共享,已個別編寫選項（答案未核實）,,TMH 主要用來計算供應商修補時效 | TMH 偏向自身證據對外共享 | TMH 主要用來替供應商建立風險問卷 | TMH 主要用來掃描第三方內網
+174,進階｜產品與授權辨識,Basic、Standard、Advanced 能直接映射 EASM Base／Enhanced 嗎？,不能直接一對一映射,已個別編寫選項（答案未核實）,,可以，Basic 必定等於 Base 且無例外 | 可以，Advanced 必定包含所有 Enhanced 權限 | 不能直接一對一映射 | 可以，名稱相近代表功能逐項一致
+175,進階｜產品與授權辨識,客戶要做招標規格符合性矩陣，應用哪些欄位？,需求、對應功能、介面、證據、授權、限制,已個別編寫選項（答案未核實）,,只列功能名稱與產品 Logo | 只列報價與業務聯絡人 | 只列平台首頁截圖與宣傳標語 | 需求、對應功能、介面、證據、授權、限制
+176,進階｜產品與授權辨識,客戶要雲端資產探索，怎麼確認支援範圍？,核對平台畫面、官方文件及授權,已個別編寫選項（答案未核實）,,核對平台畫面、官方文件及授權 | 只看產品名稱有 Cloud 就認定支援 | 只看公司是否使用公有雲 | 只看簡報有雲朵圖示
+177,進階｜產品與授權辨識,客戶要 SQLi/XSS 檢測，能用 Web Application Security 名稱直接承諾嗎？,不能,已個別編寫選項（答案未核實）,,可以，不需測試細項即可保證掃描深度 | 不能 | 可以，類別名稱就代表已支援所有漏洞 | 可以，任何網站掃描都會檢測 SQLi/XSS
+178,進階｜產品與授權辨識,客戶要 DNSSEC 與 DNS 異常查詢偵測，兩者是否相同？,不同,已個別編寫選項（答案未核實）,,相同，兩者都只查 DNS TXT 記錄 | 相同，兩者都只驗證郵件 DMARC | 不同 | 相同，兩者都只檢查 DNSSEC 簽章
+179,進階｜產品與授權辨識,客戶要完整 TLS 弱點掃描，如何界定範圍？,確認 SSL Certificates、SSL Configurations 的細項與掃描能力,已個別編寫選項（答案未核實）,,只確認網站憑證有無綠色鎖頭 | 只看是否使用 HTTPS 網址 | 只確認平台支援下載 PDF | 確認 SSL Certificates、SSL Configurations 的細項與掃描能力
+180,進階｜產品與授權辨識,客戶要求資安評級與供應商問卷同一平台，應比較哪兩類能力？,CM 持續監控與 VRM 問卷工作流,已個別編寫選項（答案未核實）,,CM 持續監控與 VRM 問卷工作流 | EASM 資產探索與 TMH 文件共享 | Beacon 威脅情資與 TLS 憑證設定 | SPM 網站掃描與帳號通知偏好
+181,進階｜產品與授權辨識,如何解釋 CM 的訂閱使用率？,監控訂閱容量的使用情況,已個別編寫選項（答案未核實）,,網站 SSL 憑證的使用率 | 監控訂閱容量的使用情況 | 使用者登入次數占總員工數比例 | 供應商問卷完成率
+182,進階｜產品與授權辨識,合約沒有寫 API 速率限制，能保證不限量嗎？,不能,已個別編寫選項（答案未核實）,,可以，API 使用量不受授權影響 | 可以，任何租戶都有無限並行請求 | 不能 | 可以，未寫限制就代表永久無上限
+183,進階｜產品與授權辨識,客戶問有無 24 小時即時監控，如何避免誤導？,確認資料來源、更新頻率、告警延遲,已個別編寫選項（答案未核實）,,只要宣稱平台 24 小時可登入即可 | 只要有 Email 通知就等於零延遲 | 只要畫面有時間戳就代表秒級更新 | 確認資料來源、更新頻率、告警延遲
+184,進階｜產品與授權辨識,客戶想要 TMH 取代正式稽核，如何回答？,不能取代,已個別編寫選項（答案未核實）,,不能取代 | 可以，TMH 文件共享等同正式稽核 | 可以，TMH 自動核發合規證書 | 可以，TMH 能取代所有控制測試
+185,進階｜產品與授權辨識,Beacon 有威脅告警，是否代表已證實供應商遭入侵？,不一定,已個別編寫選項（答案未核實）,,一定，警示時間就是攻擊發生時間 | 不一定 | 一定，任何情資告警都是確定入侵 | 一定，Beacon 不會出現誤報
+186,進階｜產品與授權辨識,客戶要求所有模組共用相同角色權限，能直接保證嗎？,不能,已個別編寫選項（答案未核實）,,可以，角色名稱相同即擁有相同操作權 | 可以，不同租戶不受方案與政策影響 | 不能 | 可以，所有模組權限必定相同
+187,進階｜產品與授權辨識,公開行銷資料與租戶畫面不同時，應以什麼完成交付確認？,合約功能清單與實際驗收測試,已個別編寫選項（答案未核實）,,只依最早期的行銷簡報驗收 | 只依口頭承諾而不測試 | 只依其他客戶的租戶畫面驗收 | 合約功能清單與實際驗收測試
+188,進階｜SPM 操作判讀,Findings 的 First Seen 很新，能推論昨天才有漏洞嗎？,不能,已個別編寫選項（答案未核實）,,不能 | 可以，First Seen 就是漏洞起始 | 可以，代表昨天遭入侵 | 可以，代表資產昨天上線
+189,進階｜SPM 操作判讀,Last Seen 為昨天，是否能斷言今天仍有漏洞？,不能,已個別編寫選項（答案未核實）,,可以，觀測不會有延遲 | 不能 | 可以，Last Seen 保證即時 | 可以，昨天等於今天
+190,進階｜SPM 操作判讀,Finding 影響向量評級，但未影響總分，該如何解釋？,向量計分與整體 Rating 計分條件不同,已個別編寫選項（答案未核實）,,每個 Finding 固定扣相同分數 | 向量 Grade 與整體 Rating 完全同義 | 向量計分與整體 Rating 計分條件不同 | 只要有 Grade 就必定影響總分
+191,進階｜SPM 操作判讀,如何查看某 Finding 的 CVE 證據？,進入 Findings 詳細資訊或 Vulnerability Detection,已個別編寫選項（答案未核實）,,只查看使用者的 Email 通知設定 | 只查看訂閱帳單頁面 | 只查看 Portfolio 群組名稱 | 進入 Findings 詳細資訊或 Vulnerability Detection
+192,進階｜SPM 操作判讀,為何自訂高風險篩選不只選 BAD？,Patching Cadence 可能顯示 Grade N/A,已個別編寫選項（答案未核實）,,Patching Cadence 可能顯示 Grade N/A | 因為 BAD 一律不是風險 | 因為所有 N/A 都必定扣總分 | 因為所有 WARN 都比 BAD 嚴重
+193,進階｜SPM 操作判讀,Filter Set 已保存卻沒套用，下一步？,從 FILTER SETS 選取該組合,已個別編寫選項（答案未核實）,,只要重新登入就會套用全部條件 | 從 FILTER SETS 選取該組合 | 重新建立相同名稱的 Filter Set | 只要儲存就會自動套用到所有頁面
+194,進階｜SPM 操作判讀,Rescanned Findings 是否表示漏洞都已修好？,不是,已個別編寫選項（答案未核實）,,是，Rescan 後漏洞消失 | 是，Rescan 等於完成驗證 | 不是 | 是，Rescan 會自動修補
+195,進階｜SPM 操作判讀,想知道最近哪類風險拖累評級，先去哪裡？,Recent Security Changes 與 Risk Vector 相關頁面,已個別編寫選項（答案未核實）,,Settings > Account > User Preferences | My Account > Subscription History | Settings > Access Control > Groups | Recent Security Changes 與 Risk Vector 相關頁面
+196,進階｜SPM 操作判讀,Risk Vector Preview 的預估與實際更新不同，是否必然系統錯誤？,不一定,已個別編寫選項（答案未核實）,,不一定 | 必然是，Preview 就是正式計分結果 | 必然是，Preview 會鎖定所有資料來源 | 必然是，正式分數不會受其他向量影響
+197,進階｜SPM 操作判讀,Asset Risk Matrix 紅色是否一定能帶來最多分數？,不是,已個別編寫選項（答案未核實）,,一定，任何紅色都比已遭利用漏洞優先 | 不是 | 一定，紅色格子代表固定扣分最多 | 一定，矩陣顏色可直接換算加分
+198,進階｜SPM 操作判讀,Asset Risk Matrix 綠色是否可永久忽略？,不行,已個別編寫選項（答案未核實）,,可以，綠色代表所有資產都已修補 | 可以，綠色代表永遠不需要重新評估 | 不行 | 可以，綠色代表未來不可能出現風險
+199,進階｜SPM 操作判讀,同一個 CVE 影響多筆 Findings，應如何處理？,依資產及服務逐筆驗證,已個別編寫選項（答案未核實）,,只修補第一筆 Finding 即可結案 | 只看 CVE 編號不需核對資產 | 將多筆 Finding 當成一台相同主機 | 依資產及服務逐筆驗證
+200,進階｜SPM 操作判讀,資產歸屬有爭議，為何不應直接刪除 Finding？,應先查證資產歸屬與觀測證據,已個別編寫選項（答案未核實）,,應先查證資產歸屬與觀測證據 | 因為任何 Finding 都不能申請歸屬更正 | 因為刪除 Finding 會立即停用所有 IP | 因為所有爭議資產都必定屬於客戶
+201,進階｜SPM 操作判讀,如何確認平台顯示的 IP 是自有資產？,交叉比對 DNS、CMDB、雲端帳號與歷史紀錄,已個別編寫選項（答案未核實）,,只根據掃描結果為 BAD 判定 | 交叉比對 DNS、CMDB、雲端帳號與歷史紀錄 | 只根據 IP 的第一段數字判定 | 只根據是否有 HTTPS 憑證判定
+202,進階｜SPM 操作判讀,想下載 Findings 給維運團隊，應注意什麼？,可依教材匯出 Excel，注意權限與敏感資訊,已個別編寫選項（答案未核實）,,只截圖部分欄位並宣稱完整 | 把所有供應商資料放到公開網站 | 可依教材匯出 Excel，注意權限與敏感資訊 | 不需確認資料敏感度就直接公開
+203,進階｜SPM 操作判讀,Exposed Credentials 告警應由誰接手？,帳號管理、SOC 與資安治理單位協作,已個別編寫選項（答案未核實）,,只交給行銷部門製作貼文 | 只交給網頁設計師更換圖示 | 只交給採購確認報價 | 帳號管理、SOC 與資安治理單位協作
+204,進階｜SPM 操作判讀,Framework Intelligence 的 CSV 與 PDF 用途差別？,CSV 便於整理，PDF 便於閱讀與交付,已個別編寫選項（答案未核實）,,CSV 便於整理，PDF 便於閱讀與交付 | CSV 只適合閱讀，PDF 只適合計算 | CSV 一律比 PDF 更能證明合規 | PDF 能直接替代所有原始觀測證據
+205,進階｜SPM 操作判讀,Badge 放上官網前應先核對什麼？,實體資格、管理員權限及呈現規範,已個別編寫選項（答案未核實）,,只確認是否能下載圖片檔 | 實體資格、管理員權限及呈現規範 | 只確認徽章顏色是否符合品牌 | 只確認官網訪客人數
+206,進階｜SPM 操作判讀,客戶要一次修完所有 Finding，如何安排？,先分群、驗證、排序、指定負責人,已個別編寫選項（答案未核實）,,只挑最容易加分的項目 | 不查資產歸屬就要求全部修補 | 先分群、驗證、排序、指定負責人 | 不分類，依清單順序全部交辦
+207,進階｜SPM 操作判讀,客戶問為何有些 Finding 無完整 IP，如何區分？,先辨識是自有 EASM 或第三方 CM,已個別編寫選項（答案未核實）,,只要 IP 遮罩就判定資料錯誤 | 直接把第三方 Finding 當作自有資產 | 直接宣稱平台不具備任何資產資料 | 先辨識是自有 EASM 或第三方 CM
+208,進階｜CM 與供應商監控,Portfolio Dashboard 評分中位數改善，是否代表所有供應商都改善？,不是,已個別編寫選項（答案未核實）,,不是 | 是，中位數改善代表每一家都改善 | 是，中位數能證明所有 Finding 已修補 | 是，中位數上升代表沒有供應商下降
+209,進階｜CM 與供應商監控,供應商 A 高分但近期快速下降，如何判斷？,結合 Rating Changes、Risk Vectors 與重要性,已個別編寫選項（答案未核實）,,只看其問卷是否曾經完成 | 結合 Rating Changes、Risk Vectors 與重要性 | 只看最新高分而忽略下降趨勢 | 只看供應商名稱決定風險
+210,進階｜CM 與供應商監控,供應商 B 低分但不接觸敏感資料，是否一定先處理？,不一定,已個別編寫選項（答案未核實）,,一定，Rating 可取代業務重要性評估 | 一定，不接觸敏感資料就不需任何風險分析 | 不一定 | 一定，低分供應商永遠先處理
+211,進階｜CM 與供應商監控,Compare Companies 的趨勢可否直接當因果證明？,不行,已個別編寫選項（答案未核實）,,可以，兩條趨勢同向就是因果 | 可以，Rating 上升必然由單一修補造成 | 可以，圖表相似就證明攻擊者相同 | 不行
+212,進階｜CM 與供應商監控,Vendor Risk Overview 的 Trend 與 Findings 有何差異？,前者看變化，後者看具體發現,已個別編寫選項（答案未核實）,,前者看變化，後者看具體發現 | 兩者都只顯示授權使用量 | Trend 是單筆漏洞，Findings 是合約趨勢 | Trend 只顯示使用者角色，Findings 只顯示通知
+213,進階｜CM 與供應商監控,Risk of Security Event 是實際事故紀錄嗎？,不是,已個別編寫選項（答案未核實）,,是，任何風險預測都等於事件證據 | 不是 | 是，模型數值就是已發生事故數 | 是，指標上升即代表已確認入侵
+214,進階｜CM 與供應商監控,供應商有 BAD Finding，採購是否應立即中止？,不宜直接中止,已個別編寫選項（答案未核實）,,應立即中止，不需與供應商溝通 | 應立即中止，任何 BAD 都代表違約 | 不宜直接中止 | 應立即中止，不需核對業務影響
+215,進階｜CM 與供應商監控,供應商說已修補但 CM 仍顯示，如何處理？,請其提供修補證據並等待重新觀測,已個別編寫選項（答案未核實）,,只因平台未更新就認定供應商說謊 | 直接忽略平台並永久結案 | 只要供應商口頭說已修補就關閉追蹤 | 請其提供修補證據並等待重新觀測
+216,進階｜CM 與供應商監控,供應商拒絕分享內部 IP，如何溝通？,依 CM 可見性提供外部證據與協作請求,已個別編寫選項（答案未核實）,,依 CM 可見性提供外部證據與協作請求 | 要求供應商公開所有內網位址 | 把遮罩 IP 當成沒有風險 | 不提供觀測時間或風險描述就要求修補
+217,進階｜CM 與供應商監控,監控組合擴張後，中位數下降代表既有廠商變差嗎？,不一定,已個別編寫選項（答案未核實）,,是，中位數能代表每一家原有供應商 | 不一定 | 是，監控組合中位數下降必然是舊供應商變差 | 是，新增供應商不影響統計分布
+218,進階｜CM 與供應商監控,為何 CM 需要供應商分級？,不同供應商的業務影響不同,已個別編寫選項（答案未核實）,,因為分級可取代全部風險調查 | 因為分級只用來決定平台顏色 | 不同供應商的業務影響不同 | 因為所有供應商具有完全相同影響
+219,進階｜CM 與供應商監控,供應商合併或改名後，監控應注意什麼？,核對公司實體與資產歸屬,已個別編寫選項（答案未核實）,,只依舊公司名稱持續監控即可 | 不必確認子公司與資產轉移 | 直接合併所有相似名稱的公司 | 核對公司實體與資產歸屬
+220,進階｜CM 與供應商監控,Portfolio Risk Matrix 是否等於合約風險矩陣？,不是,已個別編寫選項（答案未核實）,,不是 | 是，平台矩陣直接決定合約違約金 | 是，矩陣顏色等同法律責任 | 是，矩陣不需結合企業風險政策
+221,進階｜CM 與供應商監控,訂閱使用率接近上限，PM 應做什麼？,檢視監控清單與授權容量,已個別編寫選項（答案未核實）,,只調整網站顏色降低使用率 | 檢視監控清單與授權容量 | 等超額後再檢查 | 直接刪除所有高風險供應商
+222,進階｜CM 與供應商監控,客戶問一年趨勢能否看十年歷史，怎麼回答？,教材示例是一年，其他期間需核對平台,已個別編寫選項（答案未核實）,,可以，所有方案都有永久歷史資料 | 可以，平台顯示任何日期都能回溯全部細節 | 教材示例是一年，其他期間需核對平台 | 可以，看到一年趨勢就保證十年可用
+223,進階｜CM 與供應商監控,第三方評級高就代表符合法規嗎？,不代表,已個別編寫選項（答案未核實）,,代表，評級高即通過所有法規 | 代表，Rating 是正式稽核證書 | 代表，供應商分數高就不需法遵查核 | 不代表
+224,進階｜CM 與供應商監控,供應商問卷滿分但外部評級差，怎麼追查？,比較問卷時間、範圍、資產與證據,已個別編寫選項（答案未核實）,,比較問卷時間、範圍、資產與證據 | 直接採用問卷滿分作結論 | 直接採用外部低分作結論 | 把兩個分數平均即可證明控制有效
+225,進階｜CM 與供應商監控,如何向主管呈現供應商改善成效？,展示評級趨勢、風險向量、整改狀態及例外,已個別編寫選項（答案未核實）,,只展示已關閉的通知數量 | 展示評級趨勢、風險向量、整改狀態及例外 | 只展示最新 Rating 而不提供期間 | 只展示最好的單一供應商
+226,進階｜CM 與供應商監控,CM 是否能替供應商直接修補主機？,不能直接推論,已個別編寫選項（答案未核實）,,可以，CM 發現 Finding 就自動套用修補 | 可以，CM 授權等同供應商維運權限 | 不能直接推論 | 可以，CM 可直接登入第三方主機修補
+227,進階｜CM 與供應商監控,供應商長期低分卻無重大事故，是否表示評級無效？,不能如此推論,已個別編寫選項（答案未核實）,,是，沒有事故代表所有 Finding 都無效 | 是，評級只能在事故後才有意義 | 是，低分公司沒有事故就證明模型錯誤 | 不能如此推論
+228,進階｜權限與治理,Admin 與 Group Admin 最重要的管理邊界？,前者管理全域群組與部分配置；後者限群組範圍,已個別編寫選項（答案未核實）,,前者管理全域群組與部分配置；後者限群組範圍 | 兩者均可無限制管理所有租戶 | Group Admin 一定能修改全部全域設定 | 一般 User 比 Admin 具有更高管理權
+229,進階｜權限與治理,新增 User 時預設 All Companies，為何需小心？,可能使可見公司範圍過大,已個別編寫選項（答案未核實）,,因為 All Companies 會停用所有群組 | 可能使可見公司範圍過大 | 因為 All Companies 一定讓帳號失效 | 因為 All Companies 只允許看自己的資料
+230,進階｜權限與治理,User 只能選 Collaboration，這是否表示不能提出訂閱請求？,不表示,已個別編寫選項（答案未核實）,,表示，不能聯絡支援 | 表示，不能使用訂閱功能 | 不表示 | 表示，不能提出任何需求
+231,進階｜權限與治理,Group Admin 能看見別組所有供應商嗎？,不能直接推論,已個別編寫選項（答案未核實）,,可以，Group Admin 必定能看所有群組 | 可以，只要同租戶就不受群組限制 | 可以，群組角色與公司可見性無關 | 不能直接推論
+232,進階｜權限與治理,公司 API Token 與 User API Token 的風險差異？,作用範圍與管理責任不同,已個別編寫選項（答案未核實）,,作用範圍與管理責任不同 | 兩者權限與用途永遠相同 | 公司 Token 只會影響使用者外觀 | User Token 不需要任何安全管理
+233,進階｜權限與治理,API Token 應否寫進教育訓練截圖？,不應,已個別編寫選項（答案未核實）,,應該，Token 公開後會自動失效 | 不應 | 應該，方便大家共用存取 | 應該，截圖中的 Token 不算敏感
+234,進階｜權限與治理,Exposed Credentials PII 匯出後如何處理？,限制存取、保存期限與分享範圍,已個別編寫選項（答案未核實）,,永久保存所有原始 PII | 把完整 PII 寄給所有供應商 | 限制存取、保存期限與分享範圍 | 公開在所有專案群組供下載
+235,進階｜權限與治理,兩名使用者需要不同供應商清單，如何設計？,規劃群組與公司分配,已個別編寫選項（答案未核實）,,讓兩人共用一個 Admin 帳號 | 直接開放 All Companies 給所有人 | 只用通知設定區分可見範圍 | 規劃群組與公司分配
+236,進階｜權限與治理,建立群組後忘記勾 Companies 會有什麼問題？,可見公司範圍可能不符預期,已個別編寫選項（答案未核實）,,可見公司範圍可能不符預期 | 完全沒有影響，群組名稱決定一切 | 所有人都會自動取得全域權限 | 系統會直接刪除未勾選的公司
+237,進階｜權限與治理,客戶要求 User 建立新帳號，能直接答應嗎？,不能,已個別編寫選項（答案未核實）,,可以，只要提供 Email 就不需授權 | 不能 | 可以，User 角色一定能建立所有帳號 | 可以，所有帳號角色權限完全相同
+238,進階｜權限與治理,Portfolio Manager 想建立使用者，怎麼處理？,請具適當權限的管理員協助,已個別編寫選項（答案未核實）,,直接公開管理員 API Token | 直接將所有人升級成 Admin | 請具適當權限的管理員協助 | 直接讓 Portfolio Manager 共用 Admin 密碼
+239,進階｜權限與治理,誰能變更自動 Rescan 設定？,Admin,已個別編寫選項（答案未核實）,,一般 User | Portfolio Manager | 唯讀訪客 | Admin
+240,進階｜權限與治理,使用者離職後，PM 要做什麼？,啟動帳號停用與權限回收流程,已個別編寫選項（答案未核實）,,啟動帳號停用與權限回收流程 | 只刪除使用者在報表上的名字 | 只更改其通知 Email | 保留所有 Token 並永久開放登入
+241,進階｜權限與治理,同仁要查看別組供應商，是否應共用帳號？,不應,已個別編寫選項（答案未核實）,,應該，共用帳號能強化稽核追蹤 | 不應 | 應該，共用帳號最省授權 | 應該，群組限制可用共用帳號繞過
+242,進階｜權限與治理,不同租戶看到不同選單，是否一定是 BUG？,不一定,已個別編寫選項（答案未核實）,,一定是 BUG，權限不會影響選單 | 一定是 BUG，授權不會影響功能 | 不一定 | 一定是 BUG，所有租戶畫面應完全相同
+243,進階｜權限與治理,Data Residency 選 EU，是否代表所有平台資料都在 EU？,不能保證,已個別編寫選項（答案未核實）,,可以，EU 選項保證所有備份也在 EU | 可以，所有整合服務均不跨區 | 可以，租戶設定可取代合約資料駐留條款 | 不能保證
+244,進階｜權限與治理,訂閱聯絡人沒指定會怎樣？,教材提及系統自選三位管理員,已個別編寫選項（答案未核實）,,教材提及系統自選三位管理員 | 系統會立即停用所有訂閱 | 系統會自動將所有人設為 Admin | 系統會刪除所有 Email 通知紀錄
+245,進階｜權限與治理,群組命名應避免什麼？,避免模糊名稱與不明責任範圍,已個別編寫選項（答案未核實）,,避免任何可追溯的群組命名規則 | 避免模糊名稱與不明責任範圍 | 避免能辨識部門與責任的名稱 | 避免群組名稱與管理目的一致
+246,進階｜權限與治理,權限矩陣與實際操作不一致，怎麼查？,確認產品版本、角色、群組、授權與政策,已個別編寫選項（答案未核實）,,直接認定平台所有租戶權限相同 | 只看角色名稱不查實際授權 | 確認產品版本、角色、群組、授權與政策 | 直接認定官方矩陣永遠錯誤
+247,進階｜權限與治理,能否把所有人都設 Admin 以省事？,不建議,已個別編寫選項（答案未核實）,,建議，所有人設 Admin 最符合最小權限 | 建議，Admin 不會接觸敏感資料 | 建議，權限越高越容易追蹤責任 | 不建議
+248,進階｜風險向量與技術,SPF 設得正確是否等於 DMARC 已啟用？,不是,已個別編寫選項（答案未核實）,,不是 | 是，SPF 會自動產生 DMARC | 是，SPF pass 等於 p=reject | 是，SPF 可取代 DMARC
+249,進階｜風險向量與技術,DKIM 簽章通過能保證寄件者無惡意嗎？,不能,已個別編寫選項（答案未核實）,,能，簽章通過就能確認寄件人沒有被盜用 | 不能 | 能，DKIM pass 表示內容絕無惡意 | 能，所有 DKIM 簽章都由官方銀行核發
+250,進階｜風險向量與技術,DMARC p=none 與 p=reject 的管理目的有何差異？,前者偏監控；後者可要求拒收未通過驗證的郵件,已個別編寫選項（答案未核實）,,兩者都要求收件者一律放行 | p=none 會自動替郵件加密，p=reject 不會 | 前者偏監控；後者可要求拒收未通過驗證的郵件 | p=none 要求拒收，p=reject 只收報告
+251,進階｜風險向量與技術,DNSSEC 是否會隱藏 DNS 查詢內容？,不會,已個別編寫選項（答案未核實）,,會，會加密所有查詢 | 會，會隱藏查詢網域 | 會，可取代 DoH | 不會
+252,進階｜風險向量與技術,TLS 1.0 服務仍對外開放，應先做什麼？,確認業務依賴與可升級性，再停用弱協定,已個別編寫選項（答案未核實）,,確認業務依賴與可升級性，再停用弱協定 | 不需評估直接關閉所有 443 服務 | 只更換憑證品牌即可解決 TLS 版本 | 只要有 HTTPS 就無須處理 TLS 1.0
+253,進階｜風險向量與技術,憑證過期與憑證金鑰過短是同一問題嗎？,不是,已個別編寫選項（答案未核實）,,是，金鑰過短必定代表憑證已撤銷 | 不是 | 是，兩者都只表示到期日不正確 | 是，憑證過期就必然金鑰過短
+254,進階｜風險向量與技術,開放 443 埠就一定安全嗎？,不是,已個別編寫選項（答案未核實）,,是，443 不會有惡意服務 | 是，443 代表沒有漏洞 | 不是 | 是，443 保證最新 TLS
+255,進階｜風險向量與技術,開放 23 埠一定是 Telnet 嗎？,不一定,已個別編寫選項（答案未核實）,,是，埠號可證明服務 | 是，23 埠只允許 Telnet | 是，不需辨識服務內容 | 不一定
+256,進階｜風險向量與技術,Web Application Headers 是否能代替 WAF？,不能,已個別編寫選項（答案未核實）,,不能 | 可以，標頭能阻擋所有攻擊 | 可以，CSP 完全取代 WAF | 可以，Header 自動修補 SQLi
+257,進階｜風險向量與技術,CVE 有高 CVSS 但服務不對外，仍要處理嗎？,需依暴露與資產重要性排序,已個別編寫選項（答案未核實）,,不用，內網資產不需漏洞管理 | 需依暴露與資產重要性排序 | 不用，未對外就不可能遭利用 | 不用，CVSS 高只對公開網站有效
+258,進階｜風險向量與技術,EPSS 高是否等於已被利用？,不是,已個別編寫選項（答案未核實）,,等於，EPSS 是入侵事件數量 | 等於，EPSS 與 KEV 收錄完全相同 | 不是 | 等於，EPSS 高表示已確認被攻擊
+259,進階｜風險向量與技術,KEV 收錄是否意味所有企業都已遭攻擊？,不是,已個別編寫選項（答案未核實）,,意味著，KEV 收錄代表所有組織遭入侵 | 意味著，KEV 會列出所有受害企業 | 意味著，KEV 收錄即可證明本企業遭利用 | 不是
+260,進階｜風險向量與技術,觀測到 IOC 是否一定是感染？,不一定,已個別編寫選項（答案未核實）,,不一定 | 一定，IOC 命中即代表感染成功 | 一定，任何可疑 IP 都是惡意程式 | 一定，IOC 不可能造成誤報
+261,進階｜風險向量與技術,Typosquatting 偵測到相似網域就能直接下架嗎？,不一定,已個別編寫選項（答案未核實）,,可以，所有近似網域均為惡意 | 不一定 | 可以，相似拼字就足以證明侵權 | 可以，不需證據就能要求註冊商刪除
+262,進階｜風險向量與技術,BitTorrent 觀測代表一定外洩個資嗎？,不是,已個別編寫選項（答案未核實）,,是，所有 P2P 均非法 | 是，觀測即代表資料公開 | 不是 | 是，BitTorrent 就是外洩
+263,進階｜風險向量與技術,外洩憑證被列為資訊性向量，還要修嗎？,要評估並處置,已個別編寫選項（答案未核實）,,不用，資訊性向量代表零風險 | 不用，未計分就不需處理 | 不用，外洩憑證不會影響帳號安全 | 要評估並處置
+264,進階｜風險向量與技術,Mobile Application Security 的 Grade 能直接推算總分嗎？,不能,已個別編寫選項（答案未核實）,,不能 | 可以，單一 Grade 可直接換算總分 | 可以，每個 Grade 固定加減 50 分 | 可以，所有向量均以相同權重計入
+265,進階｜風險向量與技術,Patching Cadence 與單一 CVE 的 CVSS 有何不同？,前者看修補節奏，後者看漏洞嚴重度,已個別編寫選項（答案未核實）,,兩者都只代表漏洞首次公布日期 | 前者看修補節奏，後者看漏洞嚴重度 | 兩者都只衡量 CVSS Base Score | 兩者都只計算漏洞數量
+266,進階｜風險向量與技術,Server Software 與 Insecure Systems 是否必然相同？,不是,已個別編寫選項（答案未核實）,,是，兩者只看版本名稱 | 是，所有發現都互相重疊 | 不是 | 是，兩者評分完全相同
+267,進階｜風險向量與技術,對外 IP 出現掃描活動就代表主機被攻陷嗎？,不一定,已個別編寫選項（答案未核實）,,是，掃描代表成功登入 | 是，掃描代表資料外洩 | 是，掃描就等於主機失陷 | 不一定
+268,進階｜評分與數據分析,同一向量有 10 個 Finding，能用 10 倍單筆扣分計算嗎？,不能,已個別編寫選項（答案未核實）,,不能 | 可以，所有 Finding 都固定扣一分 | 可以，單筆扣分直接乘上 Finding 數量 | 可以，向量與正規化不影響扣分
+269,進階｜評分與數據分析,評級下降 20 分，是否可由單一新 Finding 解釋？,不能直接判定,已個別編寫選項（答案未核實）,,可以，不需查其他風險向量即可確認原因 | 不能直接判定 | 可以，任何下降都只來自最新 Finding | 可以，20 分固定對應一個嚴重漏洞
+270,進階｜評分與數據分析,修補後 Last Seen 不變，應怎麼追查？,檢查修補證據、重新觀測與掃描狀態,已個別編寫選項（答案未核實）,,只看客戶說法不查掃描資料 | 將 Last Seen 當成修補完成時間 | 檢查修補證據、重新觀測與掃描狀態 | 直接把 Finding 標示為已修補
+271,進階｜評分與數據分析,First Seen 很久代表風險更高嗎？,不一定,已個別編寫選項（答案未核實）,,是，越久必定越嚴重 | 是，越久必定遭利用 | 是，可直接換算 CVSS | 不一定
+272,進階｜評分與數據分析,為何 Diligence 類別權重高仍不能只修 Diligence？,業務風險與實際威脅仍須考慮,已個別編寫選項（答案未核實）,,業務風險與實際威脅仍須考慮 | 因為 Diligence 權重其實固定為零 | 因為其他類別不會產生真實威脅 | 因為只要 Diligence 提升就能排除所有風險
+273,進階｜評分與數據分析,27% + 70.5% + 2.5% 是否可推導單一 IP 扣分？,不能,已個別編寫選項（答案未核實）,,可以，權重就是 CVSS | 不能 | 可以，權重直接換算 IP | 可以，每筆扣分都相同
+274,進階｜評分與數據分析,兩家公司分數差 30，是否表示風險差 30%？,不是,已個別編寫選項（答案未核實）,,是，代表成熟度差 30% | 是，Rating 是風險百分比 | 不是 | 是，代表事故機率差 30%
+275,進階｜評分與數據分析,為何比較供應商時要看趨勢？,能識別持續惡化或改善,已個別編寫選項（答案未核實）,,因為只看趨勢就能免除漏洞調查 | 因為分數趨勢能證明每項修補的因果 | 因為趨勢可取代供應商重要性評估 | 能識別持續惡化或改善
+276,進階｜評分與數據分析,DMARC 有 A–F Grade 卻不影響總分，怎麼說？,向量評級與總分納入規則不同,已個別編寫選項（答案未核實）,,向量評級與總分納入規則不同 | 有 Grade 就必定計入總分 | Grade 與 Rating 是完全相同的數值 | 所有非計分向量都不會有 Grade
+277,進階｜評分與數據分析,Incubation Finding 應排除改善計畫嗎？,不應,已個別編寫選項（答案未核實）,,應排除，會自動修補 | 不應 | 應排除，代表沒有風險 | 應排除，都是誤報
+278,進階｜評分與數據分析,Severity Severe 就一定比 Critical Asset 的 Moderate 更先修嗎？,不能一概而論,已個別編寫選項（答案未核實）,,一定，資產重要性不能影響排序 | 一定，只需依 Severity 字母排序 | 不能一概而論 | 一定，Severe 永遠比所有 Moderate 先修
+279,進階｜評分與數據分析,客戶要求只修會加分的項目，有何盲點？,可能忽略高危但不計分風險,已個別編寫選項（答案未核實）,,沒有盲點，總分完全代表實際安全 | 沒有盲點，所有高危風險都計入 Rating | 沒有盲點，未計分向量都不重要 | 可能忽略高危但不計分風險
+280,進階｜評分與數據分析,新資產納入後分數下降，可能代表什麼？,新觀測到的曝險或歸屬變更,已個別編寫選項（答案未核實）,,新觀測到的曝險或歸屬變更 | 一定代表平台計分錯誤 | 一定代表既有資產突然遭入侵 | 一定代表所有修補都已失效
+281,進階｜評分與數據分析,資料量增加導致 Finding 變多，是否等於安全惡化？,不一定,已個別編寫選項（答案未核實）,,是，新 Finding 都是新漏洞 | 不一定 | 是，Finding 增加就是惡化 | 是，資料來源不影響數量
+282,進階｜評分與數據分析,Risk Vector Grade 變好但總分沒動，可能原因？,向量不計分或其他因素抵銷,已個別編寫選項（答案未核實）,,不可能，所有向量都必定計分 | 不可能，其他風險不會抵銷改善 | 向量不計分或其他因素抵銷 | 不可能，Grade 變好總分必定同幅上升
+283,進階｜評分與數據分析,Risk Vector Preview 顯示改善，是否可以對外承諾？,不宜保證,已個別編寫選項（答案未核實）,,可以，Preview 就是正式分數保證 | 可以，預覽會排除其他風險變化 | 可以，預覽值不受觀測時間影響 | 不宜保證
+284,進階｜評分與數據分析,報告應如何表達分數提升的不確定性？,寫明觀測日期、範圍與更新限制,已個別編寫選項（答案未核實）,,寫明觀測日期、範圍與更新限制 | 只寫預計加分，不需寫資料時點 | 直接把預覽值寫成正式 Rating | 只列修補數量不提觀測限制
+285,進階｜評分與數據分析,Remaining Lifetime 歸零是否等於漏洞不存在？,不等於,已個別編寫選項（答案未核實）,,等於，歸零代表資產已離線 | 不等於 | 等於，剩餘時間歸零就自動修補 | 等於，系統會在歸零時刪除漏洞
+286,進階｜評分與數據分析,不同日期截圖分數不同，應先確認什麼？,公司實體、時間、篩選條件及資料更新,已個別編寫選項（答案未核實）,,只看使用者瀏覽器版本 | 只看截圖中的頁面配色 | 公司實體、時間、篩選條件及資料更新 | 只看截圖檔案大小
+287,進階｜評分與數據分析,高分公司仍發生事故，是否與評級必然矛盾？,不矛盾,已個別編寫選項（答案未核實）,,必然矛盾，高分可保證零事故 | 必然矛盾，Rating 就是保險理賠保證 | 必然矛盾，高分代表所有漏洞已消失 | 不矛盾
+288,進階｜VRM 與評估模型,Impact 100、Trust 100，教材 Risk Score？,50,已個別編寫選項（答案未核實）,,50 | 0 | 100 | 25
+289,進階｜VRM 與評估模型,Impact 0、Trust 100，教材 Risk Score？,0,已個別編寫選項（答案未核實）,,25 | 0 | 50 | 100
+290,進階｜VRM 與評估模型,Impact 100、Trust 0，教材 Risk Score？,100,已個別編寫選項（答案未核實）,,50 | 75 | 100 | 0
+291,進階｜VRM 與評估模型,Impact 70、Trust 40，教材 Risk Score？,65,已個別編寫選項（答案未核實）,,35 | 55 | 85 | 65
+292,進階｜VRM 與評估模型,Impact 40、Trust 70，教材 Risk Score？,35,已個別編寫選項（答案未核實）,,35 | 25 | 55 | 65
+293,進階｜VRM 與評估模型,Impact 65、Trust 35，教材 Risk Score？,65,已個別編寫選項（答案未核實）,,85 | 65 | 35 | 50
+294,進階｜VRM 與評估模型,Impact 20、Trust 50，教材 Risk Score？,35,已個別編寫選項（答案未核實）,,45 | 65 | 35 | 15
+295,進階｜VRM 與評估模型,Impact 55、Trust 85，教材 Risk Score？,35,已個別編寫選項（答案未核實）,,25 | 55 | 75 | 35
+296,進階｜VRM 與評估模型,Impact 90、Trust 70，教材 Risk Score？,60,已個別編寫選項（答案未核實）,,60 | 40 | 70 | 80
+297,進階｜VRM 與評估模型,Impact 75、Trust 25，教材 Risk Score？,75,已個別編寫選項（答案未核實）,,90 | 75 | 25 | 50
+298,進階｜VRM 與評估模型,兩家供應商 Trust 相同但 Impact 不同，哪家 Risk Score 高？,Impact 較高者,已個別編寫選項（答案未核實）,,Trust 較高者 | 兩者必然相同 | Impact 較高者 | Impact 較低者
+299,進階｜VRM 與評估模型,兩家供應商 Impact 相同但 Trust 不同，哪家 Risk Score 高？,Trust 較低者,已個別編寫選項（答案未核實）,,Trust 較高者 | Impact 較低者 | 兩者必然相同 | Trust 較低者
+300,進階｜VRM 與評估模型,Trust Score 高就不需要做 Impact 評估嗎？,仍需要,已個別編寫選項（答案未核實）,,仍需要 | 不需要，Trust 可取代 Impact | 不需要，高 Trust 代表低衝擊 | 不需要，所有 Impact 都相同
+301,進階｜VRM 與評估模型,Impact 評估可考慮哪些資料因素？,資料類型與資料量,已個別編寫選項（答案未核實）,,供應商平台登入帳號數量 | 資料類型與資料量 | 供應商 Logo 顏色與字型 | 供應商網站首頁圖片數量
+302,進階｜VRM 與評估模型,Impact 評估可考慮哪些服務因素？,服務關鍵性與可替代性,已個別編寫選項（答案未核實）,,供應商簡報的投影片數量 | 供應商帳號通知的頻率 | 服務關鍵性與可替代性 | 服務商標顏色與版面設計
+303,進階｜VRM 與評估模型,Trust 評估可考慮哪些外部證據？,評級、稽核報告、問卷與保險,已個別編寫選項（答案未核實）,,只看供應商自行宣稱零風險 | 只看網站是否使用 HTTPS | 只看供應商報價高低 | 評級、稽核報告、問卷與保險
+304,進階｜VRM 與評估模型,Risk Score 60 能直接對應法規規定的高風險嗎？,不能,已個別編寫選項（答案未核實）,,不能 | 可以，60 是法定高風險 | 可以，所有法規門檻相同 | 可以，分數取代風險政策
+305,進階｜VRM 與評估模型,問卷答案沒有證據，Trust 是否應直接給滿分？,不應,已個別編寫選項（答案未核實）,,應直接滿分，Trust 不需要任何佐證 | 不應 | 應直接滿分，問卷本身就是證據 | 應直接滿分，外部評級可忽略
+306,進階｜VRM 與評估模型,供應商提交新稽核報告，VRM 下一步？,審查有效性、範圍與缺失,已個別編寫選項（答案未核實）,,只看封面有無會計師簽名 | 只確認報告頁數即可結案 | 審查有效性、範圍與缺失 | 直接視為全部控制已有效
+307,進階｜VRM 與評估模型,VRM 評估結果多久更新一次？,依企業政策與實際工作流,已個別編寫選項（答案未核實）,,固定每分鐘更新一次 | 固定每十年更新一次 | 不論供應商風險都只在合約終止時更新 | 依企業政策與實際工作流
+308,進階｜Beacon 與事件應變,發現 Stealer Logs 涉及供應商帳號，第一步？,驗證帳號、時間與證據,已個別編寫選項（答案未核實）,,驗證帳號、時間與證據 | 直接公開帳密給所有同事 | 只看供應商評級是否下降 | 不驗證來源就宣稱已遭入侵
+309,進階｜Beacon 與事件應變,發現 IAB 販售供應商存取權，如何升級？,交由威脅情資、SOC 與 TPRM 協同評估,已個別編寫選項（答案未核實）,,忽略證據並立即刪除監控項目 | 交由威脅情資、SOC 與 TPRM 協同評估 | 直接認定所有供應商都已遭入侵 | 只轉給行銷部門製作公告
+310,進階｜Beacon 與事件應變,C2 IOC 命中但時間已久，是否立即宣布入侵？,不應,已個別編寫選項（答案未核實）,,應直接以歷史 IOC 命中作為結案證據 | 應忽略 IOC 的觀測時間與脈絡 | 不應 | 應立即宣布供應商已遭入侵
+311,進階｜Beacon 與事件應變,Beacon 入侵前警示與 CM 弱點發現如何搭配？,用情資提高曝險調查優先序,已個別編寫選項（答案未核實）,,以 CM 分數直接取代事件調查 | 只依情資顏色判定修補完成 | 將所有 Beacon 警示都當成已確認事故 | 用情資提高曝險調查優先序
+312,進階｜Beacon 與事件應變,Beacon 入侵中警示應保存哪些證據？,IOC、時間、來源、受影響資產及處置紀錄,已個別編寫選項（答案未核實）,,IOC、時間、來源、受影響資產及處置紀錄 | 只保存警示畫面的主題顏色 | 只保存供應商的行銷文案 | 只保存報表下載次數
+313,進階｜Beacon 與事件應變,Beacon 入侵後情資出現憑證，應做什麼？,確認有效性、重設、撤銷及啟用 MFA,已個別編寫選項（答案未核實）,,只等待 Rating 更新而不處理帳戶 | 確認有效性、重設、撤銷及啟用 MFA | 只將憑證加入年度報告 | 公開帳密要求使用者確認
+314,進階｜Beacon 與事件應變,Evidence-backed 是否等於零誤報？,不是,已個別編寫選項（答案未核實）,,是，無須人工判讀 | 是，能確認攻擊者身分 | 不是 | 是，保證沒有誤報
+315,進階｜Beacon 與事件應變,MITRE ATT&CK 映射的用途？,描述攻擊者技術與戰術,已個別編寫選項（答案未核實）,,用於直接修補所有 CVE | 用於計算供應商合約金額 | 用於替代事件證據的驗證 | 描述攻擊者技術與戰術
+316,進階｜Beacon 與事件應變,供應商否認情資，如何溝通？,提供可分享的證據與時間範圍,已個別編寫選項（答案未核實）,,提供可分享的證據與時間範圍 | 只回覆平台不可能有誤 | 不提供時間或證據直接要求認錯 | 只要求供應商接受分數結論
+317,進階｜Beacon 與事件應變,Beacon 可否取代 SOC？,不能,已個別編寫選項（答案未核實）,,可以，警示等於完整應變 | 不能 | 可以，會自動隔離端點 | 可以，可取代所有 SOC 人員
+318,進階｜Beacon 與事件應變,客戶問暗網情報是否合法取得，應如何處理？,核對供應商來源、授權及合規聲明,已個別編寫選項（答案未核實）,,只要有截圖就不需查授權 | 完全忽略個資與資料來源限制 | 核對供應商來源、授權及合規聲明 | 只要平台有暗網資料就一定合法
+319,進階｜Beacon 與事件應變,同一 IOC 同時出現在多個供應商，如何處理？,比對共同服務與時間關係,已個別編寫選項（答案未核實）,,直接宣布所有供應商已被同一攻擊者入侵 | 直接合併所有公司資產歸屬 | 忽略時間差與共享基礎設施 | 比對共同服務與時間關係
+320,進階｜Beacon 與事件應變,警示沒有足夠證據，PM 應怎麼標註？,待確認並說明不確定性,已個別編寫選項（答案未核實）,,待確認並說明不確定性 | 標註已確認重大入侵 | 標註零風險並直接結案 | 不揭露不確定性直接通報違約
+321,進階｜Beacon 與事件應變,供應商確認受害但評級未下降，合理嗎？,可能,已個別編寫選項（答案未核實）,,不可能，情資警示必定同步改變 Rating | 可能 | 不可能，任何事件都會即時扣分 | 不可能，Rating 能涵蓋所有入侵
+322,進階｜Beacon 與事件應變,情資報告涉及個資，如何分享？,遵循最小揭露與保護政策,已個別編寫選項（答案未核實）,,不需遮罩即可公開在簡報 | 將敏感資料上傳公開程式碼庫 | 遵循最小揭露與保護政策 | 直接分享完整個資給所有供應商
+323,進階｜Beacon 與事件應變,Pre-compromise 有弱點就等於已入侵嗎？,不是,已個別編寫選項（答案未核實）,,是，弱點就是遭利用 | 是，曝險等於資料外洩 | 是，代表入侵已完成 | 不是
+324,進階｜Beacon 與事件應變,Post-compromise 訊號一定是當天發生嗎？,不一定,已個別編寫選項（答案未核實）,,不一定 | 是，警示日就是事件日 | 是，情資都當天產生 | 是，發現日等於攻擊日
+325,進階｜Beacon 與事件應變,如何將 Beacon 警示變成供應商改善計畫？,記錄證據、責任人、期限、驗證方式,已個別編寫選項（答案未核實）,,只看 Rating 不保留事件證據 | 記錄證據、責任人、期限、驗證方式 | 只轉寄警示而不指定負責人 | 只記錄供應商名稱不追蹤改善
+326,進階｜Beacon 與事件應變,同時有 CVE、C2 與 Stealer Logs，哪個最值得調查？,先驗證可能已遭利用與失陷的證據,已個別編寫選項（答案未核實）,,只看最早出現的 IOC | 只看警示數量最多的類別 | 先驗證可能已遭利用與失陷的證據 | 只依 CVSS 最大值判定已遭入侵
+327,進階｜Beacon 與事件應變,何時應啟動事件通報？,依證據、契約、法規及企業應變門檻,已個別編寫選項（答案未核實）,,只要 Rating 低於 900 就一律通報 | 只要出現任何 Finding 就向主管機關通報 | 只有媒體報導後才需要啟動通報 | 依證據、契約、法規及企業應變門檻
+328,進階｜客戶情境與 PM 口試,主管問你如何在三分鐘介紹 Bitsight，怎麼安排？,問題、模組定位、示範、價值與限制,已個別編寫選項（答案未核實）,,問題、模組定位、示範、價值與限制 | 只展示產品 Logo 與價格 | 只列 25 個向量英文名稱 | 只介紹平台登入步驟
+329,進階｜客戶情境與 PM 口試,客戶只想看分數，如何帶入實際風險？,從 Risk Vector 與 Findings 連到改善行動,已個別編寫選項（答案未核實）,,將 Rating 當成資安成熟度百分比 | 從 Risk Vector 與 Findings 連到改善行動 | 只展示分數不提風險 | 直接承諾所有 Finding 都能加分
+330,進階｜客戶情境與 PM 口試,客戶說去年沒事所以不必監控，如何回應？,風險會變動，年度問卷無法取代持續觀測,已個別編寫選項（答案未核實）,,年度問卷可取代所有持續監控 | 供應商不變就不需重新觀測 | 風險會變動，年度問卷無法取代持續觀測 | 去年沒事故就代表未來沒有風險
+331,進階｜客戶情境與 PM 口試,客戶要求保證沒有影子 IT，如何回應？,說明探索能力與歸屬限制,已個別編寫選項（答案未核實）,,承諾可找到全部內外網資產 | 宣稱影子 IT 都能自動歸屬 | 只要有網域就能發現所有雲端帳號 | 說明探索能力與歸屬限制
+332,進階｜客戶情境與 PM 口試,客戶要求明天交付完整報告，第一步？,確認範圍、授權、格式與資料時點,已個別編寫選項（答案未核實）,,確認範圍、授權、格式與資料時點 | 直接匯出所有公司資料 | 先承諾報告一定完整且即時 | 先複製其他客戶的報告
+333,進階｜客戶情境與 PM 口試,客戶要求找出最先修的三項，怎麼做？,依 Severity、Asset Importance、曝露性與計分影響交叉排序,已個別編寫選項（答案未核實）,,只看 Findings 數量最多的類別 | 依 Severity、Asset Importance、曝露性與計分影響交叉排序 | 只看哪個 Finding 最容易修 | 只依 BAD 標記先後排序
+334,進階｜客戶情境與 PM 口試,客戶問「修補了還是 BAD」，如何排查？,確認 Finding 狀態、Last Seen、Rescan 與評級週期,已個別編寫選項（答案未核實）,,宣稱平台一定有 BUG | 只看 Rating 而不查觀測時間 | 確認 Finding 狀態、Last Seen、Rescan 與評級週期 | 直接要求客戶再修一次相同漏洞
+335,進階｜客戶情境與 PM 口試,客戶問 EASM 可否掃內網，怎麼回答？,先核對產品與授權的掃描範圍,已個別編寫選項（答案未核實）,,可以，EASM 一定包含所有內網掃描 | 可以，所有授權都可掃任意私有 IP | 可以，不需部署就能探索所有內網資產 | 先核對產品與授權的掃描範圍
+336,進階｜客戶情境與 PM 口試,客戶問 CM 是否有供應商問卷，怎麼回答？,區分 CM 監控與 VRM 問卷能力,已個別編寫選項（答案未核實）,,區分 CM 監控與 VRM 問卷能力 | CM 就是 VRM 問卷的另一個名稱 | CM 一定包含所有問卷模板與流程 | VRM 只能提供外部評級而無問卷
+337,進階｜客戶情境與 PM 口試,客戶要求提供第三方所有漏洞詳情，如何回答？,說明 CM 可見性與遮罩限制,已個別編寫選項（答案未核實）,,不確認授權就掃描供應商內網 | 說明 CM 可見性與遮罩限制 | 承諾所有第三方 IP 完整揭露 | 直接要求供應商提供管理員密碼
+338,進階｜客戶情境與 PM 口試,客戶要求 100% 符合招標規格，如何驗證？,逐項列功能、證據、授權、限制及驗收,已個別編寫選項（答案未核實）,,只用業務口頭說明填全部符合 | 只附一張平台首頁截圖 | 逐項列功能、證據、授權、限制及驗收 | 只看產品簡報有沒有關鍵字
+339,進階｜客戶情境與 PM 口試,客戶說評級與內部掃描不一致，如何排查？,比較資產範圍、觀測時間、掃描方式與歸屬,已個別編寫選項（答案未核實）,,只認定內部掃描一定錯誤 | 只認定外部評級一定錯誤 | 把兩種掃描結果直接平均 | 比較資產範圍、觀測時間、掃描方式與歸屬
+340,進階｜客戶情境與 PM 口試,客戶問可否把評級當成資安成熟度分數，如何回答？,只能作為外部可觀測風險指標之一,已個別編寫選項（答案未核實）,,只能作為外部可觀測風險指標之一 | 可以，Rating 就是整體資安成熟度百分比 | 可以，高分就等於所有控制都有效 | 可以，Rating 可取代正式成熟度評估
+341,進階｜客戶情境與 PM 口試,客戶要把供應商評級當唯一採購門檻，風險何在？,忽略服務重要性、法遵與補償控制,已個別編寫選項（答案未核實）,,沒有風險，高分能保證零事故 | 忽略服務重要性、法遵與補償控制 | 沒有風險，分數足以代表所有合規與業務衝擊 | 沒有風險，所有供應商的重要性相同
+342,進階｜客戶情境與 PM 口試,客戶希望停止所有告警，如何建議？,先調整過濾條件、門檻及接收人,已個別編寫選項（答案未核實）,,不經評估刪除所有高風險供應商 | 將所有通知轉寄到無人收件信箱 | 先調整過濾條件、門檻及接收人 | 直接永久關閉所有監控
+343,進階｜客戶情境與 PM 口試,主管要求比較兩家供應商，應列哪些指標？,Rating、Trend、Risk Vectors、重要性、事件及證據,已個別編寫選項（答案未核實）,,只列供應商名稱與網站顏色 | 只列帳號使用者數量 | 只列合約簽署日期 | Rating、Trend、Risk Vectors、重要性、事件及證據
+344,進階｜客戶情境與 PM 口試,客戶要求立刻下架偽冒網域，應先查什麼？,證據、權利基礎、服務流程及處置權限,已個別編寫選項（答案未核實）,,證據、權利基礎、服務流程及處置權限 | 不查證直接要求註冊商刪除 | 只要網域相似就保證下架 | 不需確認權利基礎與內容
+345,進階｜客戶情境與 PM 口試,主管問如何呈現本月改善成果？,列出已修補、已觀測、已反映評級的三種狀態,已個別編寫選項（答案未核實）,,把平台觀測改善等同已反映總分 | 列出已修補、已觀測、已反映評級的三種狀態 | 只展示總分增加 | 把修補完成等同已被平台觀測
+346,進階｜客戶情境與 PM 口試,主管問哪些資料可以對外公開？,依資料敏感度、合約與公司政策決定,已個別編寫選項（答案未核實）,,只要是截圖就不受合約限制 | 所有供應商資料都可轉寄給外部 | 依資料敏感度、合約與公司政策決定 | 所有資料都可以公開
+347,進階｜客戶情境與 PM 口試,主管問哪個功能最能協助修補排序？,先說 Asset Risk Matrix 與 Findings Severity，再補業務風險,已個別編寫選項（答案未核實）,,只看 Rating 最低的公司 | 只依所有 BAD 的數量排序 | 只看是否能立即提升總分 | 先說 Asset Risk Matrix 與 Findings Severity，再補業務風險
+348,進階｜主管連續追問,主管追問：客戶修補後分數不動，你第一個要看的欄位？,Last Seen 與 Finding 狀態,已個別編寫選項（答案未核實）,,Last Seen 與 Finding 狀態 | 只看公司 Logo 與網站名稱 | 只看訂閱聯絡人的 Email | 只看群組建立日期
+349,進階｜主管連續追問,主管追問：如果 Last Seen 仍舊，你怎麼證明客戶真的修了？,請客戶提供配置或掃描證據,已個別編寫選項（答案未核實）,,只看分數是否當天增加 | 請客戶提供配置或掃描證據 | 只看客戶口頭承諾 | 直接把 Finding 標為已修復
+350,進階｜主管連續追問,主管追問：如果平台已觀測改善但分數不動？,確認是否計分及其他向量變化,已個別編寫選項（答案未核實）,,直接保證下次必定加分 | 只看一個 Finding 的 Grade | 確認是否計分及其他向量變化 | 直接認定修補無效
+351,進階｜主管連續追問,主管追問：如果該向量根本不計分？,說明修補價值在降低真實風險,已個別編寫選項（答案未核實）,,要求客戶停止修補 | 宣稱未計分代表零風險 | 只保留會加分的改善項目 | 說明修補價值在降低真實風險
+352,進階｜主管連續追問,主管追問：客戶堅持一週加 50 分？,不承諾，提出可驗證改善清單與時程,已個別編寫選項（答案未核實）,,不承諾，提出可驗證改善清單與時程 | 先保證一週內加 50 分 | 直接把預覽值當成正式分數 | 要求忽略所有非計分風險
+353,進階｜主管連續追問,主管追問：客戶說 BAD 一定比 WARN 先修？,不一定，需看 Severity 與 Asset Importance,已個別編寫選項（答案未核實）,,一定，WARN 不可能存在高風險 | 不一定，需看 Severity 與 Asset Importance | 一定，BAD 永遠比 WARN 優先 | 一定，Grade 能取代資產重要性
+354,進階｜主管連續追問,主管追問：Severity 同樣 Severe，怎麼再排序？,比資產重要性、曝露性與可利用性,已個別編寫選項（答案未核實）,,只看資產名稱長度 | 只看哪個部門最先回信 | 比資產重要性、曝露性與可利用性 | 只比較 Finding 字母排序
+355,進階｜主管連續追問,主管追問：如果資產不是客戶的？,先啟動資產歸屬核對,已個別編寫選項（答案未核實）,,直接刪除 Finding 不查證 | 要求客戶修補所有第三方資產 | 把所有共享雲端 IP 都當成自有 | 先啟動資產歸屬核對
+356,進階｜主管連續追問,主管追問：CM 看不到完整 IP，怎麼協助供應商？,提供可分享的外部證據並建立協作流程,已個別編寫選項（答案未核實）,,提供可分享的外部證據並建立協作流程 | 要求供應商公開全部內網位址 | 宣稱遮罩代表沒有風險 | 不提供可用證據就要求修補
+357,進階｜主管連續追問,主管追問：供應商拒絕配合？,依契約與風險治理流程升級,已個別編寫選項（答案未核實）,,刪除供應商以免影響分數 | 依契約與風險治理流程升級 | 直接終止所有合作且不核對契約 | 只要拒絕一次就宣稱違法
+358,進階｜主管連續追問,主管追問：有問卷還需要 CM 嗎？,需要視需求，兩者互補,已個別編寫選項（答案未核實）,,不需要，供應商自填資料保證即時 | 不需要，問卷滿分等於零風險 | 需要視需求，兩者互補 | 不需要，問卷能取代所有外部觀測
+359,進階｜主管連續追問,主管追問：有 CM 還需要 Beacon 嗎？,若需威脅情資，可評估補充 Beacon,已個別編寫選項（答案未核實）,,不需要，CM 已包含所有即時入侵情資 | 不需要，CM 評級能證明已遭入侵 | 不需要，Beacon 只提供問卷功能 | 若需威脅情資，可評估補充 Beacon
+360,進階｜主管連續追問,主管追問：Beacon 告警能直接宣稱入侵？,不能，先核對證據,已個別編寫選項（答案未核實）,,不能，先核對證據 | 可以，任何 Beacon 告警都已證實入侵 | 可以，Evidence-backed 表示零誤報 | 可以，IOC 命中就能確認攻擊者身分
+361,進階｜主管連續追問,主管追問：TMH 能否幫供應商填問卷？,主要偏向共享自身證據,已個別編寫選項（答案未核實）,,可以，TMH 可自動通過供應商稽核 | 主要偏向共享自身證據 | 可以，TMH 自動替所有供應商填問卷 | 可以，TMH 能取代所有 VRM 評估
+362,進階｜主管連續追問,主管追問：為何要分 Basic 與 Enhanced？,功能包裝與授權範圍可能不同,已個別編寫選項（答案未核實）,,因為方案名稱可直接代表法規要求 | 因為所有授權差異都只在介面顏色 | 功能包裝與授權範圍可能不同 | 因為 Basic 與 Enhanced 功能必定相同
+363,進階｜主管連續追問,主管追問：官網與教材衝突怎麼處理？,標示版本、查證日期與來源,已個別編寫選項（答案未核實）,,直接採用最早版本不需查證 | 直接把官網文案視為合約承諾 | 直接認定教材永遠正確 | 標示版本、查證日期與來源
+364,進階｜主管連續追問,主管追問：你如何驗證角色權限？,官方權限表加實際租戶測試,已個別編寫選項（答案未核實）,,官方權限表加實際租戶測試 | 只看角色名稱就推論全部權限 | 只看其他客戶截圖 | 只讓所有人使用 Admin 帳號測試
+365,進階｜主管連續追問,主管追問：你如何讓客戶理解評分？,用風險向量與具體 Finding 示範,已個別編寫選項（答案未核實）,,只用 Finding 數量推算分數 | 用風險向量與具體 Finding 示範 | 只背 250–900 數字範圍 | 只展示最高分供應商
+366,進階｜主管連續追問,主管追問：如何把平台發現變成改善成效？,分配責任、驗證修補、追蹤觀測與評級,已個別編寫選項（答案未核實）,,只追蹤 Rating 而不查修補 | 只把所有 Finding 標示已解決 | 分配責任、驗證修補、追蹤觀測與評級 | 只把報告寄給客戶
+367,進階｜主管連續追問,主管追問：哪些資訊不能承諾？,固定加分、百分百資產發現、所有授權功能及零誤報,已個別編寫選項（答案未核實）,,所有功能都可無條件承諾 | 固定加分與零誤報均可保證 | 只要簡報有寫就能保證授權 | 固定加分、百分百資產發現、所有授權功能及零誤報
+368,綜合｜向量處置口試,客戶在 SPF 記錄 風險向量出現新 Finding，你會優先要求哪項驗證？,核對 DNS 紀錄與寄件服務清單,已個別編寫選項（答案未核實）,,核對 DNS 紀錄與寄件服務清單 | 只檢查憑證到期日 | 只檢查 DNSSEC 簽章 | 只檢查 HTTP CSP 標頭
+369,綜合｜向量處置口試,客戶在 DKIM 紀錄 風險向量出現新 Finding，你會優先要求哪項驗證？,確認 selector 與金鑰配置,已個別編寫選項（答案未核實）,,只檢查 TLS 1.2 是否啟用 | 確認 selector 與金鑰配置 | 只檢查 SPF 的 ip4 清單 | 只檢查 DMARC 的 p 值
+370,綜合｜向量處置口試,客戶在 DMARC 記錄 風險向量出現新 Finding，你會優先要求哪項驗證？,確認政策與對齊結果,已個別編寫選項（答案未核實）,,只檢查網頁的 HSTS | 只檢查 DNS 的 A 紀錄 | 確認政策與對齊結果 | 只檢查 DKIM 金鑰長度
+371,綜合｜向量處置口試,客戶在 DNSSEC 風險向量出現新 Finding，你會優先要求哪項驗證？,確認網域簽章與驗證鏈,已個別編寫選項（答案未核實）,,只檢查郵件 SPF 記錄 | 只檢查網站憑證到期日 | 只檢查 SMTP STARTTLS | 確認網域簽章與驗證鏈
+372,綜合｜向量處置口試,客戶在 SSL Certificates 風險向量出現新 Finding，你會優先要求哪項驗證？,確認有效期與信任鏈,已個別編寫選項（答案未核實）,,確認有效期與信任鏈 | 只檢查 HTTP CSP | 只檢查 SPF 授權來源 | 只檢查伺服器 SSH 版本
+373,綜合｜向量處置口試,客戶在 SSL Configurations 風險向量出現新 Finding，你會優先要求哪項驗證？,確認協定與密碼套件,已個別編寫選項（答案未核實）,,只檢查網站 HTML 標題 | 確認協定與密碼套件 | 只檢查憑證主體公司名稱 | 只檢查 DMARC 政策
+374,綜合｜向量處置口試,客戶在 Open Ports 風險向量出現新 Finding，你會優先要求哪項驗證？,確認實際服務與業務必要性,已個別編寫選項（答案未核實）,,只檢查網域是否有 DMARC | 只檢查網站是否使用 HSTS | 確認實際服務與業務必要性 | 只檢查憑證是否由知名 CA 簽發
+375,綜合｜向量處置口試,客戶在 Web Application Headers 風險向量出現新 Finding，你會優先要求哪項驗證？,確認 HTTP 回應與安全標頭,已個別編寫選項（答案未核實）,,只檢查 SPF TXT 記錄 | 只檢查供應商問卷 | 只檢查 DNSSEC 信任鏈 | 確認 HTTP 回應與安全標頭
+376,綜合｜向量處置口試,客戶在 Patching Cadence 風險向量出現新 Finding，你會優先要求哪項驗證？,確認漏洞修補速度與持續時間,已個別編寫選項（答案未核實）,,確認漏洞修補速度與持續時間 | 只確認 CVE 名稱是否含年份 | 只確認憑證剩餘天數 | 只確認郵件 DMARC 政策
+377,綜合｜向量處置口試,客戶在 Insecure Systems 風險向量出現新 Finding，你會優先要求哪項驗證？,確認服務配置與暴露範圍,已個別編寫選項（答案未核實）,,只檢查供應商問卷完成率 | 確認服務配置與暴露範圍 | 只檢查網站品牌 Logo | 只檢查使用者 Email 通知
+378,綜合｜向量處置口試,客戶在 Server Software 風險向量出現新 Finding，你會優先要求哪項驗證？,確認版本與修補狀態,已個別編寫選項（答案未核實）,,只確認網站字體版本 | 只確認 DMARC 報告收件人 | 確認版本與修補狀態 | 只確認公司註冊地址
+379,綜合｜向量處置口試,客戶在 Desktop Software 風險向量出現新 Finding，你會優先要求哪項驗證？,確認端點軟體版本與更新策略,已個別編寫選項（答案未核實）,,只確認 DNS TXT 記錄 | 只確認公司 TLS 憑證品牌 | 只確認供應商授權數量 | 確認端點軟體版本與更新策略
+380,綜合｜向量處置口試,客戶在 Mobile Software 風險向量出現新 Finding，你會優先要求哪項驗證？,確認裝置與應用更新狀態,已個別編寫選項（答案未核實）,,確認裝置與應用更新狀態 | 只確認網站 CSP 設定 | 只確認郵件 DKIM selector | 只確認供應商 Risk Score
+381,綜合｜向量處置口試,客戶在 Mobile Application Security 風險向量出現新 Finding，你會優先要求哪項驗證？,確認 App 安全測試與版本,已個別編寫選項（答案未核實）,,只確認網站的 SPF 記錄 | 確認 App 安全測試與版本 | 只確認 DNSSEC 金鑰 | 只確認桌面瀏覽器版本
+382,綜合｜向量處置口試,客戶在 Web Application Security 風險向量出現新 Finding，你會優先要求哪項驗證？,確認具體檢測項與漏洞證據,已個別編寫選項（答案未核實）,,只確認網站憑證是否顯示鎖頭 | 只確認公司是否已填問卷 | 確認具體檢測項與漏洞證據 | 只確認網站首頁是否可開啟
+383,綜合｜向量處置口試,客戶在 Typosquatting 風險向量出現新 Finding，你會優先要求哪項驗證？,確認近似網域的實際使用與惡意性,已個別編寫選項（答案未核實）,,只確認網域與品牌字串相似 | 只確認網域註冊時間就宣稱惡意 | 只確認網域是否使用 HTTPS | 確認近似網域的實際使用與惡意性
+384,綜合｜向量處置口試,客戶在 Exposed Credentials 風險向量出現新 Finding，你會優先要求哪項驗證？,確認帳號有效性並重設憑證,已個別編寫選項（答案未核實）,,確認帳號有效性並重設憑證 | 只確認該信箱的 MX 記錄 | 只確認網站 HSTS 標頭 | 只確認網域註冊商名稱
+385,綜合｜向量處置口試,客戶在 Botnet Infections 風險向量出現新 Finding，你會優先要求哪項驗證？,確認感染跡象與受影響主機,已個別編寫選項（答案未核實）,,只確認供應商問卷分數 | 確認感染跡象與受影響主機 | 只確認網站是否有 SPF | 只確認 TLS 憑證有效期
+386,綜合｜向量處置口試,客戶在 Spam Propagation 風險向量出現新 Finding，你會優先要求哪項驗證？,確認濫發來源與帳號安全,已個別編寫選項（答案未核實）,,只確認網站 CSP 標頭 | 只確認 TLS 憑證品牌 | 確認濫發來源與帳號安全 | 只確認 DNSSEC 簽章
+387,綜合｜向量處置口試,客戶在 Malware Servers 風險向量出現新 Finding，你會優先要求哪項驗證？,確認主機是否散播惡意內容,已個別編寫選項（答案未核實）,,只確認郵件 DKIM 紀錄 | 只確認網域註冊年限 | 只確認網站首頁文字 | 確認主機是否散播惡意內容
+388,綜合｜向量處置口試,客戶在 Unsolicited Communications 風險向量出現新 Finding，你會優先要求哪項驗證？,調查異常對外通訊與流量,已個別編寫選項（答案未核實）,,調查異常對外通訊與流量 | 只確認網站 TLS 憑證有效期 | 只確認使用者的通知偏好 | 只確認供應商問卷完成日期
+389,綜合｜向量處置口試,客戶在 Potentially Exploited 風險向量出現新 Finding，你會優先要求哪項驗證？,確認可能利用跡象與資產,已個別編寫選項（答案未核實）,,只確認供應商名稱是否相似 | 確認可能利用跡象與資產 | 只確認 CVE 分數高低 | 只確認網站是否有 HTTPS
+390,綜合｜向量處置口試,客戶在 File Sharing／BitTorrent 風險向量出現新 Finding，你會優先要求哪項驗證？,確認檔案分享的合法性與資料類型,已個別編寫選項（答案未核實）,,只確認外部 IP 數量 | 只確認網站有無 DMARC | 確認檔案分享的合法性與資料類型 | 只確認檔案分享軟體是否已安裝
+391,綜合｜主管壓力測試,主管給你 30 秒處理「修補完成但平台仍顯示 BAD」，第一句核心回答是什麼？,先核對修補證據、Last Seen 與評級週期,已個別編寫選項（答案未核實）,,直接承諾平台當天會變成 GOOD | 只要求客戶再次修補而不查證 | 直接把 BAD 當成系統故障 | 先核對修補證據、Last Seen 與評級週期
+392,綜合｜主管壓力測試,主管給你 30 秒處理「供應商拒絕提供完整 IP」，第一句核心回答是什麼？,說明 CM 遮罩限制並啟動協作,已個別編寫選項（答案未核實）,,說明 CM 遮罩限制並啟動協作 | 承諾可揭露所有第三方內部 IP | 要求供應商提供所有密碼 | 將遮罩 IP 當成不存在風險
+393,綜合｜主管壓力測試,主管給你 30 秒處理「客戶要求使用 Framework Intelligence 取代稽核」，第一句核心回答是什麼？,明確區分輔助評估與正式合規,已個別編寫選項（答案未核實）,,用平台 Grade 直接替代所有法規查核 | 明確區分輔助評估與正式合規 | 承諾 Framework Intelligence 就是正式稽核 | 只要有 PDF 就等同合規證明
+394,綜合｜主管壓力測試,主管給你 30 秒處理「客戶要比較兩家供應商」，第一句核心回答是什麼？,統一期間並比較分數、趨勢與重要性,已個別編寫選項（答案未核實）,,只比較兩家公司的網站名稱 | 只比較兩家供應商問卷完成日期 | 統一期間並比較分數、趨勢與重要性 | 只比較兩家公司最新分數
+395,綜合｜主管壓力測試,主管給你 30 秒處理「管理員想把所有使用者設為 Admin」，第一句核心回答是什麼？,說明最小權限與群組設計,已個別編寫選項（答案未核實）,,同意全部設 Admin 以節省時間 | 只要使用者信任就無須權限限制 | 共用一個 Admin 帳號更安全 | 說明最小權限與群組設計
+396,綜合｜主管壓力測試,主管給你 30 秒處理「客戶把 Beacon 當作 TPRM 全套」，第一句核心回答是什麼？,釐清威脅情資與問卷／監控工作流,已個別編寫選項（答案未核實）,,釐清威脅情資與問卷／監控工作流 | Beacon 已包含所有 TPRM 問卷與稽核 | Beacon 只負責供應商合約簽署 | CM 與 Beacon 都能取代正式供應商評估
+397,綜合｜主管壓力測試,主管給你 30 秒處理「客戶希望 EASM 保證找出所有資產」，第一句核心回答是什麼？,說明資料來源與歸屬限制,已個別編寫選項（答案未核實）,,只要知道主網域就能找到全部雲端帳號 | 說明資料來源與歸屬限制 | 承諾 100% 找到所有內外部資產 | 宣稱 EASM 不需歸屬驗證
+398,綜合｜主管壓力測試,主管給你 30 秒處理「招標要求 SQLi/XSS 佐證」，第一句核心回答是什麼？,要求具體功能文件與平台證據,已個別編寫選項（答案未核實）,,只附網站首頁截圖 | 只用業務口頭承諾功能符合 | 要求具體功能文件與平台證據 | 只提供 Web Application Security 名稱
+399,綜合｜主管壓力測試,主管給你 30 秒處理「供應商出現 C2 IOC」，第一句核心回答是什麼？,先驗證情資並交由 SOC 調查,已個別編寫選項（答案未核實）,,直接宣布供應商已遭入侵 | 直接刪除供應商監控資料 | 只看 IOC 是否出現在舊報告 | 先驗證情資並交由 SOC 調查
+400,綜合｜主管壓力測試,主管給你 30 秒處理「客戶只要求提高總分」，第一句核心回答是什麼？,同步提供真實風險與計分影響兩份排序,已個別編寫選項（答案未核實）,,同步提供真實風險與計分影響兩份排序 | 只處理會加分的 Finding | 承諾所有修補都會即時反映分數 | 把 Rating 當成唯一業務風險指標
