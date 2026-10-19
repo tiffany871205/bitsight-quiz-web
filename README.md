@@ -1,35 +1,67 @@
-# Bitsight Learning Lab｜題庫搜尋與模擬考試
+# Bitsight Learning Lab｜資安產品題庫與模擬考試
 
-靜態網站，無須安裝 Node 套件或後端，支援 GitHub Pages。題庫取自上一層的 `Bitsight_主管考試與實務題庫_Notion版.md`，共 400 題。
+一個以繁體中文製作的 **Bitsight 互動式學習網站**，整合 **400 題題庫搜尋**與**四選一模擬考試**，適合資安產品知識複習、教育訓練及 PM 客戶應答練習。
 
-## 本機預覽
+### 🌐 立即使用
 
-在 Mac 終端機執行：
+**[前往 Bitsight Learning Lab](https://tiffany871205.github.io/bitsight-quiz-web/)**
+
+網站已透過 GitHub Pages 公開部署，使用瀏覽器即可開啟，無須安裝軟體或登入。
+
+## 主要功能
+
+### 🔎 題庫搜尋
+
+- 收錄 **400 題** Bitsight 相關題目。
+- 可搜尋題目、答案、解析及專有名詞。
+- 支援主題分類與題庫來源篩選。
+- 點開題目即可查看答案及解析。
+
+### 📝 模擬考試
+
+- 四選一選擇題，可依分類練習。
+- 自訂題數：10、20、50、100 題或全部題目。
+- 隨機出題、自由切換前後題目。
+- 交卷後顯示成績、正確答案與逐題解析。
+- 自動記錄錯題，支援錯題重練。
+
+### 📱 使用體驗
+
+- 響應式網頁設計，支援電腦與手機。
+- 不需註冊帳號。
+- 錯題與最近一次測驗成績儲存在目前瀏覽器中，不會跨裝置同步；清除網站資料後也會消失。
+
+## 題庫內容
+
+涵蓋 Bitsight 產品定位、EASM／SPM、CM／TRM、VRM、Beacon、TMH、平台操作、權限管理、風險向量、評分機制、資安技術名詞，以及客戶情境與主管口試題。
+
+題庫資料整理自專案的 `Bitsight_主管考試與實務題庫_Notion版.md`。網站使用 `questions.json` 儲存題目、正解及既有解析。
+
+> **注意：** 本網站為非官方學習工具，並非 Bitsight 官方考試。模擬考試的正確答案沿用原始題庫，另外三個選項由其他題目的答案自動產生，僅供練習；部分題目原本沒有獨立解析。產品功能、授權及操作方式應以實際合約、平台版本與官方文件為準。
+
+## 技術與專案結構
+
+網站以 **HTML、CSS、JavaScript** 製作，不需要後端服務或額外的套件安裝，並使用 **GitHub Pages** 部署。
+
+```text
+bitsight-quiz-web/
+├── index.html       # 網站頁面
+├── styles.css       # 介面與響應式樣式
+├── app.js           # 搜尋、考試、計分及錯題功能
+├── questions.json   # 400 題題庫資料
+└── README.md        # 專案說明
+```
+
+## 本機預覽（開發用途）
+
+在此專案目錄執行：
 
 ```bash
-cd '/Users/tiffanytai/Desktop/未命名檔案夾/bitsight-knowledge/quiz-web'
 python3 -m http.server 8080
 ```
 
-瀏覽器開啟 `http://localhost:8080`。請勿直接雙擊 `index.html` 以 `file://` 開啟，否則瀏覽器可能阻擋 JSON 載入。
+接著開啟 `http://localhost:8080`。由於瀏覽器對本機檔案讀取的限制，不建議直接以 `file://` 開啟 `index.html`。
 
-## 功能
+## 資料與隱私
 
-- **題庫搜尋**：400 題全文搜尋（包含答案、解析）、分類與來源篩選、展開答案、分批顯示。
-- **模擬考試**：分類與題數、隨機四選一、上一題／下一題、交卷計分、逐題解析、錯題重練。
-- **瀏覽器記錄**：錯題與最近成績儲存在該瀏覽器 `localStorage`；更換裝置或清除網站資料後不會同步。
-- **RWD**：適用桌面及手機。
-
-## 題目品質與來源
-
-`questions.json` 由同資料夾的 `../Bitsight_主管考試與實務題庫_Notion版.md` 產生。**題目、正解及既有解析均來自原始題庫**；其他三個干擾選項由同分類其他題目的答案自動抽取，可能存在選項較容易排除的情況，**並非 Bitsight 官方題庫**。作答正確與否以來源題庫原答案為準；少數原題只有答案，解析會提示參照主知識庫。
-
-若題庫更新，請同步重新產生 `questions.json`，避免網站與 Markdown 不一致。
-
-## 部署到 GitHub Pages
-
-將 `quiz-web` 內的 `index.html`、`styles.css`、`app.js`、`questions.json` 放在 GitHub repository 根目錄，推送到 GitHub。到 `Settings → Pages → Build and deployment` 選擇 `Deploy from a branch`、`main`、`/(root)`，儲存後等待部署。也可以將整個資料夾放在 repo 子路徑並從對應位置部署。
-
-## 隱私
-
-網站無需登入、不會向外部伺服器提交作答紀錄，僅在本機瀏覽器儲存錯題與成績。未加入分析追蹤程式。
+作答紀錄與錯題清單僅儲存在使用者瀏覽器的 `localStorage`。網站不需要登入，也沒有加入第三方分析追蹤程式。若原始 Markdown 題庫有更新，網站的 `questions.json` 也需要同步更新。
