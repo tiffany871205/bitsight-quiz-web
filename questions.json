@@ -10,12 +10,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
+        "只提供漏洞掃描結果，不追蹤改善",
         "以外部可觀測資料提供資安風險能見度、評級與改善追蹤。",
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "Admin；但四種教材角色均可管理自己的 User API Token。",
-        "授權寄件來源、簽章驗證、驗證政策與回報。"
+        "僅提供企業內部資產清單，不涉及評級",
+        "僅依供應商自填問卷產生資安評級"
       ],
-      "correct": 0,
+      "correct": 1,
       "references": [
         {
           "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
@@ -24,7 +24,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-702b18786119fa7d",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 2,
@@ -34,12 +35,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "警報應附有可調查的支持證據，而非只有單一未解釋分數。",
+        "EASM 以自身外部資產為主，CM 只做文件審查",
+        "兩者均只管理企業內部端點，差別在授權",
         "EASM 以自身外部資產為主，CM 以第三方監控為主。",
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。"
+        "EASM 以供應商問卷為主，CM 以企業內部主機為主"
       ],
-      "correct": 1,
+      "correct": 2,
       "references": [
         {
           "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
@@ -48,7 +49,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-4ed9fc1a04f266cf",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 3,
@@ -58,12 +60,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。",
-        "比對時間、評估範圍與證據，要求供應商補充說明。",
-        "教材所示 Bitsight 資安評級範圍；不等於百分比。",
-        "Admin 與 Group Admin（依官方權限頁）。"
+        "單一漏洞的 CVSS 嚴重度區間",
+        "組織的漏洞修補完成百分比",
+        "第三方問卷的合格率百分比",
+        "教材所示 Bitsight 資安評級範圍；不等於百分比。"
       ],
-      "correct": 2,
+      "correct": 3,
       "references": [
         {
           "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
@@ -72,7 +74,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-0890412b8f79567a",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 4,
@@ -82,12 +85,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。",
         "前者是風險分類，後者是具體觀測發現。",
-        "影響程度與供應商可信程度，結合用於風險評估。",
-        "Admin 與 Group Admin（依官方權限頁）。"
+        "前者是單一 IP，後者是供應商群組",
+        "前者是修補狀態，後者是產品授權",
+        "前者是資產擁有者，後者是合約編號"
       ],
-      "correct": 1,
+      "correct": 0,
       "references": [
         {
           "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
@@ -96,7 +99,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-e82338d360bcbdda",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 5,
@@ -106,12 +110,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "進入頁面後點選 Start Assessment。",
-        "Admin。",
+        "三者均只檢查寄件伺服器是否開啟 SMTP",
         "授權寄件來源、簽章驗證、驗證政策與回報。",
-        "前者是風險分類，後者是具體觀測發現。"
+        "SPF 驗證簽章、DKIM 設定拒收政策、DMARC 授權 IP",
+        "SPF 控制郵件加密、DKIM 驗證 DNSSEC、DMARC 管理 TLS"
       ],
-      "correct": 2,
+      "correct": 1,
       "references": [
         {
           "title": "RFC 7208｜SPF",
@@ -128,7 +132,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-518fb5cfc13dea6b",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 6,
@@ -138,12 +143,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
+        "CVSS 已包含企業資產重要性與全部補償控制",
+        "CVSS 分數可以直接預測每家企業的財務損失",
         "還需考慮被利用證據、暴露性、業務重要性與補償控制。",
-        "教材指出過去一年。",
-        "已知被實際利用的漏洞清單。",
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。"
+        "只要 CVSS 高就代表已被實際利用"
       ],
-      "correct": 0,
+      "correct": 2,
       "references": [
         {
           "title": "FIRST｜CVSS",
@@ -152,7 +157,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-7fb5713a4ab70483",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 7,
@@ -162,12 +168,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。",
-        "已知被實際利用的漏洞清單。",
-        "進入頁面後點選 Start Assessment。",
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。"
+        "所有已公開 CVE 的完整清單",
+        "尚未公布修補程式的漏洞清單",
+        "由企業自行建立的資產清單",
+        "已知被實際利用的漏洞清單。"
       ],
-      "correct": 1,
+      "correct": 3,
       "references": [
         {
           "title": "CISA｜KEV",
@@ -176,7 +182,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-8dda1946da9ee0e9",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 8,
@@ -186,12 +193,12 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
-        "比對時間、評估範圍與證據，要求供應商補充說明。",
-        "Pre-compromise、Active intrusion、Post-compromise。",
-        "Scoping、Discovery、Prioritization、Validation、Mobilization。"
+        "Scoping、Discovery、Prioritization、Validation、Mobilization。",
+        "Discovery、Detection、Response、Recovery、Review",
+        "Inventory、Scan、Patch、Report、Audit",
+        "Scoping、Discovery、Scoring、Approval、Closure"
       ],
-      "correct": 3,
+      "correct": 0,
       "references": [
         {
           "title": "Gartner｜CTEM",
@@ -200,7 +207,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-11be613200314387",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 9,
@@ -210,130 +218,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
+        "不等於；TPRM 只管理自身網站，Beacon 只管理內部端點",
         "不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。",
-        "Open Ports、Patching Cadence 與 Compromised Systems。",
-        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
-        "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。"
-      ],
-      "correct": 0,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-4c5b97d9878c081f",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 10,
-      "question": "VRM 與 TMH 差異？",
-      "answer": "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "修補速度、效率、漏洞嚴重度與未修補持續時間。",
-        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
-        "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
-        "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。"
-      ],
-      "correct": 3,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-22dc4be839b9540e",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 11,
-      "question": "EASM Base 與 Enhanced 必然有相同功能嗎？",
-      "answer": "否，應依合約及版本確認。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】否，應依合約及版本確認。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "否，應依合約及版本確認。",
-        "教材指需要系統管理員權限。",
-        "My Company 與 Primary Rating Entities。",
-        "否，是教材所述預計影響風險向量的剩餘期間。"
-      ],
-      "correct": 0,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-6772f5f08824c3d3",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 12,
-      "question": "TRM 是否一定能看到 EASM 的完整鑑識證據？",
-      "answer": "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】否，教材指出兩者 Findings／Infrastructure 能見度不同。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "Exposed Credentials。",
-        "Scoping、Discovery、Prioritization、Validation、Mobilization。",
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
-        "警報應附有可調查的支持證據，而非只有單一未解釋分數。"
-      ],
-      "correct": 2,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-94ce8ce08d585d95",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 13,
-      "question": "SPM 教材列出哪四種角色？",
-      "answer": "User、Admin、Group Admin、Portfolio Manager。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】User、Admin、Group Admin、Portfolio Manager。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "Pre-compromise、Active intrusion、Post-compromise。",
-        "Open Ports、Patching Cadence 與 Compromised Systems。",
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "以外部可觀測資料提供資安風險能見度、評級與改善追蹤。"
-      ],
-      "correct": 2,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-d6986cbfcc8be4c3",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 14,
-      "question": "User 能選 Subscription Contact Type 嗎？",
-      "answer": "教材指出 User 僅能選 Collaboration。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】教材指出 User 僅能選 Collaboration。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。",
-        "教材指出 User 僅能選 Collaboration。",
-        "教材所示 Bitsight 資安評級範圍；不等於百分比。",
-        "否，教材指出兩者 Findings／Infrastructure 能見度不同。"
+        "等於，Beacon 即完整的供應商問卷與文件審查流程",
+        "等於，兩者都只提供漏洞掃描"
       ],
       "correct": 1,
       "references": [
@@ -343,8 +231,134 @@
         }
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-4c5b97d9878c081f",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 10,
+      "question": "VRM 與 TMH 差異？",
+      "answer": "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "VRM 與 TMH 都只提供資產探索",
+        "VRM 主要用來對外分享自身文件，TMH 主要收集供應商問卷",
+        "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。",
+        "VRM 只負責評級，TMH 只負責漏洞修補"
+      ],
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-22dc4be839b9540e",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 11,
+      "question": "EASM Base 與 Enhanced 必然有相同功能嗎？",
+      "answer": "否，應依合約及版本確認。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】否，應依合約及版本確認。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "是，名稱不同但所有掃描深度與功能都相同",
+        "是，Enhanced 只改變 UI 配色",
+        "是，任何版本的授權都自動涵蓋全部模組",
+        "否，應依合約及版本確認。"
+      ],
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-6772f5f08824c3d3",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 12,
+      "question": "TRM 是否一定能看到 EASM 的完整鑑識證據？",
+      "answer": "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】否，教材指出兩者 Findings／Infrastructure 能見度不同。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
+        "是，TRM 一律提供與 EASM 相同的完整資產證據",
+        "是，所有產品只要有評級就能查看相同的掃描細節",
+        "是，CM/TRM 的發現都等同企業自行授權的完整弱點掃描"
+      ],
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-94ce8ce08d585d95",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 13,
+      "question": "SPM 教材列出哪四種角色？",
+      "answer": "User、Admin、Group Admin、Portfolio Manager。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】User、Admin、Group Admin、Portfolio Manager。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "Global Admin、Tenant Admin、Operator、Guest",
+        "User、Admin、Group Admin、Portfolio Manager。",
+        "Viewer、Editor、Owner、Auditor",
+        "Read Only、Analyst、Responder、Administrator"
+      ],
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-d6986cbfcc8be4c3",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 14,
+      "question": "User 能選 Subscription Contact Type 嗎？",
+      "answer": "教材指出 User 僅能選 Collaboration。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】教材指出 User 僅能選 Collaboration。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "可以，User 與 Admin 在聯絡設定的權限完全一致",
+        "不行，User 僅能選擇 Security Operations",
+        "教材指出 User 僅能選 Collaboration。",
+        "可以，User 可管理所有 Subscription Contact Type"
+      ],
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-493caa17f2481706",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 15,
@@ -354,9 +368,9 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "CSV、Full Data PDF、Filtered Data PDF。",
-        "不能。官方僅允許編輯所屬群組內的使用者。",
-        "Bitsight Rating。",
+        "Impact 表示漏洞數量，Trust 表示 CVSS 分數",
+        "Impact 表示網域數，Trust 表示網站流量",
+        "Impact 與 Trust 均只代表合約金額",
         "影響程度與供應商可信程度，結合用於風險評估。"
       ],
       "correct": 3,
@@ -368,7 +382,8 @@
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-978105938e2cf755",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 16,
@@ -378,82 +393,10 @@
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "否，是教材所述預計影響風險向量的剩餘期間。",
-        "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。",
-        "Admin 與 Group Admin（依官方權限頁）。",
-        "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。"
-      ],
-      "correct": 3,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-a61a8112d4dada34",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 17,
-      "question": "發現供應商有 C2 通訊怎麼辦？",
-      "answer": "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "還需考慮被利用證據、暴露性、業務重要性與補償控制。",
-        "Bitsight Rating。",
-        "進入頁面後點選 Start Assessment。",
-        "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。"
-      ],
-      "correct": 3,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-635d664148b3df37",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 18,
-      "question": "資產歸屬錯誤怎麼處理？",
-      "answer": "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "Admin；但四種教材角色均可管理自己的 User API Token。",
-        "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。",
-        "教材所示 Bitsight 資安評級範圍；不等於百分比。",
-        "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。"
-      ],
-      "correct": 1,
-      "references": [
-        {
-          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
-          "url": "https://help.bitsighttech.com/"
-        }
-      ],
-      "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-d653388f3757ae8f",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
-    },
-    {
-      "id": 19,
-      "question": "問卷與外部評級矛盾怎麼辦？",
-      "answer": "比對時間、評估範圍與證據，要求供應商補充說明。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】比對時間、評估範圍與證據，要求供應商補充說明。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
-      "category": "基礎題",
-      "section": "原題",
-      "options": [
-        "比對時間、評估範圍與證據，要求供應商補充說明。",
-        "官方 Access Control 權限表為不可。",
-        "已知被實際利用的漏洞清單。",
-        "還需考慮被利用證據、暴露性、業務重要性與補償控制。"
+        "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。",
+        "承諾一週內完成所有發現項就一定增加 50 分",
+        "優先修補最高 CVSS 的一項即可保證加 50 分",
+        "只要關閉開放埠，評級會立即更新 50 分"
       ],
       "correct": 0,
       "references": [
@@ -463,21 +406,72 @@
         }
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
-      "uid": "bitsight-f2f49a6f25dfad41",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "uid": "bitsight-a61a8112d4dada34",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
-      "id": 20,
-      "question": "主管問「哪個產品適合銀行供應商管理」？",
-      "answer": "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
-      "explanation": "【補充解說・依原題答案整理，非官方引文】依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "id": 17,
+      "question": "發現供應商有 C2 通訊怎麼辦？",
+      "answer": "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。",
-        "New Findings That Impact Rating。",
-        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。"
+        "因為 C2 只是一般流量，可以直接忽略",
+        "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。",
+        "直接宣告供應商已遭勒索攻擊，無須核實",
+        "立即移除所有供應商連線，不需考慮營運影響"
+      ],
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-635d664148b3df37",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 18,
+      "question": "資產歸屬錯誤怎麼處理？",
+      "answer": "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "將所有相關 IP 設為白名單即可完成所有權更正",
+        "僅修改報表名稱，不需提供歸屬證據",
+        "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。",
+        "直接刪除該 Finding，不需確認資產歸屬"
+      ],
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-d653388f3757ae8f",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 19,
+      "question": "問卷與外部評級矛盾怎麼辦？",
+      "answer": "比對時間、評估範圍與證據，要求供應商補充說明。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】比對時間、評估範圍與證據，要求供應商補充說明。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "一律以外部評級為準，忽略問卷",
+        "一律以供應商問卷為準，忽略外部發現",
+        "將兩者平均成單一分數，無須確認時間差",
+        "比對時間、評估範圍與證據，要求供應商補充說明。"
       ],
       "correct": 3,
       "references": [
@@ -487,8 +481,34 @@
         }
       ],
       "explanation_source": "依原題答案補充（待逐題查證）",
+      "uid": "bitsight-f2f49a6f25dfad41",
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
+    },
+    {
+      "id": 20,
+      "question": "主管問「哪個產品適合銀行供應商管理」？",
+      "answer": "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
+      "category": "基礎題",
+      "section": "原題",
+      "options": [
+        "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
+        "僅選 TMH，因為它涵蓋全部第三方持續監控",
+        "僅選 EASM，因為它專門管理所有供應商問卷",
+        "不論客戶需求為何都必須購買所有產品"
+      ],
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）",
       "uid": "bitsight-69ee0ba8cfc6ba41",
-      "source_status": "官方連結供延伸閱讀，尚未逐題核實"
+      "source_status": "官方連結供延伸閱讀，尚未逐題核實",
+      "quality_review": "干擾選項已改為相近產品／技術概念；答案仍沿用原題庫，未經官方逐題認證"
     },
     {
       "id": 21,
