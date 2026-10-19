@@ -6,7 +6,7 @@
       "id": 1,
       "question": "Bitsight 的核心價值？",
       "answer": "以外部可觀測資料提供資安風險能見度、評級與改善追蹤。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】以外部可觀測資料提供資安風險能見度、評級與改善追蹤。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -15,13 +15,20 @@
         "Admin；但四種教材角色均可管理自己的 User API Token。",
         "授權寄件來源、簽章驗證、驗證政策與回報。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 2,
       "question": "EASM 與 CM 管理對象差異？",
       "answer": "EASM 以自身外部資產為主，CM 以第三方監控為主。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】EASM 以自身外部資產為主，CM 以第三方監控為主。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -30,13 +37,20 @@
         "User、Admin、Group Admin、Portfolio Manager。",
         "Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 3,
       "question": "250–900 代表什麼？",
       "answer": "教材所示 Bitsight 資安評級範圍；不等於百分比。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】教材所示 Bitsight 資安評級範圍；不等於百分比。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -45,13 +59,20 @@
         "教材所示 Bitsight 資安評級範圍；不等於百分比。",
         "Admin 與 Group Admin（依官方權限頁）。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 4,
       "question": "Risk Vector 與 Finding 差異？",
       "answer": "前者是風險分類，後者是具體觀測發現。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】前者是風險分類，後者是具體觀測發現。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -60,13 +81,20 @@
         "影響程度與供應商可信程度，結合用於風險評估。",
         "Admin 與 Group Admin（依官方權限頁）。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 5,
       "question": "SPF、DKIM、DMARC 分別做什麼？",
       "answer": "授權寄件來源、簽章驗證、驗證政策與回報。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】授權寄件來源、簽章驗證、驗證政策與回報。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -75,13 +103,28 @@
         "授權寄件來源、簽章驗證、驗證政策與回報。",
         "前者是風險分類，後者是具體觀測發現。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "RFC 7208｜SPF",
+          "url": "https://www.rfc-editor.org/rfc/rfc7208"
+        },
+        {
+          "title": "RFC 6376｜DKIM",
+          "url": "https://www.rfc-editor.org/rfc/rfc6376"
+        },
+        {
+          "title": "RFC 7489｜DMARC",
+          "url": "https://www.rfc-editor.org/rfc/rfc7489"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 6,
       "question": "為何不能只看 CVSS 排修補？",
       "answer": "還需考慮被利用證據、暴露性、業務重要性與補償控制。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】還需考慮被利用證據、暴露性、業務重要性與補償控制。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -90,13 +133,20 @@
         "已知被實際利用的漏洞清單。",
         "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "FIRST｜CVSS",
+          "url": "https://www.first.org/cvss/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 7,
       "question": "什麼是 KEV？",
       "answer": "已知被實際利用的漏洞清單。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】已知被實際利用的漏洞清單。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -105,13 +155,20 @@
         "進入頁面後點選 Start Assessment。",
         "否，教材指出兩者 Findings／Infrastructure 能見度不同。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "CISA｜KEV",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 8,
       "question": "CTEM 五步驟？",
       "answer": "Scoping、Discovery、Prioritization、Validation、Mobilization。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Scoping、Discovery、Prioritization、Validation、Mobilization。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -120,13 +177,20 @@
         "Pre-compromise、Active intrusion、Post-compromise。",
         "Scoping、Discovery、Prioritization、Validation、Mobilization。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Gartner｜CTEM",
+          "url": "https://www.gartner.com/en/articles/what-is-continuous-threat-exposure-management"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 9,
       "question": "TPRM 等於 Beacon 嗎？",
       "answer": "不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】不等於；TPRM 是領域，Beacon 是供應鏈曝險產品。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -135,13 +199,20 @@
         "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
         "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 10,
       "question": "VRM 與 TMH 差異？",
       "answer": "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -150,13 +221,20 @@
         "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
         "VRM 管理供應商評估工作流，TMH 管理與分享自身信任文件。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 11,
       "question": "EASM Base 與 Enhanced 必然有相同功能嗎？",
       "answer": "否，應依合約及版本確認。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】否，應依合約及版本確認。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -165,13 +243,20 @@
         "My Company 與 Primary Rating Entities。",
         "否，是教材所述預計影響風險向量的剩餘期間。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 12,
       "question": "TRM 是否一定能看到 EASM 的完整鑑識證據？",
       "answer": "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】否，教材指出兩者 Findings／Infrastructure 能見度不同。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -180,13 +265,20 @@
         "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
         "警報應附有可調查的支持證據，而非只有單一未解釋分數。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 13,
       "question": "SPM 教材列出哪四種角色？",
       "answer": "User、Admin、Group Admin、Portfolio Manager。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】User、Admin、Group Admin、Portfolio Manager。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -195,13 +287,20 @@
         "User、Admin、Group Admin、Portfolio Manager。",
         "以外部可觀測資料提供資安風險能見度、評級與改善追蹤。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 14,
       "question": "User 能選 Subscription Contact Type 嗎？",
       "answer": "教材指出 User 僅能選 Collaboration。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】教材指出 User 僅能選 Collaboration。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -210,13 +309,20 @@
         "教材所示 Bitsight 資安評級範圍；不等於百分比。",
         "否，教材指出兩者 Findings／Infrastructure 能見度不同。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 15,
       "question": "VRM 的 Impact 與 Trust 代表什麼？",
       "answer": "影響程度與供應商可信程度，結合用於風險評估。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】影響程度與供應商可信程度，結合用於風險評估。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -225,13 +331,20 @@
         "Bitsight Rating。",
         "影響程度與供應商可信程度，結合用於風險評估。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 16,
       "question": "客戶要求一週內加 50 分，怎麼回答？",
       "answer": "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -240,13 +353,20 @@
         "Admin 與 Group Admin（依官方權限頁）。",
         "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 17,
       "question": "發現供應商有 C2 通訊怎麼辦？",
       "answer": "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -255,13 +375,20 @@
         "進入頁面後點選 Start Assessment。",
         "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 18,
       "question": "資產歸屬錯誤怎麼處理？",
       "answer": "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -270,13 +397,20 @@
         "教材所示 Bitsight 資安評級範圍；不等於百分比。",
         "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 19,
       "question": "問卷與外部評級矛盾怎麼辦？",
       "answer": "比對時間、評估範圍與證據，要求供應商補充說明。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】比對時間、評估範圍與證據，要求供應商補充說明。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -285,13 +419,20 @@
         "已知被實際利用的漏洞清單。",
         "還需考慮被利用證據、暴露性、業務重要性與補償控制。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 20,
       "question": "主管問「哪個產品適合銀行供應商管理」？",
       "answer": "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -300,13 +441,20 @@
         "New Findings That Impact Rating。",
         "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 21,
       "question": "誰可以建立與刪除 Access Control Groups？",
       "answer": "Admin。解析：Group Admin 不能管理群組結構。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Admin。解析：Group Admin 不能管理群組結構。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -315,13 +463,20 @@
         "Pre-compromise、Active intrusion、Post-compromise。",
         "Admin。解析：Group Admin 不能管理群組結構。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 22,
       "question": "Group Admin 能修改所有帳號嗎？",
       "answer": "不能。官方僅允許編輯所屬群組內的使用者。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】不能。官方僅允許編輯所屬群組內的使用者。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -330,13 +485,20 @@
         "不能。官方僅允許編輯所屬群組內的使用者。",
         "比對時間、評估範圍與證據，要求供應商補充說明。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 23,
       "question": "Portfolio Manager 能建立新使用者嗎？",
       "answer": "官方 Access Control 權限表為不可。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】官方 Access Control 權限表為不可。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -345,13 +507,20 @@
         "My Company 與 Primary Rating Entities。",
         "官方 Access Control 權限表為不可。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 24,
       "question": "User 可以操作 Issue Tracking 嗎？",
       "answer": "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -360,13 +529,20 @@
         "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。",
         "否，應依合約及版本確認。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 25,
       "question": "誰能產生公司 API Token？",
       "answer": "Admin；但四種教材角色均可管理自己的 User API Token。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Admin；但四種教材角色均可管理自己的 User API Token。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -375,13 +551,20 @@
         "核對 IOC 與證據，聯繫 SOC、供應商及事件應變單位。",
         "影響程度與供應商可信程度，結合用於風險評估。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 26,
       "question": "誰能匯出 Exposed Credentials 的 PII？",
       "answer": "Admin 與 Group Admin（依官方權限頁）。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Admin 與 Group Admin（依官方權限頁）。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -390,13 +573,20 @@
         "Admin 與 Group Admin（依官方權限頁）。",
         "User、Admin、Group Admin、Portfolio Manager。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 27,
       "question": "誰能設定 Resolved 時自動重新掃描？",
       "answer": "Admin。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Admin。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -405,13 +595,20 @@
         "警報應附有可調查的支持證據，而非只有單一未解釋分數。",
         "Admin。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 28,
       "question": "TMH 與 VRM 的資料流方向差異？",
       "answer": "TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -420,13 +617,20 @@
         "TMH 偏向對外分享自身安全證明；VRM 偏向向供應商蒐集及審查證明。",
         "不同公司過去一年的評級趨勢、分數與風險向量資訊。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 29,
       "question": "Beacon 的警示與 CM 的分數如何搭配？",
       "answer": "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -435,13 +639,20 @@
         "教材指出過去一年。",
         "CM 提供長期風險背景，Beacon 補充當前高優先的曝險／入侵訊號。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 30,
       "question": "客戶要求把 Beacon 當成完整 TPRM，該如何說明？",
       "answer": "Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -450,13 +661,20 @@
         "Scoping、Discovery、Prioritization、Validation、Mobilization。",
         "Beacon 是 TPRM 相關的供應鏈威脅曝險能力，完整 TPRM 還涉及供應商分級、問卷、審查、監控與退場流程。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 31,
       "question": "Findings Table 中 First Seen 與 Last Seen 的差別？",
       "answer": "首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -465,13 +683,20 @@
         "教材指出其尚在孵化／觀察期間。",
         "首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 32,
       "question": "Remaining Lifetime 是否代表漏洞會在幾天後自動修好？",
       "answer": "否，是教材所述預計影響風險向量的剩餘期間。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】否，是教材所述預計影響風險向量的剩餘期間。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -480,13 +705,20 @@
         "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
         "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 33,
       "question": "Impacts RV Grade Only 的判斷條件？",
       "answer": "`Impacts Risk Vector Grade = Yes`。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】`Impacts Risk Vector Grade = Yes`。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -495,13 +727,20 @@
         "Scoping、Discovery、Prioritization、Validation、Mobilization。",
         "依需求分層：TRM 持續監控、VRM 問卷流程、Beacon 威脅情資、TMH 文件分享；授權依實際採購。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 34,
       "question": "Incubation Period Findings 為何可能不影響目前評級？",
       "answer": "教材指出其尚在孵化／觀察期間。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】教材指出其尚在孵化／觀察期間。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -510,13 +749,20 @@
         "My Company 與 Primary Rating Entities。",
         "EASM 以自身外部資產為主，CM 以第三方監控為主。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 35,
       "question": "六大告警中，哪一類可監控整體分數變動？",
       "answer": "Bitsight Rating。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Bitsight Rating。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -525,13 +771,20 @@
         "先盤點可改善項與評分影響，說明觀測延遲，不保證分數與期限。",
         "首次與最近一次觀測日期；不是漏洞的精確發生／消失時間。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 36,
       "question": "哪一類告警與憑證外洩相關？",
       "answer": "Exposed Credentials。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Exposed Credentials。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -540,13 +793,20 @@
         "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。",
         "教材指出過去一年。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 37,
       "question": "Vulnerabilities & Infections 涉及哪些教材風險向量？",
       "answer": "Open Ports、Patching Cadence 與 Compromised Systems。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Open Ports、Patching Cadence 與 Compromised Systems。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -555,13 +815,20 @@
         "否，教材指出兩者 Findings／Infrastructure 能見度不同。",
         "教材指需要系統管理員權限。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 38,
       "question": "Risk Vector Preview 的 Patching Cadence 衡量什麼？",
       "answer": "修補速度、效率、漏洞嚴重度與未修補持續時間。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】修補速度、效率、漏洞嚴重度與未修補持續時間。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -570,13 +837,20 @@
         "已知被實際利用的漏洞清單。",
         "否，是教材所述預計影響風險向量的剩餘期間。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 39,
       "question": "Recent Security Changes 中哪個欄位可追蹤影響評分的新發現？",
       "answer": "New Findings That Impact Rating。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】New Findings That Impact Rating。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -585,13 +859,20 @@
         "不能。官方僅允許編輯所屬群組內的使用者。",
         "蒐集網域／IP 所有權及歷史資料，走平台歸屬修正流程。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 40,
       "question": "Framework Intelligence 如何開始評估？",
       "answer": "進入頁面後點選 Start Assessment。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】進入頁面後點選 Start Assessment。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -600,13 +881,20 @@
         "My Company 與 Primary Rating Entities。",
         "授權寄件來源、簽章驗證、驗證政策與回報。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 41,
       "question": "Framework Intelligence 有哪些教材列出的匯出格式？",
       "answer": "CSV、Full Data PDF、Filtered Data PDF。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】CSV、Full Data PDF、Filtered Data PDF。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -615,13 +903,20 @@
         "CSV、Full Data PDF、Filtered Data PDF。",
         "影響程度與供應商可信程度，結合用於風險評估。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 42,
       "question": "誰可設定 Bitsight Badge？",
       "answer": "教材指需要系統管理員權限。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】教材指需要系統管理員權限。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -630,13 +925,20 @@
         "教材指出 User 僅能選 Collaboration。",
         "進入頁面後點選 Start Assessment。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 43,
       "question": "哪兩種實體可取得 Bitsight Badge？",
       "answer": "My Company 與 Primary Rating Entities。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】My Company 與 Primary Rating Entities。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -645,13 +947,20 @@
         "可以在所屬群組範圍檢視及指派 Findings，不能因此推論有完整管理權。",
         "EASM 以自身外部資產為主，CM 以第三方監控為主。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 44,
       "question": "一般使用者要修改 Email 通知偏好，去哪裡？",
       "answer": "Settings > Account > User Preferences > Update Email Preferences。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Settings > Account > User Preferences > Update Email Preferences。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -660,13 +969,20 @@
         "教材指出過去一年。",
         "Settings > Account > User Preferences > Update Email Preferences。"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 45,
       "question": "CM 的 Portfolio Dashboard 可看什麼？",
       "answer": "評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】評分中位數、近期事件、評級變化、風險向量告警、矩陣、訂閱使用率等。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -675,13 +991,20 @@
         "否，應依合約及版本確認。",
         "教材指需要系統管理員權限。"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 46,
       "question": "CM 風險向量頁的 Trend 期間為何？",
       "answer": "教材指出過去一年。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】教材指出過去一年。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -690,13 +1013,20 @@
         "教材指出過去一年。",
         "`Impacts Risk Vector Grade = Yes`。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 47,
       "question": "Compare Companies 可以比較什麼？",
       "answer": "不同公司過去一年的評級趨勢、分數與風險向量資訊。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】不同公司過去一年的評級趨勢、分數與風險向量資訊。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -705,13 +1035,20 @@
         "不同公司過去一年的評級趨勢、分數與風險向量資訊。",
         "Pre-compromise、Active intrusion、Post-compromise。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 48,
       "question": "Beacon 三階段英文？",
       "answer": "Pre-compromise、Active intrusion、Post-compromise。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】Pre-compromise、Active intrusion、Post-compromise。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -720,13 +1057,20 @@
         "教材指出過去一年。",
         "Scoping、Discovery、Prioritization、Validation、Mobilization。"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 49,
       "question": "Beacon 的 Evidence-backed 是什麼概念？",
       "answer": "警報應附有可調查的支持證據，而非只有單一未解釋分數。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】警報應附有可調查的支持證據，而非只有單一未解釋分數。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -735,13 +1079,20 @@
         "警報應附有可調查的支持證據，而非只有單一未解釋分數。",
         "User、Admin、Group Admin、Portfolio Manager。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 50,
       "question": "EASM 的七大面向教材中，數位供應鏈評估主要由哪個模組執行？",
       "answer": "教材表格將該面向列於 CM／TRM。",
-      "explanation": "原題未另附解析，請參照答案及完整知識庫。",
+      "explanation": "【補充解說・依原題答案整理，非官方引文】教材表格將該面向列於 CM／TRM。。實務判斷時，請區分產品功能、觀測證據與授權範圍；若涉及平台設定，應以實際版本及官方文件核對。",
       "category": "基礎題",
       "section": "原題",
       "options": [
@@ -750,7 +1101,14 @@
         "教材表格將該面向列於 CM／TRM。",
         "授權寄件來源、簽章驗證、驗證政策與回報。"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "依原題答案補充（待逐題查證）"
     },
     {
       "id": 51,
@@ -765,7 +1123,14 @@
         "自身企業的外部資產與曝險",
         "依需求評估 EASM 與 CM"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 52,
@@ -780,7 +1145,14 @@
         "不能",
         "第三方供應商及供應鏈"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 53,
@@ -795,7 +1167,14 @@
         "問卷、稽核與佐證文件",
         "自身企業的外部資產與曝險"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 54,
@@ -810,7 +1189,14 @@
         "自身企業的外部資產與曝險",
         "依需求評估 EASM 與 CM"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 55,
@@ -825,7 +1211,14 @@
         "不能",
         "自身企業的外部資產與曝險"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 56,
@@ -840,7 +1233,14 @@
         "TPRM 是第三方風險管理範疇",
         "供應商所依賴的其他供應商造成的風險"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 57,
@@ -855,7 +1255,14 @@
         "未被正式管理流程完整掌握的 IT 資產或服務",
         "TPRM 是第三方風險管理範疇"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 58,
@@ -870,7 +1277,14 @@
         "依需求評估 EASM 與 CM",
         "自身企業的外部資產與曝險"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 59,
@@ -885,7 +1299,14 @@
         "自身企業的外部資產與曝險",
         "未被正式管理流程完整掌握的 IT 資產或服務"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 60,
@@ -900,7 +1321,14 @@
         "未被正式管理流程完整掌握的 IT 資產或服務",
         "供應商所依賴的其他供應商造成的風險"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 61,
@@ -915,7 +1343,14 @@
         "不一定",
         "Rescanned Findings"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 62,
@@ -930,7 +1365,14 @@
         "檢視各類風險向量的具體發現",
         "Filter Set Actions > Save as 並填 Name/Description"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 63,
@@ -945,7 +1387,14 @@
         "Impacts RV Grade Only",
         "Settings > Account > User Preferences"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 64,
@@ -960,7 +1409,14 @@
         "Finding Severity",
         "CSV 與 Full/Filtered PDF"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 65,
@@ -975,7 +1431,14 @@
         "Rescanned Findings",
         "Settings > Account > User Preferences"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 66,
@@ -990,7 +1453,14 @@
         "Rescanned Findings",
         "Impacts RV Grade Only"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 67,
@@ -1005,7 +1475,14 @@
         "七種",
         "點選 Start Assessment"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 68,
@@ -1020,7 +1497,14 @@
         "Rescanned Findings",
         "Filter Set Actions > Save as 並填 Name/Description"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 69,
@@ -1035,7 +1519,14 @@
         "Findings > Vulnerability Detection > 選 CVE > View in Findings",
         "Organization > Company Details > Recent Security Changes"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 70,
@@ -1050,7 +1541,14 @@
         "Findings > Vulnerability Detection > 選 CVE > View in Findings",
         "CSV 與 Full/Filtered PDF"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 71,
@@ -1065,7 +1563,14 @@
         "Finding Severity",
         "不是"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 72,
@@ -1080,7 +1585,14 @@
         "Finding Severity",
         "可涵蓋有風險但 Grade 為 N/A 的 Findings"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 73,
@@ -1095,7 +1607,14 @@
         "檢視各類風險向量的具體發現",
         "Impacts RV Grade Only"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 74,
@@ -1110,7 +1629,14 @@
         "檢視各類風險向量的具體發現",
         "教材指出最近 60 天"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 75,
@@ -1125,7 +1651,14 @@
         "檢視各類風險向量的具體發現",
         "Impacts Bitsight Rating"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 76,
@@ -1140,7 +1673,14 @@
         "可涵蓋有風險但 Grade 為 N/A 的 Findings",
         "Finding Severity"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 77,
@@ -1155,7 +1695,14 @@
         "CSV 與 Full/Filtered PDF",
         "Impacts RV Grade Only"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 78,
@@ -1170,7 +1717,14 @@
         "CSV 與 Full/Filtered PDF",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 79,
@@ -1185,7 +1739,14 @@
         "Asset Importance",
         "Impacts RV Grade Only"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 80,
@@ -1200,7 +1761,14 @@
         "檢視各類風險向量的具體發現",
         "教材列為最優先修補"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 81,
@@ -1215,7 +1783,14 @@
         "Admin 與 Group Admin",
         "Settings > Access Control > Users"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 82,
@@ -1230,7 +1805,14 @@
         "Admin 與 Group Admin",
         "All Companies"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 83,
@@ -1245,7 +1827,14 @@
         "Settings > Access Control > Users",
         "教材指出只能一個"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 84,
@@ -1260,7 +1849,14 @@
         "教材列 Admin、Group Admin、Portfolio Manager 可選",
         "Admin 與 Group Admin"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 85,
@@ -1275,7 +1871,14 @@
         "官方矩陣列可以",
         "可見公司及相關操作範圍"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 86,
@@ -1290,7 +1893,14 @@
         "不可",
         "教材指出只能一個"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 87,
@@ -1305,7 +1915,14 @@
         "教材指出只能一個",
         "官方矩陣列可以"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 88,
@@ -1320,7 +1937,14 @@
         "官方矩陣列可以",
         "US 與 EU"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 89,
@@ -1335,7 +1959,14 @@
         "不可",
         "教材指出只能一個"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 90,
@@ -1350,7 +1981,14 @@
         "教材指出只能一個",
         "可見公司及相關操作範圍"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 91,
@@ -1365,7 +2003,14 @@
         "Admin 與 Group Admin",
         "US 與 EU"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 92,
@@ -1380,7 +2025,14 @@
         "教材指出只能一個",
         "All Companies"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 93,
@@ -1395,7 +2047,14 @@
         "可見公司及相關操作範圍",
         "Admin"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 94,
@@ -1410,7 +2069,14 @@
         "US 與 EU",
         "不可"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 95,
@@ -1425,7 +2091,14 @@
         "Settings > Access Control > Users",
         "Admin"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 96,
@@ -1440,7 +2113,14 @@
         "前者是安全結果，後者是平台評級結果",
         "不一定"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 97,
@@ -1455,7 +2135,14 @@
         "混用不同年代素材",
         "官方資料標示不計入"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 98,
@@ -1470,7 +2157,14 @@
         "不一定",
         "修補速度與效率"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "RFC 7489｜DMARC",
+          "url": "https://www.rfc-editor.org/rfc/rfc7489"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 99,
@@ -1485,7 +2179,14 @@
         "否",
         "重新觀測、計分週期與其他風險影響"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "DNSSEC 基礎",
+          "url": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 100,
@@ -1500,7 +2201,14 @@
         "27%、70.5%、2.5%",
         "修補速度與效率"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 101,
@@ -1515,7 +2223,14 @@
         "不是",
         "重新觀測、計分週期與其他風險影響"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 102,
@@ -1530,7 +2245,14 @@
         "前者是安全結果，後者是平台評級結果",
         "修補速度與效率"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 103,
@@ -1545,7 +2267,14 @@
         "不是",
         "不一定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 104,
@@ -1560,7 +2289,14 @@
         "風險評估維度或分類",
         "不能"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 105,
@@ -1575,7 +2311,14 @@
         "前者是安全結果，後者是平台評級結果",
         "重新觀測、計分週期與其他風險影響"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 106,
@@ -1590,7 +2333,14 @@
         "前者是安全結果，後者是平台評級結果",
         "27%、70.5%、2.5%"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 107,
@@ -1605,7 +2355,14 @@
         "混用不同年代素材",
         "重新觀測、計分週期與其他風險影響"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 108,
@@ -1620,7 +2377,14 @@
         "不應忽略",
         "不是"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 109,
@@ -1635,7 +2399,14 @@
         "不能",
         "前者是安全結果，後者是平台評級結果"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 110,
@@ -1650,7 +2421,14 @@
         "平台觀測到的具體資安發現",
         "重新觀測、計分週期與其他風險影響"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 111,
@@ -1665,7 +2443,14 @@
         "重新觀測、計分週期與其他風險影響",
         "混用不同年代素材"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 112,
@@ -1680,7 +2465,14 @@
         "平台觀測到的具體資安發現",
         "計分涉及類別、風險向量及正規化"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 113,
@@ -1695,7 +2487,14 @@
         "前者是安全結果，後者是平台評級結果",
         "風險評估維度或分類"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 114,
@@ -1710,7 +2509,14 @@
         "不是",
         "平台觀測到的具體資安發現"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 115,
@@ -1725,7 +2531,14 @@
         "不是",
         "修補速度與效率"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 116,
@@ -1740,7 +2553,14 @@
         "資訊竊取惡意程式蒐集的資料紀錄",
         "以簽章驗證郵件完整性及來源網域關聯"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "RFC 7208｜SPF",
+          "url": "https://www.rfc-editor.org/rfc/rfc7208"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 117,
@@ -1755,7 +2575,14 @@
         "以簽章驗證郵件完整性及來源網域關聯",
         "預測漏洞遭利用機率的模型"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "RFC 6376｜DKIM",
+          "url": "https://www.rfc-editor.org/rfc/rfc6376"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 118,
@@ -1770,7 +2597,14 @@
         "宣告授權寄件來源",
         "預測漏洞遭利用機率的模型"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "RFC 7489｜DMARC",
+          "url": "https://www.rfc-editor.org/rfc/rfc7489"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 119,
@@ -1785,7 +2619,14 @@
         "DNS 資料來源驗證與完整性",
         "資訊竊取惡意程式蒐集的資料紀錄"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "DNSSEC 基礎",
+          "url": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 120,
@@ -1800,7 +2641,14 @@
         "以簽章驗證郵件完整性及來源網域關聯",
         "對外服務增加攻擊面"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 121,
@@ -1815,7 +2663,14 @@
         "Initial Access Broker 初始存取權仲介",
         "對外服務增加攻擊面"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "RFC 8446｜TLS 1.3",
+          "url": "https://www.rfc-editor.org/rfc/rfc8446"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 122,
@@ -1830,7 +2685,14 @@
         "以簽章驗證郵件完整性及來源網域關聯",
         "漏洞嚴重度評分系統"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 123,
@@ -1845,7 +2707,14 @@
         "不是",
         "已知遭實際利用漏洞目錄"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "FIRST｜CVSS",
+          "url": "https://www.first.org/cvss/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 124,
@@ -1860,7 +2729,14 @@
         "不是",
         "預測漏洞遭利用機率的模型"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "FIRST｜EPSS",
+          "url": "https://www.first.org/epss/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 125,
@@ -1875,7 +2751,14 @@
         "對安全事件風險的模型化指標",
         "DNS 資料來源驗證與完整性"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "CISA｜KEV",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 126,
@@ -1890,7 +2773,14 @@
         "入侵跡象或指標",
         "攻擊者控制受害系統的指揮控制通道"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 127,
@@ -1905,7 +2795,14 @@
         "攻擊者控制受害系統的指揮控制通道",
         "對安全事件風險的模型化指標"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 128,
@@ -1920,7 +2817,14 @@
         "漏洞嚴重度評分系統",
         "Initial Access Broker 初始存取權仲介"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 129,
@@ -1935,7 +2839,14 @@
         "入侵跡象或指標",
         "公開漏洞識別編號"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 130,
@@ -1950,7 +2861,14 @@
         "資產對組織的重要性",
         "宣告授權寄件來源"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 131,
@@ -1965,7 +2883,14 @@
         "Initial Access Broker 初始存取權仲介",
         "預測漏洞遭利用機率的模型"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 132,
@@ -1980,7 +2905,14 @@
         "不是",
         "利用近似拼字網域進行仿冒"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 133,
@@ -1995,7 +2927,14 @@
         "對安全事件風險的模型化指標",
         "提供郵件驗證政策及回報"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 134,
@@ -2010,7 +2949,14 @@
         "不是",
         "透過 HTTP 回應標頭配置部分瀏覽器安全政策"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 135,
@@ -2025,7 +2971,14 @@
         "Initial Access Broker 初始存取權仲介",
         "單筆發現的嚴重程度"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 136,
@@ -2040,7 +2993,14 @@
         "供應商事件對企業的潛在影響",
         "Build、Review、Analyze、Monitor"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 137,
@@ -2055,7 +3015,14 @@
         "Build、Review、Analyze、Monitor",
         "供應商事件對企業的潛在影響"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 138,
@@ -2070,7 +3037,14 @@
         "Build、Review、Analyze、Monitor",
         "依證據評估供應商可信程度"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 139,
@@ -2085,7 +3059,14 @@
         "依證據評估供應商可信程度",
         "20"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 140,
@@ -2100,7 +3081,14 @@
         "入侵前可利用曝險",
         "(Impact + 100 - Trust) / 2"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 141,
@@ -2115,7 +3103,14 @@
         "入侵前可利用曝險",
         "20"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 142,
@@ -2130,7 +3125,14 @@
         "(Impact + 100 - Trust) / 2",
         "20"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 143,
@@ -2145,7 +3147,14 @@
         "60",
         "不能直接取代"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 144,
@@ -2160,7 +3169,14 @@
         "60",
         "正在發生的可疑惡意活動"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 145,
@@ -2175,7 +3191,14 @@
         "(Impact + 100 - Trust) / 2",
         "失陷後證據"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 146,
@@ -2190,7 +3213,14 @@
         "不能直接取代",
         "(Impact + 100 - Trust) / 2"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 147,
@@ -2205,7 +3235,14 @@
         "入侵前可利用曝險",
         "警示有支持證據可供調查"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 148,
@@ -2220,7 +3257,14 @@
         "CM 長期態勢；Beacon 威脅情資",
         "不應只看分數"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 149,
@@ -2235,7 +3279,14 @@
         "第三方資料可見性有限",
         "比對範圍、時間及佐證"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 150,
@@ -2250,7 +3301,14 @@
         "比對技術修補證據、Rescan、Last Seen 與評級更新",
         "第三方資料可見性有限"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 151,
@@ -2265,7 +3323,14 @@
         "核對證據、範圍、通報與憑證處置",
         "不承諾分數或期限，先盤點影響與修補"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 152,
@@ -2280,7 +3345,14 @@
         "Portfolio Risk > Compare Companies",
         "CM 長期態勢；Beacon 威脅情資"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 153,
@@ -2295,7 +3367,14 @@
         "不能直接視為合規證明",
         "比對技術修補證據、Rescan、Last Seen 與評級更新"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 154,
@@ -2310,7 +3389,14 @@
         "在教材對應，但授權與命名需核對",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 155,
@@ -2325,7 +3411,14 @@
         "仍應依重要性與法規評估",
         "比對技術修補證據、Rescan、Last Seen 與評級更新"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 156,
@@ -2340,7 +3433,14 @@
         "在教材對應，但授權與命名需核對",
         "先釐清 CM 可見性與合約範圍"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 157,
@@ -2355,7 +3455,14 @@
         "不能保證",
         "不應只看分數"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 158,
@@ -2370,7 +3477,14 @@
         "比對技術修補證據、Rescan、Last Seen 與評級更新",
         "在教材對應，但授權與命名需核對"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 159,
@@ -2385,7 +3499,14 @@
         "官方功能文件、平台路徑、合約授權及必要截圖",
         "需合併 Severity、資產重要性及曝露性"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 160,
@@ -2400,7 +3521,14 @@
         "在教材對應，但授權與命名需核對",
         "第三方資料可見性有限"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 161,
@@ -2415,7 +3543,14 @@
         "核對證據、範圍、通報與憑證處置",
         "評級變化、風險向量、改善狀態與高風險供應商"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 162,
@@ -2430,7 +3565,14 @@
         "不承諾分數或期限，先盤點影響與修補",
         "CM 長期態勢；Beacon 威脅情資"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 163,
@@ -2445,7 +3587,14 @@
         "Vendor Risk > Overview > Risk Vectors",
         "官方功能文件、平台路徑、合約授權及必要截圖"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 164,
@@ -2460,7 +3609,14 @@
         "不能直接視為合規證明",
         "需合併 Severity、資產重要性及曝露性"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 165,
@@ -2475,7 +3631,14 @@
         "不能直接視為合規證明",
         "仍應依重要性與法規評估"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 166,
@@ -2490,7 +3653,14 @@
         "先釐清 CM 可見性與合約範圍",
         "需合併 Severity、資產重要性及曝露性"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 167,
@@ -2505,7 +3675,14 @@
         "比對範圍、時間及佐證",
         "不承諾分數或期限，先盤點影響與修補"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 168,
@@ -2520,7 +3697,14 @@
         "模組命名與實際功能授權不是同一件事",
         "確認資料來源、更新頻率、告警延遲"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 169,
@@ -2535,7 +3719,14 @@
         "核對平台畫面、官方文件及授權",
         "購買方案是否含 API／Integrations 及權限"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 170,
@@ -2550,7 +3741,14 @@
         "確認資料來源、更新頻率、告警延遲",
         "不能"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 171,
@@ -2565,7 +3763,14 @@
         "模組命名與實際功能授權不是同一件事",
         "子公司管理與 MySubsidiary 授權數量"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 172,
@@ -2580,7 +3785,14 @@
         "TMH 偏向自身證據對外共享",
         "不一定"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 173,
@@ -2595,7 +3807,14 @@
         "確認資料來源、更新頻率、告警延遲",
         "TMH 偏向自身證據對外共享"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 174,
@@ -2610,7 +3829,14 @@
         "確認資料來源、更新頻率、告警延遲",
         "核對平台畫面、官方文件及授權"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 175,
@@ -2625,7 +3851,14 @@
         "核對平台畫面、官方文件及授權",
         "不能取代"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 176,
@@ -2640,7 +3873,14 @@
         "不能",
         "核對平台畫面、官方文件及授權"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 177,
@@ -2655,7 +3895,14 @@
         "不能",
         "模組命名與實際功能授權不是同一件事"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 178,
@@ -2670,7 +3917,14 @@
         "監控訂閱容量的使用情況",
         "確認資料來源、更新頻率、告警延遲"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "DNSSEC 基礎",
+          "url": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 179,
@@ -2685,7 +3939,14 @@
         "不能取代",
         "TMH 偏向自身證據對外共享"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "RFC 8446｜TLS 1.3",
+          "url": "https://www.rfc-editor.org/rfc/rfc8446"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 180,
@@ -2700,7 +3961,14 @@
         "CM 持續監控與 VRM 問卷工作流",
         "監控訂閱容量的使用情況"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 181,
@@ -2715,7 +3983,14 @@
         "子公司管理與 MySubsidiary 授權數量",
         "不同"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 182,
@@ -2730,7 +4005,14 @@
         "不同",
         "不能"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 183,
@@ -2745,7 +4027,14 @@
         "不同",
         "不一定"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 184,
@@ -2760,7 +4049,14 @@
         "不同",
         "購買方案是否含 API／Integrations 及權限"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 185,
@@ -2775,7 +4071,14 @@
         "TMH 偏向自身證據對外共享",
         "不同"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 186,
@@ -2790,7 +4093,14 @@
         "TMH 偏向自身證據對外共享",
         "核對平台畫面、官方文件及授權"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 187,
@@ -2805,7 +4115,14 @@
         "確認資料來源、更新頻率、告警延遲",
         "合約功能清單與實際驗收測試"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 188,
@@ -2820,7 +4137,14 @@
         "先辨識是自有 EASM 或第三方 CM",
         "不能"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 189,
@@ -2835,7 +4159,14 @@
         "先辨識是自有 EASM 或第三方 CM",
         "CSV 便於整理，PDF 便於閱讀與交付"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 190,
@@ -2850,7 +4181,14 @@
         "向量計分與整體 Rating 計分條件不同",
         "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 191,
@@ -2865,7 +4203,14 @@
         "可依教材匯出 Excel，注意權限與敏感資訊",
         "Patching Cadence 可能顯示 Grade N/A"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 192,
@@ -2880,7 +4225,14 @@
         "不是",
         "CSV 便於整理，PDF 便於閱讀與交付"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 193,
@@ -2895,7 +4247,14 @@
         "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄",
         "從 FILTER SETS 選取該組合"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 194,
@@ -2910,7 +4269,14 @@
         "向量計分與整體 Rating 計分條件不同",
         "從 FILTER SETS 選取該組合"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 195,
@@ -2925,7 +4291,14 @@
         "不能",
         "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 196,
@@ -2940,7 +4313,14 @@
         "不行",
         "不能"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 197,
@@ -2955,7 +4335,14 @@
         "CSV 便於整理，PDF 便於閱讀與交付",
         "帳號管理、SOC 與資安治理單位協作"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 198,
@@ -2970,7 +4357,14 @@
         "CSV 便於整理，PDF 便於閱讀與交付",
         "帳號管理、SOC 與資安治理單位協作"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 199,
@@ -2985,7 +4379,14 @@
         "依資產及服務逐筆驗證",
         "先辨識是自有 EASM 或第三方 CM"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 200,
@@ -3000,7 +4401,14 @@
         "不是",
         "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 201,
@@ -3015,7 +4423,14 @@
         "實體資格、管理員權限及呈現規範",
         "交叉比對 DNS、CMDB、雲端帳號與歷史紀錄"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 202,
@@ -3030,7 +4445,14 @@
         "Recent Security Changes 與 Risk Vector 相關頁面",
         "可依教材匯出 Excel，注意權限與敏感資訊"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 203,
@@ -3045,7 +4467,14 @@
         "實體資格、管理員權限及呈現規範",
         "不是"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 204,
@@ -3060,7 +4489,14 @@
         "依資產及服務逐筆驗證",
         "CSV 便於整理，PDF 便於閱讀與交付"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 205,
@@ -3075,7 +4511,14 @@
         "實體資格、管理員權限及呈現規範",
         "不一定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 206,
@@ -3090,7 +4533,14 @@
         "先分群、驗證、排序、指定負責人",
         "Recent Security Changes 與 Risk Vector 相關頁面"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 207,
@@ -3105,7 +4555,14 @@
         "先辨識是自有 EASM 或第三方 CM",
         "不是"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 208,
@@ -3120,7 +4577,14 @@
         "前者看變化，後者看具體發現",
         "請其提供修補證據並等待重新觀測"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 209,
@@ -3135,7 +4599,14 @@
         "結合 Rating Changes、Risk Vectors 與重要性",
         "不代表"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 210,
@@ -3150,7 +4621,14 @@
         "前者看變化，後者看具體發現",
         "依 CM 可見性提供外部證據與協作請求"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 211,
@@ -3165,7 +4643,14 @@
         "不代表",
         "不行"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 212,
@@ -3180,7 +4665,14 @@
         "不一定",
         "前者看變化，後者看具體發現"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 213,
@@ -3195,7 +4687,14 @@
         "不行",
         "不一定"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 214,
@@ -3210,7 +4709,14 @@
         "教材示例是一年，其他期間需核對平台",
         "不宜直接中止"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 215,
@@ -3225,7 +4731,14 @@
         "請其提供修補證據並等待重新觀測",
         "依 CM 可見性提供外部證據與協作請求"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 216,
@@ -3240,7 +4753,14 @@
         "核對公司實體與資產歸屬",
         "不宜直接中止"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 217,
@@ -3255,7 +4775,14 @@
         "不一定",
         "不是"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 218,
@@ -3270,7 +4797,14 @@
         "不同供應商的業務影響不同",
         "展示評級趨勢、風險向量、整改狀態及例外"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 219,
@@ -3285,7 +4819,14 @@
         "結合 Rating Changes、Risk Vectors 與重要性",
         "不宜直接中止"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 220,
@@ -3300,7 +4841,14 @@
         "核對公司實體與資產歸屬",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 221,
@@ -3315,7 +4863,14 @@
         "比較問卷時間、範圍、資產與證據",
         "教材示例是一年，其他期間需核對平台"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 222,
@@ -3330,7 +4885,14 @@
         "核對公司實體與資產歸屬",
         "教材示例是一年，其他期間需核對平台"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 223,
@@ -3345,7 +4907,14 @@
         "核對公司實體與資產歸屬",
         "不代表"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 224,
@@ -3360,7 +4929,14 @@
         "請其提供修補證據並等待重新觀測",
         "比較問卷時間、範圍、資產與證據"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 225,
@@ -3375,7 +4951,14 @@
         "展示評級趨勢、風險向量、整改狀態及例外",
         "教材示例是一年，其他期間需核對平台"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 226,
@@ -3390,7 +4973,14 @@
         "依 CM 可見性提供外部證據與協作請求",
         "檢視監控清單與授權容量"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 227,
@@ -3405,7 +4995,14 @@
         "核對公司實體與資產歸屬",
         "檢視監控清單與授權容量"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 228,
@@ -3420,7 +5017,14 @@
         "可能使可見公司範圍過大",
         "不表示"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 229,
@@ -3435,7 +5039,14 @@
         "不能保證",
         "可能使可見公司範圍過大"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 230,
@@ -3450,7 +5061,14 @@
         "請具適當權限的管理員協助",
         "Admin"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 231,
@@ -3465,7 +5083,14 @@
         "限制存取、保存期限與分享範圍",
         "避免模糊名稱與不明責任範圍"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 232,
@@ -3480,7 +5105,14 @@
         "不建議",
         "啟動帳號停用與權限回收流程"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 233,
@@ -3495,7 +5127,14 @@
         "可見公司範圍可能不符預期",
         "前者管理全域群組與部分配置；後者限群組範圍"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 234,
@@ -3510,7 +5149,14 @@
         "確認產品版本、角色、群組、授權與政策",
         "限制存取、保存期限與分享範圍"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 235,
@@ -3525,7 +5171,14 @@
         "避免模糊名稱與不明責任範圍",
         "可能使可見公司範圍過大"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 236,
@@ -3540,7 +5193,14 @@
         "請具適當權限的管理員協助",
         "不建議"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 237,
@@ -3555,7 +5215,14 @@
         "不能",
         "前者管理全域群組與部分配置；後者限群組範圍"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 238,
@@ -3570,7 +5237,14 @@
         "不能保證",
         "請具適當權限的管理員協助"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 239,
@@ -3585,7 +5259,14 @@
         "不能",
         "限制存取、保存期限與分享範圍"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 240,
@@ -3600,7 +5281,14 @@
         "啟動帳號停用與權限回收流程",
         "不表示"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 241,
@@ -3615,7 +5303,14 @@
         "不一定",
         "規劃群組與公司分配"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 242,
@@ -3630,7 +5325,14 @@
         "可見公司範圍可能不符預期",
         "Admin"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 243,
@@ -3645,7 +5347,14 @@
         "教材提及系統自選三位管理員",
         "不能保證"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 244,
@@ -3660,7 +5369,14 @@
         "前者管理全域群組與部分配置；後者限群組範圍",
         "規劃群組與公司分配"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 245,
@@ -3675,7 +5391,14 @@
         "不能保證",
         "啟動帳號停用與權限回收流程"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 246,
@@ -3690,7 +5413,14 @@
         "Admin",
         "不能保證"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 247,
@@ -3705,7 +5435,14 @@
         "避免模糊名稱與不明責任範圍",
         "不能"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 248,
@@ -3720,7 +5457,18 @@
         "需依暴露與資產重要性排序",
         "不一定"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "RFC 7208｜SPF",
+          "url": "https://www.rfc-editor.org/rfc/rfc7208"
+        },
+        {
+          "title": "RFC 7489｜DMARC",
+          "url": "https://www.rfc-editor.org/rfc/rfc7489"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 249,
@@ -3735,7 +5483,14 @@
         "不能",
         "不是"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "RFC 6376｜DKIM",
+          "url": "https://www.rfc-editor.org/rfc/rfc6376"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 250,
@@ -3750,7 +5505,14 @@
         "前者偏監控；後者可要求拒收未通過驗證的郵件",
         "需依暴露與資產重要性排序"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "RFC 7489｜DMARC",
+          "url": "https://www.rfc-editor.org/rfc/rfc7489"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 251,
@@ -3765,7 +5527,14 @@
         "要評估並處置",
         "不會"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "DNSSEC 基礎",
+          "url": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 252,
@@ -3780,7 +5549,14 @@
         "不會",
         "確認業務依賴與可升級性，再停用弱協定"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "RFC 8446｜TLS 1.3",
+          "url": "https://www.rfc-editor.org/rfc/rfc8446"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 253,
@@ -3795,7 +5571,14 @@
         "需依暴露與資產重要性排序",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 254,
@@ -3810,7 +5593,14 @@
         "前者看修補節奏，後者看漏洞嚴重度",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 255,
@@ -3825,7 +5615,14 @@
         "確認業務依賴與可升級性，再停用弱協定",
         "不一定"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 256,
@@ -3840,7 +5637,14 @@
         "不能",
         "不一定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 257,
@@ -3855,7 +5659,18 @@
         "前者偏監控；後者可要求拒收未通過驗證的郵件",
         "確認業務依賴與可升級性，再停用弱協定"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "FIRST｜CVSS",
+          "url": "https://www.first.org/cvss/"
+        },
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 258,
@@ -3870,7 +5685,14 @@
         "前者看修補節奏，後者看漏洞嚴重度",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "FIRST｜EPSS",
+          "url": "https://www.first.org/epss/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 259,
@@ -3885,7 +5707,14 @@
         "前者偏監控；後者可要求拒收未通過驗證的郵件",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "CISA｜KEV",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 260,
@@ -3900,7 +5729,14 @@
         "不一定",
         "要評估並處置"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 261,
@@ -3915,7 +5751,14 @@
         "不能",
         "不一定"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 262,
@@ -3930,7 +5773,14 @@
         "前者看修補節奏，後者看漏洞嚴重度",
         "不是"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 263,
@@ -3945,7 +5795,14 @@
         "不是",
         "要評估並處置"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 264,
@@ -3960,7 +5817,14 @@
         "不會",
         "確認業務依賴與可升級性，再停用弱協定"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 265,
@@ -3975,7 +5839,18 @@
         "要評估並處置",
         "不一定"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "FIRST｜CVSS",
+          "url": "https://www.first.org/cvss/"
+        },
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 266,
@@ -3990,7 +5865,14 @@
         "不能",
         "確認業務依賴與可升級性，再停用弱協定"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 267,
@@ -4005,7 +5887,14 @@
         "要評估並處置",
         "不一定"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 268,
@@ -4020,7 +5909,14 @@
         "不能",
         "業務風險與實際威脅仍須考慮"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 269,
@@ -4035,7 +5931,14 @@
         "新觀測到的曝險或歸屬變更",
         "不能直接判定"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 270,
@@ -4050,7 +5953,14 @@
         "檢查修補證據、重新觀測與掃描狀態",
         "不能直接判定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 271,
@@ -4065,7 +5975,14 @@
         "不一定",
         "業務風險與實際威脅仍須考慮"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 272,
@@ -4080,7 +5997,14 @@
         "業務風險與實際威脅仍須考慮",
         "檢查修補證據、重新觀測與掃描狀態"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 273,
@@ -4095,7 +6019,14 @@
         "業務風險與實際威脅仍須考慮",
         "不應"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 274,
@@ -4110,7 +6041,14 @@
         "不能直接判定",
         "不一定"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 275,
@@ -4125,7 +6063,14 @@
         "寫明觀測日期、範圍與更新限制",
         "能識別持續惡化或改善"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 276,
@@ -4140,7 +6085,14 @@
         "向量評級與總分納入規則不同",
         "不一定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "RFC 7489｜DMARC",
+          "url": "https://www.rfc-editor.org/rfc/rfc7489"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 277,
@@ -4155,7 +6107,14 @@
         "不矛盾",
         "可能忽略高危但不計分風險"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 278,
@@ -4170,7 +6129,14 @@
         "可能忽略高危但不計分風險",
         "不能一概而論"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 279,
@@ -4185,7 +6151,14 @@
         "不能",
         "不等於"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 280,
@@ -4200,7 +6173,14 @@
         "新觀測到的曝險或歸屬變更",
         "不能"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 281,
@@ -4215,7 +6195,14 @@
         "不是",
         "業務風險與實際威脅仍須考慮"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 282,
@@ -4230,7 +6217,14 @@
         "向量不計分或其他因素抵銷",
         "公司實體、時間、篩選條件及資料更新"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 283,
@@ -4245,7 +6239,14 @@
         "公司實體、時間、篩選條件及資料更新",
         "不宜保證"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 284,
@@ -4260,7 +6261,14 @@
         "不能一概而論",
         "寫明觀測日期、範圍與更新限制"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 285,
@@ -4275,7 +6283,14 @@
         "不宜保證",
         "不等於"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 286,
@@ -4290,7 +6305,14 @@
         "不能直接判定",
         "可能忽略高危但不計分風險"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 287,
@@ -4305,7 +6327,14 @@
         "可能忽略高危但不計分風險",
         "不矛盾"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 288,
@@ -4320,7 +6349,14 @@
         "Trust 較低者",
         "100"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 289,
@@ -4335,7 +6371,14 @@
         "0",
         "不應"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 290,
@@ -4350,7 +6393,14 @@
         "35",
         "100"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 291,
@@ -4365,7 +6415,14 @@
         "65",
         "不應"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 292,
@@ -4380,7 +6437,14 @@
         "評級、稽核報告、問卷與保險",
         "35"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 293,
@@ -4395,7 +6459,14 @@
         "評級、稽核報告、問卷與保險",
         "不能"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 294,
@@ -4410,7 +6481,14 @@
         "評級、稽核報告、問卷與保險",
         "60"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 295,
@@ -4425,7 +6503,14 @@
         "Impact 較高者",
         "評級、稽核報告、問卷與保險"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 296,
@@ -4440,7 +6525,14 @@
         "60",
         "65"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 297,
@@ -4455,7 +6547,14 @@
         "35",
         "75"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 298,
@@ -4470,7 +6569,14 @@
         "100",
         "35"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 299,
@@ -4485,7 +6591,14 @@
         "評級、稽核報告、問卷與保險",
         "Impact 較高者"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 300,
@@ -4500,7 +6613,14 @@
         "服務關鍵性與可替代性",
         "資料類型與資料量"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 301,
@@ -4515,7 +6635,14 @@
         "35",
         "資料類型與資料量"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 302,
@@ -4530,7 +6657,14 @@
         "服務關鍵性與可替代性",
         "審查有效性、範圍與缺失"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 303,
@@ -4545,7 +6679,14 @@
         "100",
         "評級、稽核報告、問卷與保險"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 304,
@@ -4560,7 +6701,14 @@
         "評級、稽核報告、問卷與保險",
         "不能"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 305,
@@ -4575,7 +6723,14 @@
         "35",
         "65"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 306,
@@ -4590,7 +6745,14 @@
         "審查有效性、範圍與缺失",
         "不應"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 307,
@@ -4605,7 +6767,14 @@
         "不應",
         "100"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 308,
@@ -4620,7 +6789,14 @@
         "不能",
         "先驗證可能已遭利用與失陷的證據"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 309,
@@ -4635,7 +6811,14 @@
         "比對共同服務與時間關係",
         "待確認並說明不確定性"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 310,
@@ -4650,7 +6833,14 @@
         "確認有效性、重設、撤銷及啟用 MFA",
         "不應"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 311,
@@ -4665,7 +6855,14 @@
         "待確認並說明不確定性",
         "用情資提高曝險調查優先序"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 312,
@@ -4680,7 +6877,14 @@
         "IOC、時間、來源、受影響資產及處置紀錄",
         "比對共同服務與時間關係"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 313,
@@ -4695,7 +6899,14 @@
         "確認有效性、重設、撤銷及啟用 MFA",
         "先驗證可能已遭利用與失陷的證據"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 314,
@@ -4710,7 +6921,14 @@
         "不是",
         "不一定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 315,
@@ -4725,7 +6943,14 @@
         "描述攻擊者技術與戰術",
         "不一定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 316,
@@ -4740,7 +6965,14 @@
         "比對共同服務與時間關係",
         "不是"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 317,
@@ -4755,7 +6987,14 @@
         "可能",
         "提供可分享的證據與時間範圍"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 318,
@@ -4770,7 +7009,14 @@
         "依證據、契約、法規及企業應變門檻",
         "可能"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 319,
@@ -4785,7 +7031,14 @@
         "比對共同服務與時間關係",
         "提供可分享的證據與時間範圍"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 320,
@@ -4800,7 +7053,14 @@
         "確認有效性、重設、撤銷及啟用 MFA",
         "不是"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 321,
@@ -4815,7 +7075,14 @@
         "可能",
         "交由威脅情資、SOC 與 TPRM 協同評估"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 322,
@@ -4830,7 +7097,14 @@
         "遵循最小揭露與保護政策",
         "用情資提高曝險調查優先序"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 323,
@@ -4845,7 +7119,14 @@
         "描述攻擊者技術與戰術",
         "不能"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 324,
@@ -4860,7 +7141,14 @@
         "待確認並說明不確定性",
         "用情資提高曝險調查優先序"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 325,
@@ -4875,7 +7163,14 @@
         "確認有效性、重設、撤銷及啟用 MFA",
         "驗證帳號、時間與證據"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 326,
@@ -4890,7 +7185,14 @@
         "先驗證可能已遭利用與失陷的證據",
         "描述攻擊者技術與戰術"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "CVE Program",
+          "url": "https://www.cve.org/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 327,
@@ -4905,7 +7207,14 @@
         "先驗證可能已遭利用與失陷的證據",
         "確認有效性、重設、撤銷及啟用 MFA"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 328,
@@ -4920,7 +7229,14 @@
         "風險會變動，年度問卷無法取代持續觀測",
         "比較資產範圍、觀測時間、掃描方式與歸屬"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 329,
@@ -4935,7 +7251,14 @@
         "從 Risk Vector 與 Findings 連到改善行動",
         "依資料敏感度、合約與公司政策決定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 330,
@@ -4950,7 +7273,14 @@
         "風險會變動，年度問卷無法取代持續觀測",
         "依 Severity、Asset Importance、曝露性與計分影響交叉排序"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 331,
@@ -4965,7 +7295,14 @@
         "Rating、Trend、Risk Vectors、重要性、事件及證據",
         "依資料敏感度、合約與公司政策決定"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 332,
@@ -4980,7 +7317,14 @@
         "確認 Finding 狀態、Last Seen、Rescan 與評級週期",
         "比較資產範圍、觀測時間、掃描方式與歸屬"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 333,
@@ -4995,7 +7339,14 @@
         "風險會變動，年度問卷無法取代持續觀測",
         "依 Severity、Asset Importance、曝露性與計分影響交叉排序"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 334,
@@ -5010,7 +7361,14 @@
         "確認 Finding 狀態、Last Seen、Rescan 與評級週期",
         "依資料敏感度、合約與公司政策決定"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 335,
@@ -5025,7 +7383,14 @@
         "先核對產品與授權的掃描範圍",
         "從 Risk Vector 與 Findings 連到改善行動"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 336,
@@ -5040,7 +7405,14 @@
         "證據、權利基礎、服務流程及處置權限",
         "先核對產品與授權的掃描範圍"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 337,
@@ -5055,7 +7427,14 @@
         "列出已修補、已觀測、已反映評級的三種狀態",
         "比較資產範圍、觀測時間、掃描方式與歸屬"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 338,
@@ -5070,7 +7449,14 @@
         "逐項列功能、證據、授權、限制及驗收",
         "比較資產範圍、觀測時間、掃描方式與歸屬"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 339,
@@ -5085,7 +7471,14 @@
         "忽略服務重要性、法遵與補償控制",
         "說明探索能力與歸屬限制"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 340,
@@ -5100,7 +7493,14 @@
         "比較資產範圍、觀測時間、掃描方式與歸屬",
         "Rating、Trend、Risk Vectors、重要性、事件及證據"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 341,
@@ -5115,7 +7515,14 @@
         "忽略服務重要性、法遵與補償控制",
         "列出已修補、已觀測、已反映評級的三種狀態"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 342,
@@ -5130,7 +7537,14 @@
         "逐項列功能、證據、授權、限制及驗收",
         "先調整過濾條件、門檻及接收人"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 343,
@@ -5145,7 +7559,14 @@
         "依資料敏感度、合約與公司政策決定",
         "Rating、Trend、Risk Vectors、重要性、事件及證據"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 344,
@@ -5160,7 +7581,14 @@
         "風險會變動，年度問卷無法取代持續觀測",
         "從 Risk Vector 與 Findings 連到改善行動"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 345,
@@ -5175,7 +7603,14 @@
         "列出已修補、已觀測、已反映評級的三種狀態",
         "問題、模組定位、示範、價值與限制"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 346,
@@ -5190,7 +7625,14 @@
         "確認 Finding 狀態、Last Seen、Rescan 與評級週期",
         "說明探索能力與歸屬限制"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 347,
@@ -5205,7 +7647,14 @@
         "先說 Asset Risk Matrix 與 Findings Severity，再補業務風險",
         "比較資產範圍、觀測時間、掃描方式與歸屬"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 348,
@@ -5220,7 +7669,14 @@
         "Last Seen 與 Finding 狀態",
         "提供可分享的外部證據並建立協作流程"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 349,
@@ -5235,7 +7691,14 @@
         "請客戶提供配置或掃描證據",
         "若需威脅情資，可評估補充 Beacon"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 350,
@@ -5250,7 +7713,14 @@
         "固定加分、百分百資產發現、所有授權功能及零誤報",
         "確認是否計分及其他向量變化"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 351,
@@ -5265,7 +7735,14 @@
         "標示版本、查證日期與來源",
         "說明修補價值在降低真實風險"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 352,
@@ -5280,7 +7757,14 @@
         "標示版本、查證日期與來源",
         "固定加分、百分百資產發現、所有授權功能及零誤報"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 353,
@@ -5295,7 +7779,14 @@
         "分配責任、驗證修補、追蹤觀測與評級",
         "需要視需求，兩者互補"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 354,
@@ -5310,7 +7801,14 @@
         "比資產重要性、曝露性與可利用性",
         "不能，先核對證據"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 355,
@@ -5325,7 +7823,14 @@
         "提供可分享的外部證據並建立協作流程",
         "先啟動資產歸屬核對"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 356,
@@ -5340,7 +7845,14 @@
         "固定加分、百分百資產發現、所有授權功能及零誤報",
         "請客戶提供配置或掃描證據"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 357,
@@ -5355,7 +7867,14 @@
         "需要視需求，兩者互補",
         "依契約與風險治理流程升級"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 358,
@@ -5370,7 +7889,14 @@
         "分配責任、驗證修補、追蹤觀測與評級",
         "需要視需求，兩者互補"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 359,
@@ -5385,7 +7911,14 @@
         "若需威脅情資，可評估補充 Beacon",
         "不能，先核對證據"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 360,
@@ -5400,7 +7933,14 @@
         "主要偏向共享自身證據",
         "不一定，需看 Severity 與 Asset Importance"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 361,
@@ -5415,7 +7955,14 @@
         "主要偏向共享自身證據",
         "Last Seen 與 Finding 狀態"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 362,
@@ -5430,7 +7977,14 @@
         "不承諾，提出可驗證改善清單與時程",
         "說明修補價值在降低真實風險"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 363,
@@ -5445,7 +7999,14 @@
         "Last Seen 與 Finding 狀態",
         "標示版本、查證日期與來源"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 364,
@@ -5460,7 +8021,14 @@
         "Last Seen 與 Finding 狀態",
         "不一定，需看 Severity 與 Asset Importance"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 365,
@@ -5475,7 +8043,14 @@
         "功能包裝與授權範圍可能不同",
         "Last Seen 與 Finding 狀態"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 366,
@@ -5490,7 +8065,14 @@
         "確認是否計分及其他向量變化",
         "分配責任、驗證修補、追蹤觀測與評級"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 367,
@@ -5505,7 +8087,14 @@
         "標示版本、查證日期與來源",
         "固定加分、百分百資產發現、所有授權功能及零誤報"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 368,
@@ -5520,7 +8109,14 @@
         "調查異常對外通訊與流量",
         "核對 DNS 紀錄與寄件服務清單"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "RFC 7208｜SPF",
+          "url": "https://www.rfc-editor.org/rfc/rfc7208"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 369,
@@ -5535,7 +8131,14 @@
         "確認可能利用跡象與資產",
         "確認有效期與信任鏈"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "RFC 6376｜DKIM",
+          "url": "https://www.rfc-editor.org/rfc/rfc6376"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 370,
@@ -5550,7 +8153,14 @@
         "確認網域簽章與驗證鏈",
         "確認端點軟體版本與更新策略"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "RFC 7489｜DMARC",
+          "url": "https://www.rfc-editor.org/rfc/rfc7489"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 371,
@@ -5565,7 +8175,14 @@
         "確認網域簽章與驗證鏈",
         "確認漏洞修補速度與持續時間"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "DNSSEC 基礎",
+          "url": "https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 372,
@@ -5580,7 +8197,14 @@
         "確認版本與修補狀態",
         "確認 App 安全測試與版本"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 373,
@@ -5595,7 +8219,14 @@
         "確認協定與密碼套件",
         "確認政策與對齊結果"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 374,
@@ -5610,7 +8241,14 @@
         "確認檔案分享的合法性與資料類型",
         "確認可能利用跡象與資產"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 375,
@@ -5625,7 +8263,14 @@
         "確認 App 安全測試與版本",
         "確認 HTTP 回應與安全標頭"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 376,
@@ -5640,7 +8285,14 @@
         "調查異常對外通訊與流量",
         "確認漏洞修補速度與持續時間"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 377,
@@ -5655,7 +8307,14 @@
         "確認 App 安全測試與版本",
         "確認實際服務與業務必要性"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 378,
@@ -5670,7 +8329,14 @@
         "確認可能利用跡象與資產",
         "確認主機是否散播惡意內容"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 379,
@@ -5685,7 +8351,14 @@
         "確認具體檢測項與漏洞證據",
         "確認 HTTP 回應與安全標頭"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 380,
@@ -5700,7 +8373,14 @@
         "確認裝置與應用更新狀態",
         "確認協定與密碼套件"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 381,
@@ -5715,7 +8395,14 @@
         "確認 App 安全測試與版本",
         "確認可能利用跡象與資產"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 382,
@@ -5730,7 +8417,14 @@
         "核對 DNS 紀錄與寄件服務清單",
         "確認 selector 與金鑰配置"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 383,
@@ -5745,7 +8439,14 @@
         "確認有效期與信任鏈",
         "確認近似網域的實際使用與惡意性"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 384,
@@ -5760,7 +8461,14 @@
         "確認濫發來源與帳號安全",
         "確認檔案分享的合法性與資料類型"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 385,
@@ -5775,7 +8483,14 @@
         "確認具體檢測項與漏洞證據",
         "確認協定與密碼套件"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 386,
@@ -5790,7 +8505,14 @@
         "確認網域簽章與驗證鏈",
         "確認 selector 與金鑰配置"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 387,
@@ -5805,7 +8527,14 @@
         "確認檔案分享的合法性與資料類型",
         "確認政策與對齊結果"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 388,
@@ -5820,7 +8549,14 @@
         "確認有效期與信任鏈",
         "確認 App 安全測試與版本"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 389,
@@ -5835,7 +8571,14 @@
         "核對 DNS 紀錄與寄件服務清單",
         "確認可能利用跡象與資產"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 390,
@@ -5850,7 +8593,14 @@
         "確認帳號有效性並重設憑證",
         "確認檔案分享的合法性與資料類型"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 391,
@@ -5865,7 +8615,14 @@
         "明確區分輔助評估與正式合規",
         "說明資料來源與歸屬限制"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 392,
@@ -5880,7 +8637,14 @@
         "先核對修補證據、Last Seen 與評級週期",
         "說明資料來源與歸屬限制"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 393,
@@ -5895,7 +8659,14 @@
         "明確區分輔助評估與正式合規",
         "同步提供真實風險與計分影響兩份排序"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 394,
@@ -5910,7 +8681,14 @@
         "同步提供真實風險與計分影響兩份排序",
         "釐清威脅情資與問卷／監控工作流"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 395,
@@ -5925,7 +8703,14 @@
         "要求具體功能文件與平台證據",
         "先驗證情資並交由 SOC 調查"
       ],
-      "correct": 1
+      "correct": 1,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 396,
@@ -5940,7 +8725,14 @@
         "釐清威脅情資與問卷／監控工作流",
         "要求具體功能文件與平台證據"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 397,
@@ -5955,7 +8747,14 @@
         "先驗證情資並交由 SOC 調查",
         "說明最小權限與群組設計"
       ],
-      "correct": 0
+      "correct": 0,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 398,
@@ -5970,7 +8769,14 @@
         "統一期間並比較分數、趨勢與重要性",
         "要求具體功能文件與平台證據"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 399,
@@ -5985,7 +8791,14 @@
         "先驗證情資並交由 SOC 調查",
         "說明 CM 遮罩限制並啟動協作"
       ],
-      "correct": 2
+      "correct": 2,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     },
     {
       "id": 400,
@@ -6000,7 +8813,14 @@
         "明確區分輔助評估與正式合規",
         "同步提供真實風險與計分影響兩份排序"
       ],
-      "correct": 3
+      "correct": 3,
+      "references": [
+        {
+          "title": "Bitsight 官方說明中心（請以關鍵字查詢對應功能）",
+          "url": "https://help.bitsighttech.com/"
+        }
+      ],
+      "explanation_source": "原始題庫解析"
     }
   ]
 }
