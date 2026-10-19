@@ -2018,10 +2018,10 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "All Companies",
+        "Settings > API Access > Tokens",
         "Settings > Access Control > Users",
-        "教材列 Admin、Group Admin、Portfolio Manager 可選",
-        "Admin 與 Group Admin"
+        "Settings > Account > User Preferences",
+        "Settings > Access Control > Groups"
       ],
       "correct": 1,
       "references": [
@@ -2033,7 +2033,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ef2ac36cb19f1a7f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 82,
@@ -2043,10 +2043,10 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "教材指出只能一個",
-        "Admin 與 Group Admin",
+        "Default Portfolio",
+        "Unassigned Vendors",
         "All Companies",
-        "可見公司及相關操作範圍"
+        "All Users"
       ],
       "correct": 2,
       "references": [
@@ -2058,7 +2058,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-aa979b21638c02ea",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 83,
@@ -2068,9 +2068,9 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "US 與 EU",
-        "官方矩陣列可以",
-        "Admin",
+        "可以加入任意數量群組",
+        "最多可加入兩個群組",
+        "每個訂閱方案各可加入一個群組",
         "教材指出只能一個"
       ],
       "correct": 3,
@@ -2083,7 +2083,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f815d2f7574de727",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 84,
@@ -2094,9 +2094,9 @@
       "section": "擴充",
       "options": [
         "教材列 Admin、Group Admin、Portfolio Manager 可選",
-        "Admin 與 Group Admin",
-        "User、Admin、Group Admin、Portfolio Manager。",
-        "Settings > Access Control > Users"
+        "只有 Admin 可選",
+        "Admin 與一般 User 可選",
+        "所有帳號角色均可選"
       ],
       "correct": 0,
       "references": [
@@ -2108,7 +2108,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-fed15e7996aa9915",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 85,
@@ -2118,10 +2118,10 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "教材指出只能一個",
+        "所有角色皆可",
         "Admin",
-        "US 與 EU",
-        "官方矩陣列可以"
+        "只有一般 User",
+        "Portfolio Manager 與一般 User"
       ],
       "correct": 1,
       "references": [
@@ -2133,7 +2133,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-3876828fee7fe57f",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 86,
@@ -2143,10 +2143,10 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "官方矩陣列可以",
-        "教材指出只能一個",
+        "Portfolio Manager",
+        "User",
         "Admin",
-        "US 與 EU"
+        "Group Admin"
       ],
       "correct": 2,
       "references": [
@@ -2158,7 +2158,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-33acd321d9b5a376",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 87,
@@ -2168,9 +2168,9 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "Admin 與 Group Admin",
-        "教材列 Admin、Group Admin、Portfolio Manager 可選",
-        "US 與 EU",
+        "可以編輯所有群組使用者",
+        "只要有公司存取權就能編輯",
+        "只要能檢視群組就能編輯",
         "不能"
       ],
       "correct": 3,
@@ -2183,7 +2183,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-7a09de2efcde33c7",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 88,
@@ -2194,9 +2194,9 @@
       "section": "擴充",
       "options": [
         "Admin",
-        "US 與 EU",
-        "官方矩陣列可以",
-        "教材指出只能一個"
+        "一般 User",
+        "Portfolio Manager",
+        "唯讀訪客"
       ],
       "correct": 0,
       "references": [
@@ -2208,7 +2208,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9118663121e4fe9a",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 89,
@@ -2218,10 +2218,10 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "Admin",
+        "User API Token 一律由系統自動建立且無法管理",
         "官方矩陣列可以",
-        "US 與 EU",
-        "教材指出只能一個"
+        "只有 Admin 能管理任何 User API Token",
+        "只有 Group Admin 能管理 User API Token"
       ],
       "correct": 1,
       "references": [
@@ -2233,7 +2233,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-d76bab0f469af76c",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 90,
@@ -2243,10 +2243,10 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "官方矩陣列可以",
-        "教材指出只能一個",
+        "只能由平台客服自訂",
+        "沒有任何角色可以自訂",
         "Admin",
-        "US 與 EU"
+        "所有一般 User 都可自訂"
       ],
       "correct": 2,
       "references": [
@@ -2258,7 +2258,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-f6def94f6325cc71",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 91,
@@ -2268,9 +2268,9 @@
       "category": "權限管理",
       "section": "擴充",
       "options": [
-        "教材列 Admin、Group Admin、Portfolio Manager 可選",
-        "All Companies",
-        "可見公司及相關操作範圍",
+        "只有一般 User",
+        "所有角色皆可",
+        "只有 Portfolio Manager",
         "Admin 與 Group Admin"
       ],
       "correct": 3,
@@ -2283,7 +2283,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-9b5ef55c94dcacac",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 92,
@@ -2294,9 +2294,9 @@
       "section": "擴充",
       "options": [
         "US 與 EU",
-        "官方矩陣列可以",
-        "教材指出只能一個",
-        "Admin"
+        "US 與 APAC",
+        "EU 與 APAC",
+        "僅 US"
       ],
       "correct": 0,
       "references": [
@@ -2308,7 +2308,7 @@
       "explanation_source": "原始題庫解析",
       "uid": "bitsight-ef67fe642648b247",
       "source_status": "官方連結供延伸閱讀，尚未逐題核實",
-      "quality_review": "同類別／相關知識點干擾選項（自動產生；語意及唯一正解待人工確認）"
+      "quality_review": "干擾選項已依題目型態個別重寫；原題答案及平台事實仍待來源逐題核對"
     },
     {
       "id": 93,
